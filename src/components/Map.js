@@ -115,6 +115,20 @@ class GeoJSONLayer extends React.Component {
   }
 }
 
+//============
+// Info Panel
+//============
+
+class InfoPanel extends React.Component {
+  render() {
+    return (
+      <div className="info">
+        <h4>Info Pane</h4>
+      </div>
+    );
+  }
+}
+
 //====================
 // Main map component
 //====================
@@ -131,15 +145,18 @@ class LocalLegislationMap extends Component {
   render() {
     const config = this.state.config;
     return (
-      <Map
-        id="mapid"
-        ref={this.mapRef}
-        center={config.params.center}
-        zoom={config.params.zoom}
-      >
-        <BaseMap config={config} />
-        <GeoJSONLayer config={config} mapRef={this.mapRef} />
-      </Map>
+      <div>
+        <InfoPanel />
+        <Map
+          id="mapid"
+          ref={this.mapRef}
+          center={config.params.center}
+          zoom={config.params.zoom}
+        >
+          <BaseMap config={config} />
+          <GeoJSONLayer config={config} mapRef={this.mapRef} />
+        </Map>
+      </div>
     );
   }
 }
