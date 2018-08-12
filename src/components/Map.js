@@ -30,6 +30,7 @@ class BaseMap extends React.Component {
 class GeoJSONLayer extends React.Component {
   constructor(props) {
     super(props);
+    this.geojsonRef = React.createRef();
     this.onEachFeature = this.onEachFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
     this.style = this.style.bind(this);
@@ -73,7 +74,8 @@ class GeoJSONLayer extends React.Component {
   }
 
   resetHighlight(e) {
-    this.refs.geojson.leafletElement.resetStyle(e.target);
+    const { leafletElement } = this.geojsonRef.current;
+    leafletElement.resetStyle(e.target);
   }
 
   render() {
@@ -82,7 +84,7 @@ class GeoJSONLayer extends React.Component {
         data={geojson}
         style={this.style}
         onEachFeature={this.onEachFeature}
-        ref="geojson"
+        ref={this.geojsonRef}
       />
     );
   }
