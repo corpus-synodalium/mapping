@@ -30,9 +30,13 @@ class BaseMap extends React.Component {
 class GeoJSONLayer extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      prevShape: null,
+    };
     this.geojsonRef = React.createRef();
     this.onEachFeature = this.onEachFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
+    this.zoomToFeature = this.zoomToFeature.bind(this);
     this.style = this.style.bind(this);
   }
 
@@ -57,6 +61,7 @@ class GeoJSONLayer extends React.Component {
     layer.on({
       mouseover: this.highlightFeature,
       mouseout: this.resetHighlight,
+      click: this.zoomToFeature,
     });
   }
 
@@ -76,6 +81,26 @@ class GeoJSONLayer extends React.Component {
   resetHighlight(e) {
     const { leafletElement } = this.geojsonRef.current;
     leafletElement.resetStyle(e.target);
+  }
+
+  zoomToFeature(e) {
+    const { leafletElement } = this.props.mapRef.current;
+    const targetShape = e.target.feature.properties.SHPFID;
+
+    if (targetShape === this.state.prevShape) {
+      // reset map zoom
+      const { center, zoom } = this.props.config.params;
+      leafletElement.setView(center, zoom);
+      this.setState({
+        prevShape: null,
+      });
+    } else {
+      // zoom to the clicked shape
+      leafletElement.fitBounds(e.target.getBounds());
+      this.setState({
+        prevShape: targetShape,
+      });
+    }
   }
 
   render() {
@@ -100,14 +125,20 @@ class LocalLegislationMap extends Component {
     this.state = {
       config: mapConfig,
     };
+    this.mapRef = React.createRef();
   }
 
   render() {
     const config = this.state.config;
     return (
-      <Map id="mapid" center={config.params.center} zoom={config.params.zoom}>
+      <Map
+        id="mapid"
+        ref={this.mapRef}
+        center={config.params.center}
+        zoom={config.params.zoom}
+      >
         <BaseMap config={config} />
-        <GeoJSONLayer />
+        <GeoJSONLayer config={config} mapRef={this.mapRef} />
       </Map>
     );
   }
