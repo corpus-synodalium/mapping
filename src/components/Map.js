@@ -10,24 +10,50 @@ export default class SimpleExample extends Component {
     this.state = {
       config: mapConfig,
     };
+    this.onEachFeature = this.onEachFeature.bind(this);
+    this.resetHighlight = this.resetHighlight.bind(this);
+    this.style = this.style.bind(this);
+  }
+
+  getColor(shpfid) {
+    const colors = ['#f6eff7', '#bdc9e1', '#67a9cf', '#1c9099', '#016c59'];
+    const id = parseInt(shpfid.substring(1, 5), 10);
+    return colors[id % colors.length];
   }
 
   style(feature) {
-    const colors = ['#f6eff7', '#bdc9e1', '#67a9cf', '#1c9099', '#016c59'];
-
-    const getColor = (shpfid) => {
-      const id = parseInt(shpfid.substring(1, 5), 10);
-      return colors[id % colors.length];
-    };
-
     return {
-      fillColor: getColor(feature.properties.SHPFID),
+      fillColor: this.getColor(feature.properties.SHPFID),
       weight: 2,
       opacity: 3,
       color: 'white',
       dashArray: '3',
       fillOpacity: 0.5,
     };
+  }
+
+  onEachFeature(feature, layer) {
+    layer.on({
+      mouseover: this.highlightFeature,
+      mouseout: this.resetHighlight,
+    });
+  }
+
+  highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+      weight: 3,
+      color: '#5C4D63',
+      dashArray: '',
+      fillOpacity: 0.7,
+    });
+
+    layer.bringToFront();
+  }
+
+  resetHighlight(e) {
+    this.refs.geojson.leafletElement.resetStyle(e.target);
   }
 
   render() {
@@ -41,7 +67,12 @@ export default class SimpleExample extends Component {
           accessToken={config.tileLayer.params.accessToken}
           maxZoom={config.tileLayer.params.maxZoom}
         />
-        <GeoJSON data={geojson} style={this.style} />
+        <GeoJSON
+          data={geojson}
+          style={this.style}
+          onEachFeature={this.onEachFeature}
+          ref="geojson"
+        />
       </Map>
     );
   }
