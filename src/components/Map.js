@@ -4,12 +4,32 @@ import mapConfig from '../assets/map_config';
 import geojson from '../assets/great_britain.json';
 import './Map.css';
 
-export default class SimpleExample extends Component {
+//=================
+// Mapbox base map
+//=================
+
+class BaseMap extends React.Component {
+  render() {
+    const { tileLayer } = this.props.config;
+    return (
+      <TileLayer
+        attribution={tileLayer.params.attribution}
+        url={tileLayer.uri}
+        id={tileLayer.params.id}
+        accessToken={tileLayer.params.accessToken}
+        maxZoom={tileLayer.params.maxZoom}
+      />
+    );
+  }
+}
+
+//================
+// Geo JSON layer
+//================
+
+class GeoJSONLayer extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      config: mapConfig,
-    };
     this.onEachFeature = this.onEachFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
     this.style = this.style.bind(this);
@@ -57,23 +77,38 @@ export default class SimpleExample extends Component {
   }
 
   render() {
+    return (
+      <GeoJSON
+        data={geojson}
+        style={this.style}
+        onEachFeature={this.onEachFeature}
+        ref="geojson"
+      />
+    );
+  }
+}
+
+//====================
+// Main map component
+//====================
+
+class LocalLegislationMap extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      config: mapConfig,
+    };
+  }
+
+  render() {
     const config = this.state.config;
     return (
       <Map id="mapid" center={config.params.center} zoom={config.params.zoom}>
-        <TileLayer
-          attribution={config.tileLayer.params.attribution}
-          url={config.tileLayer.uri}
-          id={config.tileLayer.params.id}
-          accessToken={config.tileLayer.params.accessToken}
-          maxZoom={config.tileLayer.params.maxZoom}
-        />
-        <GeoJSON
-          data={geojson}
-          style={this.style}
-          onEachFeature={this.onEachFeature}
-          ref="geojson"
-        />
+        <BaseMap config={config} />
+        <GeoJSONLayer />
       </Map>
     );
   }
 }
+
+export default LocalLegislationMap;
