@@ -41,8 +41,10 @@ class GeoJSONLayer extends React.Component {
     this.style = this.style.bind(this);
   }
 
-  getColor(shpfid) {
-    const colors = ['#f6eff7', '#bdc9e1', '#67a9cf', '#1c9099', '#016c59'];
+  getColor(shpfid, props) {
+    const { colorSchemes } = this.props.config;
+    const { currentColorScheme } = this.props;
+    const colors = colorSchemes[currentColorScheme];
     const id = parseInt(shpfid.substring(1, 5), 10);
     return colors[id % colors.length];
   }
@@ -50,11 +52,11 @@ class GeoJSONLayer extends React.Component {
   style(feature) {
     return {
       fillColor: this.getColor(feature.properties.SHPFID),
-      weight: 2,
+      weight: 1,
       opacity: 3,
       color: 'white',
       dashArray: '3',
-      fillOpacity: 0.8,
+      fillOpacity: 0.7,
     };
   }
 
@@ -70,10 +72,10 @@ class GeoJSONLayer extends React.Component {
     var layer = e.target;
 
     layer.setStyle({
-      weight: 3,
-      color: '#5C4D63',
+      weight: 2,
+      color: 'black',
       dashArray: '',
-      fillOpacity: 0.7,
+      fillOpacity: 1.0,
     });
 
     layer.bringToFront();
@@ -121,11 +123,35 @@ class GeoJSONLayer extends React.Component {
 //============
 
 class InfoPanel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      checked: false,
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange() {
+    const callback = () => {
+      this.props.changeColorScheme(this.state.checked);
+    };
+    this.setState(
+      (prevState) => ({
+        checked: !prevState.checked,
+      }),
+      callback,
+    );
+  }
+
   render() {
     return (
       <div className="info">
         <h4>Info Pane</h4>
-        <Checkbox label="color-blind mode" />
+        <Checkbox
+          label="color-blind mode"
+          onChange={this.handleChange}
+          checked={this.state.checked}
+        />
       </div>
     );
   }
@@ -140,15 +166,24 @@ class LocalLegislationMap extends Component {
     super(props);
     this.state = {
       config: mapConfig,
+      currentColorScheme: 'color1',
     };
     this.mapRef = React.createRef();
+    this.changeColorScheme = this.changeColorScheme.bind(this);
+  }
+
+  changeColorScheme(bw) {
+    const colorScheme = bw ? 'bw' : 'color1';
+    this.setState({
+      currentColorScheme: colorScheme,
+    });
   }
 
   render() {
     const config = this.state.config;
     return (
       <div>
-        <InfoPanel />
+        <InfoPanel changeColorScheme={this.changeColorScheme} />
         <Map
           id="mapid"
           ref={this.mapRef}
@@ -157,7 +192,11 @@ class LocalLegislationMap extends Component {
         >
           <ScaleControl />
           <BaseMap config={config} />
-          <GeoJSONLayer config={config} mapRef={this.mapRef} />
+          <GeoJSONLayer
+            config={config}
+            mapRef={this.mapRef}
+            currentColorScheme={this.state.currentColorScheme}
+          />
         </Map>
       </div>
     );

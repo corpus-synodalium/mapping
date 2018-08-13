@@ -22,4 +22,10 @@ config.tileLayer = {
   },
 };
 
+config.colorSchemes = {
+  color1: ['#f6eff7', '#bdc9e1', '#67a9cf', '#1c9099', '#016c59'],
+  color2: ['#feebe2', '#fbb4b9', '#f768a1', '#c51b8a', '#7a0177'],
+  bw: ['#f7f7f7', '#cccccc', '#969696', '#636363', '#252525'],
+}
+
 export default config;
