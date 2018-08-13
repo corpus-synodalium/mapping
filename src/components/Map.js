@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Map, TileLayer, GeoJSON } from 'react-leaflet';
+import { Map, TileLayer, GeoJSON, ScaleControl } from 'react-leaflet';
+import { Checkbox } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/great_britain.json';
 import './Map.css';
@@ -124,6 +125,7 @@ class InfoPanel extends React.Component {
     return (
       <div className="info">
         <h4>Info Pane</h4>
+        <Checkbox label="color-blind mode" />
       </div>
     );
   }
@@ -153,6 +155,7 @@ class LocalLegislationMap extends Component {
           center={config.params.center}
           zoom={config.params.zoom}
         >
+          <ScaleControl />
           <BaseMap config={config} />
           <GeoJSONLayer config={config} mapRef={this.mapRef} />
         </Map>
