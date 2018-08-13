@@ -26,7 +26,7 @@ class TopMenuBar extends Component {
     return (
       <Menu>
         <Menu.Item>
-          <img src="/favicon.ico" />
+          <img src="/favicon.ico" alt="React Logo" />
         </Menu.Item>
 
         <Menu.Item

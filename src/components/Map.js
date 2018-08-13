@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
-import { Map, TileLayer, GeoJSON, ScaleControl } from 'react-leaflet';
-import { Checkbox, Card, Divider, Icon } from 'semantic-ui-react';
+import {
+  Map as LeafletMap,
+  TileLayer,
+  GeoJSON,
+  ScaleControl,
+} from 'react-leaflet';
+import { Checkbox, Card, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/great_britain.json';
+import metadata from '../assets/metadata.json';
 import './Map.css';
 
 //=================
@@ -35,10 +41,19 @@ class GeoJSONLayer extends React.Component {
       prevShape: null,
     };
     this.geojsonRef = React.createRef();
+    this.metadataMap = this.createMetadataMap();
     this.onEachFeature = this.onEachFeature.bind(this);
+    this.highlightFeature = this.highlightFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
     this.zoomToFeature = this.zoomToFeature.bind(this);
     this.style = this.style.bind(this);
+  }
+
+  createMetadataMap() {
+    return metadata.reduce((hash, current) => {
+      hash.set(current.shapeFileID, current);
+      return hash;
+    }, new Map());
   }
 
   getColor(shpfid, props) {
@@ -70,6 +85,10 @@ class GeoJSONLayer extends React.Component {
 
   highlightFeature(e) {
     var layer = e.target;
+    const { SHPFID: shpfid } = layer.feature.properties;
+    const data = this.metadataMap.get(shpfid);
+    const name = data ? data.name : 'No data available';
+    this.props.updateInfo({ name });
 
     layer.setStyle({
       weight: 2,
@@ -84,6 +103,7 @@ class GeoJSONLayer extends React.Component {
   resetHighlight(e) {
     const { leafletElement } = this.geojsonRef.current;
     leafletElement.resetStyle(e.target);
+    this.props.updateInfo(null);
   }
 
   zoomToFeature(e) {
@@ -147,10 +167,9 @@ class ControlPanel extends React.Component {
     return (
       <Card className="panel">
         <Card.Content>
-          <Card.Header>
+          <h4>
             <Icon name="setting" /> Control Panel
-          </Card.Header>
-          <br />
+          </h4>
           <Checkbox
             label="color-blind mode"
             onChange={this.handleChange}
@@ -168,10 +187,12 @@ class ControlPanel extends React.Component {
 
 class InfoPanel extends React.Component {
   render() {
+    const { info } = this.props;
+    const text = info ? info.name : 'Hover over a region';
     return (
-      <Card className="panel">
+      <Card className="panel panel-info">
         <Card.Content>
-          <Card.Header>Diocese Name</Card.Header>
+          <h4>{text}</h4>
         </Card.Content>
       </Card>
     );
@@ -188,9 +209,11 @@ class LocalLegislationMap extends Component {
     this.state = {
       config: mapConfig,
       currentColorScheme: 'color1',
+      info: null,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
+    this.updateInfo = this.updateInfo.bind(this);
   }
 
   changeColorScheme(bw) {
@@ -200,12 +223,19 @@ class LocalLegislationMap extends Component {
     });
   }
 
+  updateInfo(info) {
+    this.setState({
+      info: info,
+    });
+  }
+
   render() {
     const config = this.state.config;
     return (
       <div>
+        <InfoPanel info={this.state.info} />
         <ControlPanel changeColorScheme={this.changeColorScheme} />
-        <Map
+        <LeafletMap
           id="mapid"
           ref={this.mapRef}
           center={config.params.center}
@@ -218,9 +248,10 @@ class LocalLegislationMap extends Component {
           <GeoJSONLayer
             config={config}
             mapRef={this.mapRef}
+            updateInfo={this.updateInfo}
             currentColorScheme={this.state.currentColorScheme}
           />
-        </Map>
+        </LeafletMap>
       </div>
     );
   }

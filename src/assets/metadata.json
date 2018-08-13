@@ -1,0 +1,240 @@
+[
+  {
+    "shapeFileID": "S0318",
+    "dioceseID": "D327",
+    "name": "Orkney",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0319",
+    "dioceseID": "D320",
+    "name": "Caithness",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0320",
+    "dioceseID": "D312",
+    "name": "Isles",
+    "grmID": "G0019",
+    "countryModern": "GB/Norway"
+  },
+  {
+    "shapeFileID": "S0321",
+    "dioceseID": "D328",
+    "name": "Ross",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0322",
+    "dioceseID": "D326",
+    "name": "Moray",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0323",
+    "dioceseID": "D317",
+    "name": "Aberdeen",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0324",
+    "dioceseID": "D318",
+    "name": "Argyll",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0325",
+    "dioceseID": "D322",
+    "name": "Dunkeld",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0326",
+    "dioceseID": "D319",
+    "name": "Brechin",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0327",
+    "dioceseID": "D321",
+    "name": "Dunblane",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0328",
+    "dioceseID": "D329",
+    "name": "St. Andrews",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0329",
+    "dioceseID": "D325",
+    "name": "Glasglow",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0330",
+    "dioceseID": "D324",
+    "name": "Galloway",
+    "grmID": "G0019",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0337",
+    "dioceseID": "D311",
+    "name": "Carlisle",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0338",
+    "dioceseID": "D301",
+    "name": "Durnham",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0339",
+    "dioceseID": "D298",
+    "name": "York",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0340",
+    "dioceseID": "D300",
+    "name": "Lichfield & C oventry",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0341",
+    "dioceseID": "D316",
+    "name": "St. Asaph",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0342",
+    "dioceseID": "D314",
+    "name": "Bangor",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0343",
+    "dioceseID": "D305",
+    "name": "Worcester",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0344",
+    "dioceseID": "D303",
+    "name": "Hereford",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0345",
+    "dioceseID": "D315",
+    "name": "St. David's",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0346",
+    "dioceseID": "D313",
+    "name": "Llandaff",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0347",
+    "dioceseID": "D309",
+    "name": "Bath & Wells",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0348",
+    "dioceseID": "D307",
+    "name": "Salisbury",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0349",
+    "dioceseID": "D308",
+    "name": "Exeter",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0350",
+    "dioceseID": "D299",
+    "name": "Winchester",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0351",
+    "dioceseID": "D306",
+    "name": "Chichester",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0352",
+    "dioceseID": "D295",
+    "name": "Canterbury",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0353",
+    "dioceseID": "D296",
+    "name": "Rochester",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0354",
+    "dioceseID": "D297",
+    "name": "London",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0355",
+    "dioceseID": "D310",
+    "name": "Ely",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0356",
+    "dioceseID": "D302",
+    "name": "Norwich",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  },
+  {
+    "shapeFileID": "S0357",
+    "dioceseID": "D304",
+    "name": "Lincoln",
+    "grmID": "G0020",
+    "countryModern": "GB"
+  }
+]
