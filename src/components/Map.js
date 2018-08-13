@@ -189,6 +189,8 @@ class LocalLegislationMap extends Component {
           ref={this.mapRef}
           center={config.params.center}
           zoom={config.params.zoom}
+          minZoom={config.params.minZoom}
+          maxZoom={config.params.maxZoom}
         >
           <ScaleControl />
           <BaseMap config={config} />
