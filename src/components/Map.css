@@ -9,7 +9,11 @@
   width: 200px !important;
   margin: 10px !important;
   background: rgba(255, 255, 255, 0.8) !important;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.panel:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3) !important;
 }
 
 .panel h4 {
