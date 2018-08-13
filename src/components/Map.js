@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Map, TileLayer, GeoJSON, ScaleControl } from 'react-leaflet';
-import { Checkbox } from 'semantic-ui-react';
+import { Checkbox, Card, Divider, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/great_britain.json';
 import './Map.css';
@@ -118,11 +118,11 @@ class GeoJSONLayer extends React.Component {
   }
 }
 
-//============
-// Info Panel
-//============
+//===============
+// Control Panel
+//===============
 
-class InfoPanel extends React.Component {
+class ControlPanel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -145,14 +145,35 @@ class InfoPanel extends React.Component {
 
   render() {
     return (
-      <div className="info">
-        <h4>Info Pane</h4>
-        <Checkbox
-          label="color-blind mode"
-          onChange={this.handleChange}
-          checked={this.state.checked}
-        />
-      </div>
+      <Card className="panel">
+        <Card.Content>
+          <Card.Header>
+            <Icon name="setting" /> Control Panel
+          </Card.Header>
+          <br />
+          <Checkbox
+            label="color-blind mode"
+            onChange={this.handleChange}
+            checked={this.state.checked}
+          />
+        </Card.Content>
+      </Card>
+    );
+  }
+}
+
+//============
+// Info Panel
+//============
+
+class InfoPanel extends React.Component {
+  render() {
+    return (
+      <Card className="panel">
+        <Card.Content>
+          <Card.Header>Diocese Name</Card.Header>
+        </Card.Content>
+      </Card>
     );
   }
 }
@@ -183,7 +204,7 @@ class LocalLegislationMap extends Component {
     const config = this.state.config;
     return (
       <div>
-        <InfoPanel changeColorScheme={this.changeColorScheme} />
+        <ControlPanel changeColorScheme={this.changeColorScheme} />
         <Map
           id="mapid"
           ref={this.mapRef}

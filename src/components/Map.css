@@ -2,22 +2,21 @@
   height: calc(100vh - 55px);
 }
 
-.info {
-  position: fixed;
+.panel {
+  position: fixed !important;
   z-index: 800;
-  right: 0;
-  margin: 10px;
-
-  width: 150px;
-  padding: 6px 8px;
-  font: 14px/16px Arial, Helvetica, sans-serif;
-  background: white;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  right: 0 !important;
+  width: 200px !important;
+  margin: 10px !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
 }
 
-.info h4 {
+.panel h4 {
   margin: 0 0 5px;
   color: #777;
+}
+
+.panel.panel-info {
+  margin-top: 100px;
 }
