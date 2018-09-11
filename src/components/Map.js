@@ -9,6 +9,7 @@ import { Checkbox, Card, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/d25.json';
 import metadata from '../assets/metadata.json';
+import s2d from '../assets/s2d.json'
 import './Map.css';
 
 //=================
@@ -42,6 +43,7 @@ class GeoJSONLayer extends React.Component {
     };
     this.geojsonRef = React.createRef();
     this.metadataMap = this.createMetadataMap();
+    this.shapeToDiocese = s2d.map;
     this.onEachFeature = this.onEachFeature.bind(this);
     this.highlightFeature = this.highlightFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
@@ -86,8 +88,10 @@ class GeoJSONLayer extends React.Component {
   highlightFeature(e) {
     var layer = e.target;
     const { SHPFID: shpfid } = layer.feature.properties;
-    const data = this.metadataMap.get(shpfid);
-    const name = data ? data.name : 'No data available';
+    let name = 'No data available';
+    if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
+      name = this.shapeToDiocese[shpfid];
+    }
     this.props.updateInfo({ name });
 
     layer.setStyle({
