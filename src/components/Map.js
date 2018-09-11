@@ -10,6 +10,7 @@ import mapConfig from '../assets/map_config';
 import geojson from '../assets/d25.json';
 import metadata from '../assets/metadata.json';
 import s2d from '../assets/s2d.json'
+import dioceseInfo from '../assets/diocese_info.json'
 import './Map.css';
 
 //=================
@@ -88,11 +89,20 @@ class GeoJSONLayer extends React.Component {
   highlightFeature(e) {
     var layer = e.target;
     const { SHPFID: shpfid } = layer.feature.properties;
-    let name = 'No data available';
+    let info = { text: 'No data available' };
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
-      name = this.shapeToDiocese[shpfid];
+      const dioceseId = this.shapeToDiocese[shpfid];
+      info.text = dioceseId;
+      if (dioceseInfo.hasOwnProperty(dioceseId)) {
+        const { diocese_name, diocese_alt, province, country_modern } = dioceseInfo[dioceseId];
+        const diocese = diocese_alt ? `${diocese_name} (${diocese_alt})` : diocese_name;
+        info.diocese = diocese;
+        info.province = province;
+        info.country = country_modern;
+      }
     }
-    this.props.updateInfo({ name });
+
+    this.props.updateInfo(info);
 
     layer.setStyle({
       weight: 2,
@@ -192,11 +202,24 @@ class ControlPanel extends React.Component {
 class InfoPanel extends React.Component {
   render() {
     const { info } = this.props;
-    const text = info ? info.name : 'Hover over a region';
+    const text = info ? info.text : 'Hover over a region';
+    const attributes = ['diocese', 'province', 'country'];
+    if (info) {
+      var listItems = attributes.reduce((items, attr) => {
+        if (info.hasOwnProperty(attr)) {
+          items.push(<li key={attr}>{info[attr]}</li>);
+        }
+        return items;
+      }, []);
+    }
+
     return (
       <Card className="panel panel-info">
         <Card.Content>
           <h4>{text}</h4>
+          {info &&
+            <ul>{listItems}</ul>
+          }
         </Card.Content>
       </Card>
     );
