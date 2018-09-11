@@ -7,7 +7,7 @@ import {
 } from 'react-leaflet';
 import { Checkbox, Card, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
-import geojson from '../assets/great_britain.json';
+import geojson from '../assets/d25.json';
 import metadata from '../assets/metadata.json';
 import './Map.css';
 
