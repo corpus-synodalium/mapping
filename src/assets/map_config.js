@@ -1,9 +1,9 @@
 const config = {};
 
 config.params = {
-  center: [54.5, -3],
+  center: [53.5, 5],
   zoomControl: false,
-  zoom: 6,
+  zoom: 5,
   maxZoom: 9,
   minZoom: 5,
   scrollwheel: false,
