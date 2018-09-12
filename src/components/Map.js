@@ -8,7 +8,6 @@ import {
 import { Card, Dropdown, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/d25.json';
-import metadata from '../assets/metadata.json';
 import s2d from '../assets/s2d.json';
 import dioceseInfo from '../assets/diocese_info.json';
 import './Map.css';
@@ -43,20 +42,12 @@ class GeoJSONLayer extends React.Component {
       prevShape: null,
     };
     this.geojsonRef = React.createRef();
-    this.metadataMap = this.createMetadataMap();
     this.shapeToDiocese = s2d.map;
     this.onEachFeature = this.onEachFeature.bind(this);
     this.highlightFeature = this.highlightFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
     this.zoomToFeature = this.zoomToFeature.bind(this);
     this.style = this.style.bind(this);
-  }
-
-  createMetadataMap() {
-    return metadata.reduce((hash, current) => {
-      hash.set(current.shapeFileID, current);
-      return hash;
-    }, new Map());
   }
 
   getColor(shpfid, props) {
