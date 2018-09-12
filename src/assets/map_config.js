@@ -25,7 +25,7 @@ config.tileLayer = {
 config.colorSchemes = {
   color1: ['#f6eff7', '#bdc9e1', '#67a9cf', '#1c9099', '#016c59'],
   color2: ['#feebe2', '#fbb4b9', '#f768a1', '#c51b8a', '#7a0177'],
-  color3: ['#edf8e9', '#bae4b3', '#74c476', '#31a354', '#006d2c'],
+  color3: ['#f2f0f7', '#cbc9e2', '#9e9ac8', '#756bb1', '#54278f'],
   color4: ['#ffffb2', '#fecc5c', '#fd8d3c', '#f03b20', '#bd0026'],
   bw: ['#f7f7f7', '#cccccc', '#969696', '#636363', '#252525'],
 }

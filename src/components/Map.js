@@ -5,7 +5,7 @@ import {
   GeoJSON,
   ScaleControl,
 } from 'react-leaflet';
-import { Checkbox, Card, Icon } from 'semantic-ui-react';
+import { Card, Dropdown, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/d25.json';
 import metadata from '../assets/metadata.json';
@@ -164,37 +164,41 @@ class GeoJSONLayer extends React.Component {
 //===============
 
 class ControlPanel extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      checked: false,
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange() {
-    const callback = () => {
-      this.props.changeColorScheme(this.state.checked);
-    };
-    this.setState(
-      (prevState) => ({
-        checked: !prevState.checked,
-      }),
-      callback,
-    );
-  }
-
   render() {
+    const colorSchemeOptions = [
+      {
+        text: 'Black & White',
+        value: 'bw',
+      },
+      {
+        text: 'Colors #1',
+        value: 'color1',
+      },
+      {
+        text: 'Colors #2',
+        value: 'color2',
+      },
+      {
+        text: 'Colors #3',
+        value: 'color3',
+      },
+      {
+        text: 'Colors #4',
+        value: 'color4',
+      },
+    ];
     return (
       <Card className="panel">
         <Card.Content>
           <h4>
             <Icon name="setting" /> Control Panel
           </h4>
-          <Checkbox
-            label="color-blind mode"
-            onChange={this.handleChange}
-            checked={this.state.checked}
+          <Dropdown
+            placeholder="color scheme"
+            options={colorSchemeOptions}
+            onChange={(e, data) => this.props.changeColorScheme(data.value)}
+            selection
+            fluid
           />
         </Card.Content>
       </Card>
@@ -253,8 +257,7 @@ class LocalLegislationMap extends Component {
     this.updateInfo = this.updateInfo.bind(this);
   }
 
-  changeColorScheme(bw) {
-    const colorScheme = bw ? 'bw' : 'color1';
+  changeColorScheme(colorScheme) {
     this.setState({
       currentColorScheme: colorScheme,
     });
