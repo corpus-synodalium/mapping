@@ -152,7 +152,7 @@ class GeoJSONLayer extends React.Component {
 
   render() {
     if (this.state.isLoading) {
-      return <span></span>;
+      return <span>Loading...</span>;
     }
     return (
       <GeoJSON
