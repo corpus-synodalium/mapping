@@ -1,0 +1,4394 @@
+{
+  "D001": {
+    "diocese_name": "Acerenza",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D002": {
+    "diocese_name": "Acerno",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D003": {
+    "diocese_name": "Acerra",
+    "diocese_alt": "",
+    "province": "Napoli",
+    "country_modern": "Italy"
+  },
+  "D004": {
+    "diocese_name": "Adria",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D005": {
+    "diocese_name": "Alatri",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D006": {
+    "diocese_name": "Alba",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D007": {
+    "diocese_name": "Albenga",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D008": {
+    "diocese_name": "Alessandria",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D010": {
+    "diocese_name": "Alife",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D011": {
+    "diocese_name": "Amalfi",
+    "diocese_alt": "",
+    "province": "Amalfi",
+    "country_modern": "Italy"
+  },
+  "D012": {
+    "diocese_name": "Amelia",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D013": {
+    "diocese_name": "Anagni",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D014": {
+    "diocese_name": "Ancona",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D015": {
+    "diocese_name": "Andria",
+    "diocese_alt": "",
+    "province": "Trani",
+    "country_modern": "Italy"
+  },
+  "D016": {
+    "diocese_name": "Anglona",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D018": {
+    "diocese_name": "Acqui",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D019": {
+    "diocese_name": "Aquileia",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D020": {
+    "diocese_name": "Aquino",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D021": {
+    "diocese_name": "Arezzo",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D022": {
+    "diocese_name": "Ariano",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D023": {
+    "diocese_name": "Ascoli Piceno",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D024": {
+    "diocese_name": "Ascoli Satriano",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D025": {
+    "diocese_name": "Asolo",
+    "diocese_alt": "",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D026": {
+    "diocese_name": "Assisi",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D027": {
+    "diocese_name": "Asti",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D028": {
+    "diocese_name": "Atria",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D029": {
+    "diocese_name": "Avellino",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D030": {
+    "diocese_name": "Aversa",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D031": {
+    "diocese_name": "Bagnoregio",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D032": {
+    "diocese_name": "Belcastro",
+    "diocese_alt": "",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D033": {
+    "diocese_name": "Belluno",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D034": {
+    "diocese_name": "Benevento",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D035": {
+    "diocese_name": "Bergamo",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D036": {
+    "diocese_name": "Bertinoro",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D037": {
+    "diocese_name": "Bisaccia",
+    "diocese_alt": "",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D038": {
+    "diocese_name": "Bisceglie",
+    "diocese_alt": "",
+    "province": "Trani",
+    "country_modern": "Italy"
+  },
+  "D039": {
+    "diocese_name": "Bisignano",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D040": {
+    "diocese_name": "Bobbio",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "Italy"
+  },
+  "D041": {
+    "diocese_name": "Bojano",
+    "diocese_alt": "Boiano",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D042": {
+    "diocese_name": "Bologna",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D043": {
+    "diocese_name": "Bova",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D044": {
+    "diocese_name": "Bovino",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D045": {
+    "diocese_name": "Brescia",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D046": {
+    "diocese_name": "Brindisi",
+    "diocese_alt": "Oria",
+    "province": "Brindisi",
+    "country_modern": "Italy"
+  },
+  "D047": {
+    "diocese_name": "Brugnato",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "Italy"
+  },
+  "D048": {
+    "diocese_name": "Cagli",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D049": {
+    "diocese_name": "Cajazzo",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D050": {
+    "diocese_name": "Calvi",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D051": {
+    "diocese_name": "Camerino",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D052": {
+    "diocese_name": "Caorle",
+    "diocese_alt": "",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D053": {
+    "diocese_name": "Capaccio",
+    "diocese_alt": "Paestum",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D054": {
+    "diocese_name": "Koper",
+    "diocese_alt": "Capodistria",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D055": {
+    "diocese_name": "Capri",
+    "diocese_alt": "",
+    "province": "Amalfi",
+    "country_modern": "Italy"
+  },
+  "D056": {
+    "diocese_name": "Capua",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D057": {
+    "diocese_name": "Carinola",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D058": {
+    "diocese_name": "Vercelli",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D059": {
+    "diocese_name": "Caserta",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D060": {
+    "diocese_name": "Cassano",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D061": {
+    "diocese_name": "Castellamare",
+    "diocese_alt": "",
+    "province": "Sorrento",
+    "country_modern": "Italy"
+  },
+  "D062": {
+    "diocese_name": "Castellaneta",
+    "diocese_alt": "",
+    "province": "Taranto",
+    "country_modern": "Italy"
+  },
+  "D063": {
+    "diocese_name": "Castello",
+    "diocese_alt": "",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D064": {
+    "diocese_name": "Castro",
+    "diocese_alt": "",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D065": {
+    "diocese_name": "Castro",
+    "diocese_alt": "",
+    "province": "Otranto",
+    "country_modern": "Italy"
+  },
+  "D066": {
+    "diocese_name": "Catanzaro",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D067": {
+    "diocese_name": "Cava",
+    "diocese_alt": "Badia di Cava",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D068": {
+    "diocese_name": "Ceneda",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D069": {
+    "diocese_name": "Cerenza",
+    "diocese_alt": "",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D070": {
+    "diocese_name": "Cervia",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D071": {
+    "diocese_name": "Cesena",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D072": {
+    "diocese_name": "Chieti",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D073": {
+    "diocese_name": "Chioggia",
+    "diocese_alt": "",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D074": {
+    "diocese_name": "Chiusi",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D075": {
+    "diocese_name": "Abazzia delle Tre Fontane",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D076": {
+    "diocese_name": "Città di Castello",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D077": {
+    "diocese_name": "Novigrad",
+    "diocese_alt": "Cittanova",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D078": {
+    "diocese_name": "Civita Castellana",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D079": {
+    "diocese_name": "Comacchio",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D080": {
+    "diocese_name": "Como",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D081": {
+    "diocese_name": "Concordia",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D082": {
+    "diocese_name": "Conza",
+    "diocese_alt": "",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D083": {
+    "diocese_name": "Cortona",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D084": {
+    "diocese_name": "Cosenza",
+    "diocese_alt": "",
+    "province": "Cosenza",
+    "country_modern": "Italy"
+  },
+  "D085": {
+    "diocese_name": "Cotrone",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D086": {
+    "diocese_name": "Cremona",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D087": {
+    "diocese_name": "Dragonara",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D088": {
+    "diocese_name": "Faenza",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D089": {
+    "diocese_name": "Fano",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D090": {
+    "diocese_name": "Feltre",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D091": {
+    "diocese_name": "Ferentino",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D092": {
+    "diocese_name": "Fermo",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D093": {
+    "diocese_name": "Ferrara",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D094": {
+    "diocese_name": "Fiesole",
+    "diocese_alt": "",
+    "province": "Fiesole",
+    "country_modern": "Italy"
+  },
+  "D095": {
+    "diocese_name": "Fiorentino",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D096": {
+    "diocese_name": "Firenze",
+    "diocese_alt": "Florence",
+    "province": "Fiesole",
+    "country_modern": "Italy"
+  },
+  "D097": {
+    "diocese_name": "Foligno",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D098": {
+    "diocese_name": "Fondi",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D099": {
+    "diocese_name": "Forlì",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D100": {
+    "diocese_name": "Forlimpopoli",
+    "diocese_alt": "Bertinoro",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D101": {
+    "diocese_name": "Fossombrone",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D102": {
+    "diocese_name": "Frigento",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D103": {
+    "diocese_name": "Gaeta",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D104": {
+    "diocese_name": "Gallipoli",
+    "diocese_alt": "",
+    "province": "Otranto",
+    "country_modern": "Italy"
+  },
+  "D105": {
+    "diocese_name": "Genova",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "Italy"
+  },
+  "D106": {
+    "diocese_name": "Gerace",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D107": {
+    "diocese_name": "Grado",
+    "diocese_alt": "Venezia",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D108": {
+    "diocese_name": "Gravina",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D109": {
+    "diocese_name": "Grosseto",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D110": {
+    "diocese_name": "Guardialfiera",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D111": {
+    "diocese_name": "Gubbio",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D112": {
+    "diocese_name": "Imola",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D113": {
+    "diocese_name": "Ischia",
+    "diocese_alt": "",
+    "province": "Napoli",
+    "country_modern": "Italy"
+  },
+  "D114": {
+    "diocese_name": "Isola",
+    "diocese_alt": "Capo Rizzuto",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D115": {
+    "diocese_name": "Isernia",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D116": {
+    "diocese_name": "Ivrea",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D117": {
+    "diocese_name": "Jesi",
+    "diocese_alt": "Iesi",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D118": {
+    "diocese_name": "Equilio",
+    "diocese_alt": "Jesolo",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D119": {
+    "diocese_name": "Lacedonia",
+    "diocese_alt": "Lacedogna",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D120": {
+    "diocese_name": "L'Aquila",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D121": {
+    "diocese_name": "Larino",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D122": {
+    "diocese_name": "Lecce",
+    "diocese_alt": "",
+    "province": "Otranto",
+    "country_modern": "Italy"
+  },
+  "D123": {
+    "diocese_name": "Lesina",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D124": {
+    "diocese_name": "Lettere",
+    "diocese_alt": "",
+    "province": "Amalfi",
+    "country_modern": "Italy"
+  },
+  "D125": {
+    "diocese_name": "Lodi",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D126": {
+    "diocese_name": "Ljubljana",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Slovenia"
+  },
+  "D127": {
+    "diocese_name": "Lucca",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D128": {
+    "diocese_name": "Lucera",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D129": {
+    "diocese_name": "Luni and Sarzana",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D130": {
+    "diocese_name": "Macerata",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D131": {
+    "diocese_name": "Manfredonia",
+    "diocese_alt": "Siponto",
+    "province": "Manfredonia",
+    "country_modern": "Italy"
+  },
+  "D132": {
+    "diocese_name": "Mantova",
+    "diocese_alt": "Mantua",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D133": {
+    "diocese_name": "Marsi",
+    "diocese_alt": "Avezzano",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D134": {
+    "diocese_name": "Marsico Nuovo",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D135": {
+    "diocese_name": "Martirano",
+    "diocese_alt": "",
+    "province": "Cosenza",
+    "country_modern": "Italy"
+  },
+  "D136": {
+    "diocese_name": "Massa Lubrense",
+    "diocese_alt": "",
+    "province": "Sorrento",
+    "country_modern": "Italy"
+  },
+  "D137": {
+    "diocese_name": "Massa Marittima",
+    "diocese_alt": "",
+    "province": "Pisa",
+    "country_modern": "Italy"
+  },
+  "D138": {
+    "diocese_name": "Matera",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D139": {
+    "diocese_name": "Melfi",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D140": {
+    "diocese_name": "Milano",
+    "diocese_alt": "Milan",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D141": {
+    "diocese_name": "Mileto",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D142": {
+    "diocese_name": "Minori",
+    "diocese_alt": "",
+    "province": "Amalfi",
+    "country_modern": "Italy"
+  },
+  "D143": {
+    "diocese_name": "Modena",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D144": {
+    "diocese_name": "Mondovì",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D145": {
+    "diocese_name": "Monopoli",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D146": {
+    "diocese_name": "Montalcino",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D147": {
+    "diocese_name": "Monte Cassino",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D148": {
+    "diocese_name": "Montecorvino",
+    "diocese_alt": "Monte Corvino",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D149": {
+    "diocese_name": "Monte Marano",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D150": {
+    "diocese_name": "Montefeltro",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D151": {
+    "diocese_name": "Montefiascone",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D152": {
+    "diocese_name": "Montepeloso",
+    "diocese_alt": "",
+    "province": "Trani",
+    "country_modern": "Italy"
+  },
+  "D153": {
+    "diocese_name": "Monteverde",
+    "diocese_alt": "",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D154": {
+    "diocese_name": "Motula",
+    "diocese_alt": "",
+    "province": "Taranto",
+    "country_modern": "Italy"
+  },
+  "D155": {
+    "diocese_name": "Muro",
+    "diocese_alt": "",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D156": {
+    "diocese_name": "Napoli",
+    "diocese_alt": "Naples",
+    "province": "Napoli",
+    "country_modern": "Italy"
+  },
+  "D157": {
+    "diocese_name": "Nardò",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D158": {
+    "diocese_name": "Narni",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D159": {
+    "diocese_name": "Nepi",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D160": {
+    "diocese_name": "Nicastro",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D161": {
+    "diocese_name": "Nicotera",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D162": {
+    "diocese_name": "Nocera",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D163": {
+    "diocese_name": "Nocera Inferiore",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D164": {
+    "diocese_name": "Nola",
+    "diocese_alt": "",
+    "province": "Napoli",
+    "country_modern": "Italy"
+  },
+  "D165": {
+    "diocese_name": "Noli",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "Italy"
+  },
+  "D166": {
+    "diocese_name": "Novara",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D167": {
+    "diocese_name": "Nusco",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D168": {
+    "diocese_name": "Oppido",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D169": {
+    "diocese_name": "Orte",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D170": {
+    "diocese_name": "Orvieto",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D171": {
+    "diocese_name": "Osimo",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D172": {
+    "diocese_name": "Ostia",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D173": {
+    "diocese_name": "Ostuni",
+    "diocese_alt": "",
+    "province": "Brindisi",
+    "country_modern": "Italy"
+  },
+  "D174": {
+    "diocese_name": "Otranto",
+    "diocese_alt": "",
+    "province": "Otranto",
+    "country_modern": "Italy"
+  },
+  "D175": {
+    "diocese_name": "Padova",
+    "diocese_alt": "Padua",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D176": {
+    "diocese_name": "Palestrina",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D177": {
+    "diocese_name": "Poreč",
+    "diocese_alt": "Parenzo",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D178": {
+    "diocese_name": "Parma",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D179": {
+    "diocese_name": "Pavia",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D180": {
+    "diocese_name": "Pićan",
+    "diocese_alt": "Pedena",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D181": {
+    "diocese_name": "Penne",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D182": {
+    "diocese_name": "Perugia",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D183": {
+    "diocese_name": "Pesaro",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D184": {
+    "diocese_name": "Piacenza",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D185": {
+    "diocese_name": "Pienza",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D186": {
+    "diocese_name": "Pisa",
+    "diocese_alt": "",
+    "province": "Pisa",
+    "country_modern": "Italy"
+  },
+  "D187": {
+    "diocese_name": "Pistoia",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D188": {
+    "diocese_name": "Pula",
+    "diocese_alt": "Pola",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D189": {
+    "diocese_name": "Policastro",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D190": {
+    "diocese_name": "Porto",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D191": {
+    "diocese_name": "Potenza",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D192": {
+    "diocese_name": "Pozzuoli",
+    "diocese_alt": "",
+    "province": "Napoli",
+    "country_modern": "Italy"
+  },
+  "D193": {
+    "diocese_name": "Rapolla",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D194": {
+    "diocese_name": "Ravello",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D195": {
+    "diocese_name": "Ravenna",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D196": {
+    "diocese_name": "Recanati",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D197": {
+    "diocese_name": "Reggio-Calabria",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D198": {
+    "diocese_name": "Reggio-Emilia",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D199": {
+    "diocese_name": "Rieti",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D200": {
+    "diocese_name": "Rimini",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D201": {
+    "diocese_name": "Rossano",
+    "diocese_alt": "",
+    "province": "Rossano",
+    "country_modern": "Italy"
+  },
+  "D202": {
+    "diocese_name": "Sabina",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D203": {
+    "diocese_name": "Salerno",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D204": {
+    "diocese_name": "San Leone",
+    "diocese_alt": "",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D205": {
+    "diocese_name": "San Marco",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D206": {
+    "diocese_name": "Sant'Agata de' Goti",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D207": {
+    "diocese_name": "Sant'Angelo de' Lombardi",
+    "diocese_alt": "",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D208": {
+    "diocese_name": "Santa Severina",
+    "diocese_alt": "",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D209": {
+    "diocese_name": "Sarno",
+    "diocese_alt": "",
+    "province": "Salerno",
+    "country_modern": "Italy"
+  },
+  "D210": {
+    "diocese_name": "Sarsina",
+    "diocese_alt": "",
+    "province": "Ravenna",
+    "country_modern": "Italy"
+  },
+  "D211": {
+    "diocese_name": "Satriano",
+    "diocese_alt": "",
+    "province": "Conza",
+    "country_modern": "Italy"
+  },
+  "D212": {
+    "diocese_name": "Savona",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D213": {
+    "diocese_name": "Scala",
+    "diocese_alt": "",
+    "province": "Amalfi",
+    "country_modern": "Italy"
+  },
+  "D214": {
+    "diocese_name": "Segni",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D215": {
+    "diocese_name": "Sessa",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D216": {
+    "diocese_name": "Siena",
+    "diocese_alt": "",
+    "province": "Siena",
+    "country_modern": "Italy"
+  },
+  "D217": {
+    "diocese_name": "Sinigaglia",
+    "diocese_alt": "Senigallia",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D218": {
+    "diocese_name": "Sora",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D219": {
+    "diocese_name": "Sorrento",
+    "diocese_alt": "",
+    "province": "Sorrento",
+    "country_modern": "Italy"
+  },
+  "D220": {
+    "diocese_name": "Sovanna",
+    "diocese_alt": "Sovana",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D221": {
+    "diocese_name": "Spoleto",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D222": {
+    "diocese_name": "Squillace",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D223": {
+    "diocese_name": "Strongoli",
+    "diocese_alt": "",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D224": {
+    "diocese_name": "Sutri",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D225": {
+    "diocese_name": "Taranto",
+    "diocese_alt": "",
+    "province": "Taranto",
+    "country_modern": "Italy"
+  },
+  "D226": {
+    "diocese_name": "Teano",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D227": {
+    "diocese_name": "Telese",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D228": {
+    "diocese_name": "Teramo",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D229": {
+    "diocese_name": "Termoli",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D230": {
+    "diocese_name": "Terni",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D231": {
+    "diocese_name": "Terracina",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D232": {
+    "diocese_name": "Tertiveri",
+    "diocese_alt": "Tortiboli",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D233": {
+    "diocese_name": "Tivoli",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D234": {
+    "diocese_name": "Todi",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D235": {
+    "diocese_name": "Torcello",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D236": {
+    "diocese_name": "Torino",
+    "diocese_alt": "Turin",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D238": {
+    "diocese_name": "Tortona",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D239": {
+    "diocese_name": "Trani",
+    "diocese_alt": "",
+    "province": "Trani",
+    "country_modern": "Italy"
+  },
+  "D240": {
+    "diocese_name": "Trento",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D241": {
+    "diocese_name": "Trevico",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D242": {
+    "diocese_name": "Treviso",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D243": {
+    "diocese_name": "Tricarico",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D244": {
+    "diocese_name": "Trieste",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D245": {
+    "diocese_name": "Trivento",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D246": {
+    "diocese_name": "Troia",
+    "diocese_alt": "Troja",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D247": {
+    "diocese_name": "Tropea",
+    "diocese_alt": "",
+    "province": "Reggio-Calabria",
+    "country_modern": "Italy"
+  },
+  "D248": {
+    "diocese_name": "Tuscania",
+    "diocese_alt": "Tusculum",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D249": {
+    "diocese_name": "Ugento",
+    "diocese_alt": "",
+    "province": "Otranto",
+    "country_modern": "Italy"
+  },
+  "D250": {
+    "diocese_name": "Casale Monferrato",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D251": {
+    "diocese_name": "Umbriatico",
+    "diocese_alt": "",
+    "province": "Santa Severina",
+    "country_modern": "Italy"
+  },
+  "D252": {
+    "diocese_name": "Urbino",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D253": {
+    "diocese_name": "Valva-Sulmona",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D254": {
+    "diocese_name": "Venafro",
+    "diocese_alt": "",
+    "province": "Capua",
+    "country_modern": "Italy"
+  },
+  "D255": {
+    "diocese_name": "Venezia",
+    "diocese_alt": "Venice",
+    "province": "Grado",
+    "country_modern": "Italy"
+  },
+  "D256": {
+    "diocese_name": "Venosa",
+    "diocese_alt": "",
+    "province": "Acerenza",
+    "country_modern": "Italy"
+  },
+  "D257": {
+    "diocese_name": "Ventimiglia",
+    "diocese_alt": "",
+    "province": "Milano",
+    "country_modern": "Italy"
+  },
+  "D258": {
+    "diocese_name": "Velletri",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D259": {
+    "diocese_name": "Veroli",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D260": {
+    "diocese_name": "Verona",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D261": {
+    "diocese_name": "Vicenza",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Italy"
+  },
+  "D262": {
+    "diocese_name": "Vico Equense",
+    "diocese_alt": "",
+    "province": "Sorrento",
+    "country_modern": "Italy"
+  },
+  "D263": {
+    "diocese_name": "Vieste",
+    "diocese_alt": "",
+    "province": "Manfredonia",
+    "country_modern": "Italy"
+  },
+  "D264": {
+    "diocese_name": "Viterbo",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D265": {
+    "diocese_name": "Volterra",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D266": {
+    "diocese_name": "Volturara",
+    "diocese_alt": "",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D267": {
+    "diocese_name": "Agrigento",
+    "diocese_alt": "",
+    "province": "Palermo",
+    "country_modern": "Italy"
+  },
+  "D268": {
+    "diocese_name": "Catania",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D269": {
+    "diocese_name": "Cefalù",
+    "diocese_alt": "",
+    "province": "Messina",
+    "country_modern": "Italy"
+  },
+  "D270": {
+    "diocese_name": "Mazzara",
+    "diocese_alt": "",
+    "province": "Palermo",
+    "country_modern": "Italy"
+  },
+  "D271": {
+    "diocese_name": "Messina",
+    "diocese_alt": "",
+    "province": "Messina",
+    "country_modern": "Italy"
+  },
+  "D272": {
+    "diocese_name": "Monreale",
+    "diocese_alt": "",
+    "province": "Monreale",
+    "country_modern": "Italy"
+  },
+  "D273": {
+    "diocese_name": "Palermo",
+    "diocese_alt": "",
+    "province": "Palermo",
+    "country_modern": "Italy"
+  },
+  "D274": {
+    "diocese_name": "Patti",
+    "diocese_alt": "",
+    "province": "Messina",
+    "country_modern": "Italy"
+  },
+  "D275": {
+    "diocese_name": "Siracusa",
+    "diocese_alt": "Syracuse",
+    "province": "Monreale",
+    "country_modern": "Italy"
+  },
+  "D276": {
+    "diocese_name": "Ales",
+    "diocese_alt": "",
+    "province": "Oristano",
+    "country_modern": "Italy"
+  },
+  "D277": {
+    "diocese_name": "Bisarcio",
+    "diocese_alt": "",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D278": {
+    "diocese_name": "Bosa",
+    "diocese_alt": "",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D279": {
+    "diocese_name": "Cagliari",
+    "diocese_alt": "",
+    "province": "Cagliari",
+    "country_modern": "Italy"
+  },
+  "D280": {
+    "diocese_name": "Castro",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D281": {
+    "diocese_name": "Civita",
+    "diocese_alt": "Tempio",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D282": {
+    "diocese_name": "Dolia",
+    "diocese_alt": "Doglia",
+    "province": "Cagliari",
+    "country_modern": "Italy"
+  },
+  "D283": {
+    "diocese_name": "Galtelli",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D284": {
+    "diocese_name": "Oristano",
+    "diocese_alt": "",
+    "province": "Oristano",
+    "country_modern": "Italy"
+  },
+  "D285": {
+    "diocese_name": "Ottana",
+    "diocese_alt": "",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D286": {
+    "diocese_name": "Ploaghe",
+    "diocese_alt": "",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D287": {
+    "diocese_name": "Santa Giusta",
+    "diocese_alt": "",
+    "province": "Oristano",
+    "country_modern": "Italy"
+  },
+  "D288": {
+    "diocese_name": "Sassari",
+    "diocese_alt": "Torres",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D289": {
+    "diocese_name": "Sorres",
+    "diocese_alt": "Sorra",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D290": {
+    "diocese_name": "Suelli",
+    "diocese_alt": "",
+    "province": "Cagliari",
+    "country_modern": "Italy"
+  },
+  "D291": {
+    "diocese_name": "Sulci",
+    "diocese_alt": "",
+    "province": "Cagliari",
+    "country_modern": "Italy"
+  },
+  "D292": {
+    "diocese_name": "Tempio",
+    "diocese_alt": "",
+    "province": "Pisa",
+    "country_modern": "Italy"
+  },
+  "D293": {
+    "diocese_name": "Terralba",
+    "diocese_alt": "",
+    "province": "Oristano",
+    "country_modern": "Italy"
+  },
+  "D295": {
+    "diocese_name": "Canterbury",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D296": {
+    "diocese_name": "Rochester",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D297": {
+    "diocese_name": "London",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D298": {
+    "diocese_name": "York",
+    "diocese_alt": "",
+    "province": "York",
+    "country_modern": "England"
+  },
+  "D299": {
+    "diocese_name": "Winchester",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D300": {
+    "diocese_name": "Coventry & Lichfield",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D301": {
+    "diocese_name": "Durham",
+    "diocese_alt": "",
+    "province": "York",
+    "country_modern": "England"
+  },
+  "D302": {
+    "diocese_name": "Norwich",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D303": {
+    "diocese_name": "Hereford",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D304": {
+    "diocese_name": "Lincoln",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D305": {
+    "diocese_name": "Worcester",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D306": {
+    "diocese_name": "Chichester",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D307": {
+    "diocese_name": "Salisbury",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D308": {
+    "diocese_name": "Exeter",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D309": {
+    "diocese_name": "Bath",
+    "diocese_alt": "Bath & Wells",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D310": {
+    "diocese_name": "Ely",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "England"
+  },
+  "D311": {
+    "diocese_name": "Carlisle",
+    "diocese_alt": "",
+    "province": "York",
+    "country_modern": "England"
+  },
+  "D312": {
+    "diocese_name": "Sodor and Man",
+    "diocese_alt": "Isles",
+    "province": "[Holy See]",
+    "country_modern": "[Scotland]"
+  },
+  "D313": {
+    "diocese_name": "Llandaff",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "Wales"
+  },
+  "D314": {
+    "diocese_name": "Bangor",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "Wales"
+  },
+  "D315": {
+    "diocese_name": "St. David's",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "Wales"
+  },
+  "D316": {
+    "diocese_name": "St. Asaph",
+    "diocese_alt": "",
+    "province": "Canterbury",
+    "country_modern": "Wales"
+  },
+  "D317": {
+    "diocese_name": "Aberdeen",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D318": {
+    "diocese_name": "Argyll",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D319": {
+    "diocese_name": "Brechin",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D320": {
+    "diocese_name": "Caithness",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D321": {
+    "diocese_name": "Dunblane",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D322": {
+    "diocese_name": "Dunkeld",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D323": {
+    "diocese_name": "Edinburgh",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D324": {
+    "diocese_name": "Galloway",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D325": {
+    "diocese_name": "Glasgow",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D326": {
+    "diocese_name": "Moray",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D327": {
+    "diocese_name": "Orkney",
+    "diocese_alt": "",
+    "province": "Trondheim",
+    "country_modern": "Scotland"
+  },
+  "D328": {
+    "diocese_name": "Ross",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D329": {
+    "diocese_name": "St. Andrews",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Scotland"
+  },
+  "D330": {
+    "diocese_name": "Aix",
+    "diocese_alt": "",
+    "province": "Aix",
+    "country_modern": "France"
+  },
+  "D331": {
+    "diocese_name": "Apt",
+    "diocese_alt": "",
+    "province": "Aix",
+    "country_modern": "France"
+  },
+  "D332": {
+    "diocese_name": "Frejus",
+    "diocese_alt": "",
+    "province": "Aix",
+    "country_modern": "France"
+  },
+  "D333": {
+    "diocese_name": "Gap",
+    "diocese_alt": "",
+    "province": "Aix",
+    "country_modern": "France"
+  },
+  "D334": {
+    "diocese_name": "Riez",
+    "diocese_alt": "",
+    "province": "Aix",
+    "country_modern": "France"
+  },
+  "D335": {
+    "diocese_name": "Sisteron",
+    "diocese_alt": "",
+    "province": "Aix",
+    "country_modern": "France"
+  },
+  "D337": {
+    "diocese_name": "Arles",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D338": {
+    "diocese_name": "Marseille",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D339": {
+    "diocese_name": "Orange",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D340": {
+    "diocese_name": "Saint-Paul-Trois-Châteaux",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D341": {
+    "diocese_name": "Toulon",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D342": {
+    "diocese_name": "Avignon",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D343": {
+    "diocese_name": "Carpentras",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D344": {
+    "diocese_name": "Cavaillon",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D345": {
+    "diocese_name": "Vaison",
+    "diocese_alt": "",
+    "province": "Arles",
+    "country_modern": "France"
+  },
+  "D350": {
+    "diocese_name": "Auch",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D351": {
+    "diocese_name": "Aire",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D352": {
+    "diocese_name": "Bazas",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D353": {
+    "diocese_name": "Dax",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D354": {
+    "diocese_name": "Bayonne",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D355": {
+    "diocese_name": "Lectoure",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D356": {
+    "diocese_name": "Lescar",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D357": {
+    "diocese_name": "Oloron",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D358": {
+    "diocese_name": "Saint-Bertrand-de-Comminges",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D359": {
+    "diocese_name": "Couserans",
+    "diocese_alt": "Saint-Lizier",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D360": {
+    "diocese_name": "Tarbes",
+    "diocese_alt": "",
+    "province": "Auch",
+    "country_modern": "France"
+  },
+  "D361": {
+    "diocese_name": "Besancon",
+    "diocese_alt": "",
+    "province": "Besancon",
+    "country_modern": "France"
+  },
+  "D362": {
+    "diocese_name": "Basel",
+    "diocese_alt": "",
+    "province": "Besancon",
+    "country_modern": "Switzerland"
+  },
+  "D363": {
+    "diocese_name": "Belley",
+    "diocese_alt": "",
+    "province": "Besancon",
+    "country_modern": "France"
+  },
+  "D364": {
+    "diocese_name": "Lausanne",
+    "diocese_alt": "",
+    "province": "Besancon",
+    "country_modern": "Switzerland"
+  },
+  "D365": {
+    "diocese_name": "Bordeaux",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D366": {
+    "diocese_name": "Agen",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D367": {
+    "diocese_name": "Condom",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D368": {
+    "diocese_name": "Angouleme",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D369": {
+    "diocese_name": "Perigueux",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D370": {
+    "diocese_name": "Sarlat",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D371": {
+    "diocese_name": "Poitiers",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D372": {
+    "diocese_name": "Lucon",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D373": {
+    "diocese_name": "Maillezais",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D374": {
+    "diocese_name": "Saintes",
+    "diocese_alt": "",
+    "province": "Bordeaux",
+    "country_modern": "France"
+  },
+  "D375": {
+    "diocese_name": "Bourges",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D376": {
+    "diocese_name": "Clermont",
+    "diocese_alt": "Clermont-Ferrand",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D377": {
+    "diocese_name": "Saint-Flour",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D378": {
+    "diocese_name": "Limoges",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D379": {
+    "diocese_name": "Tulle",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D380": {
+    "diocese_name": "Le Puy",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D381": {
+    "diocese_name": "Albi",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D382": {
+    "diocese_name": "Castres",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D383": {
+    "diocese_name": "Cahors",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D384": {
+    "diocese_name": "Mende",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D385": {
+    "diocese_name": "Rodez",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D386": {
+    "diocese_name": "Vabres",
+    "diocese_alt": "",
+    "province": "Bourges",
+    "country_modern": "France"
+  },
+  "D387": {
+    "diocese_name": "Embrun",
+    "diocese_alt": "",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D388": {
+    "diocese_name": "Digne",
+    "diocese_alt": "",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D389": {
+    "diocese_name": "Glandèves",
+    "diocese_alt": "Entrevaux",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D391": {
+    "diocese_name": "Grasse",
+    "diocese_alt": "Antibes",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D392": {
+    "diocese_name": "Nice",
+    "diocese_alt": "",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D393": {
+    "diocese_name": "Senez",
+    "diocese_alt": "",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D394": {
+    "diocese_name": "Vence",
+    "diocese_alt": "",
+    "province": "Embrun",
+    "country_modern": "France"
+  },
+  "D395": {
+    "diocese_name": "Lyon",
+    "diocese_alt": "",
+    "province": "Lyon",
+    "country_modern": "France"
+  },
+  "D396": {
+    "diocese_name": "Autun",
+    "diocese_alt": "",
+    "province": "Lyon",
+    "country_modern": "France"
+  },
+  "D397": {
+    "diocese_name": "Langres",
+    "diocese_alt": "",
+    "province": "Lyon",
+    "country_modern": "France"
+  },
+  "D398": {
+    "diocese_name": "Chalon-sur-Saone",
+    "diocese_alt": "",
+    "province": "Lyon",
+    "country_modern": "France"
+  },
+  "D399": {
+    "diocese_name": "Macon",
+    "diocese_alt": "",
+    "province": "Lyon",
+    "country_modern": "France"
+  },
+  "D400": {
+    "diocese_name": "Narbonne",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D401": {
+    "diocese_name": "Alet",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D402": {
+    "diocese_name": "Carcassonne",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D403": {
+    "diocese_name": "Maguelonne",
+    "diocese_alt": "Maguelone",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D404": {
+    "diocese_name": "Elne",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D405": {
+    "diocese_name": "Saint-Pons",
+    "diocese_alt": "Saint-Pons-de-Thomières",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D406": {
+    "diocese_name": "Agde",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D407": {
+    "diocese_name": "Beziers",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D408": {
+    "diocese_name": "Lodeve",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D409": {
+    "diocese_name": "Nimes",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D410": {
+    "diocese_name": "Uzes",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D411": {
+    "diocese_name": "Pamiers",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D412": {
+    "diocese_name": "Toulouse",
+    "diocese_alt": "",
+    "province": "Narbonne",
+    "country_modern": "France"
+  },
+  "D414": {
+    "diocese_name": "Lavaur",
+    "diocese_alt": "",
+    "province": "Toulouse",
+    "country_modern": "France"
+  },
+  "D415": {
+    "diocese_name": "Lombez",
+    "diocese_alt": "",
+    "province": "Toulouse",
+    "country_modern": "France"
+  },
+  "D416": {
+    "diocese_name": "Montauban",
+    "diocese_alt": "",
+    "province": "Toulouse",
+    "country_modern": "France"
+  },
+  "D418": {
+    "diocese_name": "Mirepoix",
+    "diocese_alt": "",
+    "province": "Toulouse",
+    "country_modern": "France"
+  },
+  "D419": {
+    "diocese_name": "Rieux",
+    "diocese_alt": "",
+    "province": "Toulouse",
+    "country_modern": "France"
+  },
+  "D420": {
+    "diocese_name": "Saint-Papoul",
+    "diocese_alt": "",
+    "province": "Toulouse",
+    "country_modern": "France"
+  },
+  "D421": {
+    "diocese_name": "Reims",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D422": {
+    "diocese_name": "Laon",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D423": {
+    "diocese_name": "Amiens",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D424": {
+    "diocese_name": "Beauvais",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D425": {
+    "diocese_name": "Chalons-sur-Marne",
+    "diocese_alt": "Chalons-en-Champagne",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D426": {
+    "diocese_name": "Senlis",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D427": {
+    "diocese_name": "Soissons",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D428": {
+    "diocese_name": "Noyon",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D429": {
+    "diocese_name": "Therouanne",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D430": {
+    "diocese_name": "Cambrai",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D431": {
+    "diocese_name": "Arras",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "France"
+  },
+  "D432": {
+    "diocese_name": "Tournai",
+    "diocese_alt": "",
+    "province": "Reims",
+    "country_modern": "Belgium"
+  },
+  "D433": {
+    "diocese_name": "Rouen",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D434": {
+    "diocese_name": "Avranches",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D435": {
+    "diocese_name": "Bayeux",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D436": {
+    "diocese_name": "Coutances",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D437": {
+    "diocese_name": "Evreux",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D438": {
+    "diocese_name": "Lisieux",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D439": {
+    "diocese_name": "Sees",
+    "diocese_alt": "",
+    "province": "Rouen",
+    "country_modern": "France"
+  },
+  "D440": {
+    "diocese_name": "Tours",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D441": {
+    "diocese_name": "Angers",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D442": {
+    "diocese_name": "Le Mans",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D443": {
+    "diocese_name": "Nantes",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D444": {
+    "diocese_name": "Dol",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D445": {
+    "diocese_name": "Quimper",
+    "diocese_alt": "Cornouailles",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D446": {
+    "diocese_name": "Rennes",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D447": {
+    "diocese_name": "Saint-Brieuc",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D448": {
+    "diocese_name": "Saint-Malo",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D449": {
+    "diocese_name": "Saint-Pol-de-Leon",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D450": {
+    "diocese_name": "Treguier",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D451": {
+    "diocese_name": "Vannes",
+    "diocese_alt": "",
+    "province": "Tours",
+    "country_modern": "France"
+  },
+  "D452": {
+    "diocese_name": "Sens",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D453": {
+    "diocese_name": "Auxerre",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D454": {
+    "diocese_name": "Nevers",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D455": {
+    "diocese_name": "Troyes",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D456": {
+    "diocese_name": "Paris",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D457": {
+    "diocese_name": "Chartres",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D458": {
+    "diocese_name": "Meaux",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D459": {
+    "diocese_name": "Orleans",
+    "diocese_alt": "",
+    "province": "Sens",
+    "country_modern": "France"
+  },
+  "D460": {
+    "diocese_name": "Tarentaise",
+    "diocese_alt": "Moutiers-en-Tarentaise",
+    "province": "Tarentaise",
+    "country_modern": "France"
+  },
+  "D461": {
+    "diocese_name": "Aosta",
+    "diocese_alt": "Aoste",
+    "province": "Tarentaise",
+    "country_modern": "Italy"
+  },
+  "D462": {
+    "diocese_name": "Sion",
+    "diocese_alt": "Sitten",
+    "province": "Tarentaise",
+    "country_modern": "Switzerland"
+  },
+  "D463": {
+    "diocese_name": "Vienne",
+    "diocese_alt": "",
+    "province": "Vienne",
+    "country_modern": "France"
+  },
+  "D464": {
+    "diocese_name": "Die",
+    "diocese_alt": "",
+    "province": "Vienne",
+    "country_modern": "France"
+  },
+  "D465": {
+    "diocese_name": "Annecy",
+    "diocese_alt": "Geneve",
+    "province": "Vienne",
+    "country_modern": "Switzerland"
+  },
+  "D466": {
+    "diocese_name": "Grenoble",
+    "diocese_alt": "",
+    "province": "Vienne",
+    "country_modern": "France"
+  },
+  "D467": {
+    "diocese_name": "Saint-Jean-de-Maurienne",
+    "diocese_alt": "Maurienne",
+    "province": "Vienne",
+    "country_modern": "France"
+  },
+  "D468": {
+    "diocese_name": "Valence",
+    "diocese_alt": "",
+    "province": "Vienne",
+    "country_modern": "France"
+  },
+  "D469": {
+    "diocese_name": "Viviers",
+    "diocese_alt": "",
+    "province": "Vienne",
+    "country_modern": "France"
+  },
+  "D470": {
+    "diocese_name": "Modruš",
+    "diocese_alt": "Modrus",
+    "province": "Vienne",
+    "country_modern": "Croatia"
+  },
+  "D471": {
+    "diocese_name": "Senj",
+    "diocese_alt": "Segna",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D472": {
+    "diocese_name": "Krk",
+    "diocese_alt": "Veglia",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D473": {
+    "diocese_name": "Zadar",
+    "diocese_alt": "Zara",
+    "province": "Zadar",
+    "country_modern": "Croatia"
+  },
+  "D474": {
+    "diocese_name": "Krbava",
+    "diocese_alt": "",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D475": {
+    "diocese_name": "Rab",
+    "diocese_alt": "Arbe",
+    "province": "Zadar",
+    "country_modern": "Croatia"
+  },
+  "D477": {
+    "diocese_name": "Nin",
+    "diocese_alt": "Nona",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D478": {
+    "diocese_name": "Knin",
+    "diocese_alt": "Tininum",
+    "province": "Zadar",
+    "country_modern": "Croatia"
+  },
+  "D479": {
+    "diocese_name": "Skradin",
+    "diocese_alt": "Scardona",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D480": {
+    "diocese_name": "Šibenik",
+    "diocese_alt": "Sebenico",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D481": {
+    "diocese_name": "Trogir",
+    "diocese_alt": "Traù",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D482": {
+    "diocese_name": "Split",
+    "diocese_alt": "Spalato",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D483": {
+    "diocese_name": "Makarska",
+    "diocese_alt": "Macarsca",
+    "province": "Split",
+    "country_modern": "Croatia"
+  },
+  "D484": {
+    "diocese_name": "Lesina",
+    "diocese_alt": "",
+    "province": "Zadar",
+    "country_modern": "Croatia"
+  },
+  "D485": {
+    "diocese_name": "Korčula",
+    "diocese_alt": "Curzola",
+    "province": "Ragusa",
+    "country_modern": "Croatia"
+  },
+  "D486": {
+    "diocese_name": "Ston",
+    "diocese_alt": "Stagno",
+    "province": "Ragusa",
+    "country_modern": "Croatia"
+  },
+  "D487": {
+    "diocese_name": "Ragusa",
+    "diocese_alt": "Dubrovnik",
+    "province": "Ragusa",
+    "country_modern": "Croatia"
+  },
+  "D488": {
+    "diocese_name": "Kotor",
+    "diocese_alt": "Cattaro",
+    "province": "Bari",
+    "country_modern": "Montenegro"
+  },
+  "D489": {
+    "diocese_name": "Budva",
+    "diocese_alt": "Budua",
+    "province": "Ragusa",
+    "country_modern": "Montenegro"
+  },
+  "D490": {
+    "diocese_name": "Osor",
+    "diocese_alt": "Ossero",
+    "province": "Zadar",
+    "country_modern": "Croatia"
+  },
+  "D491": {
+    "diocese_name": "Mariana",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "France"
+  },
+  "D492": {
+    "diocese_name": "Nebbio",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "France"
+  },
+  "D493": {
+    "diocese_name": "Aleria",
+    "diocese_alt": "",
+    "province": "Pisa",
+    "country_modern": "France"
+  },
+  "D494": {
+    "diocese_name": "Accia",
+    "diocese_alt": "",
+    "province": "Genova",
+    "country_modern": "France"
+  },
+  "D495": {
+    "diocese_name": "Sagone",
+    "diocese_alt": "Sagona",
+    "province": "Pisa",
+    "country_modern": "France"
+  },
+  "D496": {
+    "diocese_name": "Ajaccio",
+    "diocese_alt": "",
+    "province": "Pisa",
+    "country_modern": "France"
+  },
+  "D497": {
+    "diocese_name": "Holar",
+    "diocese_alt": "",
+    "province": "Nidaros",
+    "country_modern": "Iceland"
+  },
+  "D498": {
+    "diocese_name": "Skalholt",
+    "diocese_alt": "",
+    "province": "Nidaros",
+    "country_modern": "Iceland"
+  },
+  "D499": {
+    "diocese_name": "Raphoe",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D500": {
+    "diocese_name": "Derry",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D501": {
+    "diocese_name": "Connor",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D502": {
+    "diocese_name": "Down",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D503": {
+    "diocese_name": "Dromore",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D504": {
+    "diocese_name": "Armagh",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D505": {
+    "diocese_name": "Clogher",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D506": {
+    "diocese_name": "Kilmore",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D507": {
+    "diocese_name": "Ardagh",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D508": {
+    "diocese_name": "Meath",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D509": {
+    "diocese_name": "Clonmacnois",
+    "diocese_alt": "",
+    "province": "Armagh",
+    "country_modern": "Ireland"
+  },
+  "D510": {
+    "diocese_name": "Killala",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D511": {
+    "diocese_name": "Achonry",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D512": {
+    "diocese_name": "Tuam",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D513": {
+    "diocese_name": "Elphin",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D514": {
+    "diocese_name": "Confert",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D515": {
+    "diocese_name": "Annaghdown",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D516": {
+    "diocese_name": "Kilmacduagh",
+    "diocese_alt": "",
+    "province": "Tuam",
+    "country_modern": "Ireland"
+  },
+  "D517": {
+    "diocese_name": "Kilfenora",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D518": {
+    "diocese_name": "Killaloe",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D519": {
+    "diocese_name": "Cashel",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D520": {
+    "diocese_name": "Emly",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D521": {
+    "diocese_name": "Limerick",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D522": {
+    "diocese_name": "Ardfert",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D523": {
+    "diocese_name": "Clpyne",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D524": {
+    "diocese_name": "Lismore",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D525": {
+    "diocese_name": "Cork",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D526": {
+    "diocese_name": "Ross",
+    "diocese_alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
+  "D527": {
+    "diocese_name": "Kildare",
+    "diocese_alt": "",
+    "province": "Dublin",
+    "country_modern": "Ireland"
+  },
+  "D528": {
+    "diocese_name": "Dublin",
+    "diocese_alt": "",
+    "province": "Dublin",
+    "country_modern": "Ireland"
+  },
+  "D529": {
+    "diocese_name": "Leighlin",
+    "diocese_alt": "",
+    "province": "Dublin",
+    "country_modern": "Ireland"
+  },
+  "D530": {
+    "diocese_name": "Ossory",
+    "diocese_alt": "",
+    "province": "Dublin",
+    "country_modern": "Ireland"
+  },
+  "D531": {
+    "diocese_name": "Ferns",
+    "diocese_alt": "",
+    "province": "Dublin",
+    "country_modern": "Ireland"
+  },
+  "D532": {
+    "diocese_name": "Bremen-Hamburg",
+    "diocese_alt": "",
+    "province": "Bremen",
+    "country_modern": "Germany"
+  },
+  "D533": {
+    "diocese_name": "Lubeck",
+    "diocese_alt": "",
+    "province": "Bremen",
+    "country_modern": "Germany"
+  },
+  "D534": {
+    "diocese_name": "Ratzeburg",
+    "diocese_alt": "",
+    "province": "Bremen",
+    "country_modern": "Germany"
+  },
+  "D535": {
+    "diocese_name": "Schwerin",
+    "diocese_alt": "",
+    "province": "Bremen",
+    "country_modern": "Germany"
+  },
+  "D536": {
+    "diocese_name": "Lebus",
+    "diocese_alt": "",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D537": {
+    "diocese_name": "Wroclaw",
+    "diocese_alt": "Breslau",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D538": {
+    "diocese_name": "Cologne",
+    "diocese_alt": "",
+    "province": "Cologne",
+    "country_modern": "Germany"
+  },
+  "D539": {
+    "diocese_name": "Liege",
+    "diocese_alt": "",
+    "province": "Cologne",
+    "country_modern": "Belgium"
+  },
+  "D540": {
+    "diocese_name": "Minden",
+    "diocese_alt": "",
+    "province": "Cologne",
+    "country_modern": "Germany"
+  },
+  "D541": {
+    "diocese_name": "Munster",
+    "diocese_alt": "",
+    "province": "Cologne",
+    "country_modern": "Germany"
+  },
+  "D542": {
+    "diocese_name": "Osnabruck",
+    "diocese_alt": "",
+    "province": "Cologne",
+    "country_modern": "Germany"
+  },
+  "D543": {
+    "diocese_name": "Utrecht",
+    "diocese_alt": "",
+    "province": "Cologne",
+    "country_modern": "Netherlands"
+  },
+  "D544": {
+    "diocese_name": "Magdeburg",
+    "diocese_alt": "",
+    "province": "Magdeburg",
+    "country_modern": "Germany"
+  },
+  "D545": {
+    "diocese_name": "Brandenburg",
+    "diocese_alt": "",
+    "province": "Magdeburg",
+    "country_modern": "Germany"
+  },
+  "D546": {
+    "diocese_name": "Havelberg",
+    "diocese_alt": "",
+    "province": "Magdeburg",
+    "country_modern": "Germany"
+  },
+  "D547": {
+    "diocese_name": "Merseburg",
+    "diocese_alt": "",
+    "province": "Magdeburg",
+    "country_modern": "Germany"
+  },
+  "D548": {
+    "diocese_name": "Naumburg",
+    "diocese_alt": "",
+    "province": "Magdeburg",
+    "country_modern": "Germany"
+  },
+  "D549": {
+    "diocese_name": "Mainz",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D550": {
+    "diocese_name": "Augsburg",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D551": {
+    "diocese_name": "Chur",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D552": {
+    "diocese_name": "Eichstatt",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D553": {
+    "diocese_name": "Halberstadt",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D554": {
+    "diocese_name": "Hildesheim",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D555": {
+    "diocese_name": "Konstanz",
+    "diocese_alt": "Constance",
+    "province": "Mainz",
+    "country_modern": "Switzerland"
+  },
+  "D556": {
+    "diocese_name": "Paderborn",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D557": {
+    "diocese_name": "Speyer",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D558": {
+    "diocese_name": "Strasbourg",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "France"
+  },
+  "D559": {
+    "diocese_name": "Verden",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D560": {
+    "diocese_name": "Worms",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D561": {
+    "diocese_name": "Wurzburg",
+    "diocese_alt": "",
+    "province": "Mainz",
+    "country_modern": "Germany"
+  },
+  "D562": {
+    "diocese_name": "Prague",
+    "diocese_alt": "",
+    "province": "Prague",
+    "country_modern": "Czech Republic"
+  },
+  "D563": {
+    "diocese_name": "Olomouc",
+    "diocese_alt": "Olmutz",
+    "province": "Prague",
+    "country_modern": "Czech Republic"
+  },
+  "D564": {
+    "diocese_name": "Salzburg",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Austria"
+  },
+  "D565": {
+    "diocese_name": "Brixen",
+    "diocese_alt": "Bressanone",
+    "province": "Salzburg",
+    "country_modern": "Italy"
+  },
+  "D566": {
+    "diocese_name": "Chiemsee",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Germany"
+  },
+  "D567": {
+    "diocese_name": "Freising",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Germany"
+  },
+  "D568": {
+    "diocese_name": "Gurk",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Austria"
+  },
+  "D569": {
+    "diocese_name": "Lavant",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Austria"
+  },
+  "D570": {
+    "diocese_name": "Passau",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Germany"
+  },
+  "D571": {
+    "diocese_name": "Regensburg",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Germany"
+  },
+  "D572": {
+    "diocese_name": "Seckau",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": "Austria"
+  },
+  "D573": {
+    "diocese_name": "Trier",
+    "diocese_alt": "",
+    "province": "Trier",
+    "country_modern": "Germany"
+  },
+  "D574": {
+    "diocese_name": "Metz",
+    "diocese_alt": "",
+    "province": "Trier",
+    "country_modern": "France"
+  },
+  "D575": {
+    "diocese_name": "Toul",
+    "diocese_alt": "",
+    "province": "Trier",
+    "country_modern": "France"
+  },
+  "D576": {
+    "diocese_name": "Verdun",
+    "diocese_alt": "",
+    "province": "Trier",
+    "country_modern": "France"
+  },
+  "D577": {
+    "diocese_name": "Bamberg",
+    "diocese_alt": "",
+    "province": "Bamberg",
+    "country_modern": "Germany"
+  },
+  "D578": {
+    "diocese_name": "Kammin",
+    "diocese_alt": "",
+    "province": "Kammin",
+    "country_modern": "Poland"
+  },
+  "D579": {
+    "diocese_name": "Meissen",
+    "diocese_alt": "",
+    "province": "Meissen",
+    "country_modern": "Germany"
+  },
+  "D580": {
+    "diocese_name": "Vienna",
+    "diocese_alt": "",
+    "province": "Vienna",
+    "country_modern": "Austria"
+  },
+  "D581": {
+    "diocese_name": "Wiener Neustadt",
+    "diocese_alt": "",
+    "province": "Wiener Neustadt",
+    "country_modern": "Austria"
+  },
+  "D582": {
+    "diocese_name": "Berchtesgaden",
+    "diocese_alt": "",
+    "province": "Salzburg",
+    "country_modern": ""
+  },
+  "D583": {
+    "diocese_name": "Reval",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Estonia"
+  },
+  "D584": {
+    "diocese_name": "Schleswig",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Germany"
+  },
+  "D585": {
+    "diocese_name": "Riga",
+    "diocese_alt": "",
+    "province": "Riga",
+    "country_modern": "Latvia"
+  },
+  "D586": {
+    "diocese_name": "Warmia",
+    "diocese_alt": "Ermland",
+    "province": "Riga",
+    "country_modern": "Poland"
+  },
+  "D587": {
+    "diocese_name": "Dorpat",
+    "diocese_alt": "Tartu",
+    "province": "Riga",
+    "country_modern": "Estonia"
+  },
+  "D588": {
+    "diocese_name": "Chełmno",
+    "diocese_alt": "Culm",
+    "province": "Riga",
+    "country_modern": "Poland"
+  },
+  "D589": {
+    "diocese_name": "Courland",
+    "diocese_alt": "Kurland",
+    "province": "Riga",
+    "country_modern": "Latvia"
+  },
+  "D590": {
+    "diocese_name": "Osel-Wiek",
+    "diocese_alt": "",
+    "province": "Riga",
+    "country_modern": "Estonia"
+  },
+  "D591": {
+    "diocese_name": "Pomesania",
+    "diocese_alt": "",
+    "province": "Riga",
+    "country_modern": "Poland"
+  },
+  "D592": {
+    "diocese_name": "Samland",
+    "diocese_alt": "",
+    "province": "Riga",
+    "country_modern": "Russia"
+  },
+  "D593": {
+    "diocese_name": "Krakow",
+    "diocese_alt": "",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D594": {
+    "diocese_name": "Kujawy",
+    "diocese_alt": "Włocławek",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D595": {
+    "diocese_name": "Poznań",
+    "diocese_alt": "",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D596": {
+    "diocese_name": "Płock",
+    "diocese_alt": "",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D597": {
+    "diocese_name": "Samogitia",
+    "diocese_alt": "Žemaitija",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D598": {
+    "diocese_name": "Vilnius",
+    "diocese_alt": "Vilna",
+    "province": "Gniezno",
+    "country_modern": "Lithuania"
+  },
+  "D599": {
+    "diocese_name": "Lund",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Sweden"
+  },
+  "D600": {
+    "diocese_name": "Roskilde",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Denmark"
+  },
+  "D601": {
+    "diocese_name": "Odense",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Denmark"
+  },
+  "D603": {
+    "diocese_name": "Ribe",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Denmark"
+  },
+  "D604": {
+    "diocese_name": "Aarhus",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Denmark"
+  },
+  "D605": {
+    "diocese_name": "Viborg",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Denmark"
+  },
+  "D606": {
+    "diocese_name": "Borglum",
+    "diocese_alt": "",
+    "province": "Lund",
+    "country_modern": "Denmark"
+  },
+  "D607": {
+    "diocese_name": "Toledo",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D608": {
+    "diocese_name": "Palencia",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D609": {
+    "diocese_name": "Osma",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D610": {
+    "diocese_name": "Segovia",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D611": {
+    "diocese_name": "Siguenza",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D612": {
+    "diocese_name": "Cuenca",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D613": {
+    "diocese_name": "Albarracin-Segorbe",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D614": {
+    "diocese_name": "Baeza",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D615": {
+    "diocese_name": "Jaen",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D616": {
+    "diocese_name": "Cordoba",
+    "diocese_alt": "",
+    "province": "Toledo",
+    "country_modern": "Spain"
+  },
+  "D617": {
+    "diocese_name": "Braga",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Portugal"
+  },
+  "D618": {
+    "diocese_name": "Astorga",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Spain"
+  },
+  "D619": {
+    "diocese_name": "Lugo",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Spain"
+  },
+  "D620": {
+    "diocese_name": "Mondonedo",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Spain"
+  },
+  "D621": {
+    "diocese_name": "Orense",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Spain"
+  },
+  "D622": {
+    "diocese_name": "Tuy",
+    "diocese_alt": "Tui",
+    "province": "Braga",
+    "country_modern": "Spain"
+  },
+  "D623": {
+    "diocese_name": "Oporto",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Portugal"
+  },
+  "D624": {
+    "diocese_name": "Coimbra",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Portugal"
+  },
+  "D625": {
+    "diocese_name": "Viseu",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Portugal"
+  },
+  "D626": {
+    "diocese_name": "Zamora",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Spain"
+  },
+  "D627": {
+    "diocese_name": "Silves",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Portugal"
+  },
+  "D628": {
+    "diocese_name": "Santiago",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D629": {
+    "diocese_name": "Avila",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D630": {
+    "diocese_name": "Salamanca",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D631": {
+    "diocese_name": "Zamora",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D632": {
+    "diocese_name": "Ciudad Rodrigo",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D633": {
+    "diocese_name": "Coria",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D634": {
+    "diocese_name": "Plasencia",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D635": {
+    "diocese_name": "Badajoz",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Spain"
+  },
+  "D636": {
+    "diocese_name": "Lamego",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Portugal"
+  },
+  "D637": {
+    "diocese_name": "Guarda",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Portugal"
+  },
+  "D638": {
+    "diocese_name": "Lisbon",
+    "diocese_alt": "",
+    "province": "Santiago de Compostela",
+    "country_modern": "Portugal"
+  },
+  "D639": {
+    "diocese_name": "Evora",
+    "diocese_alt": "",
+    "province": "Braga",
+    "country_modern": "Portugal"
+  },
+  "D640": {
+    "diocese_name": "Tarragona",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D641": {
+    "diocese_name": "Urgel",
+    "diocese_alt": "Seu d'Urgell",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D642": {
+    "diocese_name": "Gerona",
+    "diocese_alt": "Girona",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D643": {
+    "diocese_name": "Barcelona",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D644": {
+    "diocese_name": "Vic",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D645": {
+    "diocese_name": "Tortosa",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D646": {
+    "diocese_name": "Lerida",
+    "diocese_alt": "Lleida",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D647": {
+    "diocese_name": "Ager",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Spain"
+  },
+  "D648": {
+    "diocese_name": "Zaragoza",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D649": {
+    "diocese_name": "Pamplona",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D650": {
+    "diocese_name": "Huesca",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D651": {
+    "diocese_name": "Tarazona",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D652": {
+    "diocese_name": "Calahorra",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D653": {
+    "diocese_name": "Calahorra-(Santo Domingo de) la Calzada",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D654": {
+    "diocese_name": "Valencia",
+    "diocese_alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D655": {
+    "diocese_name": "Seville",
+    "diocese_alt": "",
+    "province": "Seville",
+    "country_modern": "Spain"
+  },
+  "D656": {
+    "diocese_name": "Valença do Minho",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Portugal"
+  },
+  "D657": {
+    "diocese_name": "Algeciras",
+    "diocese_alt": "",
+    "province": "Seville",
+    "country_modern": "Spain"
+  },
+  "D658": {
+    "diocese_name": "Cadiz",
+    "diocese_alt": "",
+    "province": "Seville",
+    "country_modern": "Spain"
+  },
+  "D659": {
+    "diocese_name": "Canarias",
+    "diocese_alt": "Rubicon",
+    "province": "Seville",
+    "country_modern": "Spain"
+  },
+  "D660": {
+    "diocese_name": "Burgos",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Spain"
+  },
+  "D661": {
+    "diocese_name": "Leon",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Spain"
+  },
+  "D662": {
+    "diocese_name": "Oviedo",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Spain"
+  },
+  "D663": {
+    "diocese_name": "Besalu",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Spain"
+  },
+  "D665": {
+    "diocese_name": "Cartagena",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Spain"
+  },
+  "D666": {
+    "diocese_name": "Marruecos",
+    "diocese_alt": "",
+    "province": "Seville",
+    "country_modern": "Morocco"
+  },
+  "D667": {
+    "diocese_name": "Esztergom",
+    "diocese_alt": "",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D668": {
+    "diocese_name": "Nitra",
+    "diocese_alt": "Nyitra",
+    "province": "Esztergom",
+    "country_modern": "Slovakia"
+  },
+  "D669": {
+    "diocese_name": "Zagreb",
+    "diocese_alt": "Esztergom",
+    "province": "Kalocsa",
+    "country_modern": "Croatia"
+  },
+  "D670": {
+    "diocese_name": "Oradea",
+    "diocese_alt": "Nagy Varad",
+    "province": "Esztergom",
+    "country_modern": "Romania"
+  },
+  "D671": {
+    "diocese_name": "Eger",
+    "diocese_alt": "Erlau",
+    "province": "Esztergom",
+    "country_modern": "Romania"
+  },
+  "D672": {
+    "diocese_name": "Erdely",
+    "diocese_alt": "Transilvania",
+    "province": "Esztergom",
+    "country_modern": "Romania"
+  },
+  "D673": {
+    "diocese_name": "Györ",
+    "diocese_alt": "Raab",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D674": {
+    "diocese_name": "Pécs",
+    "diocese_alt": "Fünfkirchen",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D675": {
+    "diocese_name": "Vác",
+    "diocese_alt": "Waitzen",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D676": {
+    "diocese_name": "Veszprém",
+    "diocese_alt": "",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D677": {
+    "diocese_name": "Kalocsa-Bacs",
+    "diocese_alt": "Kalocsa",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D678": {
+    "diocese_name": "Marosvar",
+    "diocese_alt": "Csanád",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D679": {
+    "diocese_name": "St. Martin",
+    "diocese_alt": "Szepes",
+    "province": "Esztergom",
+    "country_modern": "Slovakia"
+  },
+  "D680": {
+    "diocese_name": "Cumania",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Romania"
+  },
+  "D681": {
+    "diocese_name": "Siret",
+    "diocese_alt": "Sereth",
+    "province": "Lviv",
+    "country_modern": "Romania"
+  },
+  "D682": {
+    "diocese_name": "Moldovita",
+    "diocese_alt": "Moldawitza",
+    "province": "??",
+    "country_modern": "Romania"
+  },
+  "D683": {
+    "diocese_name": "Kiev",
+    "diocese_alt": "Kijów",
+    "province": "??",
+    "country_modern": "Ukraine"
+  },
+  "D684": {
+    "diocese_name": "Zytomierz",
+    "diocese_alt": "Zhytomyr",
+    "province": "??",
+    "country_modern": "Ukraine"
+  },
+  "D685": {
+    "diocese_name": "Wlodzimierz",
+    "diocese_alt": "Vladimir",
+    "province": "??",
+    "country_modern": "Ukraine"
+  },
+  "D686": {
+    "diocese_name": "Halyč",
+    "diocese_alt": "Galyc",
+    "province": "Halyč",
+    "country_modern": "Ukraine"
+  },
+  "D687": {
+    "diocese_name": "Lviv",
+    "diocese_alt": "Lwow",
+    "province": "Lviv",
+    "country_modern": "Ukraine"
+  },
+  "D688": {
+    "diocese_name": "Kamieniec",
+    "diocese_alt": "Kamyanets-Podilskyi",
+    "province": "??",
+    "country_modern": "Ukraine"
+  },
+  "D689": {
+    "diocese_name": "Luck",
+    "diocese_alt": "Lutsk",
+    "province": "??",
+    "country_modern": "Ukraine"
+  },
+  "D690": {
+    "diocese_name": "Gniezno",
+    "diocese_alt": "Gnesen",
+    "province": "Gniezno",
+    "country_modern": "Poland"
+  },
+  "D691": {
+    "diocese_name": "Oslo",
+    "diocese_alt": "",
+    "province": "Nidaros",
+    "country_modern": "Norway"
+  },
+  "D692": {
+    "diocese_name": "Stavanger",
+    "diocese_alt": "",
+    "province": "Nidaros",
+    "country_modern": "Norway"
+  },
+  "D693": {
+    "diocese_name": "Bergen",
+    "diocese_alt": "",
+    "province": "Nidaros",
+    "country_modern": "Norway"
+  },
+  "D694": {
+    "diocese_name": "Hamar",
+    "diocese_alt": "",
+    "province": "Nidaros",
+    "country_modern": "Norway"
+  },
+  "D695": {
+    "diocese_name": "Nidaros",
+    "diocese_alt": "Trondheim",
+    "province": "Nidaros",
+    "country_modern": "Norway"
+  },
+  "D696": {
+    "diocese_name": "Uppsala",
+    "diocese_alt": "",
+    "province": "Uppsala",
+    "country_modern": "Sweden"
+  },
+  "D697": {
+    "diocese_name": "Vasteras",
+    "diocese_alt": "",
+    "province": "Uppsala",
+    "country_modern": "Sweden"
+  },
+  "D698": {
+    "diocese_name": "Strangnas",
+    "diocese_alt": "",
+    "province": "Uppsala",
+    "country_modern": "Sweden"
+  },
+  "D699": {
+    "diocese_name": "Linkoping",
+    "diocese_alt": "",
+    "province": "Uppsala",
+    "country_modern": "Sweden"
+  },
+  "D700": {
+    "diocese_name": "Skara",
+    "diocese_alt": "",
+    "province": "Uppsala",
+    "country_modern": "Sweden"
+  },
+  "D701": {
+    "diocese_name": "Vaxjo",
+    "diocese_alt": "",
+    "province": "Uppsala",
+    "country_modern": "Sweden"
+  },
+  "D702": {
+    "diocese_name": "Turku",
+    "diocese_alt": "Abo",
+    "province": "Uppsala",
+    "country_modern": "Finland"
+  },
+  "D703": {
+    "diocese_name": "Garðar",
+    "diocese_alt": "Gardar",
+    "province": "Bremen",
+    "country_modern": "Greenland"
+  },
+  "D704": {
+    "diocese_name": "Faroe Islands",
+    "diocese_alt": "",
+    "province": "Bremen",
+    "country_modern": "Denmark"
+  },
+  "D705": {
+    "diocese_name": "Cittanova",
+    "diocese_alt": "",
+    "province": "Aquileia",
+    "country_modern": "Croatia"
+  },
+  "D706": {
+    "diocese_name": "Polignano",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D707": {
+    "diocese_name": "Conversano",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D708": {
+    "diocese_name": "Przemyśl",
+    "diocese_alt": "",
+    "province": "Halyc",
+    "country_modern": ""
+  },
+  "D709": {
+    "diocese_name": "Leuca",
+    "diocese_alt": "Alexanum",
+    "province": "Otranto",
+    "country_modern": "Italy"
+  },
+  "D710": {
+    "diocese_name": "Mottola",
+    "diocese_alt": "",
+    "province": "Taranto",
+    "country_modern": "Italy"
+  },
+  "D711": {
+    "diocese_name": "Civitate",
+    "diocese_alt": "Città",
+    "province": "Benevento",
+    "country_modern": "Italy"
+  },
+  "D712": {
+    "diocese_name": "Canosa",
+    "diocese_alt": "Cerignoli",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D713": {
+    "diocese_name": "Salpi",
+    "diocese_alt": "Salpe",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D714": {
+    "diocese_name": "Lavello",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D715": {
+    "diocese_name": "Bari",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D716": {
+    "diocese_name": "Bitetto",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D717": {
+    "diocese_name": "Bitonto",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D718": {
+    "diocese_name": "Giovinazzo",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D719": {
+    "diocese_name": "Ruvo",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D720": {
+    "diocese_name": "Molfetta",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D721": {
+    "diocese_name": "Minervino",
+    "diocese_alt": "",
+    "province": "Bari",
+    "country_modern": "Italy"
+  },
+  "D722": {
+    "diocese_name": "Canne",
+    "diocese_alt": "",
+    "province": "Trani",
+    "country_modern": "Italy"
+  },
+  "D723": {
+    "diocese_name": "Guadix",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Spain"
+  },
+  "D724": {
+    "diocese_name": "Ampurias",
+    "diocese_alt": "Castelsardo?",
+    "province": "Torres",
+    "country_modern": "Italy"
+  },
+  "D725": {
+    "diocese_name": "Sant'Antioco",
+    "diocese_alt": "",
+    "province": "Cagliari",
+    "country_modern": "Italy"
+  },
+  "D726": {
+    "diocese_name": "Baza",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Spain"
+  },
+  "D727": {
+    "diocese_name": "Tratalias",
+    "diocese_alt": "",
+    "province": "Cagliari",
+    "country_modern": "Italy"
+  },
+  "D728": {
+    "diocese_name": "Almeria",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Spain"
+  },
+  "D729": {
+    "diocese_name": "Roma",
+    "diocese_alt": "",
+    "province": "Roma",
+    "country_modern": "Italy"
+  },
+  "D730": {
+    "diocese_name": "Albano",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D731": {
+    "diocese_name": "Frascati",
+    "diocese_alt": "",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D732": {
+    "diocese_name": "Lipari",
+    "diocese_alt": "",
+    "province": "Messina",
+    "country_modern": "Italy"
+  },
+  "D733": {
+    "diocese_name": "Mdina",
+    "diocese_alt": "Malta",
+    "province": "Palermo",
+    "country_modern": "Malta"
+  },
+  "D734": {
+    "diocese_name": "Majorca",
+    "diocese_alt": "Mallorca",
+    "province": "Tarragona",
+    "country_modern": "Spain"
+  },
+  "D736": {
+    "diocese_name": "Abbazia di Farfa",
+    "diocese_alt": "Santa Maria in Montesanto",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D737": {
+    "diocese_name": "Umana",
+    "diocese_alt": "Numana",
+    "province": "[Holy See]",
+    "country_modern": "Italy"
+  },
+  "D738": {
+    "diocese_name": "Malaga",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Spain"
+  },
+  "D739": {
+    "diocese_name": "Lugano",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D740": {
+    "diocese_name": "Szent Márton",
+    "diocese_alt": "",
+    "province": "Esztergom",
+    "country_modern": "Hungary"
+  },
+  "D741": {
+    "diocese_name": "Foggia",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D742": {
+    "diocese_name": "Nazaret",
+    "diocese_alt": "Barletta",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D744": {
+    "diocese_name": "Tarquinia",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D745": {
+    "diocese_name": "Atri",
+    "diocese_alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
+  "D746": {
+    "diocese_name": "Nicosia",
+    "diocese_alt": "",
+    "province": "Nicosia",
+    "country_modern": "Cyprus"
+  },
+  "D747": {
+    "diocese_name": "Famagusta",
+    "diocese_alt": "",
+    "province": "Nicosia",
+    "country_modern": "Cyprus"
+  },
+  "D748": {
+    "diocese_name": "Limassol",
+    "diocese_alt": "",
+    "province": "Nicosia",
+    "country_modern": "Cyprus"
+  },
+  "D749": {
+    "diocese_name": "Paphos",
+    "diocese_alt": "",
+    "province": "Nicosia",
+    "country_modern": "Cyprus"
+  }
+}

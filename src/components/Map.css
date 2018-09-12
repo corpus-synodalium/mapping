@@ -1,3 +1,25 @@
 #mapid {
-  height: 100vh;
+  height: calc(100vh - 55px);
+}
+
+.panel {
+  position: fixed !important;
+  z-index: 800;
+  right: 0 !important;
+  width: 200px !important;
+  margin: 10px !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.panel .panel-list {
+  padding: 5px 20px;
+}
+
+.panel:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.panel.panel-info {
+  margin-top: 120px !important;
 }
