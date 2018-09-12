@@ -9,8 +9,8 @@ import { Checkbox, Card, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import geojson from '../assets/d25.json';
 import metadata from '../assets/metadata.json';
-import s2d from '../assets/s2d.json'
-import dioceseInfo from '../assets/diocese_info.json'
+import s2d from '../assets/s2d.json';
+import dioceseInfo from '../assets/diocese_info.json';
 import './Map.css';
 
 //=================
@@ -89,13 +89,20 @@ class GeoJSONLayer extends React.Component {
   highlightFeature(e) {
     var layer = e.target;
     const { SHPFID: shpfid } = layer.feature.properties;
-    let info = { text: 'No data available' };
+    const info = { text: 'No data available' };
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
       const dioceseId = this.shapeToDiocese[shpfid];
       info.text = dioceseId;
       if (dioceseInfo.hasOwnProperty(dioceseId)) {
-        const { diocese_name, diocese_alt, province, country_modern } = dioceseInfo[dioceseId];
-        const diocese = diocese_alt ? `${diocese_name} (${diocese_alt})` : diocese_name;
+        const {
+          diocese_name,
+          diocese_alt,
+          province,
+          country_modern,
+        } = dioceseInfo[dioceseId];
+        const diocese = diocese_alt
+          ? `${diocese_name} (${diocese_alt})`
+          : diocese_name;
         info.diocese = diocese;
         info.province = province;
         info.country = country_modern;
@@ -202,12 +209,17 @@ class ControlPanel extends React.Component {
 class InfoPanel extends React.Component {
   render() {
     const { info } = this.props;
-    const text = info ? info.text : 'Hover over a region';
-    const attributes = ['diocese', 'province', 'country'];
+    const text = info ? info.diocese : 'Hover over a region';
+    const attributes = ['province', 'country'];
+    const title = (str) => str.charAt(0).toUpperCase() + str.slice(1);
     if (info) {
       var listItems = attributes.reduce((items, attr) => {
         if (info.hasOwnProperty(attr)) {
-          items.push(<li key={attr}>{info[attr]}</li>);
+          items.push(
+            <li key={attr}>
+              {title(attr)}: {info[attr]}
+            </li>,
+          );
         }
         return items;
       }, []);
@@ -217,9 +229,7 @@ class InfoPanel extends React.Component {
       <Card className="panel panel-info">
         <Card.Content>
           <h4>{text}</h4>
-          {info &&
-            <ul>{listItems}</ul>
-          }
+          {info && <ul className="panel-list">{listItems}</ul>}
         </Card.Content>
       </Card>
     );
