@@ -7,7 +7,6 @@ import {
 } from 'react-leaflet';
 import { Card, Dropdown, Icon } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
-import geojson from '../assets/d25.json';
 import s2d from '../assets/s2d.json';
 import dioceseInfo from '../assets/diocese_info.json';
 import './Map.css';
@@ -40,6 +39,8 @@ class GeoJSONLayer extends React.Component {
     super(props);
     this.state = {
       prevShape: null,
+      geojson: null,
+      isLoading: true,
     };
     this.geojsonRef = React.createRef();
     this.shapeToDiocese = s2d.map;
@@ -48,6 +49,17 @@ class GeoJSONLayer extends React.Component {
     this.resetHighlight = this.resetHighlight.bind(this);
     this.zoomToFeature = this.zoomToFeature.bind(this);
     this.style = this.style.bind(this);
+  }
+
+  componentDidMount() {
+    fetch(process.env.REACT_APP_GEOJSON_URL)
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          geojson: data,
+          isLoading: false,
+        });
+      });
   }
 
   getColor(shpfid, props) {
@@ -139,9 +151,12 @@ class GeoJSONLayer extends React.Component {
   }
 
   render() {
+    if (this.state.isLoading) {
+      return <span></span>;
+    }
     return (
       <GeoJSON
-        data={geojson}
+        data={this.state.geojson}
         style={this.style}
         onEachFeature={this.onEachFeature}
         ref={this.geojsonRef}
