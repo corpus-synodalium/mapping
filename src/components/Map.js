@@ -70,7 +70,7 @@ class GeoJSONLayer extends React.Component {
 
     if (map) {
       const dioceseID = this.shapeToDiocese[shpfid];
-      const maxNumEntries = 10;
+      const maxNumEntries = this.props.maxNumEntries;
       const numPerBucket = Math.ceil(maxNumEntries / colors.length);
       if (map.hasOwnProperty(dioceseID)) {
         const numEntries = map[dioceseID].size;
@@ -289,8 +289,23 @@ class LocalLegislationMap extends Component {
     });
   }
 
+  getMaxNumEntries = () => {
+    const mappingData = this.props.mappingData;
+    let maxNumEntries = 0;
+    for (const prop in mappingData) {
+      if (mappingData.hasOwnProperty(prop)) {
+        const numEntries = mappingData[prop].size;
+        if (numEntries > maxNumEntries) {
+          maxNumEntries = numEntries;
+        }
+      }
+    }
+    return maxNumEntries;
+  };
+
   render() {
     const config = this.state.config;
+    const maxNumEntries = this.getMaxNumEntries();
     return (
       <div>
         <InfoPanel info={this.state.info} />
@@ -311,6 +326,7 @@ class LocalLegislationMap extends Component {
             updateInfo={this.updateInfo}
             currentColorScheme={this.state.currentColorScheme}
             mappingData={this.props.mappingData}
+            maxNumEntries={maxNumEntries}
           />
         </LeafletMap>
       </div>
