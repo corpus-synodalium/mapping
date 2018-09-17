@@ -106,6 +106,7 @@ class GeoJSONLayer extends React.Component {
   highlightFeature(e) {
     var layer = e.target;
     const { SHPFID: shpfid } = layer.feature.properties;
+    const { mappingData } = this.props;
     const info = { text: 'No data available' };
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
       const dioceseID = this.shapeToDiocese[shpfid];
@@ -123,6 +124,11 @@ class GeoJSONLayer extends React.Component {
         info.diocese = diocese;
         info.province = province;
         info.country = country_modern;
+      }
+
+      if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
+        const recordIDs = mappingData[dioceseID];
+        info.recordIDs = Array.from(recordIDs).sort();
       }
     }
 
@@ -249,11 +255,23 @@ class InfoPanel extends React.Component {
       }, []);
     }
 
+    let recordIDList = null;
+    if (info && info.recordIDs) {
+      recordIDList = info.recordIDs.map((id) => <li>{id}</li>);
+    }
+
     return (
       <Card className="panel panel-info">
         <Card.Content>
           <h4>{text}</h4>
           {info && <ul className="panel-list">{listItems}</ul>}
+          {info &&
+            info.recordIDs && (
+              <div>
+                This diocese appears in: {recordIDList}
+                Total: ({info.recordIDs.length})
+              </div>
+            )}
         </Card.Content>
       </Card>
     );
