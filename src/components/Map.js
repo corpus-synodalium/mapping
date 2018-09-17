@@ -63,21 +63,25 @@ class GeoJSONLayer extends React.Component {
   }
 
   getColor(shpfid) {
+    const { colorSchemes } = this.props.config;
+    const { currentColorScheme } = this.props;
+    const colors = colorSchemes[currentColorScheme];
     const map = this.props.mappingData;
+
     if (map) {
       const dioceseID = this.shapeToDiocese[shpfid];
+      const maxNumEntries = 10;
+      const numPerBucket = Math.ceil(maxNumEntries / colors.length);
       if (map.hasOwnProperty(dioceseID)) {
-        return '#67a9cf';
-      } else {
-        return '#f2f0f7';
+        const numEntries = map[dioceseID].size;
+        let index = Math.ceil(numEntries / numPerBucket);
+        if (index > colors.length - 1) {
+          index = colors.length - 1;
+        }
+        return colors[index];
       }
-      // const { colorSchemes } = this.props.config;
-      // const { currentColorScheme } = this.props;
-      // const colors = colorSchemes[currentColorScheme];
-      // const id = parseInt(shpfid.substring(1, 5), 10);
-      // return colors[id % colors.length];
     }
-    return '#f2f0f7';
+    return '#fff';
   }
 
   style(feature) {
@@ -87,7 +91,7 @@ class GeoJSONLayer extends React.Component {
       opacity: 3,
       color: 'grey',
       dashArray: '3',
-      fillOpacity: 0.7,
+      fillOpacity: 0.9,
     };
   }
 
