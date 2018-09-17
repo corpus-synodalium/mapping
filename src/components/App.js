@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Map from './Map';
+import axios from 'axios';
 import { Button, Menu, Modal, Header, Icon, Form } from 'semantic-ui-react';
 
 //==============
@@ -112,20 +113,64 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      queryURL: null,
+      mappingData: null,
     };
   }
 
   handleInputURL = (url) => {
-    console.log('The input url is: ' + url);
-    this.setState({ queryURL: url });
+    const testURL = url.replace('end=0', 'end=1');
+    let query = null;
+    axios
+      .get(testURL)
+      .then((response) => response.data)
+      .then((data) => {
+        query = data.query;
+        query.end = data.results_length;
+        this.fetchData(query);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+  fetchData = (query) => {
+    const baseURL = 'https://rdorin.website/philologic/beta/query';
+    axios
+      .get(baseURL, { params: query })
+      .then((response) => response.data)
+      .then((data) => {
+        console.log(data);
+        this.processData(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+  processData = ({ results }) => {
+    const dioceseMap = {};
+    results.forEach((result) => {
+      const metadata = result.metadata_fields;
+      const { record_id, diocese_id } = metadata;
+      if (diocese_id) {
+        if (dioceseMap.hasOwnProperty(diocese_id)) {
+          dioceseMap[diocese_id].add(record_id);
+        } else {
+          dioceseMap[diocese_id] = new Set([record_id]);
+        }
+      }
+    });
+    console.log(dioceseMap);
+    this.setState({
+      mappingData: dioceseMap,
+    });
   };
 
   render() {
     return (
       <div>
         <TopMenuBar handleInputURL={this.handleInputURL} />
-        <Map />
+        <Map mappingData={this.state.mappingData} />
       </div>
     );
   }
