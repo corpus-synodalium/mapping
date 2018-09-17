@@ -53,8 +53,8 @@ class GeoJSONLayer extends React.Component {
 
   componentDidMount() {
     fetch(process.env.REACT_APP_GEOJSON_URL)
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         this.setState({
           geojson: data,
           isLoading: false,
@@ -62,12 +62,22 @@ class GeoJSONLayer extends React.Component {
       });
   }
 
-  getColor(shpfid, props) {
-    const { colorSchemes } = this.props.config;
-    const { currentColorScheme } = this.props;
-    const colors = colorSchemes[currentColorScheme];
-    const id = parseInt(shpfid.substring(1, 5), 10);
-    return colors[id % colors.length];
+  getColor(shpfid) {
+    const map = this.props.mappingData;
+    if (map) {
+      const dioceseID = this.shapeToDiocese[shpfid];
+      if (map.hasOwnProperty(dioceseID)) {
+        return '#67a9cf';
+      } else {
+        return '#f2f0f7';
+      }
+      // const { colorSchemes } = this.props.config;
+      // const { currentColorScheme } = this.props;
+      // const colors = colorSchemes[currentColorScheme];
+      // const id = parseInt(shpfid.substring(1, 5), 10);
+      // return colors[id % colors.length];
+    }
+    return '#f2f0f7';
   }
 
   style(feature) {
@@ -75,7 +85,7 @@ class GeoJSONLayer extends React.Component {
       fillColor: this.getColor(feature.properties.SHPFID),
       weight: 1,
       opacity: 3,
-      color: 'white',
+      color: 'grey',
       dashArray: '3',
       fillOpacity: 0.7,
     };
@@ -94,15 +104,15 @@ class GeoJSONLayer extends React.Component {
     const { SHPFID: shpfid } = layer.feature.properties;
     const info = { text: 'No data available' };
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
-      const dioceseId = this.shapeToDiocese[shpfid];
-      info.text = dioceseId;
-      if (dioceseInfo.hasOwnProperty(dioceseId)) {
+      const dioceseID = this.shapeToDiocese[shpfid];
+      info.text = dioceseID;
+      if (dioceseInfo.hasOwnProperty(dioceseID)) {
         const {
           diocese_name,
           diocese_alt,
           province,
           country_modern,
-        } = dioceseInfo[dioceseId];
+        } = dioceseInfo[dioceseID];
         const diocese = diocese_alt
           ? `${diocese_name} (${diocese_alt})`
           : diocese_name;
@@ -296,6 +306,7 @@ class LocalLegislationMap extends Component {
             mapRef={this.mapRef}
             updateInfo={this.updateInfo}
             currentColorScheme={this.state.currentColorScheme}
+            mappingData={this.props.mappingData}
           />
         </LeafletMap>
       </div>
