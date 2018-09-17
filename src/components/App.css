@@ -1,3 +1,11 @@
 .ui.menu {
   margin: 0 !important;
 }
+
+.modal-description {
+  padding-bottom: 20px;
+}
+
+code.example {
+  color: grey;
+}
