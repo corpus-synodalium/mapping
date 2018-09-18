@@ -91,7 +91,7 @@ class GeoJSONLayer extends React.Component {
       opacity: 3,
       color: 'grey',
       dashArray: '3',
-      fillOpacity: 0.9,
+      fillOpacity: 1.0,
     };
   }
 
