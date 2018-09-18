@@ -114,12 +114,14 @@ class App extends Component {
     super(props);
     this.state = {
       mappingData: null,
+      loading: false,
     };
   }
 
   handleInputURL = (url) => {
     const testURL = url.replace('end=0', 'end=1');
     let query = null;
+    this.setState({ loading: true });
     axios
       .get(testURL)
       .then((response) => response.data)
@@ -130,6 +132,7 @@ class App extends Component {
       })
       .catch((error) => {
         console.error(error);
+        this.setState({ loading: false });
       });
   };
 
@@ -163,6 +166,7 @@ class App extends Component {
     console.log(dioceseMap);
     this.setState({
       mappingData: dioceseMap,
+      loading: false,
     });
   };
 
@@ -171,6 +175,11 @@ class App extends Component {
       <div>
         <TopMenuBar handleInputURL={this.handleInputURL} />
         <Map mappingData={this.state.mappingData} />
+        {this.state.loading && (
+          <div className="center">
+            <div className="loading-circle" />
+          </div>
+        )}
       </div>
     );
   }
