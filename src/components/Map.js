@@ -74,7 +74,7 @@ class GeoJSONLayer extends React.Component {
       const numPerBucket = Math.ceil(maxNumEntries / colors.length);
       if (map.hasOwnProperty(dioceseID)) {
         const numEntries = map[dioceseID].size;
-        let index = Math.ceil(numEntries / numPerBucket);
+        let index = Math.floor((numEntries - 1) / numPerBucket);
         if (index > colors.length - 1) {
           index = colors.length - 1;
         }
