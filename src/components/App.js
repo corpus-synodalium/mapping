@@ -20,6 +20,10 @@ class TopMenuBar extends Component {
           <ModalQuery handleInputURL={this.props.handleInputURL} />
         </Menu.Item>
 
+        {this.props.searchTerm && (
+          <Menu.Item name="current-search">Current query: "{this.props.searchTerm}"</Menu.Item>
+        )}
+
         <Menu.Item name="version" position="right">
           <a href="https://github.com/thawsitt/react-map/releases">v 0.1.0</a>
         </Menu.Item>
@@ -113,6 +117,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      searchTerm: null,
       mappingData: null,
       loading: false,
     };
@@ -132,7 +137,7 @@ class App extends Component {
       })
       .catch((error) => {
         console.error(error);
-        this.setState({ loading: false });
+        this.setState({ loading: false, searchTerm: null });
       });
   };
 
@@ -143,6 +148,7 @@ class App extends Component {
       .then((response) => response.data)
       .then((data) => {
         console.log(data);
+        this.setState({ searchTerm: query.q });
         this.processData(data);
       })
       .catch((error) => {
@@ -173,7 +179,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <TopMenuBar handleInputURL={this.handleInputURL} />
+        <TopMenuBar handleInputURL={this.handleInputURL} searchTerm={this.state.searchTerm} />
         <Map mappingData={this.state.mappingData} />
         {this.state.loading && (
           <div className="center">
