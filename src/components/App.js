@@ -21,7 +21,9 @@ class TopMenuBar extends Component {
         </Menu.Item>
 
         {this.props.searchTerm && (
-          <Menu.Item name="current-search">Current query: "{this.props.searchTerm}"</Menu.Item>
+          <Menu.Item name="current-search">
+            Current query: "{this.props.searchTerm}"
+          </Menu.Item>
         )}
 
         <Menu.Item name="version" position="right">
@@ -75,7 +77,11 @@ class ModalQuery extends React.Component {
           <Form>
             <Form.Field>
               <label>"Export Results" URL</label>
-              <input type="text" value={this.state.url} onChange={this.handleChange} />
+              <input
+                type="text"
+                value={this.state.url}
+                onChange={this.handleChange}
+              />
             </Form.Field>
           </Form>
         </Modal.Content>
@@ -95,16 +101,22 @@ const ModalDescription = () => (
     <ul>
       <li>
         Go to the{' '}
-        <a href="https://rdorin.website/philologic/beta/" target="_blank" rel="noreferrer noopener">
+        <a
+          href="https://corpus-synodalium.com/philologic/beta/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           PhiloLogic database.
         </a>
       </li>
       <li>Make a search query.</li>
       <li>Click "Export results" button on top-right corner.</li>
-      <li>Paste the resulting url below. The url should look something like this:</li>
+      <li>
+        Paste the resulting url below. The url should look something like this:
+      </li>
     </ul>
     <code className="example">
-      https://rdorin.website/philologic/beta/query?report=concordance&method=proxy&q=corpus&start=0&end=0&format=json
+      https://corpus-synodalium.com/philologic/beta/query?report=concordance&method=proxy&q=corpus&start=0&end=0&format=json
     </code>
   </div>
 );
@@ -142,7 +154,7 @@ class App extends Component {
   };
 
   fetchData = (query) => {
-    const baseURL = 'https://rdorin.website/philologic/beta/query';
+    const baseURL = 'https://corpus-synodalium.com/philologic/beta/query';
     axios
       .get(baseURL, { params: query })
       .then((response) => response.data)
@@ -179,7 +191,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <TopMenuBar handleInputURL={this.handleInputURL} searchTerm={this.state.searchTerm} />
+        <TopMenuBar
+          handleInputURL={this.handleInputURL}
+          searchTerm={this.state.searchTerm}
+        />
         <Map mappingData={this.state.mappingData} />
         {this.state.loading && (
           <div className="center">
