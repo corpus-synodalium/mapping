@@ -38,7 +38,6 @@ class GeoJSONLayer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      prevShape: null,
       geojson: null,
       isLoading: true,
     };
@@ -150,25 +149,7 @@ class GeoJSONLayer extends React.Component {
     this.props.updateInfo(null);
   }
 
-  zoomToFeature(e) {
-    const { leafletElement } = this.props.mapRef.current;
-    const targetShape = e.target.feature.properties.SHPFID;
-
-    if (targetShape === this.state.prevShape) {
-      // reset map zoom
-      const { center, zoom } = this.props.config.params;
-      leafletElement.setView(center, zoom);
-      this.setState({
-        prevShape: null,
-      });
-    } else {
-      // zoom to the clicked shape
-      leafletElement.fitBounds(e.target.getBounds());
-      this.setState({
-        prevShape: targetShape,
-      });
-    }
-  }
+  zoomToFeature(e) {}
 
   render() {
     if (this.state.isLoading) {
