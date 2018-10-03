@@ -221,38 +221,31 @@ class InfoPanel extends React.Component {
   render() {
     const { info } = this.props;
     const text = info ? info.diocese : 'Hover over a region';
+
+    // Province and Modern country
     const attributes = ['province', 'country'];
     const title = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+    const provinceCountry = [];
     if (info) {
-      var listItems = attributes.reduce((items, attr) => {
+      for (let i = 0; i < attributes.length; i++) {
+        const attr = attributes[i];
         if (info.hasOwnProperty(attr)) {
-          items.push(
+          provinceCountry.push(
             <li key={attr}>
               {title(attr)}: {info[attr]}
             </li>,
           );
         }
-        return items;
-      }, []);
-    }
-
-    let recordIDList = null;
-    if (info && info.recordIDs) {
-      recordIDList = info.recordIDs.map((id) => <li>{id}</li>);
+      }
     }
 
     return (
       <Card className="panel panel-info">
         <Card.Content>
           <h4>{text}</h4>
-          {info && <ul className="panel-list">{listItems}</ul>}
+          {info && <ul className="panel-list">{provinceCountry}</ul>}
           {info &&
-            info.recordIDs && (
-              <div>
-                This diocese appears in: {recordIDList}
-                Total: ({info.recordIDs.length})
-              </div>
-            )}
+            info.recordIDs && <div>Total hits: ({info.recordIDs.length})</div>}
         </Card.Content>
       </Card>
     );
