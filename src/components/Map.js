@@ -53,8 +53,8 @@ class GeoJSONLayer extends React.Component {
 
   componentDidMount() {
     fetch(process.env.REACT_APP_GEOJSON_URL)
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         this.setState({
           geojson: data,
           isLoading: false,
@@ -62,12 +62,26 @@ class GeoJSONLayer extends React.Component {
       });
   }
 
-  getColor(shpfid, props) {
+  getColor(shpfid) {
     const { colorSchemes } = this.props.config;
     const { currentColorScheme } = this.props;
     const colors = colorSchemes[currentColorScheme];
-    const id = parseInt(shpfid.substring(1, 5), 10);
-    return colors[id % colors.length];
+    const map = this.props.mappingData;
+
+    if (map) {
+      const dioceseID = this.shapeToDiocese[shpfid];
+      const maxNumEntries = this.props.maxNumEntries;
+      const numPerBucket = Math.ceil(maxNumEntries / colors.length);
+      if (map.hasOwnProperty(dioceseID)) {
+        const numEntries = map[dioceseID].size;
+        let index = Math.floor((numEntries - 1) / numPerBucket);
+        if (index > colors.length - 1) {
+          index = colors.length - 1;
+        }
+        return colors[index];
+      }
+    }
+    return '#fff';
   }
 
   style(feature) {
@@ -75,9 +89,9 @@ class GeoJSONLayer extends React.Component {
       fillColor: this.getColor(feature.properties.SHPFID),
       weight: 1,
       opacity: 3,
-      color: 'white',
+      color: 'grey',
       dashArray: '3',
-      fillOpacity: 0.7,
+      fillOpacity: 1.0,
     };
   }
 
@@ -92,23 +106,29 @@ class GeoJSONLayer extends React.Component {
   highlightFeature(e) {
     var layer = e.target;
     const { SHPFID: shpfid } = layer.feature.properties;
+    const { mappingData } = this.props;
     const info = { text: 'No data available' };
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
-      const dioceseId = this.shapeToDiocese[shpfid];
-      info.text = dioceseId;
-      if (dioceseInfo.hasOwnProperty(dioceseId)) {
+      const dioceseID = this.shapeToDiocese[shpfid];
+      info.text = dioceseID;
+      if (dioceseInfo.hasOwnProperty(dioceseID)) {
         const {
           diocese_name,
           diocese_alt,
           province,
           country_modern,
-        } = dioceseInfo[dioceseId];
+        } = dioceseInfo[dioceseID];
         const diocese = diocese_alt
           ? `${diocese_name} (${diocese_alt})`
           : diocese_name;
         info.diocese = diocese;
         info.province = province;
         info.country = country_modern;
+      }
+
+      if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
+        const recordIDs = mappingData[dioceseID];
+        info.recordIDs = Array.from(recordIDs).sort();
       }
     }
 
@@ -152,7 +172,7 @@ class GeoJSONLayer extends React.Component {
 
   render() {
     if (this.state.isLoading) {
-      return <span>Loading...</span>;
+      return <span />;
     }
     return (
       <GeoJSON
@@ -235,12 +255,76 @@ class InfoPanel extends React.Component {
       }, []);
     }
 
+    let recordIDList = null;
+    if (info && info.recordIDs) {
+      recordIDList = info.recordIDs.map((id) => <li>{id}</li>);
+    }
+
     return (
       <Card className="panel panel-info">
         <Card.Content>
           <h4>{text}</h4>
           {info && <ul className="panel-list">{listItems}</ul>}
+          {info &&
+            info.recordIDs && (
+              <div>
+                This diocese appears in: {recordIDList}
+                Total: ({info.recordIDs.length})
+              </div>
+            )}
         </Card.Content>
+      </Card>
+    );
+  }
+}
+
+//===============
+// Color Legend
+//===============
+
+class ColorLegend extends React.Component {
+  render() {
+    if (!this.props.mappingData) {
+      return null;
+    }
+    const { maxNumEntries, currentColorScheme } = this.props;
+    const { colorSchemes } = this.props.config;
+    const colors = colorSchemes[currentColorScheme];
+    const numPerBucket = Math.ceil(maxNumEntries / colors.length);
+
+    const getStyle = (colorHex) => ({
+      background: colorHex,
+    });
+
+    const colorBlocks = [];
+
+    colorBlocks.push(
+      <React.Fragment key="#fff">
+        <i style={getStyle('#fff')} />
+        0
+        <br />
+      </React.Fragment>,
+    );
+
+    for (let i = 0; i < colors.length; i++) {
+      const start = i * numPerBucket + 1;
+      const end = (i + 1) * numPerBucket;
+      let range = `${start} - ${end}`;
+      if (i === colors.length - 1) {
+        range = `> ${start}`;
+      }
+      colorBlocks.push(
+        <React.Fragment key={colors[i]}>
+          <i style={getStyle(colors[i])} />
+          {range}
+          <br />
+        </React.Fragment>,
+      );
+    }
+
+    return (
+      <Card className="panel-left panel-legend">
+        <Card.Content>{colorBlocks}</Card.Content>
       </Card>
     );
   }
@@ -275,12 +359,33 @@ class LocalLegislationMap extends Component {
     });
   }
 
+  getMaxNumEntries = () => {
+    const mappingData = this.props.mappingData;
+    let maxNumEntries = 0;
+    for (const prop in mappingData) {
+      if (mappingData.hasOwnProperty(prop)) {
+        const numEntries = mappingData[prop].size;
+        if (numEntries > maxNumEntries) {
+          maxNumEntries = numEntries;
+        }
+      }
+    }
+    return maxNumEntries;
+  };
+
   render() {
     const config = this.state.config;
+    const maxNumEntries = this.getMaxNumEntries();
     return (
       <div>
         <InfoPanel info={this.state.info} />
         <ControlPanel changeColorScheme={this.changeColorScheme} />
+        <ColorLegend
+          mappingData={this.props.mappingData}
+          config={config}
+          maxNumEntries={maxNumEntries}
+          currentColorScheme={this.state.currentColorScheme}
+        />
         <LeafletMap
           id="mapid"
           ref={this.mapRef}
@@ -296,6 +401,8 @@ class LocalLegislationMap extends Component {
             mapRef={this.mapRef}
             updateInfo={this.updateInfo}
             currentColorScheme={this.state.currentColorScheme}
+            mappingData={this.props.mappingData}
+            maxNumEntries={maxNumEntries}
           />
         </LeafletMap>
       </div>

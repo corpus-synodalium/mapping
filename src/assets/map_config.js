@@ -27,7 +27,7 @@ config.colorSchemes = {
   color2: ['#feebe2', '#fbb4b9', '#f768a1', '#c51b8a', '#7a0177'],
   color3: ['#f2f0f7', '#cbc9e2', '#9e9ac8', '#756bb1', '#54278f'],
   color4: ['#ffffb2', '#fecc5c', '#fd8d3c', '#f03b20', '#bd0026'],
-  bw: ['#f7f7f7', '#cccccc', '#969696', '#636363', '#252525'],
+  bw: ['#ccc', '#999', '#666', '#323232', '#000'],
 }
 
 export default config;
