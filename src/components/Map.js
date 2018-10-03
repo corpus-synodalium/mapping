@@ -48,6 +48,7 @@ class GeoJSONLayer extends React.Component {
     this.resetHighlight = this.resetHighlight.bind(this);
     this.showSearchResultsModal = this.showSearchResultsModal.bind(this);
     this.style = this.style.bind(this);
+    this.getDioceseData = this.getDioceseData.bind(this);
   }
 
   componentDidMount() {
@@ -102,14 +103,12 @@ class GeoJSONLayer extends React.Component {
     });
   }
 
-  highlightFeature(e) {
-    var layer = e.target;
+  getDioceseData(layer) {
     const { SHPFID: shpfid } = layer.feature.properties;
     const { mappingData } = this.props;
-    const info = { text: 'No data available' };
+    const info = {};
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
       const dioceseID = this.shapeToDiocese[shpfid];
-      info.text = dioceseID;
       if (dioceseInfo.hasOwnProperty(dioceseID)) {
         const {
           diocese_name,
@@ -126,11 +125,17 @@ class GeoJSONLayer extends React.Component {
       }
 
       if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
+        info.hasMappingData = true;
         const recordIDs = mappingData[dioceseID];
         info.recordIDs = Array.from(recordIDs).sort();
       }
     }
+    return info;
+  }
 
+  highlightFeature(e) {
+    var layer = e.target;
+    const info = this.getDioceseData(layer);
     this.props.updateInfo(info);
 
     layer.setStyle({
@@ -151,31 +156,9 @@ class GeoJSONLayer extends React.Component {
 
   showSearchResultsModal(e) {
     var layer = e.target;
-    const { SHPFID: shpfid } = layer.feature.properties;
-    const { mappingData } = this.props;
-    const searchResults = {};
-    if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
-      const dioceseID = this.shapeToDiocese[shpfid];
-      if (dioceseInfo.hasOwnProperty(dioceseID)) {
-        const {
-          diocese_name,
-          diocese_alt,
-          province,
-          country_modern,
-        } = dioceseInfo[dioceseID];
-        const diocese = diocese_alt
-          ? `${diocese_name} (${diocese_alt})`
-          : diocese_name;
-        searchResults.diocese = diocese;
-        searchResults.province = province;
-        searchResults.country = country_modern;
-      }
-
-      if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
-        const recordIDs = mappingData[dioceseID];
-        searchResults.recordIDs = Array.from(recordIDs).sort();
-        this.props.showModal(searchResults);
-      }
+    const info = this.getDioceseData(layer);
+    if (info.hasMappingData) {
+      this.props.showModal(info);
     }
   }
 
@@ -279,7 +262,7 @@ class ControlPanel extends React.Component {
 class InfoPanel extends React.Component {
   render() {
     const { info } = this.props;
-    const text = info ? info.diocese : 'Hover over a region';
+    const diocese = info ? info.diocese : 'Hover over a region';
 
     // Province and Modern country
     const attributes = ['province', 'country'];
@@ -301,7 +284,7 @@ class InfoPanel extends React.Component {
     return (
       <Card className="panel panel-info">
         <Card.Content>
-          <h4>{text}</h4>
+          <h4>{diocese}</h4>
           {info && <ul className="panel-list">{provinceCountry}</ul>}
           {info &&
             info.recordIDs && <div>Total hits: ({info.recordIDs.length})</div>}

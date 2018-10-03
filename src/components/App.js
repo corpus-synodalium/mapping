@@ -27,7 +27,7 @@ class TopMenuBar extends Component {
         )}
 
         <Menu.Item name="version" position="right">
-          <a href="https://github.com/thawsitt/react-map/releases">v 0.1.0</a>
+          <a href="https://github.com/thawsitt/react-map/releases">v 0.2.0</a>
         </Menu.Item>
       </Menu>
     );
