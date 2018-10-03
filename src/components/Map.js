@@ -184,12 +184,14 @@ class GeoJSONLayer extends React.Component {
 class SearchResultsModal extends React.Component {
   render() {
     const { searchResults } = this.props;
-    const headerText = searchResults ? searchResults.diocese : '';
+    const headerText = searchResults
+      ? `${searchResults.diocese} - (${searchResults.recordIDs.length})`
+      : '';
     return (
       <Modal
         open={this.props.modalOpen}
         onClose={this.props.closeModal}
-        size="small"
+        size="large"
       >
         <Header icon="map marker alternate" content={headerText} />
         <Modal.Content>
