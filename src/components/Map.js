@@ -5,7 +5,7 @@ import {
   GeoJSON,
   ScaleControl,
 } from 'react-leaflet';
-import { Card, Dropdown, Icon } from 'semantic-ui-react';
+import { Button, Card, Dropdown, Header, Icon, Modal } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
 import dioceseInfo from '../assets/diocese_info.json';
@@ -46,7 +46,7 @@ class GeoJSONLayer extends React.Component {
     this.onEachFeature = this.onEachFeature.bind(this);
     this.highlightFeature = this.highlightFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
-    this.zoomToFeature = this.zoomToFeature.bind(this);
+    this.showSearchResultsModal = this.showSearchResultsModal.bind(this);
     this.style = this.style.bind(this);
   }
 
@@ -98,7 +98,7 @@ class GeoJSONLayer extends React.Component {
     layer.on({
       mouseover: this.highlightFeature,
       mouseout: this.resetHighlight,
-      click: this.zoomToFeature,
+      click: this.showSearchResultsModal,
     });
   }
 
@@ -149,7 +149,9 @@ class GeoJSONLayer extends React.Component {
     this.props.updateInfo(null);
   }
 
-  zoomToFeature(e) {}
+  showSearchResultsModal(e) {
+    this.props.openModal();
+  }
 
   render() {
     if (this.state.isLoading) {
@@ -162,6 +164,30 @@ class GeoJSONLayer extends React.Component {
         onEachFeature={this.onEachFeature}
         ref={this.geojsonRef}
       />
+    );
+  }
+}
+
+//======================
+// Search Results Modal
+//======================
+
+class SearchResultsModal extends React.Component {
+  render() {
+    return (
+      <Modal
+        open={this.props.modalOpen}
+        onClose={this.props.closeModal}
+        size="small"
+      >
+        <Header icon="map marker alternate" content="[region name]" />
+        <Modal.Content>Hello World!</Modal.Content>
+        <Modal.Actions>
+          <Button color="blue" onClick={this.props.closeModal}>
+            <Icon name="checkmark" /> OK
+          </Button>
+        </Modal.Actions>
+      </Modal>
     );
   }
 }
@@ -315,10 +341,21 @@ class LocalLegislationMap extends Component {
       config: mapConfig,
       currentColorScheme: 'color1',
       info: null,
+      modalOpen: false,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
     this.updateInfo = this.updateInfo.bind(this);
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
+
+  openModal() {
+    this.setState({ modalOpen: true });
+  }
+
+  closeModal() {
+    this.setState({ modalOpen: false });
   }
 
   changeColorScheme(colorScheme) {
@@ -360,6 +397,10 @@ class LocalLegislationMap extends Component {
           maxNumEntries={maxNumEntries}
           currentColorScheme={this.state.currentColorScheme}
         />
+        <SearchResultsModal
+          modalOpen={this.state.modalOpen}
+          closeModal={this.closeModal}
+        />
         <LeafletMap
           id="mapid"
           ref={this.mapRef}
@@ -377,6 +418,7 @@ class LocalLegislationMap extends Component {
             currentColorScheme={this.state.currentColorScheme}
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
+            openModal={this.openModal}
           />
         </LeafletMap>
       </div>
