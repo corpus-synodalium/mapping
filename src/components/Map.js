@@ -150,7 +150,33 @@ class GeoJSONLayer extends React.Component {
   }
 
   showSearchResultsModal(e) {
-    this.props.openModal();
+    var layer = e.target;
+    const { SHPFID: shpfid } = layer.feature.properties;
+    const { mappingData } = this.props;
+    const searchResults = {};
+    if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
+      const dioceseID = this.shapeToDiocese[shpfid];
+      if (dioceseInfo.hasOwnProperty(dioceseID)) {
+        const {
+          diocese_name,
+          diocese_alt,
+          province,
+          country_modern,
+        } = dioceseInfo[dioceseID];
+        const diocese = diocese_alt
+          ? `${diocese_name} (${diocese_alt})`
+          : diocese_name;
+        searchResults.diocese = diocese;
+        searchResults.province = province;
+        searchResults.country = country_modern;
+      }
+
+      if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
+        const recordIDs = mappingData[dioceseID];
+        searchResults.recordIDs = Array.from(recordIDs).sort();
+        this.props.showModal(searchResults);
+      }
+    }
   }
 
   render() {
@@ -174,14 +200,21 @@ class GeoJSONLayer extends React.Component {
 
 class SearchResultsModal extends React.Component {
   render() {
+    const { searchResults } = this.props;
+    const headerText = searchResults ? searchResults.diocese : '';
     return (
       <Modal
         open={this.props.modalOpen}
         onClose={this.props.closeModal}
         size="small"
       >
-        <Header icon="map marker alternate" content="[region name]" />
-        <Modal.Content>Hello World!</Modal.Content>
+        <Header icon="map marker alternate" content={headerText} />
+        <Modal.Content>
+          <div>
+            {searchResults &&
+              searchResults.recordIDs.map((id) => <li key={id}>{id}</li>)}
+          </div>
+        </Modal.Content>
         <Modal.Actions>
           <Button color="blue" onClick={this.props.closeModal}>
             <Icon name="checkmark" /> OK
@@ -342,16 +375,20 @@ class LocalLegislationMap extends Component {
       currentColorScheme: 'color1',
       info: null,
       modalOpen: false,
+      searchResults: null,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
     this.updateInfo = this.updateInfo.bind(this);
-    this.openModal = this.openModal.bind(this);
+    this.showModal = this.showModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
 
-  openModal() {
-    this.setState({ modalOpen: true });
+  showModal(searchResults) {
+    this.setState({
+      searchResults: searchResults,
+      modalOpen: true,
+    });
   }
 
   closeModal() {
@@ -400,6 +437,7 @@ class LocalLegislationMap extends Component {
         <SearchResultsModal
           modalOpen={this.state.modalOpen}
           closeModal={this.closeModal}
+          searchResults={this.state.searchResults}
         />
         <LeafletMap
           id="mapid"
@@ -418,7 +456,7 @@ class LocalLegislationMap extends Component {
             currentColorScheme={this.state.currentColorScheme}
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
-            openModal={this.openModal}
+            showModal={this.showModal}
           />
         </LeafletMap>
       </div>
