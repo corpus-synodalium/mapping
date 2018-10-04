@@ -13,6 +13,7 @@ import {
   Icon,
   Label,
   Modal,
+  Table,
 } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
@@ -211,6 +212,14 @@ class SearchResultsModal extends React.Component {
           const url = `${baseURL}&q=${searchResults.query}&record_id=%22${
             metadata.record_id
           }%22`;
+          const metadataTable = Object.keys(metadata).map((item, i) => {
+            return (
+              <Table.Row>
+                <Table.Cell>{item}</Table.Cell>
+                <Table.Cell>{metadata[item]}</Table.Cell>
+              </Table.Row>
+            );
+          });
           return (
             <div className="search-fragment-card">
               <Card fluid>
@@ -230,6 +239,9 @@ class SearchResultsModal extends React.Component {
                     <Icon name="file alternate outline" />
                     See metadata
                   </Button>
+                  <Table basic celled striped>
+                    <Table.Body>{metadataTable}</Table.Body>
+                  </Table>
                 </Card.Content>
               </Card>
             </div>
