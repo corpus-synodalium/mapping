@@ -236,11 +236,7 @@ class SearchResultsModal extends React.Component {
           return (
             <div className="search-fragment-card" key={context}>
               <Card fluid>
-                <Label
-                  className="search-fragment-header"
-                  attached="top"
-                  color="teal"
-                >
+                <Label className="search-fragment-header" attached="top">
                   {label}
                 </Label>
                 <Card.Content>
