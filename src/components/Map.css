@@ -63,3 +63,7 @@
 .search-fragment-div .highlight {
   color: red;
 }
+
+.ui.label.search-fragment-header {
+  font-size: 0.9em;
+}
