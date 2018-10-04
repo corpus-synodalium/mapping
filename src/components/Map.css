@@ -47,12 +47,19 @@
   opacity: 1;
 }
 
-.search-fragment {
+.search-fragment-card {
   font-size: 1.2em;
-  margin: 20px 0px;
-  padding-right: 40px;
+  margin: 30px 10px;
 }
 
-.search-fragment .highlight {
+.search-fragment-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.search-fragment-div {
+  margin-bottom: 10px;
+}
+
+.search-fragment-div .highlight {
   color: red;
 }

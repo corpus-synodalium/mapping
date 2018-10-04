@@ -189,10 +189,26 @@ class SearchResultsModal extends React.Component {
     let modalContent = null;
     if (searchResults && searchResults.searchData) {
       modalContent = searchResults.searchData.map(({ context, metadata }) => (
-        <li
-          className="search-fragment"
-          dangerouslySetInnerHTML={{ __html: `<div>... ${context} ...</div>` }}
-        />
+        <div className="search-fragment-card">
+          <Card fluid>
+            <Card.Content>
+              <div
+                className="search-fragment-div"
+                dangerouslySetInnerHTML={{
+                  __html: `<div>... ${context} ...</div>`,
+                }}
+              />
+              <Button icon labelPosition="left">
+                <Icon name="search" />
+                Search on PhiloLogic
+              </Button>
+              <Button icon labelPosition="left">
+                <Icon name="file alternate outline" />
+                See metadata
+              </Button>
+            </Card.Content>
+          </Card>
+        </div>
       ));
     }
     return (
@@ -202,9 +218,7 @@ class SearchResultsModal extends React.Component {
         size="large"
       >
         <Header icon="map marker alternate" content={headerText} />
-        <Modal.Content>
-          <ol>{modalContent}</ol>
-        </Modal.Content>
+        <Modal.Content>{modalContent}</Modal.Content>
         <Modal.Actions>
           <Button color="blue" onClick={this.props.closeModal}>
             <Icon name="checkmark" /> OK
