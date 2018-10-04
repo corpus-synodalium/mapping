@@ -5,7 +5,15 @@ import {
   GeoJSON,
   ScaleControl,
 } from 'react-leaflet';
-import { Button, Card, Dropdown, Header, Icon, Modal } from 'semantic-ui-react';
+import {
+  Button,
+  Card,
+  Dropdown,
+  Header,
+  Icon,
+  Label,
+  Modal,
+} from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
 import dioceseInfo from '../assets/diocese_info.json';
@@ -183,33 +191,43 @@ class GeoJSONLayer extends React.Component {
 class SearchResultsModal extends React.Component {
   render() {
     const { searchResults } = this.props;
-    const headerText = searchResults
-      ? `${searchResults.diocese} - (${searchResults.searchData.length})`
-      : '';
+    const headerText = searchResults ? (
+      <span>
+        {searchResults.diocese}
+        <Label circular color="purple">
+          {searchResults.searchData.length}
+        </Label>
+      </span>
+    ) : (
+      ''
+    );
     let modalContent = null;
     if (searchResults && searchResults.searchData) {
-      modalContent = searchResults.searchData.map(({ context, metadata }) => (
-        <div className="search-fragment-card">
-          <Card fluid>
-            <Card.Content>
-              <div
-                className="search-fragment-div"
-                dangerouslySetInnerHTML={{
-                  __html: `<div>... ${context} ...</div>`,
-                }}
-              />
-              <Button icon labelPosition="left">
-                <Icon name="search" />
-                Search on PhiloLogic
-              </Button>
-              <Button icon labelPosition="left">
-                <Icon name="file alternate outline" />
-                See metadata
-              </Button>
-            </Card.Content>
-          </Card>
-        </div>
-      ));
+      modalContent = searchResults.searchData.map(
+        ({ context, metadata }, index) => (
+          <div className="search-fragment-card">
+            <Card fluid>
+              <Label attached="top left">{index + 1}</Label>
+              <Card.Content>
+                <div
+                  className="search-fragment-div"
+                  dangerouslySetInnerHTML={{
+                    __html: `<div>... ${context} ...</div>`,
+                  }}
+                />
+                <Button icon labelPosition="left">
+                  <Icon name="search" />
+                  Search on PhiloLogic
+                </Button>
+                <Button icon labelPosition="left">
+                  <Icon name="file alternate outline" />
+                  See metadata
+                </Button>
+              </Card.Content>
+            </Card>
+          </div>
+        ),
+      );
     }
     return (
       <Modal
