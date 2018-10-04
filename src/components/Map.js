@@ -66,14 +66,14 @@ class GeoJSONLayer extends React.Component {
     const { colorSchemes } = this.props.config;
     const { currentColorScheme } = this.props;
     const colors = colorSchemes[currentColorScheme];
-    const map = this.props.mappingData;
+    const { mappingData } = this.props;
 
-    if (map) {
+    if (mappingData) {
       const dioceseID = this.shapeToDiocese[shpfid];
       const maxNumEntries = this.props.maxNumEntries;
       const numPerBucket = Math.ceil(maxNumEntries / colors.length);
-      if (map.hasOwnProperty(dioceseID)) {
-        const numEntries = map[dioceseID].size;
+      if (mappingData.hasOwnProperty(dioceseID)) {
+        const numEntries = mappingData[dioceseID].length;
         let index = Math.floor((numEntries - 1) / numPerBucket);
         if (index > colors.length - 1) {
           index = colors.length - 1;
@@ -126,8 +126,7 @@ class GeoJSONLayer extends React.Component {
 
       if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
         info.hasMappingData = true;
-        const recordIDs = mappingData[dioceseID];
-        info.recordIDs = Array.from(recordIDs).sort();
+        info.searchData = mappingData[dioceseID];
       }
     }
     return info;
@@ -185,8 +184,17 @@ class SearchResultsModal extends React.Component {
   render() {
     const { searchResults } = this.props;
     const headerText = searchResults
-      ? `${searchResults.diocese} - (${searchResults.recordIDs.length})`
+      ? `${searchResults.diocese} - (${searchResults.searchData.length})`
       : '';
+    let modalContent = null;
+    if (searchResults && searchResults.searchData) {
+      modalContent = searchResults.searchData.map(({ context, metadata }) => (
+        <li
+          className="search-fragment"
+          dangerouslySetInnerHTML={{ __html: `<div>... ${context} ...</div>` }}
+        />
+      ));
+    }
     return (
       <Modal
         open={this.props.modalOpen}
@@ -195,10 +203,7 @@ class SearchResultsModal extends React.Component {
       >
         <Header icon="map marker alternate" content={headerText} />
         <Modal.Content>
-          <div>
-            {searchResults &&
-              searchResults.recordIDs.map((id) => <li key={id}>{id}</li>)}
-          </div>
+          <ol>{modalContent}</ol>
         </Modal.Content>
         <Modal.Actions>
           <Button color="blue" onClick={this.props.closeModal}>
@@ -289,7 +294,9 @@ class InfoPanel extends React.Component {
           <h4>{diocese}</h4>
           {info && <ul className="panel-list">{provinceCountry}</ul>}
           {info &&
-            info.recordIDs && <div>Total hits: ({info.recordIDs.length})</div>}
+            info.searchData && (
+              <div>Total hits: ({info.searchData.length})</div>
+            )}
         </Card.Content>
       </Card>
     );
@@ -393,11 +400,11 @@ class LocalLegislationMap extends Component {
   }
 
   getMaxNumEntries = () => {
-    const mappingData = this.props.mappingData;
+    const { mappingData } = this.props;
     let maxNumEntries = 0;
     for (const prop in mappingData) {
       if (mappingData.hasOwnProperty(prop)) {
-        const numEntries = mappingData[prop].size;
+        const numEntries = mappingData[prop].length;
         if (numEntries > maxNumEntries) {
           maxNumEntries = numEntries;
         }

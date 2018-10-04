@@ -46,3 +46,13 @@
   float: left;
   opacity: 1;
 }
+
+.search-fragment {
+  font-size: 1.2em;
+  margin: 20px 0px;
+  padding-right: 40px;
+}
+
+.search-fragment .highlight {
+  color: red;
+}
