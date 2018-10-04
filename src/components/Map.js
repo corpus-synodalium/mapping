@@ -135,6 +135,7 @@ class GeoJSONLayer extends React.Component {
       if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
         info.hasMappingData = true;
         info.searchData = mappingData[dioceseID];
+        info.query = mappingData.searchTerm;
       }
     }
     return info;
@@ -203,30 +204,37 @@ class SearchResultsModal extends React.Component {
     );
     let modalContent = null;
     if (searchResults && searchResults.searchData) {
+      const baseURL =
+        'https://corpus-synodalium.com/philologic/corpus/query?report=concordance&method=proxy&start=0&end=0';
       modalContent = searchResults.searchData.map(
-        ({ context, metadata }, index) => (
-          <div className="search-fragment-card">
-            <Card fluid>
-              <Label attached="top left">{index + 1}</Label>
-              <Card.Content>
-                <div
-                  className="search-fragment-div"
-                  dangerouslySetInnerHTML={{
-                    __html: `<div>... ${context} ...</div>`,
-                  }}
-                />
-                <Button icon labelPosition="left">
-                  <Icon name="search" />
-                  Search on PhiloLogic
-                </Button>
-                <Button icon labelPosition="left">
-                  <Icon name="file alternate outline" />
-                  See metadata
-                </Button>
-              </Card.Content>
-            </Card>
-          </div>
-        ),
+        ({ context, metadata }, index) => {
+          const url = `${baseURL}&q=${searchResults.query}&record_id=%22${
+            metadata.record_id
+          }%22`;
+          return (
+            <div className="search-fragment-card">
+              <Card fluid>
+                <Label attached="top left">{index + 1}</Label>
+                <Card.Content>
+                  <div
+                    className="search-fragment-div"
+                    dangerouslySetInnerHTML={{
+                      __html: `<div>... ${context} ...</div>`,
+                    }}
+                  />
+                  <Button icon labelPosition="left" href={url} target="_blank">
+                    <Icon name="search" />
+                    Search on PhiloLogic
+                  </Button>
+                  <Button icon labelPosition="left">
+                    <Icon name="file alternate outline" />
+                    See metadata
+                  </Button>
+                </Card.Content>
+              </Card>
+            </div>
+          );
+        },
       );
     }
     return (
