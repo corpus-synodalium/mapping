@@ -191,6 +191,19 @@ class GeoJSONLayer extends React.Component {
 //======================
 
 class SearchResultsModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: new Array(1000).fill(false),
+    };
+  }
+  toggleMetadataTable = (index) => {
+    const newState = [...this.state.show];
+    newState[index] = !newState[index];
+    this.setState({
+      show: newState,
+    });
+  };
   render() {
     const { searchResults } = this.props;
     const headerText = searchResults ? (
@@ -212,16 +225,14 @@ class SearchResultsModal extends React.Component {
           const url = `${baseURL}&q=${searchResults.query}&record_id=%22${
             metadata.record_id
           }%22`;
-          const metadataTable = Object.keys(metadata).map((item, i) => {
-            return (
-              <Table.Row>
-                <Table.Cell>{item}</Table.Cell>
-                <Table.Cell>{metadata[item]}</Table.Cell>
-              </Table.Row>
-            );
-          });
+          const metadataTable = Object.keys(metadata).map((item, i) => (
+            <Table.Row key={item}>
+              <Table.Cell>{item}</Table.Cell>
+              <Table.Cell>{metadata[item]}</Table.Cell>
+            </Table.Row>
+          ));
           return (
-            <div className="search-fragment-card">
+            <div className="search-fragment-card" key={context}>
               <Card fluid>
                 <Label attached="top left">{index + 1}</Label>
                 <Card.Content>
@@ -235,13 +246,19 @@ class SearchResultsModal extends React.Component {
                     <Icon name="search" />
                     Search on PhiloLogic
                   </Button>
-                  <Button icon labelPosition="left">
+                  <Button
+                    icon
+                    labelPosition="left"
+                    onClick={() => this.toggleMetadataTable(index)}
+                  >
                     <Icon name="file alternate outline" />
                     See metadata
                   </Button>
-                  <Table basic celled striped>
-                    <Table.Body>{metadataTable}</Table.Body>
-                  </Table>
+                  {this.state.show[index] && (
+                    <Table basic celled striped>
+                      <Table.Body>{metadataTable}</Table.Body>
+                    </Table>
+                  )}
                 </Card.Content>
               </Card>
             </div>
