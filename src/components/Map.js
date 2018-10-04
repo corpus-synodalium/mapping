@@ -209,7 +209,7 @@ class SearchResultsModal extends React.Component {
     const headerText = searchResults ? (
       <span>
         {searchResults.diocese}
-        <Label circular color="purple">
+        <Label circular color="blue">
           {searchResults.searchData.length}
         </Label>
       </span>
@@ -231,10 +231,14 @@ class SearchResultsModal extends React.Component {
               <Table.Cell>{metadata[item]}</Table.Cell>
             </Table.Row>
           ));
+          const { origPlace, year, head } = metadata;
+          const label = `${index + 1}. ${origPlace} (${year}) - ${head}`;
           return (
             <div className="search-fragment-card" key={context}>
               <Card fluid>
-                <Label attached="top left">{index + 1}</Label>
+                <Label attached="top" color="teal">
+                  {label}
+                </Label>
                 <Card.Content>
                   <div
                     className="search-fragment-div"
@@ -244,7 +248,7 @@ class SearchResultsModal extends React.Component {
                   />
                   <Button icon labelPosition="left" href={url} target="_blank">
                     <Icon name="search" />
-                    Search on PhiloLogic
+                    Show Record in PhiloLogic
                   </Button>
                   <Button
                     icon
@@ -252,7 +256,7 @@ class SearchResultsModal extends React.Component {
                     onClick={() => this.toggleMetadataTable(index)}
                   >
                     <Icon name="file alternate outline" />
-                    See metadata
+                    Show Metadata
                   </Button>
                   {this.state.show[index] && (
                     <Table basic celled striped>
