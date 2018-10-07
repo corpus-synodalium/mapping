@@ -5,7 +5,16 @@ import {
   GeoJSON,
   ScaleControl,
 } from 'react-leaflet';
-import { Card, Dropdown, Icon } from 'semantic-ui-react';
+import {
+  Button,
+  Card,
+  Dropdown,
+  Header,
+  Icon,
+  Label,
+  Modal,
+  Table,
+} from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
 import dioceseInfo from '../assets/diocese_info.json';
@@ -38,7 +47,6 @@ class GeoJSONLayer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      prevShape: null,
       geojson: null,
       isLoading: true,
     };
@@ -47,8 +55,9 @@ class GeoJSONLayer extends React.Component {
     this.onEachFeature = this.onEachFeature.bind(this);
     this.highlightFeature = this.highlightFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
-    this.zoomToFeature = this.zoomToFeature.bind(this);
+    this.showSearchResultsModal = this.showSearchResultsModal.bind(this);
     this.style = this.style.bind(this);
+    this.getDioceseData = this.getDioceseData.bind(this);
   }
 
   componentDidMount() {
@@ -66,14 +75,14 @@ class GeoJSONLayer extends React.Component {
     const { colorSchemes } = this.props.config;
     const { currentColorScheme } = this.props;
     const colors = colorSchemes[currentColorScheme];
-    const map = this.props.mappingData;
+    const { mappingData } = this.props;
 
-    if (map) {
+    if (mappingData) {
       const dioceseID = this.shapeToDiocese[shpfid];
       const maxNumEntries = this.props.maxNumEntries;
       const numPerBucket = Math.ceil(maxNumEntries / colors.length);
-      if (map.hasOwnProperty(dioceseID)) {
-        const numEntries = map[dioceseID].size;
+      if (mappingData.hasOwnProperty(dioceseID)) {
+        const numEntries = mappingData[dioceseID].length;
         let index = Math.floor((numEntries - 1) / numPerBucket);
         if (index > colors.length - 1) {
           index = colors.length - 1;
@@ -99,18 +108,16 @@ class GeoJSONLayer extends React.Component {
     layer.on({
       mouseover: this.highlightFeature,
       mouseout: this.resetHighlight,
-      click: this.zoomToFeature,
+      click: this.showSearchResultsModal,
     });
   }
 
-  highlightFeature(e) {
-    var layer = e.target;
+  getDioceseData(layer) {
     const { SHPFID: shpfid } = layer.feature.properties;
     const { mappingData } = this.props;
-    const info = { text: 'No data available' };
+    const info = {};
     if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
       const dioceseID = this.shapeToDiocese[shpfid];
-      info.text = dioceseID;
       if (dioceseInfo.hasOwnProperty(dioceseID)) {
         const {
           diocese_name,
@@ -127,11 +134,17 @@ class GeoJSONLayer extends React.Component {
       }
 
       if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
-        const recordIDs = mappingData[dioceseID];
-        info.recordIDs = Array.from(recordIDs).sort();
+        info.hasMappingData = true;
+        info.searchData = mappingData[dioceseID];
+        info.query = mappingData.searchTerm;
       }
     }
+    return info;
+  }
 
+  highlightFeature(e) {
+    var layer = e.target;
+    const info = this.getDioceseData(layer);
     this.props.updateInfo(info);
 
     layer.setStyle({
@@ -150,23 +163,11 @@ class GeoJSONLayer extends React.Component {
     this.props.updateInfo(null);
   }
 
-  zoomToFeature(e) {
-    const { leafletElement } = this.props.mapRef.current;
-    const targetShape = e.target.feature.properties.SHPFID;
-
-    if (targetShape === this.state.prevShape) {
-      // reset map zoom
-      const { center, zoom } = this.props.config.params;
-      leafletElement.setView(center, zoom);
-      this.setState({
-        prevShape: null,
-      });
-    } else {
-      // zoom to the clicked shape
-      leafletElement.fitBounds(e.target.getBounds());
-      this.setState({
-        prevShape: targetShape,
-      });
+  showSearchResultsModal(e) {
+    var layer = e.target;
+    const info = this.getDioceseData(layer);
+    if (info.hasMappingData) {
+      this.props.showModal(info);
     }
   }
 
@@ -181,6 +182,108 @@ class GeoJSONLayer extends React.Component {
         onEachFeature={this.onEachFeature}
         ref={this.geojsonRef}
       />
+    );
+  }
+}
+
+//======================
+// Search Results Modal
+//======================
+
+class SearchResultsModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: new Array(1000).fill(false),
+    };
+  }
+  toggleMetadataTable = (index) => {
+    const newState = [...this.state.show];
+    newState[index] = !newState[index];
+    this.setState({
+      show: newState,
+    });
+  };
+  render() {
+    const { searchResults } = this.props;
+    const headerText = searchResults ? (
+      <span>
+        {searchResults.diocese}
+        <Label circular color="blue">
+          {searchResults.searchData.length}
+        </Label>
+      </span>
+    ) : (
+      ''
+    );
+    let modalContent = null;
+    if (searchResults && searchResults.searchData) {
+      const baseURL =
+        'https://corpus-synodalium.com/philologic/corpus/query?report=concordance&method=proxy&start=0&end=0';
+      modalContent = searchResults.searchData.map(
+        ({ context, metadata }, index) => {
+          const url = `${baseURL}&q=${searchResults.query}&record_id=%22${
+            metadata.record_id
+          }%22`;
+          const metadataTable = Object.keys(metadata).map((item, i) => (
+            <Table.Row key={item}>
+              <Table.Cell>{item}</Table.Cell>
+              <Table.Cell>{metadata[item]}</Table.Cell>
+            </Table.Row>
+          ));
+          const { origPlace, year, head } = metadata;
+          const label = `${index + 1}. ${origPlace} (${year}) - ${head}`;
+          return (
+            <div className="search-fragment-card" key={context}>
+              <Card fluid>
+                <Label className="search-fragment-header" attached="top">
+                  {label}
+                </Label>
+                <Card.Content>
+                  <div
+                    className="search-fragment-div"
+                    dangerouslySetInnerHTML={{
+                      __html: `<div>... ${context} ...</div>`,
+                    }}
+                  />
+                  <Button icon labelPosition="left" href={url} target="_blank">
+                    <Icon name="search" />
+                    Show Record in PhiloLogic
+                  </Button>
+                  <Button
+                    icon
+                    labelPosition="left"
+                    onClick={() => this.toggleMetadataTable(index)}
+                  >
+                    <Icon name="file alternate outline" />
+                    Show Metadata
+                  </Button>
+                  {this.state.show[index] && (
+                    <Table basic celled striped>
+                      <Table.Body>{metadataTable}</Table.Body>
+                    </Table>
+                  )}
+                </Card.Content>
+              </Card>
+            </div>
+          );
+        },
+      );
+    }
+    return (
+      <Modal
+        open={this.props.modalOpen}
+        onClose={this.props.closeModal}
+        size="large"
+      >
+        <Header icon="map marker alternate" content={headerText} />
+        <Modal.Content>{modalContent}</Modal.Content>
+        <Modal.Actions>
+          <Button color="blue" onClick={this.props.closeModal}>
+            <Icon name="checkmark" /> OK
+          </Button>
+        </Modal.Actions>
+      </Modal>
     );
   }
 }
@@ -239,38 +342,33 @@ class ControlPanel extends React.Component {
 class InfoPanel extends React.Component {
   render() {
     const { info } = this.props;
-    const text = info ? info.diocese : 'Hover over a region';
+    const diocese = info ? info.diocese : 'Hover over a region';
+
+    // Province and Modern country
     const attributes = ['province', 'country'];
     const title = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+    const provinceCountry = [];
     if (info) {
-      var listItems = attributes.reduce((items, attr) => {
+      for (let i = 0; i < attributes.length; i++) {
+        const attr = attributes[i];
         if (info.hasOwnProperty(attr)) {
-          items.push(
+          provinceCountry.push(
             <li key={attr}>
               {title(attr)}: {info[attr]}
             </li>,
           );
         }
-        return items;
-      }, []);
-    }
-
-    let recordIDList = null;
-    if (info && info.recordIDs) {
-      recordIDList = info.recordIDs.map((id) => <li>{id}</li>);
+      }
     }
 
     return (
       <Card className="panel panel-info">
         <Card.Content>
-          <h4>{text}</h4>
-          {info && <ul className="panel-list">{listItems}</ul>}
+          <h4>{diocese}</h4>
+          {info && <ul className="panel-list">{provinceCountry}</ul>}
           {info &&
-            info.recordIDs && (
-              <div>
-                This diocese appears in: {recordIDList}
-                Total: ({info.recordIDs.length})
-              </div>
+            info.searchData && (
+              <div>Total hits: ({info.searchData.length})</div>
             )}
         </Card.Content>
       </Card>
@@ -341,10 +439,25 @@ class LocalLegislationMap extends Component {
       config: mapConfig,
       currentColorScheme: 'color1',
       info: null,
+      modalOpen: false,
+      searchResults: null,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
     this.updateInfo = this.updateInfo.bind(this);
+    this.showModal = this.showModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
+
+  showModal(searchResults) {
+    this.setState({
+      searchResults: searchResults,
+      modalOpen: true,
+    });
+  }
+
+  closeModal() {
+    this.setState({ modalOpen: false });
   }
 
   changeColorScheme(colorScheme) {
@@ -360,11 +473,11 @@ class LocalLegislationMap extends Component {
   }
 
   getMaxNumEntries = () => {
-    const mappingData = this.props.mappingData;
+    const { mappingData } = this.props;
     let maxNumEntries = 0;
     for (const prop in mappingData) {
       if (mappingData.hasOwnProperty(prop)) {
-        const numEntries = mappingData[prop].size;
+        const numEntries = mappingData[prop].length;
         if (numEntries > maxNumEntries) {
           maxNumEntries = numEntries;
         }
@@ -386,6 +499,11 @@ class LocalLegislationMap extends Component {
           maxNumEntries={maxNumEntries}
           currentColorScheme={this.state.currentColorScheme}
         />
+        <SearchResultsModal
+          modalOpen={this.state.modalOpen}
+          closeModal={this.closeModal}
+          searchResults={this.state.searchResults}
+        />
         <LeafletMap
           id="mapid"
           ref={this.mapRef}
@@ -403,6 +521,7 @@ class LocalLegislationMap extends Component {
             currentColorScheme={this.state.currentColorScheme}
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
+            showModal={this.showModal}
           />
         </LeafletMap>
       </div>

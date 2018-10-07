@@ -27,7 +27,7 @@ class TopMenuBar extends Component {
         )}
 
         <Menu.Item name="version" position="right">
-          <a href="https://github.com/thawsitt/react-map/releases">v 0.1.0</a>
+          <a href="https://github.com/thawsitt/react-map/releases">v 0.2.0</a>
         </Menu.Item>
       </Menu>
     );
@@ -159,7 +159,7 @@ class App extends Component {
       .get(baseURL, { params: query })
       .then((response) => response.data)
       .then((data) => {
-        console.log(data);
+        //console.log(data);
         this.setState({ searchTerm: query.q });
         this.processData(data);
       })
@@ -170,20 +170,26 @@ class App extends Component {
 
   processData = ({ results }) => {
     const dioceseMap = {};
+    const mappingData = {};
+    mappingData.searchTerm = this.state.searchTerm;
     results.forEach((result) => {
-      const metadata = result.metadata_fields;
+      const { context, metadata_fields: metadata } = result;
       const { record_id, diocese_id } = metadata;
       if (diocese_id) {
         if (dioceseMap.hasOwnProperty(diocese_id)) {
-          dioceseMap[diocese_id].add(record_id);
+          if (!dioceseMap[diocese_id].has(record_id)) {
+            dioceseMap[diocese_id].add(record_id);
+            mappingData[diocese_id].push({ metadata, context });
+          }
         } else {
           dioceseMap[diocese_id] = new Set([record_id]);
+          mappingData[diocese_id] = [{ metadata, context }];
         }
       }
     });
-    console.log(dioceseMap);
+    //console.log(mappingData);
     this.setState({
-      mappingData: dioceseMap,
+      mappingData,
       loading: false,
     });
   };
