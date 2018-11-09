@@ -110,13 +110,10 @@ const ModalDescription = () => (
         </a>
       </li>
       <li>Make a search query.</li>
-      <li>Click "Export results" button on top-right corner.</li>
-      <li>
-        Paste the resulting url below. The url should look something like this:
-      </li>
+      <li>Copy the URL you see in the browser. For example:</li>
     </ul>
     <code className="example">
-      https://corpus-synodalium.com/philologic/beta/query?report=concordance&method=proxy&q=corpus&start=0&end=0&format=json
+      https://corpus-synodalium.com/philologic/beta/query?report=concordance&method=proxy&q=corpus&start=0&end=0
     </code>
   </div>
 );
