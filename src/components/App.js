@@ -136,7 +136,7 @@ class App extends Component {
   }
 
   handleInputURL = (url) => {
-    const testURL = url.replace('end=0', 'end=1');
+    const testURL = url.replace('end=0', 'end=1').concat('&format=json');
     let query = null;
     this.setState({ loading: true });
     axios
