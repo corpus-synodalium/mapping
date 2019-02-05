@@ -142,7 +142,7 @@ class App extends Component {
       .then((data) => {
         query = data.query;
         query.end = data.results_length;
-        this.fetchData(query);
+        this.fetchData(query, testURL);
       })
       .catch((error) => {
         console.error(error);
@@ -150,8 +150,9 @@ class App extends Component {
       });
   };
 
-  fetchData = (query) => {
-    const baseURL = 'https://corpus-synodalium.com/philologic/beta/query';
+  fetchData = (query, testURL) => {
+    const i = testURL.indexOf('/query');
+    const baseURL = testURL.substring(0, i+6);
     axios
       .get(baseURL, { params: query })
       .then((response) => response.data)
