@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Map from './Map';
+import queryString from 'query-string';
 import axios from 'axios';
 import { Button, Menu, Modal, Header, Icon, Form } from 'semantic-ui-react';
 
@@ -125,11 +126,19 @@ const ModalDescription = () => (
 class App extends Component {
   constructor(props) {
     super(props);
+    const query = queryString.parse(window.location.search);
     this.state = {
       searchTerm: null,
       mappingData: null,
       loading: false,
+      inputURL: query.url,
     };
+  }
+
+  componentDidMount() {
+    if (this.state.inputURL) {
+      this.handleInputURL(this.state.inputURL);
+    }
   }
 
   handleInputURL = (url) => {
@@ -152,7 +161,7 @@ class App extends Component {
 
   fetchData = (query, testURL) => {
     const i = testURL.indexOf('/query');
-    const baseURL = testURL.substring(0, i+6);
+    const baseURL = testURL.substring(0, i + 6);
     axios
       .get(baseURL, { params: query })
       .then((response) => response.data)
