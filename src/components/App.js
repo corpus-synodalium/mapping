@@ -18,7 +18,10 @@ class TopMenuBar extends Component {
         </Menu.Item>
 
         <Menu.Item name="map-action">
-          <ModalQuery handleInputURL={this.props.handleInputURL} />
+          <ModalQuery
+            inputURL={this.props.inputURL}
+            handleInputURL={this.props.handleInputURL}
+          />
         </Menu.Item>
 
         {this.props.searchTerm && (
@@ -28,7 +31,7 @@ class TopMenuBar extends Component {
         )}
 
         <Menu.Item name="version" position="right">
-          <a href="https://github.com/thawsitt/react-map/releases">v 0.2.0</a>
+          <a href="https://github.com/thawsitt/react-map/releases">v 0.4.0</a>
         </Menu.Item>
       </Menu>
     );
@@ -44,7 +47,7 @@ class ModalQuery extends React.Component {
     super(props);
     this.state = {
       modalOpen: false,
-      url: '',
+      url: this.props.inputURL,
     };
   }
 
@@ -101,21 +104,29 @@ const ModalDescription = () => (
     To map your search results,
     <ul>
       <li>
-        Go to the{' '}
+        Go to the PhiloLogic database:{' '}
         <a
-          href="https://corpus-synodalium.com/philologic/beta/"
+          href="https://corpus-synodalium.com/philologic/corpus/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          PhiloLogic database.
+          /corpus
+        </a>{' '}
+        or{' '}
+        <a
+          href="https://corpus-synodalium.com/philologic/corpusnorm/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          /corpusnorm
         </a>
       </li>
-      <li>Make a search query.</li>
-      <li>Copy the URL you see in the browser. For example:</li>
+      <li>Make a search.</li>
+      <li>
+        Click "Map All Results" button on the top-right corner. (recommended)
+      </li>
+      <li>Alternatively, you can paste in the search URL below.</li>
     </ul>
-    <code className="example">
-      https://corpus-synodalium.com/philologic/beta/query?report=concordance&method=proxy&q=corpus&start=0&end=0
-    </code>
   </div>
 );
 
@@ -205,6 +216,7 @@ class App extends Component {
     return (
       <div>
         <TopMenuBar
+          inputURL={this.state.inputURL}
           handleInputURL={this.handleInputURL}
           searchTerm={this.state.searchTerm}
         />
