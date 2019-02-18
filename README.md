@@ -8,7 +8,10 @@ This repo contains source files for https://cosyn.app/ which is a web-app used f
 
 ## Usage
 
-- Click on the "Map All Results" button at the top-right corner of the [database website](https://corpus-synodalium.com/philologic/corpus/).
+- Go to [Corpus Synodalium database](https://corpus-synodalium.com/philologic/corpus/).
+- Make a search query.
+- Click on the `Map All Results` button at the top-right corner.
+- [cosyn.app](https://cosyn.app/) will open in a new tab and display the mapping of the search results.
 
 ## Developer Notes
 
