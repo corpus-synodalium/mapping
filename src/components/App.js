@@ -142,7 +142,7 @@ class App extends Component {
       searchTerm: null,
       mappingData: null,
       loading: false,
-      inputURL: query.url,
+      inputURL: query.url ? query.url : '',
     };
   }
 
