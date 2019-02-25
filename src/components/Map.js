@@ -190,6 +190,20 @@ class GeoJSONLayer extends React.Component {
 // Search Results Modal
 //======================
 
+const SearchResultsModalTitle = ({ searchResults }) => {
+  return searchResults ? (
+    <span>
+      <Icon name="map marker alternate" />
+      {searchResults.diocese}
+      <Label circular color="blue">
+        {searchResults.searchData.length}
+      </Label>
+    </span>
+  ) : (
+    ''
+  );
+};
+
 class SearchResultsModal extends React.Component {
   constructor(props) {
     super(props);
@@ -206,16 +220,6 @@ class SearchResultsModal extends React.Component {
   };
   render() {
     const { searchResults } = this.props;
-    const headerText = searchResults ? (
-      <span>
-        {searchResults.diocese}
-        <Label circular color="blue">
-          {searchResults.searchData.length}
-        </Label>
-      </span>
-    ) : (
-      ''
-    );
     let modalContent = null;
     if (searchResults && searchResults.searchData) {
       const baseURL =
@@ -276,7 +280,9 @@ class SearchResultsModal extends React.Component {
         onClose={this.props.closeModal}
         size="large"
       >
-        <Header icon="map marker alternate" content={headerText} />
+        <Header>
+          <SearchResultsModalTitle searchResults={searchResults} />
+        </Header>
         <Modal.Content>{modalContent}</Modal.Content>
         <Modal.Actions>
           <Button color="blue" onClick={this.props.closeModal}>
