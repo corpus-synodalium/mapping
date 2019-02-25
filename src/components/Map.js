@@ -259,12 +259,16 @@ const SearchResultsModalTitle = ({ searchResults }) => {
 };
 
 const MetadataTable = ({ metadata }) =>
-  metadataFields.map(({ id, label }, i) => (
-    <Table.Row key={id}>
-      <Table.Cell>{label}</Table.Cell>
-      <Table.Cell>{metadata[id]}</Table.Cell>
-    </Table.Row>
-  ));
+  metadataFields.map(({ id, label }, i) => {
+    if (metadata[id]) {
+      return (
+        <Table.Row key={id}>
+          <Table.Cell>{label}</Table.Cell>
+          <Table.Cell>{metadata[id]}</Table.Cell>
+        </Table.Row>
+      );
+    }
+  });
 
 // prettier-ignore
 const ResultCards = ({ searchResults, toggleMetadataTable, showTable }) => {
