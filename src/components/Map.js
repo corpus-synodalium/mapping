@@ -267,7 +267,7 @@ class SearchResultsModal extends React.Component {
               </Card>
             </div>
           );
-        },
+        }
       );
     }
     return (
@@ -355,7 +355,7 @@ class InfoPanel extends React.Component {
           provinceCountry.push(
             <li key={attr}>
               {title(attr)}: {info[attr]}
-            </li>,
+            </li>
           );
         }
       }
@@ -366,10 +366,9 @@ class InfoPanel extends React.Component {
         <Card.Content>
           <h4>{diocese}</h4>
           {info && <ul className="panel-list">{provinceCountry}</ul>}
-          {info &&
-            info.searchData && (
-              <div>Total hits: ({info.searchData.length})</div>
-            )}
+          {info && info.searchData && (
+            <div>Total hits: ({info.searchData.length})</div>
+          )}
         </Card.Content>
       </Card>
     );
@@ -401,7 +400,7 @@ class ColorLegend extends React.Component {
         <i style={getStyle('#fff')} />
         0
         <br />
-      </React.Fragment>,
+      </React.Fragment>
     );
 
     for (let i = 0; i < colors.length; i++) {
@@ -416,7 +415,7 @@ class ColorLegend extends React.Component {
           <i style={getStyle(colors[i])} />
           {range}
           <br />
-        </React.Fragment>,
+        </React.Fragment>
       );
     }
 
