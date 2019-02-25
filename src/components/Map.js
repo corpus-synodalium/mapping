@@ -190,6 +190,49 @@ class GeoJSONLayer extends React.Component {
 // Search Results Modal
 //======================
 
+class SearchResultsModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: new Array(1000).fill(false),
+    };
+    this.toggleMetadataTable = this.toggleMetadataTable.bind(this);
+  }
+  toggleMetadataTable(index) {
+    const newState = [...this.state.show];
+    newState[index] = !newState[index];
+    this.setState({
+      show: newState,
+    });
+  }
+  render() {
+    const { searchResults } = this.props;
+    return (
+      <Modal
+        open={this.props.modalOpen}
+        onClose={this.props.closeModal}
+        size="large"
+      >
+        <Header>
+          <SearchResultsModalTitle searchResults={searchResults} />
+        </Header>
+        <Modal.Content>
+          <ResultCards
+            searchResults={searchResults}
+            toggleMetadataTable={this.toggleMetadataTable}
+            showTable={this.state.show}
+          />
+        </Modal.Content>
+        <Modal.Actions>
+          <Button color="blue" onClick={this.props.closeModal}>
+            <Icon name="checkmark" /> OK
+          </Button>
+        </Modal.Actions>
+      </Modal>
+    );
+  }
+}
+
 const SearchResultsModalTitle = ({ searchResults }) => {
   return searchResults ? (
     <span>
@@ -204,95 +247,69 @@ const SearchResultsModalTitle = ({ searchResults }) => {
   );
 };
 
-class SearchResultsModal extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      show: new Array(1000).fill(false),
-    };
+// prettier-ignore
+const ResultCards = ({ searchResults, toggleMetadataTable, showTable }) => {
+  if (!searchResults || !searchResults.searchData) {
+    return <div />;
   }
-  toggleMetadataTable = (index) => {
-    const newState = [...this.state.show];
-    newState[index] = !newState[index];
-    this.setState({
-      show: newState,
-    });
-  };
-  render() {
-    const { searchResults } = this.props;
-    let modalContent = null;
-    if (searchResults && searchResults.searchData) {
-      const baseURL =
-        'https://corpus-synodalium.com/philologic/corpus/query?report=concordance&method=proxy&start=0&end=0';
-      modalContent = searchResults.searchData.map(
-        ({ context, metadata }, index) => {
-          const url = `${baseURL}&q=${searchResults.query}&record_id=%22${
-            metadata.record_id
-          }%22`;
-          const metadataTable = Object.keys(metadata).map((item, i) => (
-            <Table.Row key={item}>
-              <Table.Cell>{item}</Table.Cell>
-              <Table.Cell>{metadata[item]}</Table.Cell>
-            </Table.Row>
-          ));
-          const { origPlace, year, head } = metadata;
-          const label = `${index + 1}. ${origPlace} (${year}) - ${head}`;
-          return (
-            <div className="search-fragment-card" key={context}>
-              <Card fluid>
-                <Label className="search-fragment-header" attached="top">
-                  {label}
-                </Label>
-                <Card.Content>
-                  <div
-                    className="search-fragment-div"
-                    dangerouslySetInnerHTML={{
-                      __html: `<div>... ${context} ...</div>`,
-                    }}
-                  />
-                  <Button icon labelPosition="left" href={url} target="_blank">
-                    <Icon name="search" />
-                    Show Record in PhiloLogic
-                  </Button>
-                  <Button
-                    icon
-                    labelPosition="left"
-                    onClick={() => this.toggleMetadataTable(index)}
-                  >
-                    <Icon name="file alternate outline" />
-                    Show Metadata
-                  </Button>
-                  {this.state.show[index] && (
-                    <Table basic celled striped>
-                      <Table.Body>{metadataTable}</Table.Body>
-                    </Table>
-                  )}
-                </Card.Content>
-              </Card>
-            </div>
-          );
-        }
-      );
-    }
-    return (
-      <Modal
-        open={this.props.modalOpen}
-        onClose={this.props.closeModal}
-        size="large"
-      >
-        <Header>
-          <SearchResultsModalTitle searchResults={searchResults} />
-        </Header>
-        <Modal.Content>{modalContent}</Modal.Content>
-        <Modal.Actions>
-          <Button color="blue" onClick={this.props.closeModal}>
-            <Icon name="checkmark" /> OK
-          </Button>
-        </Modal.Actions>
-      </Modal>
-    );
-  }
-}
+  const baseURL = 'https://corpus-synodalium.com/philologic/corpus/query?report=concordance&method=proxy&start=0&end=0';
+  return searchResults.searchData.map(({ context, metadata }, index) => {
+    const url = `${baseURL}&q=${searchResults.query}&record_id=%22${metadata.record_id}%22`;
+    const metadataTable = Object.keys(metadata).map((item, i) => (
+      <Table.Row key={item}>
+        <Table.Cell>{item}</Table.Cell>
+        <Table.Cell>{metadata[item]}</Table.Cell>
+      </Table.Row>
+    ));
+    const { origPlace, year, head } = metadata;
+    const label = `${index + 1}. ${origPlace} (${year}) - ${head}`;
+    return <SingleResultCard
+      key={context}
+      index={index}
+      context={context}
+      url={url}
+      label={label}
+      showTable={showTable}
+      metadataTable={metadataTable}
+      toggleMetadataTable={toggleMetadataTable}
+    />;
+  });
+};
+
+const SingleResultCard = (props) => (
+  <div className="search-fragment-card">
+    <Card fluid>
+      <Label className="search-fragment-header" attached="top">
+        {props.label}
+      </Label>
+      <Card.Content>
+        <div
+          className="search-fragment-div"
+          dangerouslySetInnerHTML={{
+            __html: `<div>... ${props.context} ...</div>`,
+          }}
+        />
+        <Button icon labelPosition="left" href={props.url} target="_blank">
+          <Icon name="search" />
+          Show Record in PhiloLogic
+        </Button>
+        <Button
+          icon
+          labelPosition="left"
+          onClick={() => props.toggleMetadataTable(props.index)}
+        >
+          <Icon name="file alternate outline" />
+          Show Metadata
+        </Button>
+        {props.showTable[props.index] && (
+          <Table basic celled striped>
+            <Table.Body>{props.metadataTable}</Table.Body>
+          </Table>
+        )}
+      </Card.Content>
+    </Card>
+  </div>
+);
 
 //===============
 // Control Panel
