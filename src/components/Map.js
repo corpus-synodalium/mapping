@@ -17,6 +17,7 @@ import {
 } from 'semantic-ui-react';
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
+import metadataFields from '../assets/metadata_fields.json';
 import dioceseInfo from '../assets/diocese_info.json';
 import './Map.css';
 
@@ -257,6 +258,14 @@ const SearchResultsModalTitle = ({ searchResults }) => {
   );
 };
 
+const MetadataTable = ({ metadata }) =>
+  metadataFields.map(({ id, label }, i) => (
+    <Table.Row key={id}>
+      <Table.Cell>{label}</Table.Cell>
+      <Table.Cell>{metadata[id]}</Table.Cell>
+    </Table.Row>
+  ));
+
 // prettier-ignore
 const ResultCards = ({ searchResults, toggleMetadataTable, showTable }) => {
   if (!searchResults || !searchResults.searchData) {
@@ -265,12 +274,6 @@ const ResultCards = ({ searchResults, toggleMetadataTable, showTable }) => {
   const baseURL = 'https://corpus-synodalium.com/philologic/corpus/query?report=concordance&method=proxy&start=0&end=0';
   return searchResults.searchData.map(({ context, metadata }, index) => {
     const url = `${baseURL}&q=${searchResults.query}&record_id=%22${metadata.record_id}%22`;
-    const metadataTable = Object.keys(metadata).map((item, i) => (
-      <Table.Row key={item}>
-        <Table.Cell>{item}</Table.Cell>
-        <Table.Cell>{metadata[item]}</Table.Cell>
-      </Table.Row>
-    ));
     const { origPlace, year, head } = metadata;
     const label = `${index + 1}. ${origPlace} (${year}) - ${head}`;
     return <SingleResultCard
@@ -280,7 +283,7 @@ const ResultCards = ({ searchResults, toggleMetadataTable, showTable }) => {
       url={url}
       label={label}
       showTable={showTable}
-      metadataTable={metadataTable}
+      metadataTable=<MetadataTable metadata={metadata}/>
       toggleMetadataTable={toggleMetadataTable}
     />;
   });
