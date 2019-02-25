@@ -197,7 +197,9 @@ class SearchResultsModal extends React.Component {
       show: new Array(1000).fill(false),
     };
     this.toggleMetadataTable = this.toggleMetadataTable.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   }
+
   toggleMetadataTable(index) {
     const newState = [...this.state.show];
     newState[index] = !newState[index];
@@ -205,12 +207,20 @@ class SearchResultsModal extends React.Component {
       show: newState,
     });
   }
+
+  handleClose() {
+    this.setState({
+      show: new Array(1000).fill(false),
+    });
+    this.props.closeModal();
+  }
+
   render() {
     const { searchResults } = this.props;
     return (
       <Modal
         open={this.props.modalOpen}
-        onClose={this.props.closeModal}
+        onClose={this.handleClose}
         size="large"
       >
         <Header>
@@ -224,7 +234,7 @@ class SearchResultsModal extends React.Component {
           />
         </Modal.Content>
         <Modal.Actions>
-          <Button color="blue" onClick={this.props.closeModal}>
+          <Button color="blue" onClick={this.handleClose}>
             <Icon name="checkmark" /> OK
           </Button>
         </Modal.Actions>
