@@ -218,16 +218,17 @@ class GeoJSONLayer extends React.Component {
     }
     return (
       <>
-        <GeoJSONFillable
+        {this.props.showDioceses && <GeoJSONFillable
           data={this.state.geojson}
           style={this.style}
           onEachFeature={this.onEachFeature}
           ref={this.geojsonRef}
-        />
-        <GeoJSON
+        />}
+        {this.props.showProvinces && <GeoJSON
           data={provinces}
+          style={this.style}
           ref={this.provincesRef}
-        />
+        />}
       </>
     );
   }
@@ -418,6 +419,18 @@ class ControlPanel extends React.Component {
           />
           <br />
           <Checkbox
+            label="Dioceses"
+            checked={this.props.showDioceses}
+            onChange={(e, data) => this.props.toggleDioceses(data.checked)}
+          />
+          <br />
+          <Checkbox
+            label="Provinces"
+            checked={this.props.showProvinces}
+            onChange={(e, data) => this.props.toggleProvinces(data.checked)}
+          />
+          <br />
+          <Checkbox
             label="World Map"
             checked={this.props.showBaseMap}
             onChange={(e, data) => this.props.toggleBaseMap(data.checked)}
@@ -541,6 +554,8 @@ class LocalLegislationMap extends Component {
       searchResults: null,
       showBaseMap: true,
       showStripedRegions: true,
+      showDioceses: true,
+      showProvinces: false,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
@@ -549,6 +564,8 @@ class LocalLegislationMap extends Component {
     this.closeModal = this.closeModal.bind(this);
     this.toggleBaseMap = this.toggleBaseMap.bind(this);
     this.toggleStripedRegions = this.toggleStripedRegions.bind(this);
+    this.toggleDioceses = this.toggleDioceses.bind(this);
+    this.toggleProvinces = this.toggleProvinces.bind(this);
   }
 
   showModal(searchResults) {
@@ -577,6 +594,18 @@ class LocalLegislationMap extends Component {
   toggleStripedRegions(showStripedRegions) {
     this.setState({
       showStripedRegions: showStripedRegions,
+    });
+  }
+
+  toggleDioceses(showDioceses) {
+    this.setState({
+      showDioceses: showDioceses,
+    });
+  }
+
+  toggleProvinces(showProvinces) {
+    this.setState({
+      showProvinces: showProvinces,
     });
   }
 
@@ -612,6 +641,10 @@ class LocalLegislationMap extends Component {
           showBaseMap={this.state.showBaseMap}
           toggleStripedRegions={this.toggleStripedRegions}
           showStripedRegions={this.state.showStripedRegions}
+          toggleDioceses={this.toggleDioceses}
+          showDioceses={this.state.showDioceses}
+          toggleProvinces={this.toggleProvinces}
+          showProvinces={this.state.showProvinces}
         />
         <ColorLegend
           mappingData={this.props.mappingData}
@@ -643,6 +676,8 @@ class LocalLegislationMap extends Component {
             maxNumEntries={maxNumEntries}
             showModal={this.showModal}
             showStripedRegions={this.state.showStripedRegions}
+            showDioceses={this.state.showDioceses}
+            showProvinces={this.state.showProvinces}
           />
         </LeafletMap>
       </div>
