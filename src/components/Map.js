@@ -15,6 +15,7 @@ import {
   Modal,
   Table,
 } from 'semantic-ui-react';
+import { GeoJSONFillable, Patterns } from 'react-leaflet-geojson-patterns';
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
 import metadataFields from '../assets/metadata_fields.json';
@@ -98,11 +99,17 @@ class GeoJSONLayer extends React.Component {
   style(feature) {
     const shape_id = feature.properties.SHPFID;
     const diocese_id = s2d.map[shape_id];
-    let fillOpacity = 0;
+    let fillOpacity = 0.7;
     let weight = 0;
+    let fillPattern = null;
     if (databaseDioceses.indexOf(diocese_id) >= 0) {
       fillOpacity = 1.0;
-      weight = 0.5;
+      weight = 0.7;
+    } else {
+      fillPattern = Patterns.StripePattern({
+        color: '#fff',
+        key: 'stripe',
+      });
     }
     return {
       fillColor: this.getColor(shape_id),
@@ -111,6 +118,7 @@ class GeoJSONLayer extends React.Component {
       color: 'black',
       dashArray: '',
       fillOpacity: fillOpacity,
+      fillPattern: fillPattern,
     };
   }
 
@@ -194,7 +202,7 @@ class GeoJSONLayer extends React.Component {
       return <span />;
     }
     return (
-      <GeoJSON
+      <GeoJSONFillable
         data={this.state.geojson}
         style={this.style}
         onEachFeature={this.onEachFeature}
