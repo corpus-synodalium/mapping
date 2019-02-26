@@ -23,6 +23,8 @@ import metadataFields from '../assets/metadata_fields.json';
 import databaseDioceses from '../assets/dioceses_in_database.json';
 import dioceseInfo from '../assets/diocese_info.json';
 import './Map.css';
+import provinces from '../assets/provinces.json';
+
 
 //=================
 // Mapbox base map
@@ -55,6 +57,7 @@ class GeoJSONLayer extends React.Component {
       isLoading: true,
     };
     this.geojsonRef = React.createRef();
+    this.provincesRef = React.createRef();
     this.shapeToDiocese = s2d.map;
     this.onEachFeature = this.onEachFeature.bind(this);
     this.highlightFeature = this.highlightFeature.bind(this);
@@ -214,12 +217,18 @@ class GeoJSONLayer extends React.Component {
       return <span />;
     }
     return (
-      <GeoJSONFillable
-        data={this.state.geojson}
-        style={this.style}
-        onEachFeature={this.onEachFeature}
-        ref={this.geojsonRef}
-      />
+      <>
+        <GeoJSONFillable
+          data={this.state.geojson}
+          style={this.style}
+          onEachFeature={this.onEachFeature}
+          ref={this.geojsonRef}
+        />
+        <GeoJSON
+          data={provinces}
+          ref={this.provincesRef}
+        />
+      </>
     );
   }
 }
