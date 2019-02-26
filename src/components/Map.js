@@ -100,7 +100,7 @@ class GeoJSONLayer extends React.Component {
   style(feature) {
     const shape_id = feature.properties.SHPFID;
     const diocese_id = s2d.map[shape_id];
-    let fillOpacity = 0.7;
+    let fillOpacity = this.props.showStripedRegions ? 0.7 : 0;
     let weight = 0;
     let fillPattern = null;
     if (databaseDioceses.indexOf(diocese_id) >= 0) {
@@ -162,23 +162,34 @@ class GeoJSONLayer extends React.Component {
   }
 
   highlightFeature(e) {
-    const shape_id = e.target.feature.properties.SHPFID;
+    var layer = e.target;
+    const shape_id = layer.feature.properties.SHPFID;
     const diocese_id = s2d.map[shape_id];
+
     let weight = 0.5;
     let dashArray = '3';
+    let fillOpacity = 1.0;
+
     if (databaseDioceses.indexOf(diocese_id) >= 0) {
       weight = 2.0;
       dashArray = '';
+    } else {
+      if (!this.props.showStripedRegions) {
+        fillOpacity = 0;
+        weight = 0
+      }
     }
-    var layer = e.target;
-    const info = this.getDioceseData(layer);
-    this.props.updateInfo(info);
+
+    if (databaseDioceses.indexOf(diocese_id) >= 0 || this.props.showStripedRegions) {
+      const info = this.getDioceseData(layer);
+      this.props.updateInfo(info);
+    }
 
     layer.setStyle({
       weight: weight,
       color: 'black',
       dashArray: dashArray,
-      fillOpacity: 1.0,
+      fillOpacity: fillOpacity,
     });
 
     layer.bringToFront();
@@ -398,9 +409,15 @@ class ControlPanel extends React.Component {
           />
           <br />
           <Checkbox
-            label="World map"
+            label="World Map"
             checked={this.props.showBaseMap}
             onChange={(e, data) => this.props.toggleBaseMap(data.checked)}
+          />
+          <br />
+          <Checkbox
+            label="Striped regions"
+            checked={this.props.showStripedRegions}
+            onChange={(e, data) => this.props.toggleStripedRegions(data.checked)}
           />
         </Card.Content>
       </Card>
@@ -514,6 +531,7 @@ class LocalLegislationMap extends Component {
       modalOpen: false,
       searchResults: null,
       showBaseMap: true,
+      showStripedRegions: true,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
@@ -521,6 +539,7 @@ class LocalLegislationMap extends Component {
     this.showModal = this.showModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.toggleBaseMap = this.toggleBaseMap.bind(this);
+    this.toggleStripedRegions = this.toggleStripedRegions.bind(this);
   }
 
   showModal(searchResults) {
@@ -543,6 +562,12 @@ class LocalLegislationMap extends Component {
   toggleBaseMap(showBaseMap) {
     this.setState({
       showBaseMap: showBaseMap,
+    });
+  }
+
+  toggleStripedRegions(showStripedRegions) {
+    this.setState({
+      showStripedRegions: showStripedRegions,
     });
   }
 
@@ -576,6 +601,8 @@ class LocalLegislationMap extends Component {
           changeColorScheme={this.changeColorScheme}
           toggleBaseMap={this.toggleBaseMap}
           showBaseMap={this.state.showBaseMap}
+          toggleStripedRegions={this.toggleStripedRegions}
+          showStripedRegions={this.state.showStripedRegions}
         />
         <ColorLegend
           mappingData={this.props.mappingData}
@@ -606,6 +633,7 @@ class LocalLegislationMap extends Component {
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
             showModal={this.showModal}
+            showStripedRegions={this.state.showStripedRegions}
           />
         </LeafletMap>
       </div>
