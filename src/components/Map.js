@@ -8,6 +8,7 @@ import {
 import {
   Button,
   Card,
+  Checkbox,
   Dropdown,
   Header,
   Icon,
@@ -395,6 +396,12 @@ class ControlPanel extends React.Component {
             selection
             fluid
           />
+          <br />
+          <Checkbox
+            label="World map"
+            checked={this.props.showBaseMap}
+            onChange={(e, data) => this.props.toggleBaseMap(data.checked)}
+          />
         </Card.Content>
       </Card>
     );
@@ -506,12 +513,14 @@ class LocalLegislationMap extends Component {
       info: null,
       modalOpen: false,
       searchResults: null,
+      showBaseMap: true,
     };
     this.mapRef = React.createRef();
     this.changeColorScheme = this.changeColorScheme.bind(this);
     this.updateInfo = this.updateInfo.bind(this);
     this.showModal = this.showModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
+    this.toggleBaseMap = this.toggleBaseMap.bind(this);
   }
 
   showModal(searchResults) {
@@ -528,6 +537,12 @@ class LocalLegislationMap extends Component {
   changeColorScheme(colorScheme) {
     this.setState({
       currentColorScheme: colorScheme,
+    });
+  }
+
+  toggleBaseMap(showBaseMap) {
+    this.setState({
+      showBaseMap: showBaseMap,
     });
   }
 
@@ -557,7 +572,11 @@ class LocalLegislationMap extends Component {
     return (
       <div>
         <InfoPanel info={this.state.info} />
-        <ControlPanel changeColorScheme={this.changeColorScheme} />
+        <ControlPanel
+          changeColorScheme={this.changeColorScheme}
+          toggleBaseMap={this.toggleBaseMap}
+          showBaseMap={this.state.showBaseMap}
+        />
         <ColorLegend
           mappingData={this.props.mappingData}
           config={config}
@@ -578,7 +597,7 @@ class LocalLegislationMap extends Component {
           maxZoom={config.params.maxZoom}
         >
           <ScaleControl />
-          <BaseMap config={config} />
+          {this.state.showBaseMap && <BaseMap config={config} />}
           <GeoJSONLayer
             config={config}
             mapRef={this.mapRef}
