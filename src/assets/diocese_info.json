@@ -4390,5 +4390,393 @@
     "diocese_alt": "",
     "province": "Nicosia",
     "country_modern": "Cyprus"
+  },
+  "P001": {
+    "diocese_name": "[Holy See]",
+    "diocese_alt": ""
+  },
+  "P002": {
+    "diocese_name": "Acerenza",
+    "diocese_alt": ""
+  },
+  "P003": {
+    "diocese_name": "Aix",
+    "diocese_alt": ""
+  },
+  "P004": {
+    "diocese_name": "Amalfi",
+    "diocese_alt": ""
+  },
+  "P005": {
+    "diocese_name": "Aquileia",
+    "diocese_alt": ""
+  },
+  "P006": {
+    "diocese_name": "Arles",
+    "diocese_alt": ""
+  },
+  "P007": {
+    "diocese_name": "Armagh",
+    "diocese_alt": ""
+  },
+  "P008": {
+    "diocese_name": "Auch",
+    "diocese_alt": ""
+  },
+  "P009": {
+    "diocese_name": "Avignon",
+    "diocese_alt": ""
+  },
+  "P010": {
+    "diocese_name": "Bamberg",
+    "diocese_alt": ""
+  },
+  "P011": {
+    "diocese_name": "Bari",
+    "diocese_alt": ""
+  },
+  "P012": {
+    "diocese_name": "Benevento",
+    "diocese_alt": ""
+  },
+  "P013": {
+    "diocese_name": "Besancon",
+    "diocese_alt": ""
+  },
+  "P014": {
+    "diocese_name": "Bordeaux",
+    "diocese_alt": ""
+  },
+  "P015": {
+    "diocese_name": "Bourges",
+    "diocese_alt": ""
+  },
+  "P016": {
+    "diocese_name": "Braga",
+    "diocese_alt": ""
+  },
+  "P017": {
+    "diocese_name": "Bremen",
+    "diocese_alt": ""
+  },
+  "P018": {
+    "diocese_name": "Brindisi",
+    "diocese_alt": ""
+  },
+  "P019": {
+    "diocese_name": "Cagliari",
+    "diocese_alt": ""
+  },
+  "P020": {
+    "diocese_name": "Canterbury",
+    "diocese_alt": ""
+  },
+  "P021": {
+    "diocese_name": "Capua",
+    "diocese_alt": ""
+  },
+  "P022": {
+    "diocese_name": "Cashel",
+    "diocese_alt": ""
+  },
+  "P023": {
+    "diocese_name": "Cologne",
+    "diocese_alt": "Köln"
+  },
+  "P024": {
+    "diocese_name": "Conza",
+    "diocese_alt": ""
+  },
+  "P025": {
+    "diocese_name": "Cosenza",
+    "diocese_alt": ""
+  },
+  "P026": {
+    "diocese_name": "Dublin",
+    "diocese_alt": ""
+  },
+  "P027": {
+    "diocese_name": "Embrun",
+    "diocese_alt": ""
+  },
+  "P028": {
+    "diocese_name": "Esztergom",
+    "diocese_alt": ""
+  },
+  "P029": {
+    "diocese_name": "Fiesole",
+    "diocese_alt": ""
+  },
+  "P030": {
+    "diocese_name": "Firenze",
+    "diocese_alt": "Florence"
+  },
+  "P031": {
+    "diocese_name": "Genova",
+    "diocese_alt": "Genoa"
+  },
+  "P032": {
+    "diocese_name": "Gniezno",
+    "diocese_alt": ""
+  },
+  "P033": {
+    "diocese_name": "Grado",
+    "diocese_alt": ""
+  },
+  "P034": {
+    "diocese_name": "Granada",
+    "diocese_alt": ""
+  },
+  "P035": {
+    "diocese_name": "Halyč",
+    "diocese_alt": ""
+  },
+  "P036": {
+    "diocese_name": "Kalocsa",
+    "diocese_alt": ""
+  },
+  "P037": {
+    "diocese_name": "Kammin",
+    "diocese_alt": ""
+  },
+  "P038": {
+    "diocese_name": "Lisbon",
+    "diocese_alt": "Lisboa"
+  },
+  "P039": {
+    "diocese_name": "Lund",
+    "diocese_alt": ""
+  },
+  "P040": {
+    "diocese_name": "Lviv",
+    "diocese_alt": ""
+  },
+  "P041": {
+    "diocese_name": "Lyon",
+    "diocese_alt": ""
+  },
+  "P042": {
+    "diocese_name": "Magdeburg",
+    "diocese_alt": ""
+  },
+  "P043": {
+    "diocese_name": "Mainz",
+    "diocese_alt": ""
+  },
+  "P044": {
+    "diocese_name": "Manfredonia",
+    "diocese_alt": ""
+  },
+  "P045": {
+    "diocese_name": "Meissen",
+    "diocese_alt": ""
+  },
+  "P046": {
+    "diocese_name": "Messina",
+    "diocese_alt": ""
+  },
+  "P047": {
+    "diocese_name": "Milano",
+    "diocese_alt": "Milan"
+  },
+  "P048": {
+    "diocese_name": "Monreale",
+    "diocese_alt": ""
+  },
+  "P049": {
+    "diocese_name": "Napoli",
+    "diocese_alt": "Naples"
+  },
+  "P050": {
+    "diocese_name": "Narbonne",
+    "diocese_alt": ""
+  },
+  "P051": {
+    "diocese_name": "Nicosia",
+    "diocese_alt": ""
+  },
+  "P052": {
+    "diocese_name": "Nidaros",
+    "diocese_alt": "Trondheim"
+  },
+  "P053": {
+    "diocese_name": "Oristano",
+    "diocese_alt": ""
+  },
+  "P054": {
+    "diocese_name": "Otranto",
+    "diocese_alt": ""
+  },
+  "P055": {
+    "diocese_name": "Palermo",
+    "diocese_alt": ""
+  },
+  "P056": {
+    "diocese_name": "Pisa",
+    "diocese_alt": ""
+  },
+  "P057": {
+    "diocese_name": "Prague",
+    "diocese_alt": ""
+  },
+  "P058": {
+    "diocese_name": "Ragusa",
+    "diocese_alt": "Dubrovnik"
+  },
+  "P059": {
+    "diocese_name": "Ravenna",
+    "diocese_alt": ""
+  },
+  "P060": {
+    "diocese_name": "Reggio-Calabria",
+    "diocese_alt": ""
+  },
+  "P061": {
+    "diocese_name": "Reims",
+    "diocese_alt": ""
+  },
+  "P062": {
+    "diocese_name": "Riga",
+    "diocese_alt": ""
+  },
+  "P063": {
+    "diocese_name": "Roma",
+    "diocese_alt": "Rome"
+  },
+  "P064": {
+    "diocese_name": "Rossano",
+    "diocese_alt": ""
+  },
+  "P065": {
+    "diocese_name": "Rouen",
+    "diocese_alt": ""
+  },
+  "P066": {
+    "diocese_name": "Salerno",
+    "diocese_alt": ""
+  },
+  "P067": {
+    "diocese_name": "Salzburg",
+    "diocese_alt": ""
+  },
+  "P068": {
+    "diocese_name": "Santa Severina",
+    "diocese_alt": ""
+  },
+  "P069": {
+    "diocese_name": "Santiago",
+    "diocese_alt": ""
+  },
+  "P070": {
+    "diocese_name": "Sens",
+    "diocese_alt": ""
+  },
+  "P071": {
+    "diocese_name": "Seville",
+    "diocese_alt": "Sevilla"
+  },
+  "P072": {
+    "diocese_name": "Siena",
+    "diocese_alt": ""
+  },
+  "P073": {
+    "diocese_name": "Sorrento",
+    "diocese_alt": ""
+  },
+  "P074": {
+    "diocese_name": "Split",
+    "diocese_alt": ""
+  },
+  "P075": {
+    "diocese_name": "Taranto",
+    "diocese_alt": ""
+  },
+  "P076": {
+    "diocese_name": "Tarentaise",
+    "diocese_alt": ""
+  },
+  "P077": {
+    "diocese_name": "Tarragona",
+    "diocese_alt": ""
+  },
+  "P078": {
+    "diocese_name": "Toledo",
+    "diocese_alt": ""
+  },
+  "P079": {
+    "diocese_name": "Torres",
+    "diocese_alt": ""
+  },
+  "P080": {
+    "diocese_name": "Toulouse",
+    "diocese_alt": ""
+  },
+  "P081": {
+    "diocese_name": "Tours",
+    "diocese_alt": ""
+  },
+  "P082": {
+    "diocese_name": "Trani",
+    "diocese_alt": ""
+  },
+  "P083": {
+    "diocese_name": "Trier",
+    "diocese_alt": ""
+  },
+  "P084": {
+    "diocese_name": "Trivento",
+    "diocese_alt": ""
+  },
+  "P085": {
+    "diocese_name": "Tuam",
+    "diocese_alt": ""
+  },
+  "P086": {
+    "diocese_name": "Uppsala",
+    "diocese_alt": ""
+  },
+  "P087": {
+    "diocese_name": "Venezia",
+    "diocese_alt": "Venice"
+  },
+  "P088": {
+    "diocese_name": "Vienna",
+    "diocese_alt": "Wien"
+  },
+  "P089": {
+    "diocese_name": "Vienne",
+    "diocese_alt": ""
+  },
+  "P090": {
+    "diocese_name": "Wiener Neustadt",
+    "diocese_alt": ""
+  },
+  "P091": {
+    "diocese_name": "York",
+    "diocese_alt": ""
+  },
+  "P092": {
+    "diocese_name": "Zadar",
+    "diocese_alt": "Zara"
+  },
+  "P093": {
+    "diocese_name": "Zaragoza",
+    "diocese_alt": ""
+  },
+  "P094": {
+    "diocese_name": "",
+    "diocese_alt": ""
+  },
+  "P095": {
+    "diocese_name": "",
+    "diocese_alt": ""
+  },
+  "P096": {
+    "diocese_name": "",
+    "diocese_alt": ""
+  },
+  "P097": {
+    "diocese_name": "",
+    "diocese_alt": ""
   }
 }
