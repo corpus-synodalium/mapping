@@ -60,8 +60,10 @@ class GeoJSONLayer extends React.Component {
     this.provincesRef = React.createRef();
     this.shapeToDiocese = s2d.map;
     this.onEachFeature = this.onEachFeature.bind(this);
+    this.onEachFeatureProvinces = this.onEachFeatureProvinces.bind(this);
     this.highlightFeature = this.highlightFeature.bind(this);
     this.resetHighlight = this.resetHighlight.bind(this);
+    this.resetHighlightProvinces = this.resetHighlightProvinces.bind(this);
     this.showSearchResultsModal = this.showSearchResultsModal.bind(this);
     this.style = this.style.bind(this);
     this.getDioceseData = this.getDioceseData.bind(this);
@@ -126,10 +128,19 @@ class GeoJSONLayer extends React.Component {
     };
   }
 
+  //TODO: combine these together
   onEachFeature(feature, layer) {
     layer.on({
       mouseover: this.highlightFeature,
       mouseout: this.resetHighlight,
+      click: this.showSearchResultsModal,
+    });
+  }
+
+  onEachFeatureProvinces(feature, layer) {
+    layer.on({
+      mouseover: this.highlightFeature,
+      mouseout: this.resetHighlightProvinces,
       click: this.showSearchResultsModal,
     });
   }
@@ -198,8 +209,15 @@ class GeoJSONLayer extends React.Component {
     layer.bringToFront();
   }
 
+  //TODO: combine these together
   resetHighlight(e) {
     const { leafletElement } = this.geojsonRef.current;
+    leafletElement.resetStyle(e.target);
+    this.props.updateInfo(null);
+  }
+
+  resetHighlightProvinces(e) {
+    const { leafletElement } = this.provincesRef.current;
     leafletElement.resetStyle(e.target);
     this.props.updateInfo(null);
   }
@@ -227,6 +245,7 @@ class GeoJSONLayer extends React.Component {
         {this.props.showProvinces && <GeoJSON
           data={provinces}
           style={this.style}
+          onEachFeature={this.onEachFeatureProvinces}
           ref={this.provincesRef}
         />}
       </>
