@@ -18,6 +18,7 @@ import {
 import mapConfig from '../assets/map_config';
 import s2d from '../assets/s2d.json';
 import metadataFields from '../assets/metadata_fields.json';
+import databaseDioceses from '../assets/dioceses_in_database.json';
 import dioceseInfo from '../assets/diocese_info.json';
 import './Map.css';
 
@@ -95,13 +96,21 @@ class GeoJSONLayer extends React.Component {
   }
 
   style(feature) {
+    const shape_id = feature.properties.SHPFID;
+    const diocese_id = s2d.map[shape_id];
+    let fillOpacity = 0;
+    let weight = 0;
+    if (databaseDioceses.indexOf(diocese_id) >= 0) {
+      fillOpacity = 1.0;
+      weight = 0.5;
+    }
     return {
-      fillColor: this.getColor(feature.properties.SHPFID),
-      weight: 1,
+      fillColor: this.getColor(shape_id),
+      weight: weight,
       opacity: 3,
-      color: 'grey',
-      dashArray: '3',
-      fillOpacity: 1.0,
+      color: 'black',
+      dashArray: '',
+      fillOpacity: fillOpacity,
     };
   }
 
@@ -144,14 +153,22 @@ class GeoJSONLayer extends React.Component {
   }
 
   highlightFeature(e) {
+    const shape_id = e.target.feature.properties.SHPFID;
+    const diocese_id = s2d.map[shape_id];
+    let weight = 0.5;
+    let dashArray = '3';
+    if (databaseDioceses.indexOf(diocese_id) >= 0) {
+      weight = 2.0;
+      dashArray = '';
+    }
     var layer = e.target;
     const info = this.getDioceseData(layer);
     this.props.updateInfo(info);
 
     layer.setStyle({
-      weight: 2,
+      weight: weight,
       color: 'black',
-      dashArray: '',
+      dashArray: dashArray,
       fillOpacity: 1.0,
     });
 
@@ -258,8 +275,8 @@ const SearchResultsModalTitle = ({ searchResults }) => {
   );
 };
 
-const MetadataTable = ({ metadata }) =>
-  metadataFields.map(({ id, label }, i) => {
+const MetadataTable = ({ metadata }) => {
+  return metadataFields.map(({ id, label }, i) => {
     if (metadata[id]) {
       return (
         <Table.Row key={id}>
@@ -269,6 +286,7 @@ const MetadataTable = ({ metadata }) =>
       );
     }
   });
+};
 
 // prettier-ignore
 const ResultCards = ({ searchResults, toggleMetadataTable, showTable }) => {
