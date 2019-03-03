@@ -53,12 +53,6 @@ class GeoJSONLayer extends Component {
     };
     this.geojsonRef = React.createRef();
     this.shapeToDiocese = s2d.map;
-    this.onEachFeature = this.onEachFeature.bind(this);
-    this.highlightFeature = this.highlightFeature.bind(this);
-    this.resetHighlight = this.resetHighlight.bind(this);
-    this.showSearchResultsModal = this.showSearchResultsModal.bind(this);
-    this.style = this.style.bind(this);
-    this.getDioceseData = this.getDioceseData.bind(this);
   }
 
   componentDidMount() {
@@ -94,7 +88,7 @@ class GeoJSONLayer extends Component {
     return '#fff';
   }
 
-  style(feature) {
+  style = (feature) => {
     return {
       fillColor: this.getColor(feature.properties.SHPFID),
       weight: 1,
@@ -103,17 +97,17 @@ class GeoJSONLayer extends Component {
       dashArray: '3',
       fillOpacity: 1.0,
     };
-  }
+  };
 
-  onEachFeature(feature, layer) {
+  onEachFeature = (feature, layer) => {
     layer.on({
       mouseover: this.highlightFeature,
       mouseout: this.resetHighlight,
       click: this.showSearchResultsModal,
     });
-  }
+  };
 
-  getDioceseData(layer) {
+  getDioceseData = (layer) => {
     const { SHPFID: shpfid } = layer.feature.properties;
     const { mappingData } = this.props;
     const info = {};
@@ -141,9 +135,9 @@ class GeoJSONLayer extends Component {
       }
     }
     return info;
-  }
+  };
 
-  highlightFeature(e) {
+  highlightFeature = (e) => {
     var layer = e.target;
     const info = this.getDioceseData(layer);
     this.props.updateInfo(info);
@@ -156,21 +150,21 @@ class GeoJSONLayer extends Component {
     });
 
     layer.bringToFront();
-  }
+  };
 
-  resetHighlight(e) {
+  resetHighlight = (e) => {
     const { leafletElement } = this.geojsonRef.current;
     leafletElement.resetStyle(e.target);
     this.props.updateInfo(null);
-  }
+  };
 
-  showSearchResultsModal(e) {
+  showSearchResultsModal = (e) => {
     var layer = e.target;
     const info = this.getDioceseData(layer);
     if (info.hasMappingData) {
       this.props.showModal(info);
     }
-  }
+  };
 
   render() {
     if (this.state.isLoading) {
@@ -197,24 +191,22 @@ class SearchResultsModal extends Component {
     this.state = {
       show: new Array(1000).fill(false),
     };
-    this.toggleMetadataTable = this.toggleMetadataTable.bind(this);
-    this.handleClose = this.handleClose.bind(this);
   }
 
-  toggleMetadataTable(index) {
+  toggleMetadataTable = (index) => {
     const newState = [...this.state.show];
     newState[index] = !newState[index];
     this.setState({
       show: newState,
     });
-  }
+  };
 
-  handleClose() {
+  handleClose = () => {
     this.setState({
       show: new Array(1000).fill(false),
     });
     this.props.closeModal();
-  }
+  };
 
   render() {
     const { searchResults } = this.props;
@@ -482,34 +474,30 @@ class LocalLegislationMap extends Component {
       searchResults: null,
     };
     this.mapRef = React.createRef();
-    this.changeColorScheme = this.changeColorScheme.bind(this);
-    this.updateInfo = this.updateInfo.bind(this);
-    this.showModal = this.showModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
   }
 
-  showModal(searchResults) {
+  showModal = (searchResults) => {
     this.setState({
       searchResults: searchResults,
       modalOpen: true,
     });
-  }
+  };
 
-  closeModal() {
+  closeModal = () => {
     this.setState({ modalOpen: false });
-  }
+  };
 
-  changeColorScheme(colorScheme) {
+  changeColorScheme = (colorScheme) => {
     this.setState({
       currentColorScheme: colorScheme,
     });
-  }
+  };
 
-  updateInfo(info) {
+  updateInfo = (info) => {
     this.setState({
       info: info,
     });
-  }
+  };
 
   getMaxNumEntries = () => {
     const { mappingData } = this.props;

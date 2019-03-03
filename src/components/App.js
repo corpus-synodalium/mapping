@@ -80,7 +80,7 @@ class ModalQuery extends Component {
           <ModalDescription />
           <Form>
             <Form.Field>
-              <label>"Export Results" URL</label>
+              <label>URL</label>
               <input
                 type="text"
                 value={this.state.url}
