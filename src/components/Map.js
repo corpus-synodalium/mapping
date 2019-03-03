@@ -25,7 +25,7 @@ import './Map.css';
 // Mapbox base map
 //=================
 
-class BaseMap extends React.Component {
+class BaseMap extends Component {
   render() {
     const { tileLayer } = this.props.config;
     return (
@@ -44,7 +44,7 @@ class BaseMap extends React.Component {
 // Geo JSON layer
 //================
 
-class GeoJSONLayer extends React.Component {
+class GeoJSONLayer extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -191,7 +191,7 @@ class GeoJSONLayer extends React.Component {
 // Search Results Modal
 //======================
 
-class SearchResultsModal extends React.Component {
+class SearchResultsModal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -332,7 +332,7 @@ const SingleResultCard = (props) => (
 // Control Panel
 //===============
 
-class ControlPanel extends React.Component {
+class ControlPanel extends Component {
   render() {
     const colorSchemeOptions = [
       {
@@ -379,7 +379,7 @@ class ControlPanel extends React.Component {
 // Info Panel
 //============
 
-class InfoPanel extends React.Component {
+class InfoPanel extends Component {
   render() {
     const { info } = this.props;
     const diocese = info ? info.diocese : 'Hover over a region';
@@ -419,7 +419,7 @@ class InfoPanel extends React.Component {
 // Color Legend
 //===============
 
-class ColorLegend extends React.Component {
+class ColorLegend extends Component {
   render() {
     if (!this.props.mappingData) {
       return null;

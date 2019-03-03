@@ -42,7 +42,7 @@ class TopMenuBar extends Component {
 // Modal to paste query url
 //==========================
 
-class ModalQuery extends React.Component {
+class ModalQuery extends Component {
   constructor(props) {
     super(props);
     this.state = {
