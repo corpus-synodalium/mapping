@@ -5,7 +5,7 @@ config.params = {
   zoomControl: false,
   zoom: 5,
   maxZoom: 9,
-  minZoom: 5,
+  minZoom: 4,
   scrollwheel: false,
   legends: true,
   infoControl: false,
