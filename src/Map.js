@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Map as LeafletMap, ScaleControl } from 'react-leaflet';
 import mapConfig from './assets/map_config';
-import './Map.css';
+import './styles/Map.css';
 import MapBoxLayer from './components/MapBoxLayer';
 import ControlPanel from './components/ControlPanel';
 import InfoPanel from './components/InfoPanel';

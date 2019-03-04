@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import queryString from 'query-string';
 import axios from 'axios';
-import './App.css';
+import './styles/App.css';
 import TopMenuBar from './components/TopMenuBar';
 import Map from './Map';
 
