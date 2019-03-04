@@ -3,7 +3,7 @@ import queryString from 'query-string';
 import axios from 'axios';
 import './App.css';
 import TopMenuBar from './components/TopMenuBar';
-import Map from './components/Map';
+import Map from './Map';
 
 class App extends Component {
   constructor(props) {
