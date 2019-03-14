@@ -1,0 +1,390 @@
+{
+  "P001": {
+    "name": "[Holy See]",
+    "alt": ""
+  },
+  "P002": {
+    "name": "Acerenza",
+    "alt": ""
+  },
+  "P003": {
+    "name": "Aix",
+    "alt": ""
+  },
+  "P004": {
+    "name": "Amalfi",
+    "alt": ""
+  },
+  "P005": {
+    "name": "Aquileia",
+    "alt": ""
+  },
+  "P006": {
+    "name": "Arles",
+    "alt": ""
+  },
+  "P007": {
+    "name": "Armagh",
+    "alt": ""
+  },
+  "P008": {
+    "name": "Auch",
+    "alt": ""
+  },
+  "P009": {
+    "name": "Avignon",
+    "alt": ""
+  },
+  "P010": {
+    "name": "Bamberg",
+    "alt": ""
+  },
+  "P011": {
+    "name": "Bari",
+    "alt": ""
+  },
+  "P012": {
+    "name": "Benevento",
+    "alt": ""
+  },
+  "P013": {
+    "name": "Besancon",
+    "alt": ""
+  },
+  "P014": {
+    "name": "Bordeaux",
+    "alt": ""
+  },
+  "P015": {
+    "name": "Bourges",
+    "alt": ""
+  },
+  "P016": {
+    "name": "Braga",
+    "alt": ""
+  },
+  "P017": {
+    "name": "Bremen",
+    "alt": ""
+  },
+  "P018": {
+    "name": "Brindisi",
+    "alt": ""
+  },
+  "P019": {
+    "name": "Cagliari",
+    "alt": ""
+  },
+  "P020": {
+    "name": "Canterbury",
+    "alt": ""
+  },
+  "P021": {
+    "name": "Capua",
+    "alt": ""
+  },
+  "P022": {
+    "name": "Cashel",
+    "alt": ""
+  },
+  "P023": {
+    "name": "Cologne",
+    "alt": "Köln"
+  },
+  "P024": {
+    "name": "Conza",
+    "alt": ""
+  },
+  "P025": {
+    "name": "Cosenza",
+    "alt": ""
+  },
+  "P026": {
+    "name": "Dublin",
+    "alt": ""
+  },
+  "P027": {
+    "name": "Embrun",
+    "alt": ""
+  },
+  "P028": {
+    "name": "Esztergom",
+    "alt": ""
+  },
+  "P029": {
+    "name": "Fiesole",
+    "alt": ""
+  },
+  "P030": {
+    "name": "Firenze",
+    "alt": "Florence"
+  },
+  "P031": {
+    "name": "Genova",
+    "alt": "Genoa"
+  },
+  "P032": {
+    "name": "Gniezno",
+    "alt": ""
+  },
+  "P033": {
+    "name": "Grado",
+    "alt": ""
+  },
+  "P034": {
+    "name": "Granada",
+    "alt": ""
+  },
+  "P035": {
+    "name": "Halyč",
+    "alt": ""
+  },
+  "P036": {
+    "name": "Kalocsa",
+    "alt": ""
+  },
+  "P037": {
+    "name": "Kammin",
+    "alt": ""
+  },
+  "P038": {
+    "name": "Lisbon",
+    "alt": "Lisboa"
+  },
+  "P039": {
+    "name": "Lund",
+    "alt": ""
+  },
+  "P040": {
+    "name": "Lviv",
+    "alt": ""
+  },
+  "P041": {
+    "name": "Lyon",
+    "alt": ""
+  },
+  "P042": {
+    "name": "Magdeburg",
+    "alt": ""
+  },
+  "P043": {
+    "name": "Mainz",
+    "alt": ""
+  },
+  "P044": {
+    "name": "Manfredonia",
+    "alt": ""
+  },
+  "P045": {
+    "name": "Meissen",
+    "alt": ""
+  },
+  "P046": {
+    "name": "Messina",
+    "alt": ""
+  },
+  "P047": {
+    "name": "Milano",
+    "alt": "Milan"
+  },
+  "P048": {
+    "name": "Monreale",
+    "alt": ""
+  },
+  "P049": {
+    "name": "Napoli",
+    "alt": "Naples"
+  },
+  "P050": {
+    "name": "Narbonne",
+    "alt": ""
+  },
+  "P051": {
+    "name": "Nicosia",
+    "alt": ""
+  },
+  "P052": {
+    "name": "Nidaros",
+    "alt": "Trondheim"
+  },
+  "P053": {
+    "name": "Oristano",
+    "alt": ""
+  },
+  "P054": {
+    "name": "Otranto",
+    "alt": ""
+  },
+  "P055": {
+    "name": "Palermo",
+    "alt": ""
+  },
+  "P056": {
+    "name": "Pisa",
+    "alt": ""
+  },
+  "P057": {
+    "name": "Prague",
+    "alt": ""
+  },
+  "P058": {
+    "name": "Ragusa",
+    "alt": "Dubrovnik"
+  },
+  "P059": {
+    "name": "Ravenna",
+    "alt": ""
+  },
+  "P060": {
+    "name": "Reggio-Calabria",
+    "alt": ""
+  },
+  "P061": {
+    "name": "Reims",
+    "alt": ""
+  },
+  "P062": {
+    "name": "Riga",
+    "alt": ""
+  },
+  "P063": {
+    "name": "Roma",
+    "alt": "Rome"
+  },
+  "P064": {
+    "name": "Rossano",
+    "alt": ""
+  },
+  "P065": {
+    "name": "Rouen",
+    "alt": ""
+  },
+  "P066": {
+    "name": "Salerno",
+    "alt": ""
+  },
+  "P067": {
+    "name": "Salzburg",
+    "alt": ""
+  },
+  "P068": {
+    "name": "Santa Severina",
+    "alt": ""
+  },
+  "P069": {
+    "name": "Santiago",
+    "alt": ""
+  },
+  "P070": {
+    "name": "Sens",
+    "alt": ""
+  },
+  "P071": {
+    "name": "Seville",
+    "alt": "Sevilla"
+  },
+  "P072": {
+    "name": "Siena",
+    "alt": ""
+  },
+  "P073": {
+    "name": "Sorrento",
+    "alt": ""
+  },
+  "P074": {
+    "name": "Split",
+    "alt": ""
+  },
+  "P075": {
+    "name": "Taranto",
+    "alt": ""
+  },
+  "P076": {
+    "name": "Tarentaise",
+    "alt": ""
+  },
+  "P077": {
+    "name": "Tarragona",
+    "alt": ""
+  },
+  "P078": {
+    "name": "Toledo",
+    "alt": ""
+  },
+  "P079": {
+    "name": "Torres",
+    "alt": ""
+  },
+  "P080": {
+    "name": "Toulouse",
+    "alt": ""
+  },
+  "P081": {
+    "name": "Tours",
+    "alt": ""
+  },
+  "P082": {
+    "name": "Trani",
+    "alt": ""
+  },
+  "P083": {
+    "name": "Trier",
+    "alt": ""
+  },
+  "P084": {
+    "name": "Trivento",
+    "alt": ""
+  },
+  "P085": {
+    "name": "Tuam",
+    "alt": ""
+  },
+  "P086": {
+    "name": "Uppsala",
+    "alt": ""
+  },
+  "P087": {
+    "name": "Venezia",
+    "alt": "Venice"
+  },
+  "P088": {
+    "name": "Vienna",
+    "alt": "Wien"
+  },
+  "P089": {
+    "name": "Vienne",
+    "alt": ""
+  },
+  "P090": {
+    "name": "Wiener Neustadt",
+    "alt": ""
+  },
+  "P091": {
+    "name": "York",
+    "alt": ""
+  },
+  "P092": {
+    "name": "Zadar",
+    "alt": "Zara"
+  },
+  "P093": {
+    "name": "Zaragoza",
+    "alt": ""
+  },
+  "P094": {
+    "name": "",
+    "alt": ""
+  },
+  "P095": {
+    "name": "",
+    "alt": ""
+  },
+  "P096": {
+    "name": "",
+    "alt": ""
+  },
+  "P097": {
+    "name": "",
+    "alt": ""
+  }
+}
