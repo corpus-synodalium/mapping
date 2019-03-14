@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Dropdown, Icon } from 'semantic-ui-react';
+import { Card, Checkbox, Dropdown, Icon } from 'semantic-ui-react';
 
 class ControlPanel extends Component {
   render() {
@@ -37,6 +37,12 @@ class ControlPanel extends Component {
             onChange={(e, data) => this.props.changeColorScheme(data.value)}
             selection
             fluid
+          />
+          <br />
+          <Checkbox
+            label="World map"
+            checked={this.props.showBaseMap}
+            onChange={(e, data) => this.props.toggleBaseMap(data.checked)}
           />
         </Card.Content>
       </Card>

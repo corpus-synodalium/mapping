@@ -18,6 +18,7 @@ class LocalLegislationMap extends Component {
       info: null,
       recordsModalOpen: false,
       searchResults: null,
+      showBaseMap: true,
     };
     this.mapRef = React.createRef();
   }
@@ -36,6 +37,12 @@ class LocalLegislationMap extends Component {
   changeColorScheme = (colorScheme) => {
     this.setState({
       currentColorScheme: colorScheme,
+    });
+  };
+
+  toggleBaseMap = (showBaseMap) => {
+    this.setState({
+      showBaseMap: showBaseMap,
     });
   };
 
@@ -65,7 +72,11 @@ class LocalLegislationMap extends Component {
     return (
       <div>
         <InfoPanel info={this.state.info} />
-        <ControlPanel changeColorScheme={this.changeColorScheme} />
+        <ControlPanel
+          changeColorScheme={this.changeColorScheme}
+          toggleBaseMap={this.toggleBaseMap}
+          showBaseMap={this.state.showBaseMap}
+        />
         <ColorLegend
           mappingData={this.props.mappingData}
           config={config}
@@ -86,7 +97,7 @@ class LocalLegislationMap extends Component {
           maxZoom={config.params.maxZoom}
         >
           <ScaleControl />
-          <MapBoxLayer config={config} />
+          {this.state.showBaseMap && <MapBoxLayer config={config} />}
           <GeoJSONLayer
             config={config}
             updateInfo={this.updateInfo}
