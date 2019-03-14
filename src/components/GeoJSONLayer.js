@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { GeoJSON } from 'react-leaflet';
+import { GeoJSONFillable, Patterns } from 'react-leaflet-geojson-patterns';
 import s2d from '../assets/s2d.json';
 import dioceseInfo from '../assets/diocese_info.json';
+import databaseJurIDs from '../assets/jurisdiction_ids_in_database.json';
 
 class GeoJSONLayer extends Component {
   constructor(props) {
@@ -27,9 +28,8 @@ class GeoJSONLayer extends Component {
 
   getColor(shpfid) {
     const { colorSchemes } = this.props.config;
-    const { currentColorScheme } = this.props;
+    const { mappingData, currentColorScheme } = this.props;
     const colors = colorSchemes[currentColorScheme];
-    const { mappingData } = this.props;
 
     if (mappingData) {
       const dioceseID = this.shapeToDiocese[shpfid];
@@ -48,13 +48,25 @@ class GeoJSONLayer extends Component {
   }
 
   style = (feature) => {
+    if (_inDatabase(feature)) {
+      return {
+        fillColor: this.getColor(feature.properties.SHPFID),
+        fillOpacity: 1.0,
+        weight: 1,
+        opacity: 3,
+        color: 'grey',
+        dashArray: '',
+      };
+    }
+
     return {
-      fillColor: this.getColor(feature.properties.SHPFID),
-      weight: 1,
-      opacity: 3,
-      color: 'grey',
-      dashArray: '3',
-      fillOpacity: 1.0,
+      fillColor: '#fff',
+      fillOpacity: 0.8,
+      weight: 0,
+      fillPattern: Patterns.StripePattern({
+        color: '#fff',
+        key: 'stripe',
+      }),
     };
   };
 
@@ -66,6 +78,7 @@ class GeoJSONLayer extends Component {
     });
   };
 
+  // TODO: update for provinces
   getDioceseData = (layer) => {
     const { SHPFID: shpfid } = layer.feature.properties;
     const { mappingData } = this.props;
@@ -97,17 +110,21 @@ class GeoJSONLayer extends Component {
   };
 
   highlightFeature = (e) => {
-    var layer = e.target;
+    const layer = e.target;
     const info = this.getDioceseData(layer);
     this.props.updateInfo(info);
-
+    let weight = 0.5;
+    let dashArray = '3';
+    if (_inDatabase(layer.feature)) {
+      weight = 2.0;
+      dashArray = '';
+    }
     layer.setStyle({
-      weight: 2,
+      weight: weight,
       color: 'black',
-      dashArray: '',
+      dashArray: dashArray,
       fillOpacity: 1.0,
     });
-
     layer.bringToFront();
   };
 
@@ -130,7 +147,7 @@ class GeoJSONLayer extends Component {
       return <span />;
     }
     return (
-      <GeoJSON
+      <GeoJSONFillable
         data={this.state.geojson}
         style={this.style}
         onEachFeature={this.onEachFeature}
@@ -139,5 +156,12 @@ class GeoJSONLayer extends Component {
     );
   }
 }
+
+// Returns true if a jurisdiction id appears in database
+const _inDatabase = (feature) => {
+  const shape_id = feature.properties.SHPFID;
+  const diocese_id = s2d.map[shape_id];
+  return databaseJurIDs.indexOf(diocese_id) >= 0;
+};
 
 export default GeoJSONLayer;
