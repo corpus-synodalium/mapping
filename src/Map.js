@@ -19,6 +19,7 @@ class LocalLegislationMap extends Component {
       recordsModalOpen: false,
       searchResults: null,
       showBaseMap: true,
+      showStripedRegions: true,
     };
     this.mapRef = React.createRef();
   }
@@ -40,9 +41,9 @@ class LocalLegislationMap extends Component {
     });
   };
 
-  toggleBaseMap = (showBaseMap) => {
+  toggleCheckBox = (key, isChecked) => {
     this.setState({
-      showBaseMap: showBaseMap,
+      [key]: isChecked,
     });
   };
 
@@ -74,8 +75,9 @@ class LocalLegislationMap extends Component {
         <InfoPanel info={this.state.info} />
         <ControlPanel
           changeColorScheme={this.changeColorScheme}
-          toggleBaseMap={this.toggleBaseMap}
+          toggleCheckBox={this.toggleCheckBox}
           showBaseMap={this.state.showBaseMap}
+          showStripedRegions={this.state.showStripedRegions}
         />
         <ColorLegend
           mappingData={this.props.mappingData}
@@ -105,6 +107,7 @@ class LocalLegislationMap extends Component {
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
             showRecordsModal={this.showRecordsModal}
+            showStripedRegions={this.state.showStripedRegions}
           />
         </LeafletMap>
       </div>

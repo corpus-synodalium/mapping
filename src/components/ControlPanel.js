@@ -42,7 +42,17 @@ class ControlPanel extends Component {
           <Checkbox
             label="World map"
             checked={this.props.showBaseMap}
-            onChange={(e, data) => this.props.toggleBaseMap(data.checked)}
+            onChange={(e, data) =>
+              this.props.toggleCheckBox('showBaseMap', data.checked)
+            }
+          />
+          <br />
+          <Checkbox
+            label="Striped regions"
+            checked={this.props.showStripedRegions}
+            onChange={(e, data) =>
+              this.props.toggleCheckBox('showStripedRegions', data.checked)
+            }
           />
         </Card.Content>
       </Card>

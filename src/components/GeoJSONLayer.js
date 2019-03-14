@@ -61,7 +61,7 @@ class GeoJSONLayer extends Component {
 
     return {
       fillColor: '#fff',
-      fillOpacity: 0.8,
+      fillOpacity: this.props.showStripedRegions ? 0.8 : 0,
       weight: 0,
       fillPattern: Patterns.StripePattern({
         color: '#fff',
@@ -111,20 +111,29 @@ class GeoJSONLayer extends Component {
 
   highlightFeature = (e) => {
     const layer = e.target;
-    const info = this.getDioceseData(layer);
-    this.props.updateInfo(info);
-    let weight = 0.5;
-    let dashArray = '3';
-    if (_inDatabase(layer.feature)) {
-      weight = 2.0;
-      dashArray = '';
+    if (_inDatabase(layer.feature) || this.props.showStripedRegions) {
+      const info = this.getDioceseData(layer);
+      this.props.updateInfo(info);
     }
-    layer.setStyle({
-      weight: weight,
-      color: 'black',
-      dashArray: dashArray,
-      fillOpacity: 1.0,
-    });
+
+    let style;
+    if (_inDatabase(layer.feature)) {
+      style = {
+        weight: 2,
+        color: 'black',
+        dashArray: '',
+        fillOpacity: 1.0,
+      };
+    } else {
+      style = {
+        weight: this.props.showStripedRegions ? 0.5 : 0,
+        color: 'black',
+        dashArray: '3',
+        fillOpacity: this.props.showStripedRegions ? 1.0 : 0,
+      };
+    }
+
+    layer.setStyle(style);
     layer.bringToFront();
   };
 
