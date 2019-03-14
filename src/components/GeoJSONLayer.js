@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { GeoJSONFillable, Patterns } from 'react-leaflet-geojson-patterns';
-import s2d from '../assets/s2d.json';
+import idMap from '../assets/id_map.json';
 import dioceseInfo from '../assets/diocese_info.json';
 import databaseJurIDs from '../assets/jurisdiction_ids_in_database.json';
 
@@ -8,49 +8,36 @@ class GeoJSONLayer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      geojson: null,
+      diocese_geojson: null,
+      province_geojson: null,
       isLoading: true,
     };
     this.geojsonRef = React.createRef();
-    this.shapeToDiocese = s2d.map;
   }
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_GEOJSON_URL)
+    fetch(process.env.REACT_APP_DIOCESE_URL)
       .then((response) => response.json())
       .then((data) => {
         this.setState({
-          geojson: data,
+          diocese_geojson: data,
           isLoading: false,
         });
       });
-  }
 
-  getColor(shpfid) {
-    const { colorSchemes } = this.props.config;
-    const { mappingData, currentColorScheme } = this.props;
-    const colors = colorSchemes[currentColorScheme];
-
-    if (mappingData) {
-      const dioceseID = this.shapeToDiocese[shpfid];
-      const maxNumEntries = this.props.maxNumEntries;
-      const numPerBucket = Math.ceil(maxNumEntries / colors.length);
-      if (mappingData.hasOwnProperty(dioceseID)) {
-        const numEntries = mappingData[dioceseID].length;
-        let index = Math.floor((numEntries - 1) / numPerBucket);
-        if (index > colors.length - 1) {
-          index = colors.length - 1;
-        }
-        return colors[index];
-      }
-    }
-    return '#fff';
+    fetch(process.env.REACT_APP_PROVINCE_URL)
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({
+          province_geojson: data,
+        });
+      });
   }
 
   style = (feature) => {
     if (_inDatabase(feature)) {
       return {
-        fillColor: this.getColor(feature.properties.SHPFID),
+        fillColor: _getColor(feature.properties.SHPFID, this.props),
         fillOpacity: 1.0,
         weight: 1,
         opacity: 3,
@@ -78,41 +65,10 @@ class GeoJSONLayer extends Component {
     });
   };
 
-  // TODO: update for provinces
-  getDioceseData = (layer) => {
-    const { SHPFID: shpfid } = layer.feature.properties;
-    const { mappingData } = this.props;
-    const info = {};
-    if (this.shapeToDiocese.hasOwnProperty(shpfid)) {
-      const dioceseID = this.shapeToDiocese[shpfid];
-      if (dioceseInfo.hasOwnProperty(dioceseID)) {
-        const {
-          diocese_name,
-          diocese_alt,
-          province,
-          country_modern,
-        } = dioceseInfo[dioceseID];
-        const diocese = diocese_alt
-          ? `${diocese_name} (${diocese_alt})`
-          : diocese_name;
-        info.diocese = diocese;
-        info.province = province;
-        info.country = country_modern;
-      }
-
-      if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
-        info.hasMappingData = true;
-        info.searchData = mappingData[dioceseID];
-        info.query = mappingData.searchTerm;
-      }
-    }
-    return info;
-  };
-
   highlightFeature = (e) => {
     const layer = e.target;
     if (_inDatabase(layer.feature) || this.props.showStripedRegions) {
-      const info = this.getDioceseData(layer);
+      const info = _getDioceseData(layer, this.props.mappingData);
       this.props.updateInfo(info);
     }
 
@@ -145,7 +101,7 @@ class GeoJSONLayer extends Component {
 
   showRecordsModal = (e) => {
     var layer = e.target;
-    const info = this.getDioceseData(layer);
+    const info = _getDioceseData(layer, this.props.mappingData);
     if (info.hasMappingData) {
       this.props.showRecordsModal(info);
     }
@@ -156,21 +112,71 @@ class GeoJSONLayer extends Component {
       return <span />;
     }
     return (
-      <GeoJSONFillable
-        data={this.state.geojson}
-        style={this.style}
-        onEachFeature={this.onEachFeature}
-        ref={this.geojsonRef}
-      />
+      <div>
+        <GeoJSONFillable
+          data={this.state.diocese_geojson}
+          style={this.style}
+          onEachFeature={this.onEachFeature}
+          ref={this.geojsonRef}
+        />
+      </div>
     );
   }
 }
 
+/******************************************************
+HELPER FUNCTIONS
+******************************************************/
+
+// Returns a color based on hits
+const _getColor = (shpfid, props) => {
+  const { colorSchemes } = props.config;
+  const { mappingData, currentColorScheme, maxNumEntries } = props;
+  const colors = colorSchemes[currentColorScheme];
+
+  if (mappingData) {
+    const jurID = idMap[shpfid];
+    const numPerBucket = Math.ceil(maxNumEntries / colors.length);
+    if (mappingData.hasOwnProperty(jurID)) {
+      const numEntries = mappingData[jurID].length;
+      let index = Math.floor((numEntries - 1) / numPerBucket);
+      if (index > colors.length - 1) {
+        index = colors.length - 1;
+      }
+      return colors[index];
+    }
+  }
+  return '#fff';
+};
+
 // Returns true if a jurisdiction id appears in database
 const _inDatabase = (feature) => {
-  const shape_id = feature.properties.SHPFID;
-  const diocese_id = s2d.map[shape_id];
-  return databaseJurIDs.indexOf(diocese_id) >= 0;
+  const shapeID = feature.properties.SHPFID;
+  const jurID = idMap[shapeID];
+  return databaseJurIDs.indexOf(jurID) >= 0;
+};
+
+// TODO: update for provinces
+const _getDioceseData = (layer, mappingData) => {
+  const { SHPFID: shpfid } = layer.feature.properties;
+  const info = {};
+  if (idMap.hasOwnProperty(shpfid)) {
+    const dioceseID = idMap[shpfid];
+    if (dioceseInfo.hasOwnProperty(dioceseID)) {
+      const { name, alt, province, country_modern } = dioceseInfo[dioceseID];
+      const diocese = alt ? `${name} (${alt})` : name;
+      info.diocese = diocese;
+      info.province = province;
+      info.country = country_modern;
+    }
+
+    if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
+      info.hasMappingData = true;
+      info.searchData = mappingData[dioceseID];
+      info.query = mappingData.searchTerm;
+    }
+  }
+  return info;
 };
 
 export default GeoJSONLayer;
