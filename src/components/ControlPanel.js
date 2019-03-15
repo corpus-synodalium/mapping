@@ -40,6 +40,22 @@ class ControlPanel extends Component {
           />
           <br />
           <Checkbox
+            label="Dioceses"
+            checked={this.props.showDioceses}
+            onChange={(e, data) =>
+              this.props.toggleCheckBox('showDioceses', data.checked)
+            }
+          />
+          <br />
+          <Checkbox
+            label="Provinces"
+            checked={this.props.showProvinces}
+            onChange={(e, data) =>
+              this.props.toggleCheckBox('showProvinces', data.checked)
+            }
+          />
+          <br />
+          <Checkbox
             label="World map"
             checked={this.props.showBaseMap}
             onChange={(e, data) =>

@@ -65,7 +65,7 @@ const Title = ({ searchResults }) => {
   return searchResults ? (
     <span>
       <Icon name="map marker alternate" />
-      {searchResults.diocese}
+      {searchResults.title}
       <Label circular color="blue">
         {searchResults.searchData.length}
       </Label>

@@ -18,6 +18,8 @@ class LocalLegislationMap extends Component {
       info: null,
       recordsModalOpen: false,
       searchResults: null,
+      showDioceses: true,
+      showProvinces: false,
       showBaseMap: true,
       showStripedRegions: true,
     };
@@ -76,6 +78,8 @@ class LocalLegislationMap extends Component {
         <ControlPanel
           changeColorScheme={this.changeColorScheme}
           toggleCheckBox={this.toggleCheckBox}
+          showDioceses={this.state.showDioceses}
+          showProvinces={this.state.showProvinces}
           showBaseMap={this.state.showBaseMap}
           showStripedRegions={this.state.showStripedRegions}
         />
@@ -107,6 +111,8 @@ class LocalLegislationMap extends Component {
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
             showRecordsModal={this.showRecordsModal}
+            showDioceses={this.state.showDioceses}
+            showProvinces={this.state.showProvinces}
             showStripedRegions={this.state.showStripedRegions}
           />
         </LeafletMap>

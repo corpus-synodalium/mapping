@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { GeoJSONFillable, Patterns } from 'react-leaflet-geojson-patterns';
 import idMap from '../assets/id_map.json';
 import dioceseInfo from '../assets/diocese_info.json';
+import provinceInfo from '../assets/province_info.json';
 import databaseJurIDs from '../assets/jurisdiction_ids_in_database.json';
 
 class GeoJSONLayer extends Component {
@@ -12,7 +13,8 @@ class GeoJSONLayer extends Component {
       province_geojson: null,
       isLoading: true,
     };
-    this.geojsonRef = React.createRef();
+    this.dioceseRef = React.createRef();
+    this.provinceRef = React.createRef();
   }
 
   componentDidMount() {
@@ -57,10 +59,18 @@ class GeoJSONLayer extends Component {
     };
   };
 
-  onEachFeature = (feature, layer) => {
+  onEachFeatureDiocese = (feature, layer) => {
     layer.on({
       mouseover: this.highlightFeature,
-      mouseout: this.resetHighlight,
+      mouseout: this.resetHighlightDiocese,
+      click: this.showRecordsModal,
+    });
+  };
+
+  onEachFeatureProvince = (feature, layer) => {
+    layer.on({
+      mouseover: this.highlightFeature,
+      mouseout: this.resetHighlightProvince,
       click: this.showRecordsModal,
     });
   };
@@ -68,40 +78,33 @@ class GeoJSONLayer extends Component {
   highlightFeature = (e) => {
     const layer = e.target;
     if (_inDatabase(layer.feature) || this.props.showStripedRegions) {
-      const info = _getDioceseData(layer, this.props.mappingData);
+      const info = _getJurisdictionData(layer, this.props.mappingData);
       this.props.updateInfo(info);
     }
 
-    let style;
-    if (_inDatabase(layer.feature)) {
-      style = {
-        weight: 2,
-        color: 'black',
-        dashArray: '',
-        fillOpacity: 1.0,
-      };
-    } else {
-      style = {
-        weight: this.props.showStripedRegions ? 0.5 : 0,
-        color: 'black',
-        dashArray: '3',
-        fillOpacity: this.props.showStripedRegions ? 1.0 : 0,
-      };
-    }
-
+    const style = _getHighlightStyle(
+      layer.feature,
+      this.props.showStripedRegions
+    );
     layer.setStyle(style);
     layer.bringToFront();
   };
 
-  resetHighlight = (e) => {
-    const { leafletElement } = this.geojsonRef.current;
+  resetHighlightDiocese = (e) => {
+    const { leafletElement } = this.dioceseRef.current;
+    leafletElement.resetStyle(e.target);
+    this.props.updateInfo(null);
+  };
+
+  resetHighlightProvince = (e) => {
+    const { leafletElement } = this.provinceRef.current;
     leafletElement.resetStyle(e.target);
     this.props.updateInfo(null);
   };
 
   showRecordsModal = (e) => {
     var layer = e.target;
-    const info = _getDioceseData(layer, this.props.mappingData);
+    const info = _getJurisdictionData(layer, this.props.mappingData);
     if (info.hasMappingData) {
       this.props.showRecordsModal(info);
     }
@@ -111,14 +114,25 @@ class GeoJSONLayer extends Component {
     if (this.state.isLoading) {
       return <span />;
     }
+
     return (
       <div>
-        <GeoJSONFillable
-          data={this.state.diocese_geojson}
-          style={this.style}
-          onEachFeature={this.onEachFeature}
-          ref={this.geojsonRef}
-        />
+        {this.props.showProvinces && (
+          <GeoJSONFillable
+            data={this.state.province_geojson}
+            style={this.style}
+            onEachFeature={this.onEachFeatureProvince}
+            ref={this.provinceRef}
+          />
+        )}
+        {this.props.showDioceses && (
+          <GeoJSONFillable
+            data={this.state.diocese_geojson}
+            style={this.style}
+            onEachFeature={this.onEachFeatureDiocese}
+            ref={this.dioceseRef}
+          />
+        )}
       </div>
     );
   }
@@ -149,6 +163,27 @@ const _getColor = (shpfid, props) => {
   return '#fff';
 };
 
+// Returns the style on mouse hover
+const _getHighlightStyle = (feature, showStripedRegions) => {
+  let style;
+  if (_inDatabase(feature)) {
+    style = {
+      weight: 2,
+      color: 'black',
+      dashArray: '',
+      fillOpacity: 1.0,
+    };
+  } else {
+    style = {
+      weight: showStripedRegions ? 0.5 : 0,
+      color: 'black',
+      dashArray: '3',
+      fillOpacity: showStripedRegions ? 1.0 : 0,
+    };
+  }
+  return style;
+};
+
 // Returns true if a jurisdiction id appears in database
 const _inDatabase = (feature) => {
   const shapeID = feature.properties.SHPFID;
@@ -156,23 +191,26 @@ const _inDatabase = (feature) => {
   return databaseJurIDs.indexOf(jurID) >= 0;
 };
 
-// TODO: update for provinces
-const _getDioceseData = (layer, mappingData) => {
+// Get metadata and mapping data of a shape file
+const _getJurisdictionData = (layer, mappingData) => {
   const { SHPFID: shpfid } = layer.feature.properties;
   const info = {};
   if (idMap.hasOwnProperty(shpfid)) {
-    const dioceseID = idMap[shpfid];
-    if (dioceseInfo.hasOwnProperty(dioceseID)) {
-      const { name, alt, province, country_modern } = dioceseInfo[dioceseID];
-      const diocese = alt ? `${name} (${alt})` : name;
-      info.diocese = diocese;
+    const jurID = idMap[shpfid];
+
+    if (dioceseInfo.hasOwnProperty(jurID)) {
+      const { name, alt, province, country_modern } = dioceseInfo[jurID];
+      info.title = alt ? `${name} (${alt})` : name;
       info.province = province;
       info.country = country_modern;
+    } else if (provinceInfo.hasOwnProperty(jurID)) {
+      const { name, alt } = provinceInfo[jurID];
+      info.title = alt ? `${name} (${alt})` : name;
     }
 
-    if (mappingData && mappingData.hasOwnProperty(dioceseID)) {
+    if (mappingData && mappingData.hasOwnProperty(jurID)) {
       info.hasMappingData = true;
-      info.searchData = mappingData[dioceseID];
+      info.searchData = mappingData[jurID];
       info.query = mappingData.searchTerm;
     }
   }
