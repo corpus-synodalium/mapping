@@ -35,10 +35,6 @@
     "name": "Avignon",
     "alt": ""
   },
-  "P010": {
-    "name": "Bamberg",
-    "alt": ""
-  },
   "P011": {
     "name": "Bari",
     "alt": ""
@@ -175,10 +171,6 @@
     "name": "Manfredonia",
     "alt": ""
   },
-  "P045": {
-    "name": "Meissen",
-    "alt": ""
-  },
   "P046": {
     "name": "Messina",
     "alt": ""
@@ -250,10 +242,6 @@
   "P063": {
     "name": "Roma",
     "alt": "Rome"
-  },
-  "P064": {
-    "name": "Rossano",
-    "alt": ""
   },
   "P065": {
     "name": "Rouen",
