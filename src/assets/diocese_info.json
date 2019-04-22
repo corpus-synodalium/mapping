@@ -337,7 +337,7 @@
   },
   "D059": {
     "name": "Caserta",
-    "alt": "",
+    "alt": "Galazia in Campania",
     "province": "Capua",
     "country_modern": "Italy"
   },
@@ -432,9 +432,9 @@
     "country_modern": "Italy"
   },
   "D075": {
-    "name": "Abazzia delle Tre Fontane",
+    "name": "Abbazia delle Tre Fontane",
     "alt": "",
-    "province": "",
+    "province": "[Holy See]",
     "country_modern": "Italy"
   },
   "D076": {
@@ -637,7 +637,7 @@
   },
   "D109": {
     "name": "Grosseto",
-    "alt": "",
+    "alt": "Roselle",
     "province": "[Holy See]",
     "country_modern": "Italy"
   },
@@ -727,7 +727,7 @@
   },
   "D124": {
     "name": "Lettere",
-    "alt": "",
+    "alt": "Lettere–Gragnano",
     "province": "Amalfi",
     "country_modern": "Italy"
   },
@@ -1009,7 +1009,7 @@
   },
   "D171": {
     "name": "Osimo",
-    "alt": "",
+    "alt": "Cingoli",
     "province": "[Holy See]",
     "country_modern": "Italy"
   },
@@ -1069,7 +1069,7 @@
   },
   "D181": {
     "name": "Penne",
-    "alt": "",
+    "alt": "Penne-Atri",
     "province": "[Holy See]",
     "country_modern": "Italy"
   },
@@ -1190,7 +1190,7 @@
   "D201": {
     "name": "Rossano",
     "alt": "",
-    "province": "Rossano",
+    "province": "[Holy See]",
     "country_modern": "Italy"
   },
   "D202": {
@@ -1403,6 +1403,12 @@
     "province": "Milano",
     "country_modern": "Italy"
   },
+  "D237": {
+    "name": "Cortona",
+    "alt": "",
+    "province": "",
+    "country_modern": "Italy"
+  },
   "D238": {
     "name": "Tortona",
     "alt": "",
@@ -1478,7 +1484,7 @@
   "D250": {
     "name": "Casale Monferrato",
     "alt": "",
-    "province": "",
+    "province": "Milano",
     "country_modern": "Italy"
   },
   "D251": {
@@ -1494,7 +1500,7 @@
     "country_modern": "Italy"
   },
   "D253": {
-    "name": "Valva-Sulmona",
+    "name": "Sulmona-Valva",
     "alt": "",
     "province": "[Holy See]",
     "country_modern": "Italy"
@@ -1573,7 +1579,7 @@
   },
   "D266": {
     "name": "Volturara",
-    "alt": "",
+    "alt": "Vulturara",
     "province": "Benevento",
     "country_modern": "Italy"
   },
@@ -1596,7 +1602,7 @@
     "country_modern": "Italy"
   },
   "D270": {
-    "name": "Mazzara",
+    "name": "Mazara",
     "alt": "",
     "province": "Palermo",
     "country_modern": "Italy"
@@ -1721,12 +1727,6 @@
     "province": "Cagliari",
     "country_modern": "Italy"
   },
-  "D291": {
-    "name": "Sulci",
-    "alt": "",
-    "province": "Cagliari",
-    "country_modern": "Italy"
-  },
   "D292": {
     "name": "Tempio",
     "alt": "",
@@ -1737,6 +1737,12 @@
     "name": "Terralba",
     "alt": "",
     "province": "Oristano",
+    "country_modern": "Italy"
+  },
+  "D294": {
+    "name": "Massa Carrara",
+    "alt": "",
+    "province": "",
     "country_modern": "Italy"
   },
   "D295": {
@@ -1934,7 +1940,7 @@
   "D327": {
     "name": "Orkney",
     "alt": "",
-    "province": "Trondheim",
+    "province": "Nidaros",
     "country_modern": "Scotland"
   },
   "D328": {
@@ -2712,7 +2718,7 @@
     "country_modern": "France"
   },
   "D465": {
-    "name": "Annecy",
+    "name": "Geneva",
     "alt": "Geneve",
     "province": "Vienne",
     "country_modern": "Switzerland"
@@ -2776,6 +2782,12 @@
     "alt": "Arbe",
     "province": "Zadar",
     "country_modern": "Croatia"
+  },
+  "D476": {
+    "name": "Waterford",
+    "alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
   },
   "D477": {
     "name": "Nin",
@@ -3000,7 +3012,7 @@
     "country_modern": "Ireland"
   },
   "D514": {
-    "name": "Confert",
+    "name": "Clonfert",
     "alt": "",
     "province": "Tuam",
     "country_modern": "Ireland"
@@ -3049,12 +3061,12 @@
   },
   "D522": {
     "name": "Ardfert",
-    "alt": "",
+    "alt": "Kerry",
     "province": "Cashel",
     "country_modern": "Ireland"
   },
   "D523": {
-    "name": "Clpyne",
+    "name": "Cloyne",
     "alt": "",
     "province": "Cashel",
     "country_modern": "Ireland"
@@ -3225,7 +3237,7 @@
     "name": "Chur",
     "alt": "",
     "province": "Mainz",
-    "country_modern": "Germany"
+    "country_modern": "Switzerland"
   },
   "D552": {
     "name": "Eichstatt",
@@ -3290,7 +3302,7 @@
   "D562": {
     "name": "Prague",
     "alt": "",
-    "province": "Prague",
+    "province": "Mainz",
     "country_modern": "Czech Republic"
   },
   "D563": {
@@ -3380,19 +3392,19 @@
   "D577": {
     "name": "Bamberg",
     "alt": "",
-    "province": "Bamberg",
+    "province": "[Holy See]",
     "country_modern": "Germany"
   },
   "D578": {
     "name": "Kammin",
     "alt": "",
-    "province": "Kammin",
+    "province": "[Holy See]",
     "country_modern": "Poland"
   },
   "D579": {
     "name": "Meissen",
     "alt": "",
-    "province": "Meissen",
+    "province": "Magdeburg",
     "country_modern": "Germany"
   },
   "D580": {
@@ -3411,7 +3423,7 @@
     "name": "Berchtesgaden",
     "alt": "",
     "province": "Salzburg",
-    "country_modern": ""
+    "country_modern": "Germany"
   },
   "D583": {
     "name": "Reval",
@@ -3526,6 +3538,12 @@
     "alt": "",
     "province": "Lund",
     "country_modern": "Denmark"
+  },
+  "D602": {
+    "name": "Vic",
+    "alt": "",
+    "province": "Tarragona",
+    "country_modern": "Spain"
   },
   "D603": {
     "name": "Ribe",
@@ -3642,8 +3660,8 @@
     "country_modern": "Spain"
   },
   "D622": {
-    "name": "Tuy",
-    "alt": "Tui",
+    "name": "Tui",
+    "alt": "Tuy",
     "province": "Braga",
     "country_modern": "Spain"
   },
@@ -3680,67 +3698,61 @@
   "D628": {
     "name": "Santiago",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D629": {
     "name": "Avila",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D630": {
     "name": "Salamanca",
     "alt": "",
-    "province": "Santiago de Compostela",
-    "country_modern": "Spain"
-  },
-  "D631": {
-    "name": "Zamora",
-    "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D632": {
     "name": "Ciudad Rodrigo",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D633": {
     "name": "Coria",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D634": {
     "name": "Plasencia",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D635": {
     "name": "Badajoz",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Spain"
   },
   "D636": {
     "name": "Lamego",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Portugal"
   },
   "D637": {
     "name": "Guarda",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Portugal"
   },
   "D638": {
     "name": "Lisbon",
     "alt": "",
-    "province": "Santiago de Compostela",
+    "province": "Santiago",
     "country_modern": "Portugal"
   },
   "D639": {
@@ -3774,9 +3786,9 @@
     "country_modern": "Spain"
   },
   "D644": {
-    "name": "Vic",
+    "name": "Granada",
     "alt": "",
-    "province": "Tarragona",
+    "province": "Toledo",
     "country_modern": "Spain"
   },
   "D645": {
@@ -3848,7 +3860,7 @@
   "D656": {
     "name": "Valença do Minho",
     "alt": "",
-    "province": "",
+    "province": "Braga",
     "country_modern": "Portugal"
   },
   "D657": {
@@ -3893,6 +3905,12 @@
     "province": "[Holy See]",
     "country_modern": "Spain"
   },
+  "D664": {
+    "name": "Waterford and Lismore",
+    "alt": "",
+    "province": "Cashel",
+    "country_modern": "Ireland"
+  },
   "D665": {
     "name": "Cartagena",
     "alt": "",
@@ -3919,14 +3937,14 @@
   },
   "D669": {
     "name": "Zagreb",
-    "alt": "Esztergom",
+    "alt": "",
     "province": "Kalocsa",
     "country_modern": "Croatia"
   },
   "D670": {
     "name": "Oradea",
     "alt": "Nagy Varad",
-    "province": "Esztergom",
+    "province": "Kalocsa",
     "country_modern": "Romania"
   },
   "D671": {
@@ -3937,8 +3955,8 @@
   },
   "D672": {
     "name": "Erdely",
-    "alt": "Transilvania",
-    "province": "Esztergom",
+    "alt": "Alba Iulia",
+    "province": "Kalocsa",
     "country_modern": "Romania"
   },
   "D673": {
@@ -3968,13 +3986,13 @@
   "D677": {
     "name": "Kalocsa-Bacs",
     "alt": "Kalocsa",
-    "province": "Esztergom",
+    "province": "Kalocsa",
     "country_modern": "Hungary"
   },
   "D678": {
     "name": "Marosvar",
     "alt": "Csanád",
-    "province": "Esztergom",
+    "province": "Kalocsa",
     "country_modern": "Hungary"
   },
   "D679": {
@@ -3986,37 +4004,37 @@
   "D680": {
     "name": "Cumania",
     "alt": "",
-    "province": "",
+    "province": "[Holy See]",
     "country_modern": "Romania"
   },
   "D681": {
     "name": "Siret",
     "alt": "Sereth",
-    "province": "Lviv",
+    "province": "[Holy See]",
     "country_modern": "Romania"
   },
   "D682": {
     "name": "Moldovita",
     "alt": "Moldawitza",
-    "province": "??",
+    "province": "Lviv",
     "country_modern": "Romania"
   },
   "D683": {
     "name": "Kiev",
     "alt": "Kijów",
-    "province": "??",
+    "province": "Halyč",
     "country_modern": "Ukraine"
   },
   "D684": {
     "name": "Zytomierz",
     "alt": "Zhytomyr",
-    "province": "??",
+    "province": "Halyč",
     "country_modern": "Ukraine"
   },
   "D685": {
     "name": "Wlodzimierz",
     "alt": "Vladimir",
-    "province": "??",
+    "province": "Halyč",
     "country_modern": "Ukraine"
   },
   "D686": {
@@ -4034,13 +4052,13 @@
   "D688": {
     "name": "Kamieniec",
     "alt": "Kamyanets-Podilskyi",
-    "province": "??",
+    "province": "Halyč",
     "country_modern": "Ukraine"
   },
   "D689": {
     "name": "Luck",
     "alt": "Lutsk",
-    "province": "??",
+    "province": "Halyč",
     "country_modern": "Ukraine"
   },
   "D690": {
@@ -4137,7 +4155,7 @@
     "name": "Cittanova",
     "alt": "",
     "province": "Aquileia",
-    "country_modern": "Croatia"
+    "country_modern": "Italy"
   },
   "D706": {
     "name": "Polignano",
@@ -4154,7 +4172,7 @@
   "D708": {
     "name": "Przemyśl",
     "alt": "",
-    "province": "Halyc",
+    "province": "Halyč",
     "country_modern": ""
   },
   "D709": {
@@ -4244,25 +4262,25 @@
   "D723": {
     "name": "Guadix",
     "alt": "",
-    "province": "",
+    "province": "Granada",
     "country_modern": "Spain"
   },
   "D724": {
     "name": "Ampurias",
-    "alt": "Castelsardo?",
+    "alt": "",
     "province": "Torres",
     "country_modern": "Italy"
   },
   "D725": {
     "name": "Sant'Antioco",
-    "alt": "",
+    "alt": "Sulci",
     "province": "Cagliari",
     "country_modern": "Italy"
   },
   "D726": {
     "name": "Baza",
     "alt": "",
-    "province": "",
+    "province": "Toledo",
     "country_modern": "Spain"
   },
   "D727": {
@@ -4274,7 +4292,7 @@
   "D728": {
     "name": "Almeria",
     "alt": "",
-    "province": "",
+    "province": "Granada",
     "country_modern": "Spain"
   },
   "D729": {
@@ -4328,14 +4346,8 @@
   "D738": {
     "name": "Malaga",
     "alt": "",
-    "province": "",
+    "province": "Granada",
     "country_modern": "Spain"
-  },
-  "D739": {
-    "name": "Lugano",
-    "alt": "",
-    "province": "",
-    "country_modern": "Italy"
   },
   "D740": {
     "name": "Szent Márton",
@@ -4343,28 +4355,22 @@
     "province": "Esztergom",
     "country_modern": "Hungary"
   },
-  "D741": {
-    "name": "Foggia",
-    "alt": "",
-    "province": "",
-    "country_modern": "Italy"
-  },
   "D742": {
-    "name": "Nazaret",
+    "name": "Nazareth",
     "alt": "Barletta",
-    "province": "",
+    "province": "Trani",
     "country_modern": "Italy"
   },
   "D744": {
-    "name": "Tarquinia",
-    "alt": "",
-    "province": "",
+    "name": "Corneto",
+    "alt": "Tarquinia",
+    "province": "[Holy See]",
     "country_modern": "Italy"
   },
   "D745": {
     "name": "Atri",
     "alt": "",
-    "province": "",
+    "province": "[Holy See]",
     "country_modern": "Italy"
   },
   "D746": {
@@ -4390,5 +4396,41 @@
     "alt": "",
     "province": "Nicosia",
     "country_modern": "Cyprus"
+  },
+  "D750": {
+    "name": "Litomyšl",
+    "alt": "",
+    "province": "Prague",
+    "country_modern": "Czech Republic"
+  },
+  "D751": {
+    "name": "Bar",
+    "alt": "",
+    "province": "Bar",
+    "country_modern": "Montenegro"
+  },
+  "D752": {
+    "name": "Bosnia",
+    "alt": "",
+    "province": "Ragusa",
+    "country_modern": "Bosnia"
+  },
+  "D755": {
+    "name": "Duvno",
+    "alt": "",
+    "province": "Split",
+    "country_modern": "Bosnia"
+  },
+  "D756": {
+    "name": "Trebinje",
+    "alt": "",
+    "province": "Dobruvnik",
+    "country_modern": "Croatia"
+  },
+  "D757": {
+    "name": "Ulcinj",
+    "alt": "",
+    "province": "Bar",
+    "country_modern": "Croatia"
   }
 }
