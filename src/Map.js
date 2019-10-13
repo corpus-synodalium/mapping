@@ -20,7 +20,6 @@ class LocalLegislationMap extends Component {
       searchResults: null,
       showDioceses: true,
       showProvinces: false,
-      showBaseMap: true,
       showStripedRegions: true,
     };
     this.mapRef = React.createRef();
@@ -80,7 +79,6 @@ class LocalLegislationMap extends Component {
           toggleCheckBox={this.toggleCheckBox}
           showDioceses={this.state.showDioceses}
           showProvinces={this.state.showProvinces}
-          showBaseMap={this.state.showBaseMap}
           showStripedRegions={this.state.showStripedRegions}
         />
         <ColorLegend
@@ -103,7 +101,7 @@ class LocalLegislationMap extends Component {
           maxZoom={config.params.maxZoom}
         >
           <ScaleControl />
-          {this.state.showBaseMap && <MapBoxLayer config={config} />}
+          <MapBoxLayer config={config} />
           <GeoJSONLayer
             config={config}
             updateInfo={this.updateInfo}

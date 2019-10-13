@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Checkbox, Dropdown, Icon } from 'semantic-ui-react';
+import { Card, Checkbox, Dropdown, Icon, Popup } from 'semantic-ui-react';
 
 class ControlPanel extends Component {
   render() {
@@ -55,19 +55,19 @@ class ControlPanel extends Component {
             }
           />
           <br />
-          <Checkbox
-            label="World map"
-            checked={this.props.showBaseMap}
-            onChange={(e, data) =>
-              this.props.toggleCheckBox('showBaseMap', data.checked)
-            }
-          />
-          <br />
-          <Checkbox
-            label="Striped regions"
-            checked={this.props.showStripedRegions}
-            onChange={(e, data) =>
-              this.props.toggleCheckBox('showStripedRegions', data.checked)
+
+          <Popup
+            content="Show regions that do not appear in the database as striped area"
+            position="left center"
+            inverted
+            trigger={
+              <Checkbox
+                label="Base Layer"
+                checked={this.props.showStripedRegions}
+                onChange={(e, data) =>
+                  this.props.toggleCheckBox('showStripedRegions', data.checked)
+                }
+              />
             }
           />
         </Card.Content>
