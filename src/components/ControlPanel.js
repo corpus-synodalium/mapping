@@ -57,7 +57,7 @@ class ControlPanel extends Component {
           <br />
 
           <Popup
-            content="Show regions that do not appear in the database as striped area"
+            content="Striped areas indicate the absence of any associated texts in the CoSyn corpus"
             position="left center"
             inverted
             trigger={
