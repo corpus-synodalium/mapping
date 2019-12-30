@@ -25,12 +25,21 @@ class PasteURLModal extends Component {
   render() {
     return (
       <Modal
-        trigger={<ModalButton handleOpen={this.handleOpen} />}
+        trigger={
+          <Button primary onClick={this.handleOpen}>
+            {this.props.searchTerm
+              ? `Current query: "${this.props.searchTerm}"`
+              : 'Map Search Results'}
+          </Button>
+        }
         open={this.state.modalOpen}
         onClose={this.handleClose}
         size="small"
       >
-        <Header icon="map marker alternate" content="Map Search Results" />
+        <Header
+          icon="map marker alternate"
+          content="How to map search results from CoSyn database"
+        />
         <Modal.Content>
           <Description />
           <URLInput url={this.state.url} handleChange={this.handleChange} />
@@ -44,12 +53,6 @@ class PasteURLModal extends Component {
     );
   }
 }
-
-const ModalButton = ({ handleOpen }) => (
-  <Button primary onClick={handleOpen}>
-    Map Search Results
-  </Button>
-);
 
 const URLInput = ({ url, handleChange }) => (
   <Form>

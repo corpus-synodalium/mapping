@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import PasteURLModal from './PasteURLModal';
+import ShareMapButton from './ShareMapButton';
 import { Menu } from 'semantic-ui-react';
 
 class TopMenuBar extends Component {
   render() {
     return (
-      <Menu>
+      <Menu borderless>
         <Menu.Item>
           <img src="/favicon.ico" alt="React Logo" />
         </Menu.Item>
@@ -14,12 +15,13 @@ class TopMenuBar extends Component {
           <PasteURLModal
             inputURL={this.props.inputURL}
             handleInputURL={this.props.handleInputURL}
+            searchTerm={this.props.searchTerm}
           />
         </Menu.Item>
 
         {this.props.searchTerm && (
           <Menu.Item name="current-search">
-            Current query: "{this.props.searchTerm}"
+            <ShareMapButton />
           </Menu.Item>
         )}
 
