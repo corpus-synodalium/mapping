@@ -205,7 +205,9 @@ const _getJurisdictionData = (layer, mappingData) => {
       info.country = country_modern;
     } else if (provinceInfo.hasOwnProperty(jurID)) {
       const { name, alt } = provinceInfo[jurID];
-      info.title = alt ? `${name} (${alt})` : name;
+      let title = alt ? `${name} (${alt})` : name;
+      title += ' (Province)';
+      info.title = title;
     }
 
     if (mappingData && mappingData.hasOwnProperty(jurID)) {

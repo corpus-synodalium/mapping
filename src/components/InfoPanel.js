@@ -8,7 +8,10 @@ class InfoPanel extends Component {
 
     // Province and Modern country
     const attributes = ['province', 'country'];
-    const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+    const displayNames = {
+      province: 'Province',
+      country: 'Modern Country',
+    };
     const provinceCountry = [];
     if (info) {
       for (let i = 0; i < attributes.length; i++) {
@@ -16,7 +19,7 @@ class InfoPanel extends Component {
         if (info.hasOwnProperty(attr)) {
           provinceCountry.push(
             <li key={attr}>
-              {capitalize(attr)}: {info[attr]}
+              {displayNames[attr]}: {info[attr]}
             </li>
           );
         }
