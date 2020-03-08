@@ -8,6 +8,7 @@ import InfoPanel from './components/InfoPanel';
 import ColorLegend from './components/ColorLegend';
 import RecordsModal from './components/RecordsModal';
 import GeoJSONLayer from './components/GeoJSONLayer';
+import { DIOCESE } from './components/cosyn-constants';
 
 class LocalLegislationMap extends Component {
   constructor(props) {
@@ -18,8 +19,7 @@ class LocalLegislationMap extends Component {
       info: null,
       recordsModalOpen: false,
       searchResults: null,
-      showDioceses: true,
-      showProvinces: false,
+      layerViewMode: DIOCESE,
       showStripedRegions: true,
     };
     this.mapRef = React.createRef();
@@ -39,6 +39,12 @@ class LocalLegislationMap extends Component {
   changeColorScheme = (colorScheme) => {
     this.setState({
       currentColorScheme: colorScheme,
+    });
+  };
+
+  changeLayerViewMode = (viewMode) => {
+    this.setState({
+      layerViewMode: viewMode,
     });
   };
 
@@ -74,8 +80,8 @@ class LocalLegislationMap extends Component {
         <ControlPanel
           changeColorScheme={this.changeColorScheme}
           toggleCheckBox={this.toggleCheckBox}
-          showDioceses={this.state.showDioceses}
-          showProvinces={this.state.showProvinces}
+          changeLayerViewMode={this.changeLayerViewMode}
+          layerViewMode={this.state.layerViewMode}
           showStripedRegions={this.state.showStripedRegions}
         />
         <ColorLegend
@@ -106,8 +112,7 @@ class LocalLegislationMap extends Component {
             mappingData={this.props.mappingData}
             maxNumEntries={maxNumEntries}
             showRecordsModal={this.showRecordsModal}
-            showDioceses={this.state.showDioceses}
-            showProvinces={this.state.showProvinces}
+            layerViewMode={this.state.layerViewMode}
             showStripedRegions={this.state.showStripedRegions}
           />
         </LeafletMap>
