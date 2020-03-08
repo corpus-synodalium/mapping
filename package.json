@@ -3,18 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@turf/centroid": "^6.0.2",
+    "@turf/helpers": "^6.1.4",
     "axios": "^0.18.1",
     "leaflet": "^1.3.3",
+    "prop-types": "^15.7.2",
     "query-string": "^6.2.0",
-    "react": "^16.4.1",
+    "react": "^16.13.0",
     "react-copy-to-clipboard": "^5.0.2",
-    "react-dom": "^16.4.2",
+    "react-dom": "^16.13.0",
     "react-ga": "^2.5.7",
     "react-leaflet": "^2.0.0",
     "react-leaflet-geojson-patterns": "^1.1.0",
     "react-scripts": "2.1.3",
-    "semantic-ui-css": "^2.3.3",
-    "semantic-ui-react": "^0.82.2"
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
     "start": "react-scripts start",

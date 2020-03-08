@@ -56,16 +56,13 @@ class LocalLegislationMap extends Component {
 
   getMaxNumEntries = () => {
     const { mappingData } = this.props;
-    let maxNumEntries = 0;
-    for (const prop in mappingData) {
-      if (mappingData.hasOwnProperty(prop)) {
-        const numEntries = mappingData[prop].length;
-        if (numEntries > maxNumEntries) {
-          maxNumEntries = numEntries;
-        }
-      }
+    if (!mappingData) {
+      return 0;
     }
-    return maxNumEntries;
+    const entries = Object.keys(mappingData).map((key) => {
+      return mappingData[key].length;
+    });
+    return Math.max(...entries);
   };
 
   render() {
