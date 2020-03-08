@@ -7,6 +7,7 @@ import {
 } from './mapping-utils';
 import { isInDatabase, getJurisdictionData } from './cosyn-utils';
 import { DioceseCentroids } from './diocese-centroids';
+import { DIOCESE, PROVINCE, DIOCESE_PROVINCE } from './cosyn-constants';
 
 class GeoJSONLayer extends Component {
   constructor(props) {
@@ -134,37 +135,40 @@ class GeoJSONLayer extends Component {
       return <span />;
     }
 
+    const { layerViewMode } = this.props;
+
     return (
       <div>
-        {this.props.showDioceses && (
-          <DioceseCentroids
-            centroids={this.state.dioceseCentroids}
-            updateInfo={this.props.updateInfo}
-            mappingData={this.props.mappingData}
-            maxNumEntries={this.props.maxNumEntries}
-            showRecordsModal={this.props.showRecordsModal}
+        {layerViewMode === DIOCESE && (
+          <GeoJSONFillable
+            data={this.state.diocese_geojson}
+            style={this.style}
+            onEachFeature={this.onEachFeatureDiocese}
+            ref={this.dioceseRef}
           />
         )}
-        {this.props.showProvinces && (
-          <GeoJSONFillable
-            data={this.state.province_geojson}
-            style={this.style}
-            onEachFeature={this.onEachFeatureProvince}
-            ref={this.provinceRef}
-          />
+        {(layerViewMode === PROVINCE || layerViewMode === DIOCESE_PROVINCE) && (
+          <>
+            {layerViewMode === DIOCESE_PROVINCE && (
+              <DioceseCentroids
+                centroids={this.state.dioceseCentroids}
+                updateInfo={this.props.updateInfo}
+                mappingData={this.props.mappingData}
+                maxNumEntries={this.props.maxNumEntries}
+                showRecordsModal={this.props.showRecordsModal}
+              />
+            )}
+            <GeoJSONFillable
+              data={this.state.province_geojson}
+              style={this.style}
+              onEachFeature={this.onEachFeatureProvince}
+              ref={this.provinceRef}
+            />
+          </>
         )}
       </div>
     );
   }
 }
-
-// {this.props.showDioceses && (
-//   <GeoJSONFillable
-//     data={this.state.diocese_geojson}
-//     style={this.style}
-//     onEachFeature={this.onEachFeatureDiocese}
-//     ref={this.dioceseRef}
-//   />
-// )}
 
 export default GeoJSONLayer;

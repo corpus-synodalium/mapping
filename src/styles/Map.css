@@ -6,7 +6,7 @@
   position: fixed !important;
   z-index: 800;
   right: 0 !important;
-  width: 200px !important;
+  width: 220px !important;
   margin: 10px !important;
   background: rgba(255, 255, 255, 0.9) !important;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important;
@@ -21,7 +21,7 @@
 }
 
 .panel.panel-info {
-  margin-top: 210px !important;
+  margin-top: 240px !important;
 }
 
 .panel-left {
@@ -61,7 +61,8 @@
 }
 
 .search-fragment-div .highlight {
-  color: red;
+  color: #cc0000;
+  text-decoration: bold;
 }
 
 .ui.label.search-fragment-header {

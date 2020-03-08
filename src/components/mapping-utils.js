@@ -24,6 +24,7 @@ export const calculateDioceseCentroids = (geojson) => {
   }, []);
 };
 
+// Return the radius of a diocese circle based on the number of hits
 export const getRadius = (shapeID, mappingData, maxNumEntries) => {
   const MIN_RADIUS_PX = 5;
   const MAX_RADIUS_PX = 25;

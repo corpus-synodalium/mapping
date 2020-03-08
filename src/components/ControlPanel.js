@@ -1,30 +1,9 @@
 import React, { Component } from 'react';
 import { Card, Checkbox, Dropdown, Icon, Popup } from 'semantic-ui-react';
+import { COLOR_SCHEMES, LAYER_VIEW_MODES, DIOCESE } from './cosyn-constants';
 
 class ControlPanel extends Component {
   render() {
-    const colorSchemeOptions = [
-      {
-        text: 'Black & White',
-        value: 'bw',
-      },
-      {
-        text: 'Colors #1',
-        value: 'color1',
-      },
-      {
-        text: 'Colors #2',
-        value: 'color2',
-      },
-      {
-        text: 'Colors #3',
-        value: 'color3',
-      },
-      {
-        text: 'Colors #4',
-        value: 'color4',
-      },
-    ];
     return (
       <Card className="panel">
         <Card.Content>
@@ -32,27 +11,19 @@ class ControlPanel extends Component {
             <Icon name="setting" /> Control Panel
           </h4>
           <Dropdown
-            placeholder="color scheme"
-            options={colorSchemeOptions}
+            placeholder="Color Scheme"
+            options={COLOR_SCHEMES}
             onChange={(e, data) => this.props.changeColorScheme(data.value)}
             selection
             fluid
           />
           <br />
-          <Checkbox
-            label="Dioceses"
-            checked={this.props.showDioceses}
-            onChange={(e, data) =>
-              this.props.toggleCheckBox('showDioceses', data.checked)
-            }
-          />
-          <br />
-          <Checkbox
-            label="Provinces"
-            checked={this.props.showProvinces}
-            onChange={(e, data) =>
-              this.props.toggleCheckBox('showProvinces', data.checked)
-            }
+          <Dropdown
+            defaultValue={DIOCESE}
+            options={LAYER_VIEW_MODES}
+            onChange={(e, data) => this.props.changeLayerViewMode(data.value)}
+            selection
+            fluid
           />
           <br />
 
@@ -62,7 +33,7 @@ class ControlPanel extends Component {
             inverted
             trigger={
               <Checkbox
-                label="Base Layer"
+                label="Show regions that are not in database"
                 checked={this.props.showStripedRegions}
                 onChange={(e, data) =>
                   this.props.toggleCheckBox('showStripedRegions', data.checked)
