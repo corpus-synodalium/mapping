@@ -1,34 +1,41 @@
 {
-  "name": "react-map",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@turf/centroid": "^6.0.2",
-    "@turf/helpers": "^6.1.4",
-    "axios": "^0.18.1",
-    "leaflet": "^1.3.3",
-    "prop-types": "^15.7.2",
-    "query-string": "^6.2.0",
-    "react": "^16.13.0",
-    "react-copy-to-clipboard": "^5.0.2",
-    "react-dom": "^16.13.0",
-    "react-ga": "^2.5.7",
-    "react-leaflet": "^2.0.0",
-    "react-leaflet-geojson-patterns": "^1.1.0",
-    "react-scripts": "2.1.3",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "name": "react-map",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@turf/centroid": "^6.0.2",
+        "@turf/helpers": "^6.1.4",
+        "axios": "^0.18.1",
+        "leaflet": "^1.3.3",
+        "prop-types": "^15.7.2",
+        "query-string": "^6.2.0",
+        "react": "^16.13.0",
+        "react-copy-to-clipboard": "^5.0.2",
+        "react-dom": "^16.13.0",
+        "react-ga": "^2.5.7",
+        "react-leaflet": "^2.0.0",
+        "react-leaflet-geojson-patterns": "^1.1.0",
+        "react-scripts": "2.1.3",
+        "semantic-ui-css": "^2.4.1",
+        "semantic-ui-react": "^0.88.2"
+    },
+    "devDependencies": {
+        "csv-parse": "^4.14.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "diocese": "node scripts/create-json-for-cosyn-map.js --diocese",
+        "province": "node scripts/create-json-for-cosyn-map.js --province",
+        "shape": "node scripts/create-json-for-cosyn-map.js --shape",
+        "get-ids": "node scripts/get-ids-in-database.js"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
 }
