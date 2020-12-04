@@ -1,0 +1,886 @@
+ShpFID,DioceseID,Dioc_Prov_Name,Country_Modern,StartDate1,EndDate1,StartDate2,EndDate2,UnionWith1_Name,UnionWith1_ShpFID,UnionStart1,UnionEnd1,UnionWith2_Name,UnionWith2_ShpFID,UnionStart2,UnionEnd2,Notes
+S0575,D001,Acerenza,IT,1082,1501,,,Matera,S0574,1203,1415,Matera,S0574,1444,1501,
+S0314,D002,Acerno,IT,1090,1501,,,,,,,,,,,
+S0286,D003,Acerra,IT,1056,1501,,,,,,,,,,,
+S0011,D004,Adria,IT,999,1501,,,,,,,,,,,Episcopal seat at Rovigo
+S0155,D005,Alatri,IT,999,1501,,,,,,,,,,,
+S0186,D006,Alba,IT,999,1501,,,,,,,,,,,
+S0264,D007,Albenga,IT,999,1501,,,,,,,,,,,
+S0184,D008,Alessandria,IT,1175,1501,,,Aqui,S0187,1205,1405,,,,,
+S0278,D010,Alife,IT,999,1501,,,,,,,,,,,
+S0297,D011,Amalfi,IT,999,1501,,,,,,,,,,,
+S0215,D012,Amelia,IT,999,1501,,,,,,,,,,,
+S0152,D013,Anagni,IT,999,1501,,,,,,,,,,,
+S0197,D014,Ancona,IT,999,1422,,,,,,,,,,,
+S0909,D014,Ancona and Umana,IT,1422,1501,,,,,,,,,,,"Umana suppressed to Ancona in 1422, only remains in Ancona's new name"
+S0091,D015,Andria,IT,1100,1501,,,,,,,,,,,
+S0117,D016,(Santa Maria di) Anglona,IT,1100,1501,,,,,,,,,,,
+S0187,D018,Acqui,IT,1175,1501,,,Alessandria,S0184,1205,1405,,,,,lost territory with erection of Alessandria in 1175 (later in union 1205-1405)
+S0009,D019,Aquileia,IT,999,1461,,,,,,,,,,,Episcopal seat at Cividale
+S0917,D019,Aquileia,IT,1461,1501,,,,,,,,,,,
+S0272,D020,Aquino,IT,999,1501,,,,,,,,,,,
+S0242,D021,Arezzo,IT,999,1325,,,,,,,,,,,
+S0921,D021,Arezzo,IT,1325,1369,,,,,,,,,,,"no polygon for 1369-1462 (after lost territory to Montefiascone, before lost territory to Pienza)"
+S0844,D021,Arezzo,IT,1462,1501,,,,,,,,,,,
+S0309,D022,Ariano,IT,999,1501,,,,,,,,,,,
+S0203,D023,Ascoli (Piceno),IT,999,1501,,,,,,,,,,,
+S0071,D024,Ascoli Satriano,IT,999,1501,,,,,,,,,,,
+S0210,D026,Assisi,IT,999,1501,,,,,,,,,,,
+S0183,D027,Asti,D030,999,1388,,,,,,,,,,,looses territory to Mondovì 1388
+S0927,D027,Asti,D030,1388,1501,,,,,,,,,,,looses territory to Mondovì 1388
+S0292,D029,Avellino,IT,999,1501,,,Frigento,S0598,1466,1501,,,,,
+S0287,D030,Aversa,IT,1053,1501,,,,,,,,,,,
+S0918,D031,Bagnoregio,,1369,1501,,,,,,,,,,,after loses territory to Montefiascone
+S0137,D031,Bagnoregio,IT,999,1369,,,,,,,,,,,United w/ Viterbo from 10 February - 17 October 1449 [not shown on maps]
+S0107,D032,Belcastro,IT,1122,1501,,,,,,,,,,,
+S0262,D034,Benevento,IT,999,1501,,,Lesina,S0057,1459,1473,,,,,
+S0162,D035,Bergamo,IT,999,1501,,,,,,,,,,,
+S0310,D037,Bisaccia,IT,1090,1501,,,,,,,,,,,
+S0580,D277,Bisarcio,IT,999,1501,,,,,,,,,,,Boundaries are uncertain
+S0089,D038,Bisceglie,IT,999,1501,,,,,,,,,,,
+S0105,D039,Bisignano,IT,999,1501,,,,,,,,,,,
+S0219,D040,Bobbio,IT,1014,1501,,,,,,,,,,,
+S0260,D041,Boiano,IT,999,1501,,,,,,,,,,,founded sometime before 1071
+S0224,D042,Bologna,IT,999,1501,,,,,,,,,,,
+S0094,D043,Bova,IT,999,1501,,,,,,,,,,,
+S0068,D044,Bovino,IT,999,1501,,,,,,,,,,,
+S0163,D045,Brescia,IT,999,1501,,,,,,,,,,,
+S0047,D046,Brindisi,IT,1050,1501,,,,,,,,,,,
+S0269,D047,Brugnato,IT,1133,1501,,,,,,,,,,,
+S0192,D048,Cagli,IT,999,1501,,,,,,,,,,,
+S0283,D049,Cajazzo,IT,999,1501,,,,,,,,,,,
+S0282,D050,Calvi,IT,999,1501,,,,,,,,,,,
+S0198,D051,Camerino,IT,1320,1501,,,,,,,,,,,1320 loses territory to establish Macerata
+S0487,D051,Camerino,IT,999,1320,,,,,,,,,,,1320 loses territory to establish Macerata
+S0023,D052,Caorle,IT,999,1501,,,,,,,,,,,
+S0315,D053,Capaccio,IT,1160,1501,,,,,,,,,,,
+S0001,D054,Capodistria,SVN,999,1501,,,,,,,,,,,
+S0304,D055,Capri,IT,999,1501,,,,,,,,,,,
+S0281,D056,Capua,IT,999,1501,,,,,,,,,,,
+S0280,D057,Carinola,IT,999,1501,,,,,,,,,,,
+S0180,D058,Vercelli,IT,1474,1501,,,,,,,,,,,after lost territory to create Casale Monferrato
+S0566,D058,Vercelli,IT,999,1474,,,,,,,,,,,before lost territory to Casale Monferrato
+S0284,D059,Caserta,IT,999,1501,,,,,,,,,,,
+S0116,D060,Cassano (all'Jonio),IT,999,1501,,,,,,,,,,,
+S0295,D061,Castellammare,IT,999,1501,,,,,,,,,,,
+S0051,D062,Castellaneta,IT,1023,1501,,,,,,,,,,,
+S0019,D063,Castello,IT,999,1451,,,,,,,,,,,Suppressed to Venice 1451
+S0125,D064,Castro,IT,999,1503,,,,,,,,,,,supressed to Alghero from 1503
+S0042,D065,Castro,IT,999,1501,,,,,,,,,,,
+S0102,D066,Catanzaro,IT,1121,1501,,,,,,,,,,,
+S0316,D067,Cava (Abbey),IT,1394,1465,,,,,,,,,,,reduced to Benedictine monastery in 1465
+S0016,D068,Ceneda,IT,999,1501,,,,,,,,,,,
+S0112,D069,Cerenzia (Cerenza),IT,999,1501,,,,,,,,,,,
+S0226,D070,Cervia,IT,999,1501,,,,,,,,,,,
+S0233,D071,Cesena,IT,999,1501,,,,,,,,,,,
+S0254,D072,Chieti,IT,999,1501,,,,,,,,,,,
+S0010,D073,Chioggia,IT,999,1501,,,,,,,,,,,
+S0245,D074,Chiusi,IT,999,1325,,,,,,,,,,,Suffragan of Siena from 1459
+S0585,D074,Chiusi,IT,1325,1369,,,,,,,,,,,"not mapped for 1369-1462 (after lost territory to Montefiascone, before lost territory to Pienza)"
+S0924,D074,Chiusi,IT,1462,1501,,,,,,,,,,,
+S0248,D075,Abazzia delle Tre Fontane,IT,999,1501,,,,,,,,,,,territorial abbey
+S0206,D076,Citta di Castello,IT,999,1325,,,,,,,,,,,
+S0501,D076,Citta di Castello,IT,1325,1501,,,,,,,,,,,
+S0022,D705,Cittanuova,IT,999,1501,,,,,,,,,,,
+S0141,D078,Civita Castellana,IT,999,1501,,,Orte,S0140,1437,,,,,,
+S0227,D079,Comacchio,IT,999,1501,,,,,,,,,,,
+S0160,D080,Como,IT,999,1501,,,,,,,,,,,
+S0024,D081,Concordia,IT,999,1501,,,,,,,,,,,
+S0313,D082,Conza,IT,999,1501,,,,,,,,,,,
+S0104,D084,Cosenza,IT,1150,1501,,,,,,,,,,,
+S0111,D085,Cotrone,IT,999,1322,,,,,,,,,,,
+S0166,D086,Cremona,IT,999,1501,,,,,,,,,,,
+S0059,D087,Dragonara,IT,1039,1501,,,,,,,,,,,
+S0230,D088,Faenza,IT,999,1501,,,,,,,,,,,briefly exempted from Ravennan authority from 1099-1119
+S0194,D089,Fano,IT,999,1501,,,,,,,,,,,
+S0562,D090,Feltre,IT,999,1501,,,,,,,,,,,United with Belluno from 1197 to 1462 (combined territory represented)
+S0157,D091,Ferentino,IT,999,1501,,,,,,,,,,,
+S0202,D092,Fermo,IT,1320,1501,,,,,,,,,,,lost territory to establish Macerata 1320
+S0488,D092,Fermo,IT,999,1320,,,,,,,,,,,lost territory to establish Macerata 1320
+S0225,D093,Ferrara,IT,999,1501,,,,,,,,,,,Ughelli suggests that Ferrara was suffragan of Ravenna
+S0240,D094,Fiesole,IT,999,1501,,,,,,,,,,,Made suffragan to Firenze in 1420
+S0060,D095,Fiorentino,IT,1059,1410,,,,,,,,,,,Suppressed to Lucera
+S0239,D096,Firenze,IT,999,1501,,,,,,,,,,,Elevated to metropolitanate in 1420
+S0211,D097,Foligno,IT,999,1501,,,,,,,,,,,
+S0273,D098,Fondi,IT,999,1501,,,,,,,,,,,
+S0231,D099,Forli,IT,999,1501,,,,,,,,,,,
+S0232,D100,Forlimpopoli,IT,999,1501,,,,,,,,,,,See Transferred to Bertinoro in 1360
+S0193,D101,Fossombrone,IT,999,1501,,,,,,,,,,,
+S0598,D102,Frigento,IT,999,1501,,,Avellino,S0292,1466,1501,,,,,
+S0274,D103,Gaeta,IT,999,1501,,,,,,,,,,,
+S0044,D104,Gallipoli,IT,999,1501,,,,,,,,,,,
+S0267,D105,Genova,IT,999,1501,,,Oppido,S0096,1462,1501,,,,,Raised to archdiocese in 1133
+S0096,D106,Gerace,IT,999,1501,,,Oppido,S0096,1462,1501,,,,,Raised to archdiocese in 1133
+S0008,D107,Grado,IT,999,1451,,,Cittanova d'Istria,S0002,1448,1451,,,,,Elevated to patriarchate of Venice in 1451 and renamed (Grado being thereby suppressed)
+S0085,D108,Gravina (in Puglia),IT,999,1501,,,,,,,,,,,
+S0246,D109,Grosseto,IT,999,1462,,,,,,,,,,,Made suffragan to Siena in 1459
+S0871,D109,Grosseto,IT,1462,1501,,,,,,,,,,,
+S0258,D110,Guardialfiera,IT,1059,1501,,,,,,,,,,,
+S0207,D111,Gubbio,IT,999,1501,,,,,,,,,,,
+S0229,D112,Imola,IT,999,1501,,,,,,,,,,,
+S0290,D113,Ischia,IT,1036,1501,,,,,,,,,,,
+S0108,D114,Isola,IT,1114,1501,,,,,,,,,,,
+S0256,D115,Isernia,IT,999,1501,,,,,,,,,,,
+S0181,D116,Ivrea,IT,999,1501,,,,,,,,,,,
+S0196,D117,Jesi,IT,999,1501,,,,,,,,,,,
+S0021,D118,Iesolo (Jesolo),IT,999,1466,,,,,,,,,,,Suppressed to Venice in 1466
+S0311,D119,Lacedonia,IT,1080,1501,,,,,,,,,,,
+S0251,D120,Aquila,IT,1257,1501,,,,,,,,,,,see moved from Furci to L'Aquila in 1257
+S0261,D121,Larino,IT,999,1501,,,,,,,,,,,
+S0046,D122,Lecce,IT,1057,1501,,,,,,,,,,,
+S0057,D123,Lesina,IT,1254,1501,,,Benevento,S0262,1459,1473,,,,,
+S0296,D124,Lettere,IT,999,1501,,,,,,,,,,,
+S0165,D125,Lodi,IT,999,1501,,,,,,,,,,,
+S0897,D126,Ljubljana,SVN,1461,1501,,,,,,,,,,,
+S0236,D127,Lucca,IT,999,1501,,,,,,,,,,,
+S0064,D128,Lucera,IT,999,1410,,,,,,,,,,,"before territory gained from Fiorentino in 1410, Tertiveri in 1425"
+S0556,D128,Lucera,IT,1425,1501,,,Citta' (San Severo),S0058,1439,1447,,,,,after gains territory of Fiorentino in 1410 and Tertiverdi in 1425 (1410-1425 not shown on map)
+S0268,D129,Luni,IT,1133,1501,,,,,,,,,,,after loses territory to create Brugnato in 1133
+S0201,D130,Macerata,IT,1320,1356,,,,,,,,,,,lost territory to restore Recanati in 1356
+S0912,D130,Macerata,IT,1356,1501,,,Recanati,S0200,1356,1501,,,,,lost territory to restore Recanati in 1356
+S0065,D131,Manfredonia,IT,999,1501,,,,,,,,,,,seat moved from Siponto 1230
+S0167,D132,Mantova,IT,999,1501,,,,,,,,,,,made exempt in 1452
+S0252,D133,Pescina [med. Avezzano],IT,999,1501,,,,,,,,,,,"aka dei Marsi, with second seat at Pescina"
+S0080,D134,Marisco (Nuovo),IT,999,1501,,,,,,,,,,,
+S0103,D135,Martirano,IT,1099,1501,,,,,,,,,,,
+S0303,D136,Massa Lubrense,IT,1024,1501,,,,,,,,,,,
+S0244,D137,Massa Marittima,IT,999,1501,,,,,,,,,,,"Suffragan to Pisa until 1420, then to Firenze"
+S0574,D138,Matera,IT,999,1501,,,Acerenza,S0575,1203,1415,Acerenza,S0575,1444,1501,
+S0072,D139,Melfi,IT,1050,1501,,,,,,,,,,,
+S0161,D140,Milano,IT,999,1501,,,,,,,,,,,
+S0098,D141,Mileto,IT,1081,1501,,,,,,,,,,,
+S0300,D142,Minori,IT,999,1501,,,,,,,,,,,
+S0223,D143,Modena,IT,999,1501,,,,,,,,,,,
+S0188,D144,Mondovi,IT,1388,1501,,,,,,,,,,,
+S0049,D145,Monopoli,IT,1030,1501,,,,,,,,,,,
+S0898,D146,Montalcino,IT,1462,1501,,,Pienza,S0900,1462,1594,,,,,usually united with Pienza until 1594 (with minor divisions)
+S0275,D147,Monte Cassino,IT,999,1501,,,,,,,,,,,"abbey, exempt; raised to episcopal rank 1322-1367"
+S0062,D148,Montecorvino,IT,1059,1501,,,Volturara,S0061,1434,,,,,,united aeque principaliter with Volturara in 1434
+S0305,D149,Monte Marano,IT,1059,1501,,,,,,,,,,,
+S0189,D150,Montefeltro,IT,999,1501,,,,,,,,,,,
+S0589,D151,Montefiascone,IT,1369,1501,,,Corneto,S0590,1435,1501,,,,,"takes territory from Tuscania; boundaries uncertain, adopted from 20th century bounds"
+S0904,D152,Montepeloso,IT,1460,1501,,,,,,,,,,,
+S0312,D153,Monteverde,IT,1049,1501,,,,,,,,,,,
+S0076,D155,Muro (Lucano),IT,1040,1501,,,,,,,,,,,
+S0289,D156,Napoli,IT,999,1501,,,,,,,,,,,
+S0043,D157,Nardo,IT,1090,1501,,,,,,,,,,,"Erected from Benedictine abbey in 1413, previously abbey nullius"
+S0216,D158,Narni,IT,999,1501,,,,,,,,,,,
+S0142,D159,Nepi,IT,999,1435,,,Sutri,S0143,1435,,,,,,
+S0101,D160,Nicastro,IT,999,1501,,,,,,,,,,,
+S0581,D161,Nicotera,IT,999,1304,1392,1501,,,,,,,,,supressed 1304-1392 to Mileto and then to Reggio; territory before supression uncertain
+S0208,D162,Nocera (Umbra),IT,999,1501,,,,,,,,,,,
+S0899,D163,Nocera Inferiore,IT,999,1501,,,,,,,,,,,
+S0291,D164,Nola,IT,999,1501,,,,,,,,,,,
+S0266,D165,Noli,IT,1239,1501,,,,,,,,,,,Perhaps erected in 1239 rather than 1245
+S0179,D166,Novara,IT,999,1501,,,,,,,,,,,
+S0306,D167,Nusco,IT,1076,1501,,,,,,,,,,,
+S0097,D168,Oppido,IT,1025,1501,,,Gerace,S0096,1462,1501,,,,,
+S0140,D169,Orte,IT,999,1501,,,Civita Castellana,S0141,1437,1501,,,,,"Perhaps united with Civita' Castellana in 1439, not 1437"
+S0544,D170,Orvieto,IT,1369,1501,,,,,,,,,,,
+S0212,D170,Orvieto,IT,999,1369,,,,,,,,,,,
+S0199,D171,Osimo,IT,1264,1501,,,,,,,,,,,"suppressed after a rebellion 1240 [territory before not represented on maps]; restored in 1246, having lost some territory to the newly-created Recanati; seat moved to Cingoli (Santa Maria di Cingoli) after 1320 rebellion and renamed to Osimo and Cingola, seat & name restored to Osimo in 1367"
+S0148,D172,Ostia,IT,999,1501,,,Velletri,D172,1150,1501,,,,,
+S0048,D173,Ostuni,IT,1050,1501,,,,,,,,,,,
+S0045,D174,Otranto,IT,999,1501,,,,,,,,,,,
+S0017,D175,Padova,IT,999,1501,,,,,,,,,,,
+S0151,D176,Palestrina,IT,999,1501,,,,,,,,,,,
+S0003,D177,Parenzo,HR,999,1501,,,Cittanova d'Istria,S0002,1434,1448,,,,,
+S0221,D178,Parma,IT,999,1501,,,,,,,,,,,
+S0164,D179,Pavia,IT,999,1501,,,,,,,,,,,
+S0005,D180,Pedena,HR,999,1501,,,,,,,,,,,
+S0250,D181,Penne,IT,1251,1501,,,,,,,,,,,"Atri created from Penne 1251, in union (represented together on maps)"
+S0209,D182,Perugia,IT,999,1501,,,,,,,,,,,
+S0191,D183,Pesaro,IT,999,1501,,,,,,,,,,,
+S0220,D184,Piacenza,IT,999,1501,,,,,,,,,,,
+S0900,D185,Pienza,,1462,1501,,,Montalcino,D146,1462,1594,,,,,
+S0238,D186,Pisa,IT,999,1501,,,,,,,,,,,
+S0237,D187,Pistoia,IT,999,1501,,,,,,,,,,,Suffragan of Firenze from 1420
+S0004,D188,Pola,HR,999,1501,,,,,,,,,,,
+S0317,D189,Policastro,IT,1058,1501,,,,,,,,,,,
+S0145,D190,Porto,IT,999,1501,,,,,,,,,,,
+S0077,D191,Potenza,IT,999,1501,,,,,,,,,,,
+S0288,D192,Pozzuoli,IT,999,1501,,,,,,,,,,,
+S0075,D193,Rapolla,IT,1060,1501,,,,,,,,,,,
+S0298,D194,Ravello,IT,1086,1501,,,,,,,,,,,from Amalfi
+S0228,D195,Ravenna,IT,999,1501,,,,,,,,,,,
+S0200,D196,Recanati,IT,1256,1320,1356,,Macerata,S0912,1356,1501,,,,,"erected 1240 after Osimo's rebellion from Umana along with some of Osimo's territory [1250 timeslice]; reincorporated into Numana with restoration of Osimo 1264 [not shown], restored 1289 minus Osimo territory [not shown]; supressed to Macerata in 1320 [1350 timeslice], restored 1356 [1450 timeslice]"
+S0454,D196,Recanati,IT,1240,1264,,,,,,,,,,,"(Recanati+Osimo territory) erected 1240 after Osimo's rebellion from Umana along with some of Osimo's territory [1250 timeslice]; reincorporated into Numana with restoration of Osimo 1264 [not shown], restored 1289 minus Osimo territory [not shown]; supressed to Macerata in 1320 [1350 timeslice], restored 1356 [1450 timeslice]"
+S0095,D197,Reggio (di Calabria),IT,999,1304,1392,1501,,,,,,,,,"Gains territory from supressed Nicotera approximately 1304-1392 (territory is first incorporated into Mileto, time uncertain)"
+S0617,D197,Reggio (di Calabria),IT,1304,1392,,,,,,,,,,,"Gains territory from supressed Nicotera approximately 1304-1392 (territory is first incorporated into Mileto, time uncertain)"
+S0222,D198,Reggio,IT,999,1462,,,,,,,,,,,
+S0218,D199,Rieti,IT,999,1501,,,,,,,,,,,
+S0235,D200,Rimini,IT,999,1501,,,,,,,,,,,
+S0115,D201,Rossano,IT,999,1501,,,,,,,,,,,
+S0144,D202,Sabina,IT,999,1501,,,,,,,,,,,
+S0294,D203,Salerno,IT,999,1501,,,,,,,,,,,
+S0110,D204,San Leone,IT,1322,1501,,,,,,,,,,,first Latin bishop in 1322 (previously Byzantine)
+S0106,D205,San Marco (Argentano),IT,1159,1501,,,,,,,,,,,
+S0285,D206,Sant'Agata dei Goti,IT,999,1501,,,,,,,,,,,
+S0307,D207,S. Angelo de Lombardi,IT,1080,1501,,,,,,,,,,,"uncertain date of foundation, 1073-1085"
+S0109,D208,Santa Severina,IT,999,1501,,,,,,,,,,,
+S0293,D209,Sarno,IT,1000,1501,,,,,,,,,,,
+S0234,D210,Sarsina,IT,999,1501,,,,,,,,,,,
+S0079,D211,Satriano,IT,1098,1501,,,,,,,,,,,
+S0265,D212,Savona,IT,1239,1501,,,,,,,,,,,
+S0299,D213,Scala,IT,999,1501,,,,,,,,,,,
+S0154,D214,Segni,IT,999,1501,,,,,,,,,,,
+S0276,D215,Sessa,IT,999,1501,,,,,,,,,,,
+S0243,D216,Siena,IT,999,1325,,,,,,,,,,,Elevated to metropolitanate in 1459
+S0870,D216,Siena,IT,1325,1462,,,,,,,,,,,after the change in Tuscania's boundaries in 1325
+S0881,D216,Siena,IT,1462,1501,,,,,,,,,,,after the loss of territory in the creation of Montalcino and Pienza in 1462
+S0195,D217,Senigallia,IT,999,1501,,,,,,,,,,,seat moved to Corinaldo in 14th century
+S0271,D218,Sora,IT,999,1501,,,,,,,,,,,
+S0302,D219,Sorrento,IT,999,1501,,,,,,,,,,,
+S0247,D220,Sovana,IT,999,1501,,,,,,,,,,,Suffragan of Siena from 1459
+S0214,D221,Spoleto,IT,999,1501,,,,,,,,,,,
+S0100,D222,Squillace,IT,999,1501,,,,,,,,,,,
+S0113,D223,Strongoli,IT,999,1501,,,,,,,,,,,
+S0143,D224,Sutri,IT,999,1435,,,Nepi,S0142,1435,,,,,,
+S0050,D225,Taranto,IT,999,1501,,,,,,,,,,,
+S0277,D226,Teano,IT,999,1501,,,,,,,,,,,
+S0279,D227,Telese,IT,999,1501,,,,,,,,,,,
+S0249,D228,Teramo,IT,999,1501,,,,,,,,,,,
+S0259,D229,Termoli,IT,999,1501,,,,,,,,,,,
+S0217,D230,Terni,IT,1218,1501,,,,,,,,,,,
+S0156,D231,Terracina,IT,999,1501,,,,,,,,,,,
+S0063,D232,Tertiveri,IT,1059,1425,,,,,,,,,,,perhaps suppressed to Lucera in 1409 not 1425
+S0147,D233,Tivoli,IT,999,1501,,,,,,,,,,,
+S0213,D234,Todi,IT,999,1501,,,,,,,,,,,
+S0020,D235,Torcello,IT,999,1501,,,,,,,,,,,
+S0182,D236,Torino,IT,999,1501,,,,,,,,,,,
+S0270,D237,Cortona,IT,1325,1501,,,,,,,,,,,based on modern boundaries
+S0185,D238,Tortona,IT,999,1501,,,,,,,,,,,
+S0090,D239,Trani,IT,999,1424,,,,,,,,,,,before gained territory from the suppressed Salpi in 1424
+S0573,D239,Trani,IT,1424,1523,,,,,,,,,,,after gained territory from the suppressed Salpi in 1424
+S0014,D240,Trento,IT,999,1501,,,,,,,,,,,
+S0308,D241,Trevico,IT,999,1501,,,,,,,,,,,
+S0018,D242,Treviso,IT,999,1501,,,,,,,,,,,
+S0081,D243,Tricarico,IT,999,1501,,,,,,,,,,,
+S0007,D244,Trieste,IT,999,1501,,,,,,,,,,,
+S0257,D245,Trivento,IT,999,1501,,,,,,,,,,,Exempt from 1474
+S0067,D246,Troia,IT,999,1501,,,,,,,,,,,
+S0099,D247,Tropea,IT,999,1501,,,,,,,,,,,
+S0138,D248,Tuscania,IT,1192,1369,,,Viterbo,S0239,1192,,,,,,
+S0586,D248,Tuscania,IT,1435,1501,,,,,,,,,,,after lost terr to Motnefiascone in 1369 and Corneto in 1435
+S0041,D249,Ugento,IT,999,1501,,,,,,,,,,,
+S0159,D250,Casale Monferrato,IT,1474,1501,,,,,,,,,,,
+S0114,D251,Umbriatico,IT,1030,1501,,,,,,,,,,,
+S0190,D252,Urbino,IT,999,1501,,,,,,,,,,,
+S0253,D253,Sulmona-Valva,IT,999,1501,,,,,,,,,,,
+S0255,D254,Venafro,IT,1100,1501,,,,,,,,,,,
+S0559,D255,Venice,IT,1451,1466,,,Cittanova d'Istria,1451,1465,,,,,,Gained territory from suppressed Castello 1451
+S0560,D255,Venice,IT,1466,1501,,,,,,,,,,,Gained territory from suppressed Iesolo and Cittanova d'Istria 1466
+S0074,D256,Venosa,IT,999,1501,,,,,,,,,,,
+S0263,D257,Ventimiglia,IT,999,1501,,,,,,,,,,,
+S0153,D258,Velletri,IT,999,1501,,,Ostia,S0148,1150,1501,,,,,
+S0158,D259,Veroli,IT,999,1501,,,,,,,,,,,
+S0013,D260,Verona,IT,999,1501,,,,,,,,,,,
+S0012,D261,Vicenza,IT,999,1501,,,,,,,,,,,
+S0301,D262,Vico Equense,IT,999,1501,,,,,,,,,,,
+S0066,D263,Vieste,IT,999,1501,,,,,,,,,,,
+S0139,D264,Viterbo,IT,1192,1503,,,Tuscania,S0138,1192,1501,,,,,united with Bagnoregio 10 February - 17 October 1449 [not shown on map]
+S0241,D265,Volterra,IT,999,1501,,,,,,,,,,,
+S0061,D266,Volturara (Appula),IT,1059,1501,,,Monte Corvino,S0062,1434,,,,,,united aeque principaliter with Montecorvino in 1434
+S0175,D267,Agrigento,IT,1088,1501,,,,,,,,,,,
+S0176,D268,Catania,IT,1092,1501,,,,,,,,,,,
+S0171,D269,Cefalu,IT,1131,1501,,,,,,,,,,,
+S0174,D270,Mazara,IT,1093,1501,,,,,,,,,,,
+S0169,D271,Messina,IT,999,1501,,,,,,,,,,,
+S0173,D272,Monreale,IT,1176,1501,,,,,,,,,,,
+S0172,D273,Palermo,IT,999,1501,,,,,,,,,,,
+S0170,D274,Patti,IT,1157,1501,,,Lipari,S0168,1157,1399,,,,,
+S0177,D275,Siracusa,IT,1086,1501,,,,,,,,,,,
+S0132,D276,Ales,IT,999,1503,,,Terralba,S0132,1503,,,,,,
+S0121,D278,Bosa,IT,999,1501,,,,,,,,,,,
+S0135,D279,Cagliari,IT,999,1420,,,,,,,,,,,before gains territory from the suppressed Suelli in 1420
+S0582,D279,Cagliari,IT,1420,1501,,,,,,,,,,,after gains territory from the suppressed Suelli in 1420
+S0136,D280,Castro,IT,999,1503,,,,,,,,,,,
+S0133,D282,Dolia,IT,999,1501,,,,,,,,,,,supressed to Cagliari in 1503
+S0126,D283,Galtelli,IT,1120,1495,,,,,,,,,,,supressed to Cagliari in 1495
+S0128,D284,Oristano,IT,1093,1503,,,,,,,,,,,gains territory from the suppressed Santa Giusta in 1503
+S0127,D285,Ottana,IT,1065,1501,,,,,,,,,,,
+S0123,D286,Ploaghe,IT,1090,1503,,,,,,,,,,,Incorporated into Sassari in 1503
+S0129,D287,Santa Giusta,IT,1093,1503,,,,,,,,,,,suppressed to Oristano 1503
+S0118,D288,Sassari,IT,999,1503,,,,,,,,,,,seat moved from Torres to Sassari 1250 but name not changged until 1441 ; gained the suppresed Ploaghe and Sores in 1503
+S0122,D289,Sorres,IT,1100,1503,,,,,,,,,,,Suppressed to Sassari in 1503
+S0130,D290,Suelli,IT,999,1420,,,,,,,,,,,Suppressed to Cagliari in 1420
+S0120,D292,Tempio,IT,999,1501,,,Ampurias,S0119,1506,,,,,,originally exempt; made suffragan of Pisa in 1138; United with Ampurias from 1503; also known as Gallura
+S0131,D293,Terralba,IT,999,1503,,,Ales,S0131,1503,,,,,,territorial abbey
+S0423,D294,Massa Carrara,IT,,,,,,,,,,,,,
+S0352,D295,Canterbury,GB,597,1501,,,,,,,,,,,
+S0353,D296,Rochester,GB,604,1501,,,,,,,,,,,
+S0354,D297,London,GB,604,1501,,,,,,,,,,,
+S0339,D298,York,GB,626,1501,,,,,,,,,,,
+S0350,D299,Winchester,GB,999,1501,,,,,,,,,,,
+S0340,D300,Lichfield & C oventry,GB,669,1501,,,,,,,,,,,
+S0338,D301,Durham,GB,995,1501,,,,,,,,,,,
+S0356,D302,Norwich,GB,1091,1501,,,,,,,,,,,
+S0344,D303,Hereford,GB,676,1501,,,,,,,,,,,
+S0357,D304,Lincoln,GB,1072,1501,,,,,,,,,,,
+S0343,D305,Worcester,GB,680,1501,,,,,,,,,,,
+S0351,D306,Chichester,GB,1075,1501,,,,,,,,,,,
+S0348,D307,Salisbury,GB,1078,1501,,,,,,,,,,,
+S0349,D308,Exeter,GB,1050,1501,,,,,,,,,,,
+S0347,D309,Bath & Wells,GB,909,1501,,,,,,,,,,,
+S0355,D310,Ely,GB,1108,1501,,,,,,,,,,,
+S0337,D311,Carlisle,GB,1133,1501,,,,,,,,,,,
+S0320,D312,Isles,GB,1154,1501,,,,,,,,,,,alternate name Sodor and Man
+S0346,D313,Llandaff,GB,999,1501,,,,,,,,,,,
+S0342,D314,Bangor,GB,999,1501,,,,,,,,,,,
+S0345,D315,St. David's,GB,999,1501,,,,,,,,,,,
+S0341,D316,St. Asaph,GB,999,1501,,,,,,,,,,,
+S0323,D317,Aberdeen,GB,1125,1501,,,,,,,,,,,
+S0324,D318,Argyll,GB,1183,1501,,,,,,,,,,,
+S0326,D319,Brechin,GB,1150,1501,,,,,,,,,,,
+S0319,D320,Caithness,GB,1146,1501,,,,,,,,,,,
+S0327,D321,Dunblane,GB,1155,1501,,,,,,,,,,,
+S0325,D322,Dunkeld,GB,1114,1501,,,,,,,,,,,
+S0330,D324,Galloway,GB,1128,1501,,,,,,,,,,,
+S0329,D325,Glasglow,GB,1114,1501,,,,,,,,,,,
+S0322,D326,Moray,GB,1100,1501,,,,,,,,,,,
+S0318,D327,Orkney,GB,1055,1501,,,,,,,,,,,suffragan of York until 1152; then (nominal) suffragan of Trondheim until 1472
+S0321,D328,Ross,GB,1152,1501,,,,,,,,,,,
+S0328,D329,St. Andrews,GB,850,1501,,,,,,,,,,,
+S0618,D330,Aix,FR,999,1501,,,,,,,,,,,
+S0619,D331,Apt,FR,999,1501,,,,,,,,,,,
+S0620,D332,Frejus,FR,999,1501,,,,,,,,,,,
+S0621,D333,Gap,FR,999,1501,,,,,,,,,,,
+S0622,D334,Riez,FR,999,1501,,,,,,,,,,,
+S0623,D335,Sisteron,FR,999,1501,,,,,,,,,,,
+S0625,D337,Arles,FR,999,1501,,,,,,,,,,,
+S0626,D338,Marseille,FR,999,1501,,,,,,,,,,,
+S0627,D339,Orange,FR,999,1501,,,,,,,,,,,
+S0628,D340,Saint-Paul-Trois-Châteaux,FR,999,1501,,,,,,,,,,,
+S0629,D341,Toulon,FR,999,1501,,,,,,,,,,,
+S0630,D342,Avignon,FR,999,1501,,,,,,,,,,,
+S0631,D343,Carpentras,FR,999,1501,,,,,,,,,,,
+S0632,D344,Cavaillon,FR,999,1501,,,,,,,,,,,
+S0633,D345,Vaison,FR,999,1501,,,,,,,,,,,
+S0634,D350,Auch,FR,999,1501,,,,,,,,,,,
+S0635,D351,Aire,FR,999,1501,,,,,,,,,,,
+S0636,D352,Bazas,FR,999,1501,,,,,,,,,,,
+S0637,D353,Dax,FR,999,1501,,,,,,,,,,,
+S0638,D354,Bayonne,FR,999,1501,,,,,,,,,,,
+S0639,D355,Lectoure,FR,999,1501,,,,,,,,,,,
+S0640,D356,Lescar,FR,999,1501,,,,,,,,,,,
+S0641,D357,Oloron,FR,999,1501,,,,,,,,,,,
+S0642,D358,Saint-Bertrand-de-Comminges,FR,999,1501,,,,,,,,,,,
+S0643,D359,Couserans,FR,999,1501,,,,,,,,,,,seat at Saint-Lizier
+S0644,D360,Tarbes,FR,999,1501,,,,,,,,,,,
+S0645,D361,Besancon,FR,999,1501,,,,,,,,,,,
+S0646,D362,Basel,CH,999,1501,,,,,,,,,,,
+S0647,D363,Belley,FR,999,1501,,,,,,,,,,,
+S0447,D364,Lausanne,CH,999,1501,,,,,,,,,,,
+S0648,D365,Bordeaux,FR,999,1501,,,,,,,,,,,
+S0649,D366,Agen,FR,999,1317,,,,,,,,,,,
+S0755,D366,Agen,FR,1317,1501,,,,,,,,,,,
+S0650,D367,Condom,FR,1317,1501,,,,,,,,,,,
+S0651,D368,Angouleme,FR,999,1501,,,,,,,,,,,
+S0652,D369,Perigueux,FR,999,1317,,,,,,,,,,,
+S0754,D369,Perigueux,FR,1317,1501,,,,,,,,,,,
+S0653,D370,Sarlat,FR,1317,1501,,,,,,,,,,,
+S0654,D371,Poitiers,FR,999,1317,,,,,,,,,,,
+S0752,D371,Poitiers,FR,1317,1501,,,,,,,,,,,
+S0655,D372,Lucon,FR,1317,1501,,,,,,,,,,,
+S0656,D373,Maillezais,FR,1317,1501,,,,,,,,,,,
+S0657,D374,Saintes,FR,999,1501,,,,,,,,,,,
+S0658,D375,Bourges,FR,999,1501,,,,,,,,,,,
+S0659,D376,Clermont,FR,999,1317,,,,,,,,,,,
+S0760,D376,Clermont,FR,1317,1501,,,,,,,,,,,
+S0660,D377,Saint-Flour,FR,1317,1501,,,,,,,,,,,
+S0661,D378,Limoges,FR,999,1317,,,,,,,,,,,
+S0753,D378,Limoges,FR,1317,1501,,,,,,,,,,,
+S0662,D379,Tulle,FR,1317,1501,,,,,,,,,,,
+S0663,D380,Le Puy,FR,999,1501,,,,,,,,,,,
+S0664,D381,Albi,FR,999,1317,,,,,,,,,,,
+S0758,D381,Albi,FR,1317,1501,,,,,,,,,,,
+S0665,D382,Castres,FR,1317,1501,,,,,,,,,,,
+S0666,D383,Cahors,FR,999,1501,,,,,,,,,,,
+S0667,D384,Mende,FR,999,1501,,,,,,,,,,,
+S0668,D385,Rodez,FR,999,1317,,,,,,,,,,,
+S0759,D385,Rodez,FR,1317,1501,,,,,,,,,,,
+S0669,D386,Vabres,FR,1317,1501,,,,,,,,,,,
+S0670,D387,Embrun,FR,999,1501,,,,,,,,,,,
+S0671,D388,Digne,FR,999,1501,,,,,,,,,,,
+S0672,D389,Glandèves,FR,999,1501,,,,,,,,,,,
+S0674,D391,Grasse,FR,999,1501,,,,,,,,,,,
+S0675,D392,Nice,FR,999,1501,,,,,,,,,,,
+S0676,D393,Senez,FR,999,1501,,,,,,,,,,,
+S0677,D394,Vence,FR,999,1501,,,,,,,,,,,
+S0678,D395,Lyon,FR,999,1501,,,,,,,,,,,
+S0679,D396,Autun,FR,999,1501,,,,,,,,,,,
+S0680,D397,Langres,FR,999,1501,,,,,,,,,,,
+S0681,D398,Chalon-sur-Saone,FR,999,1501,,,,,,,,,,,
+S0682,D399,Macon,FR,999,1501,,,,,,,,,,,
+S0683,D400,Narbonne,FR,999,1317,,,,,,,,,,,
+S0757,D400,Narbonne,FR,1317,1501,,,,,,,,,,,
+S0684,D401,Alet,FR,1317,1501,,,,,,,,,,,
+S0685,D402,Carcassonne,FR,999,1501,,,,,,,,,,,
+S0686,D403,Maguelonne,FR,999,1501,,,,,,,,,,,
+S0553,D404,Elne,FR,999,1501,,,,,,,,,,,
+S0687,D405,Saint-Pons,FR,1317,1501,,,,,,,,,,,
+S0688,D406,Agde,FR,999,1501,,,,,,,,,,,
+S0689,D407,Beziers,FR,999,1501,,,,,,,,,,,
+S0690,D408,Lodeve,FR,999,1501,,,,,,,,,,,
+S0691,D409,Nimes,FR,999,1501,,,,,,,,,,,
+S0692,D410,Uzes,FR,999,1501,,,,,,,,,,,
+S0693,D411,Pamiers,FR,1295,1501,,,,,,,,,,,
+S0694,D412,Toulouse,FR,999,1295,,,,,,,,,,,
+S0756,D412,Toulouse,FR,1317,1501,,,,,,,,,,,
+S0761,D412,Toulouse,FR,1295,1317,,,,,,,,,,,not represented on map (doesn't fall into time slices)
+S0696,D414,Lavaur,FR,1317,1501,,,,,,,,,,,
+S0697,D415,Lombez,FR,1317,1501,,,,,,,,,,,
+S0698,D416,Montauban,FR,1317,1501,,,,,,,,,,,
+S0700,D418,Mirepoix,FR,1317,1501,,,,,,,,,,,
+S0701,D419,Rieux,FR,1317,1501,,,,,,,,,,,
+S0702,D420,Saint-Papoul,FR,1317,1501,,,,,,,,,,,
+S0703,D421,Reims,FR,999,1501,,,,,,,,,,,
+S0704,D422,Laon,FR,999,1501,,,,,,,,,,,
+S0705,D423,Amiens,FR,999,1501,,,,,,,,,,,
+S0706,D424,Beauvais,FR,999,1501,,,,,,,,,,,
+S0707,D425,Chalons-sur-Marne,FR,999,1501,,,,,,,,,,,
+S0708,D426,Senlis,FR,999,1501,,,,,,,,,,,
+S0709,D427,Soissons,FR,999,1501,,,,,,,,,,,
+S0710,D428,Noyon,FR,1146,1501,,,,,,,,,,,
+S0711,D429,Therouanne,FR,999,1501,,,,,,,,,,,
+S0712,D430,Cambrai,FR,999,1501,,,,,,,,,,,
+S0713,D431,Arras,FR,1093,1501,,,,,,,,,,,
+S0714,D432,Tournai,BEL,999,1501,,,,,,,,,,,
+S0715,D433,Rouen,FR,999,1501,,,,,,,,,,,
+S0716,D434,Avranches,FR,999,1501,,,,,,,,,,,
+S0717,D435,Bayeux,FR,999,1501,,,,,,,,,,,
+S0718,D436,Coutances,FR,999,1501,,,,,,,,,,,
+S0719,D437,Evreux,FR,999,1501,,,,,,,,,,,
+S0720,D438,Lisieux,FR,999,1501,,,,,,,,,,,
+S0721,D439,Sees,FR,999,1501,,,,,,,,,,,
+S0722,D440,Tours,FR,999,1501,,,,,,,,,,,
+S0723,D441,Angers,FR,999,1501,,,,,,,,,,,
+S0724,D442,Le Mans,FR,999,1501,,,,,,,,,,,
+S0725,D443,Nantes,FR,999,1501,,,,,,,,,,,
+S0726,D444,Dol,FR,999,1501,,,,,,,,,,,
+S0727,D445,Quimper,FR,999,1501,,,,,,,,,,,
+S0728,D446,Rennes,FR,999,1501,,,,,,,,,,,
+S0729,D447,Saint-Brieuc,FR,999,1501,,,,,,,,,,,
+S0730,D448,Saint-Malo,FR,999,1501,,,,,,,,,,,
+S0731,D449,Saint-Pol-de-Leon,FR,999,1501,,,,,,,,,,,
+S0732,D450,Treguier,FR,999,1501,,,,,,,,,,,
+S0733,D451,Vannes,FR,999,1501,,,,,,,,,,,
+S0734,D452,Sens,FR,999,1501,,,,,,,,,,,
+S0735,D453,Auxerre,FR,999,1501,,,,,,,,,,,
+S0736,D454,Nevers,FR,999,1501,,,,,,,,,,,
+S0737,D455,Troyes,FR,999,1501,,,,,,,,,,,
+S0738,D456,Paris,FR,999,1501,,,,,,,,,,,
+S0739,D457,Chartres,FR,999,1501,,,,,,,,,,,
+S0740,D458,Meaux,FR,999,1501,,,,,,,,,,,
+S0741,D459,Orleans,FR,999,1501,,,,,,,,,,,
+S0742,D460,Tarentaise,FR,999,1501,,,,,,,,,,,
+S0743,D461,Aosta,IT,999,1501,,,,,,,,,,,
+S0448,D462,Sion/Sitten,CH,999,1501,,,,,,,,,,,
+S0744,D463,Vienne,FR,999,1501,,,,,,,,,,,
+S0745,D464,Die,FR,999,1501,,,Valence,S0749,1275,,,,,,
+S0746,D465,Geneva,CH,999,1501,,,,,,,,,,,
+S0747,D466,Grenoble,FR,999,1501,,,,,,,,,,,
+S0748,D467,Saint-Jean-de-Maurienne,FR,999,1501,,,,,,,,,,,
+S0749,D468,Valence,FR,999,1501,,,Die,S0745,1275,,,,,,
+S0750,D469,Viviers,FR,999,1501,,,,,,,,,,,
+S0025,D470,Modrus,HR,1185,1501,,,,,,,,,,,
+S0564,D471,Senj,HR,1185,1630,,,,,,,,,,,united with Modrus in 1639
+S0026,D472,Veglia (Krk),HR,999,1501,,,,,,,,,,,made suffragan to Zadar in 1146
+S0027,D473,Zara (Zadar),HR,999,1501,,,,,,,,,,,
+S0028,D475,Arbe,HR,999,1501,,,,,,,,,,,
+S0424,D476,Waterford,IRE,1096,1363,,,,,,,,,,,
+S0030,D477,Nona (Nin),HR,1050,1501,,,,,,,,,,,
+S0896,D478,Knin,HR,999,1501,,,,,,,,,,,
+S0031,D479,Scardona (Skradin),HR,1126,1501,,,,,,,,,,,before creation of Sibenik
+S0039,D479,Scardona (Skradin),HR,1298,1501,,,,,,,,,,,after creation of Sibenik
+S0038,D480,Šibenik (Sebenico),HR,1298,1501,,,,,,,,,,,boundary with Scardona estimated
+S0032,D481,Trau (Tragurium/Trogir),HR,1050,1501,,,,,,,,,,,
+S0033,D482,Spalato (Split),HR,1344,1400,,,,,,,,,,,
+S0565,D482,Split (Spalato),HR,999,1344,1400,1501,,,,,,,,,"Before lost territory to create Makarska, and after reincorporating that supressed diocese's territory"
+S0034,D483,Macarsca (Makarska),HR,1344,1400,,,,,,,,,,,
+S0035,D484,Lesina,HR,1145,1300,,,,,,,,,,,made suffragan to Split in 1180
+S0015,D484,Lesina,HR,1300,1501,,,,,,,,,,,after lost two islands to newly-established Korcula in 1300
+S0036,D485,Curzola (Korcula),HR,1300,1501,,,,,,,,,,,
+S0901,D486,Ston,HR,999,1300,,,,,,,,,,,
+S0037,D487,Ragusa (Dubrovnik),HR,999,1501,,,,,,,,,,,
+S0040,D488,Cattaro (Kotor),MON,999,1501,,,,,,,,,,,
+S0893,D489,Budva,MON,999,1501,,,,,,,,,,,
+S0006,D490,Ossero,HR,999,1501,,,,,,,,,,,
+S0331,D491,Mariana,FR,999,1501,,,,,,,,,,,
+S0332,D492,Nebbio,FR,999,1501,,,,,,,,,,,
+S0333,D493,Aleria,FR,999,1501,,,,,,,,,,,
+S0334,D494,Accia,FR,999,1501,,,,,,,,,,,
+S0335,D495,Sagone,FR,999,1501,,,,,,,,,,,
+S0336,D496,Ajaccio,FR,999,1501,,,,,,,,,,,
+S0358,D497,Holar,ISL,1106,1501,,,,,,,,,,,
+S0359,D498,Skalholt,ISL,1056,1501,,,,,,,,,,,
+S0360,D499,Raphoe,IRE,999,1501,,,,,,,,,,,
+S0361,D500,Derry,IRE,999,1501,,,,,,,,,,,Seat at Maghera until 1254
+S0362,D501,Connor,IRE,999,1501,,,Down,S0363,1439,,,,,,
+S0363,D502,Down,IRE,999,1501,,,Connor,S0362,1439,,,,,,
+S0364,D503,Dromore,IRE,999,1501,,,,,,,,,,,
+S0365,D504,Armagh,IRE,999,1501,,,,,,,,,,,
+S0366,D505,Clogher,IRE,999,1501,,,,,,,,,,,
+S0367,D506,Kilmore,IRE,999,1501,,,,,,,,,,,
+S0368,D507,Ardagh,IRE,999,1501,,,,,,,,,,,
+S0369,D508,Meath,IRE,999,1501,,,,,,,,,,,
+S0370,D509,Clonmacnois,IRE,999,1501,,,,,,,,,,,
+S0371,D510,Killala,IRE,999,1501,,,,,,,,,,,
+S0372,D511,Achonry,IRE,999,1501,,,,,,,,,,,
+S0373,D512,Tuam,IRE,999,1501,,,,,,,,,,,
+S0374,D513,Elphin,IRE,999,1501,,,,,,,,,,,
+S0375,D514,Clonfert,IRE,999,1501,,,,,,,,,,,
+S0376,D515,Annaghdown,IRE,1179,1501,,,,,,,,,,,
+S0377,D516,Kilmacduagh,IRE,999,1501,,,,,,,,,,,
+S0378,D517,Kilfenora,IRE,999,1501,,,,,,,,,,,
+S0379,D518,Killaloe,IRE,999,1501,,,,,,,,,,,
+S0380,D519,Cashel,IRE,999,1501,,,,,,,,,,,
+S0381,D520,Emly,IRE,999,1501,,,,,,,,,,,
+S0382,D521,Limerick,IRE,999,1501,,,,,,,,,,,
+S0383,D522,Ardfert,IRE,999,1501,,,,,,,,,,,
+S0384,D523,Cloyne,IRE,999,1501,,,,,,,,,,,
+S0385,D524,Lismore,IRE,999,1111,,,,,,,,,,,"originally territorial abbey, not promoted to diocese until 1111"
+S0426,D524,Lismore,IRE,1111,1363,,,,,,,,,,,"after the creation of Waterford; originally Abbacy nullius, raised to diocese 1111"
+S0386,D525,Cork,IRE,999,1501,,,,,,,,,,,
+S0387,D526,Ross,IRE,999,1501,,,,,,,,,,,
+S0388,D527,Kildare,IRE,999,1501,,,,,,,,,,,
+S0389,D528,Dublin,IRE,999,1501,,,,,,,,,,,"before 1215, part of the diocese belonged to Glendalough"
+S0390,D529,Leighlin,IRE,999,1501,,,,,,,,,,,
+S0391,D530,Ossory,IRE,999,1501,,,,,,,,,,,
+S0392,D531,Ferns,IRE,999,1501,,,,,,,,,,,
+S0393,D532,Bremen-Hamburg,DE,999,1501,,,,,,,,,,,
+S0394,D533,Lubeck,DE,999,1501,,,,,,,,,,,
+S0395,D534,Ratzeburg,DE,1061,1501,,,,,,,,,,,from Hamburg
+S0396,D535,Schwerin,DE,999,1501,,,,,,,,,,,
+S0397,D536,Lebus,POL,1124,1501,,,,,,,,,,,
+S0398,D537,Wroclaw (Breslau),POL,1000,1501,,,,,,,,,,,
+S0399,D538,Cologne (Koln),DE,999,1429,1444,1501,,,,,,,,,Paderborn suppressed to Cologne from 1429-1444 [not represented on maps]
+S0444,D539,Liege,BEL,999,1501,,,,,,,,,,,
+S0400,D540,Minden,DE,999,1501,,,,,,,,,,,
+S0401,D541,Munster,DE,999,1501,,,,,,,,,,,
+S0402,D542,Osnabruck,DE,999,1501,,,,,,,,,,,
+S0403,D543,Utrecht,NED,999,1501,,,,,,,,,,,
+S0404,D544,Magdeburg,DE,999,1501,,,,,,,,,,,
+S0405,D545,Brandenburg,DE,999,1501,,,,,,,,,,,
+S0406,D546,Havelberg,DE,999,1501,,,,,,,,,,,
+S0407,D547,Merseburg,DE,999,1501,,,,,,,,,,,
+S0408,D548,Naumburg,DE,999,1501,,,,,,,,,,,
+S0409,D549,Mainz,DE,999,1501,,,,,,,,,,,
+S0410,D550,Augsburg,DE,999,1501,,,,,,,,,,,
+S0411,D551,Chur,CH,999,1501,,,,,,,,,,,
+S0412,D552,Eichstatt,DE,999,1501,,,,,,,,,,,
+S0413,D553,Halberstadt,DE,999,1501,,,,,,,,,,,
+S0414,D554,Hildesheim,DE,999,1501,,,,,,,,,,,
+S0415,D555,Konstanz,CH,999,1501,,,,,,,,,,,
+S0416,D556,Paderborn,DE,999,1429,1444,1501,,,,,,,,,
+S0446,D557,Speyer,DE,999,1501,,,,,,,,,,,
+S0417,D558,Strasbourg,FR,999,1501,,,,,,,,,,,
+S0418,D559,Verden,DE,999,1501,,,,,,,,,,,
+S0419,D560,Worms,DE,999,1501,,,,,,,,,,,
+S0420,D561,Wurzburg,DE,999,1501,,,,,,,,,,,
+S0421,D562,Prague,CZE,999,1344,1474,1501,,,,,,,,,Litomysl erected from Prague in 1344; suppressed to Prague in 1474
+S0780,D562,Prague,CZE,1344,1474,,,,,,,,,,,during the loss of territory to Litomysl
+S0422,D563,Olmutz,CZE,1063,1344,1474,1501,,,,,,,,,
+S0810,D563,Olmutz,CZE,1344,1474,,,,,,,,,,,
+S0550,D750,Litomyšl,CZE,1344,1474,,,,,,,,,,,
+S0766,D564,Salzburg,AUS,1225,1455,,,,,,,,,,,After the loss of Lavant
+S0767,D564,Salzburg,AUS,1455,1501,,,,,,,,,,,After the loss of Berchtesgaden
+S0603,D565,Brixen,IT,999,1501,,,,,,,,,,,
+S0604,D566,Chiemsee,DE,1215,1501,,,,,,,,,,,previously part of Salzburg
+S0605,D567,Freising,DE,999,1501,,,,,,,,,,,
+S0606,D568,Gurk,AUS,1072,1501,,,,,,,,,,,previously part of Salzburg; gains additional territory from Salzburg in 1131
+S0607,D569,Lavant,AUS,1225,1501,,,,,,,,,,,previously part of Salzburg
+S0608,D570,Passau,DE,1469,1501,,,,,,,,,,,after lost territory
+S0614,D570,Passau,DE,999,1469,,,,,,,,,,,"before the loss of Vienna, Wiener Neustadt in 1469"
+S0609,D571,Regensburg,DE,999,1501,,,,,,,,,,,
+S0610,D572,Seckau,AUS,1218,1501,,,,,,,,,,,previously part of Salzburg
+S0428,D573,Trier,DE,999,1501,,,,,,,,,,,
+S0429,D574,Metz,FR,999,1501,,,,,,,,,,,
+S0430,D575,Toul,FR,999,1501,,,,,,,,,,,
+S0751,D576,Verdun,FR,999,1501,,,,,,,,,,,
+S0432,D577,Bamberg,DE,1007,1501,,,,,,,,,,,
+S0433,D663,Kammin,POL,1125,1501,,,,,,,,,,,
+S0434,D579,Meissen,DE,999,1501,,,,,,,,,,,
+S0611,D580,Vienna,AUS,1469,1501,,,,,,,,,,,erected in 1469 (previously part of Passau)
+S0612,D581,Wiener Neustadt,AUS,1469,1501,,,,,,,,,,,erected in 1469 (previously part of Passau)
+S0613,D582,Berchtesgaden,DE,1455,1501,,,,,,,,,,,"made exempt provinceship 1455, previously part of Salzburg"
+S0435,D583,Reval,EST,1219,1561,,,,,,,,,,,made suffragan of Riga in 1374
+S0436,D584,Schleswig,DE,999,1501,,,,,,,,,,,
+S0437,D585,Riga,LAT,1186,1501,,,,,,,,,,,erected at Uxkull in 1186; moved to Riga in 1202; elevated to archbishopric in 1255
+S0438,D586,Warmia (Ermland),POL,1243,1501,,,,,,,,,,,erected 13th century
+S0439,D587,Dorpat,EST,1224,1558,,,,,,,,,,,preceded by diocese of Leal
+S0440,D588,Chełmno (Kulm),POL,1243,1992,,,,,,,,,,,
+S0441,D589,Courland (Kurland),LAT,1234,1501,,,,,,,,,,,
+S0442,D590,Osel-Wiek,EST,1228,1560,,,,,,,,,,,made suffragan of Riga in 1253
+S0443,D591,Pomesania,POL,1243,1501,,,,,,,,,,,vacant from 1524; suppressed in 1763
+S0445,D592,Samland,RUS,1243,1525,,,,,,,,,,,
+S0449,D593,Krakow,POL,1000,1501,,,,,,,,,,,
+S0450,D594,Kujawy/Włocławek,POL,1123,1501,,,,,,,,,,,
+S0459,D595,Poznan,POL,1075,1501,,,,,,,,,,,incorporates territory next to Plock
+S0460,D596,Plock,POL,1075,1501,,,,,,,,,,,
+S0577,D597,Samogitia,POL,1417,1501,,,,,,,,,,,
+S0578,D598,Vilnius,LITH,1387,1501,,,,,,,,,,,
+S0905,D686,Halyč ,,1361,1501,,,,,,,,,,,
+S0451,D599,Lund,SWE,1060,1528,,,,,,,,,,,
+S0452,D600,Roskilde,DEN,1060,1528,,,,,,,,,,,
+S0453,D601,Odense,DEN,1060,1528,,,,,,,,,,,
+S0531,D602,Vic,ESP,999,1501,,,,,,,,,,,
+S0455,D603,Ribe,DEN,1060,1528,,,,,,,,,,,
+S0456,D604,Aarhus,DEN,1060,1528,,,,,,,,,,,
+S0457,D605,Viborg,DEN,1060,1528,,,,,,,,,,,
+S0458,D606,Borglum,DEN,1060,1528,,,,,,,,,,,
+S0494,D607,Toledo,ESP,999,1501,,,,,,,,,,,boundaries estimated
+S0495,D608,Palencia,ESP,1035,1501,,,,,,,,,,,
+S0496,D609,Osma,ESP,1088,1501,,,,,,,,,,,
+S0497,D610,Segovia,ESP,1119,1501,,,,,,,,,,,
+S0498,D611,Siguenza,ESP,1124,1501,,,,,,,,,,,
+S0499,D612,Cuenca,ESP,1179,1501,,,,,,,,,,,
+S0500,D613,Albarracin-Segorbe,ESP,1258,1577,,,,,,,,,,,in union with Segorbe from 1258-1577 [represented together in maps]; suffragan to Zaragoza from 1318
+S0029,D614,Baza,ESP,1492,1501,,,Guadix,S0763,1492,1501,,,,,"officially restored as a titular see in 1306, but not reconquered until 1492"
+S0502,D615,Jaen,ESP,999,1501,,,,,,,,,,,see moved to Baeza and renamed 1226-1246
+S0503,D616,Cordoba,ESP,1236,1501,,,,,,,,,,,
+S0504,D617,Braga,POR,999,1501,,,,,,,,,,,
+S0505,D618,Astorga,ESP,852,1501,,,,,,,,,,,made suffragan of Santiago in 1393
+S0506,D619,Lugo,ESP,999,1501,,,,,,,,,,,made suffragan of Santiago in 1393
+S0507,D620,Mondonedo,ESP,999,1501,,,,,,,,,,,made suffragan of Santiago in 1393; boundaries rough
+S0508,D621,Orense,ESP,999,1501,,,,,,,,,,,made suffragan of Santiago in 1393; boundaries rough
+S0509,D622,Tui,ESP,1069,1385,,,,,,,,,,,
+S0920,D622,Tui,ESP,1385,1501,,,,,,,,,,,
+S0510,D623,Oporto,POR,1112,1501,,,,,,,,,,,boundaries rough
+S0511,D624,Coimbra,POR,1074,1501,,,,,,,,,,,suffragan from 867-1074 ; boundaries rough
+S0512,D625,Viseu,POR,1147,1501,,,,,,,,,,,
+S0518,D626,Zamora,ESP,999,1501,,,,,,,,,,,suffragan of Toledo (and episodically Santiago) from 1102-1153; of Braga from 1153-1199; much dispute for next two centuries; firmly made suffragan of Santiago in 1394
+S0514,D627,Silves,POR,1253,1501,,,,,,,,,,,suffragan of Braga from 1189-1255; then Seville to 1393; then Lisbon to 1540; then Evora; see moved to Faro in 1577; boundaries rough
+S0515,D628,Santiago,ESP,1095,1501,,,,,,,,,,,boundaries rough
+S0516,D629,Avila,ESP,1087,1501,,,,,,,,,,,
+S0517,D630,Salamanca,ESP,1102,1501,,,,,,,,,,,made exempt 1513 but that lasted only one year
+S0519,D632,Ciudad Rodrigo,ESP,1168,1501,,,,,,,,,,,
+S0520,D633,Coria,ESP,1142,1501,,,,,,,,,,,
+S0521,D634,Plasencia,ESP,1189,1501,,,,,,,,,,,
+S0522,D635,Badajoz,ESP,1255,1501,,,,,,,,,,,
+S0523,D636,Lamego,POR,1147,1501,,,,,,,,,,,made suffragan of Lisbon in 1393; boundaries rough
+S0524,D637,Guarda,POR,1203,1501,,,,,,,,,,,translated from earlier diocese of Idanha; made suffragan of Lisbon in 1393; boundaries rough
+S0525,D638,Lisbon,POR,1147,1501,,,,,,,,,,,raised to archdiocese in 1393; boundaries rough
+S0526,D639,Evora,POR,1165,1501,,,,,,,,,,,made suffragan of Lisbon in 1393; raised to archdiocese in 1540; boundaries rough
+S0527,D640,Tarragona,ESP,999,1235,,,,,,,,,,,before the 1235 addition of Ibiza [not shown on map]
+S0563,D640,Tarragona,ESP,1235,1501,,,,,,,,,,,following the 1235 addition of Ibiza
+S0528,D641,Urgel,ESP,999,1501,,,,,,,,,,,
+S0529,D642,Gerona,ESP,785,1501,,,,,,,,,,,
+S0530,D643,Barcelona,ESP,999,1501,,,,,,,,,,,
+S0762,D644,Granada,ESP,1437,1501,,,,,,,,,,,raised to archdiocese 1492; boundaries rough
+S0532,D645,Tortosa,ESP,1118,1501,,,,,,,,,,,
+S0533,D646,Lerida,ESP,1149,1501,,,,,,,,,,,
+S0534,D647,Ager,ESP,1048,1501,,,,,,,,,,,Abbey; exempt from its foundation in 1048; pope orders that it be joined to Lleida in 1187 but abbots retain effective independence
+S0535,D648,Zaragoza,ESP,1118,1501,,,,,,,,,,,raised to archdiocese in 1318
+S0536,D649,Pamplona,ESP,999,1501,,,,,,,,,,,suffragan to Zaragoza from 1318; exempt from 1385
+S0537,D650,Huesca,ESP,1096,1501,,,,,,,,,,,suffragan to Zaragoza from 1318
+S0538,D651,Tarazona,ESP,1120,1501,,,,,,,,,,,suffragan to Zaragoza from 1318
+S0539,D652,Calahorra,ESP,1045,1501,,,,,,,,,,,"suppressed 1231, with see moved to Santo Domingo de la Calzada; suffragan to Zaragoza from 1318"
+S0541,D654,Valencia,ESP,1239,1501,,,,,,,,,,,exempt from 1470; raised to archdiocese in 1492
+S0542,D655,Seville,ESP,999,1501,,,,,,,,,,,
+S0765,D656,Valença do Minho,POR,1385,1501,,,,,,,,,,,created in 1395 by the separation of the Portuguese part of Tui as an Apostolic Administration
+S0545,D658,Cadiz,ESP,1267,1344,1364,,,,,,,,,,established 1267/68 (seat translated from ancient diocese of Asido/Medina Sidonia); united with Algeciras for the entirety of the new diocese's existence 1344 to 1364 [Algeciras not represented separately on map]
+S0546,D659,Canarias,ESP,1406,1501,,,,,,,,,,,repeatedly suppressed and restored; suffragan of Seville from 1404
+S0547,D660,Burgos,ESP,1075,1501,,,,,,,,,,,exempt as of 1095; raised to archdiocese in 1574
+S0548,D661,Leon,ESP,999,1501,,,,,,,,,,,exempt as of 1105
+S0549,D662,Oviedo,ESP,999,1501,,,,,,,,,,,exempt as of 1105
+S0425,D664,Waterford and Lismore,IRE,1363,1501,,,,,,,,,,,
+S0552,D665,Cartagena,ESP,1250,1501,,,,,,,,,,,exempt from 1250; boundaries rough
+S0474,D667,Esztergom,HUN,1001,1501,,,,,,,,,,,
+S0475,D668,Nitra,SLO,1105,1501,,,,,,,,,,,reestablished in 1105 after falling into abeyance
+S0476,D669,Zagreb,HR,1093,1501,,,,,,,,,,,
+S0477,D670,Oradea,ROM,1009,1501,,,,,,,,,,,"founded at Byhor in 1009, see then transferred to Oradea in 1077"
+S0478,D671,Eger,HUN,1009,1501,,,,,,,,,,,
+S0479,D672,Erdely,ROM,1009,1501,,,,,,,,,,,
+S0480,D673,Györ ,HUN,1009,1501,,,,,,,,,,,
+S0481,D674,Pécs ,HUN,1009,1501,,,,,,,,,,,
+S0482,D675,Vác ,HUN,1009,1501,,,,,,,,,,,
+S0483,D676,Veszprém ,HUN,1009,1501,,,,,,,,,,,
+S0484,D677,Kalocsa-Bacs,HUN,1010,1501,,,,,,,,,,,
+S0485,D678,Marosvar,HUN,1035,1501,,,,,,,,,,,
+S0486,D679,St. Martin (exempt provostship of),SLO,1200,1500,,,,,,,,,,,founded early 13th-c; headed by an exempt provost (of Abbey of St. Martin) rather than a bishop (aside from brief mention of a bishop in 1291); raised to actual diocese (of Szepes/Spis) in 1776
+S0576,D689,Luck,UKR,1404,1501,,,Vladimir,1425,,,,,,,
+S0461,D690,Gniezno,POL,1000,1501,,,,,,,,,,,
+S0462,D691,Oslo,NOR,1068,1537,,,,,,,,,,,
+S0463,D692,Stavanger,NOR,1125,1537,,,,,,,,,,,
+S0464,D693,Bergen,NOR,1068,1537,,,,,,,,,,,
+S0465,D694,Hamar,NOR,1152,1537,,,,,,,,,,,
+S0466,D695,Nidaros,NOR,1031,1537,,,,,,,,,,,raised to archbishopric in 1151
+S0467,D696,Uppsala,SWE,1123,1588,,,,,,,,,,,re-established 1130; raised to archbishopric in 1164
+S0468,D697,Vasteras,SWE,1100,1527,,,,,,,,,,,
+S0469,D698,Strangnas,SWE,1129,1527,,,,,,,,,,,
+S0470,D699,Linkoping,SWE,1100,1527,,,,,,,,,,,
+S0471,D700,Skara,SWE,1014,1527,,,,,,,,,,,
+S0472,D701,Vaxjo,SWE,1170,1527,,,,,,,,,,,
+S0473,D702,Abo,FIN,1276,1522,,,,,,,,,,,
+S0600,D703,Garðar,Greenland,1124,1537,,,,,,,,,,,founded in 1124 as suffragan of Bremen; suffragan of Trondheim from 1152
+S0601,D704,Faroe Islands,DEN,1076,1536,,,,,,,,,,,
+S0002,D077,Cittanova (d'Istria),HR,999,1501,,,Parenzo,S0003,1434,1448,Grado,S0008,1448,1465,subject to Grado from 1272; united with Parenzo from 1434-1448; given in commendam to Patriarch of Grado (then Venice) from 1448-1465; union dissolved in 1465
+S0052,D706,Polignano,IT,999,1501,,,,,,,,,,,contested between Bari and Trani from 1089; firmly made suffragan of Bari in 1152
+S0053,D707,Conversano,IT,1080,1501,,,,,,,,,,,probably established in 11th century
+S0055,D709,Leuca,IT,999,1521,,,,,,,,,,,"regular succession of bishops begins in 1283, but diocese established much earlier; suppressed 1518-1521"
+S0056,D710,Mottola,IT,1023,1501,,,,,,,,,,,
+S0058,D711,Civitate,IT,999,1501,,,Lucera,S0556,1439,1471,,,,,
+S0069,D712,Canosa,IT,999,1501,,,,,,,,,,,demoted to archpresbytery 1101; not elevated to diocese until 1819
+S0070,D713,Salpi,IT,999,1424,1523,1547,,,,,,,,,suppressed to Trani from 1424-1523
+S0073,D714,Lavello,IT,999,1501,,,,,,,,,,,
+S0082,D715,Bari (Delle Puglie),IT,999,1501,,,,,,,,,,,
+S0083,D716,Bitetto,IT,1025,1501,,,,,,,,,,,erected sometime between 1025-1089
+S0084,D717,Bitonto,IT,999,1501,,,,,,,,,,,
+S0086,D718,Giovinazzo,IT,1020,1501,,,,,,,,,,,
+S0087,D719,Ruvo (di Puglia),IT,999,1501,,,,,,,,,,,
+S0088,D720,Molfetta,IT,1070,1501,,,,,,,,,,,made exempt in 1488
+S0092,D721,Minervino,IT,999,1501,,,,,,,,,,,apparently contested between Bari and Trani at beginning; firmly made suffragan of Bari in 1152
+S0093,D722,Canne,IT,1030,1455,,,Barletta,S0555,1455,1501,,,,,
+S0763,D723,Guadix,ESP,1492,1501,,,Baza,S0501,1492,1501,,,,,boundaries rough
+S0119,D724,Ampurias,IT,1070,1501,,,Tempio,S0120,1506,,,,,,"see perhaps moved to Castelsardo in the 15th century, a transfer confirmed in 1503"
+S0124,D725,Sant'Antioco,IT,999,1501,,,,,,,,,,,see perhaps translated to Tratalias in 13th century
+S0134,D727,Tratalias,IT,999,1503,,,,,,,,,,,established in early 13th century
+S0764,D728,Almeria,ESP,1492,1501,,,,,,,,,,,boundaries rough
+S0146,D729,Roma,IT,999,1501,,,,,,,,,,,
+S0149,D730,Albano,IT,999,1501,,,,,,,,,,,
+S0150,D731,Frascati,IT,999,1501,,,,,,,,,,,
+S0168,D732,Lipari,IT,1157,1501,,,Patti,S0170,1157,1399,,,,,erected as diocese of Patti and Lipari in 1157; dioceses split in 1399
+S0178,D733,Mdina,Malta,999,1501,,,,,,,,,,,Made suffragan to Palermo 1156
+S0543,D734,Mallorca,ESP,1232,1295,,,,,,,,,,,established 1232; exempt from 1232
+S0513,D734,Mallorca,ESP,1295,1501,,,,,,,,,,,after the addition of Minorca following 1295 reconquest
+S0204,D736,Abbazia di Farfa,IT,1264,1501,,,,,,,,,,,territory consisted partly of the exempt (nullius dioecesis) Abbey of Santa Maria in Montesanto - is this what is marked on map? [?? RWD]
+S0205,D737,Umana,IT,1289,1422,,,,,,,,,,,"gains Osimo city after its 1240 rebellion but loses territory to Recanati with the establishment of that diocese [shown in 1250 timeslice]; regains Recanati territory in 1263 when Recanati is suppressed [not shown]; 1264 loses Osimo with its restoration [not shown]; 1289 loses territory to restore Recanati [shown in 1350 timeslice]; supressed to Ancona in 1422, losing independent existence save for the name ""Ancona and Umana"" [shown in 1450 timeslice]"
+S0431,D737,Umana,IT,1240,1263,,,,,,,,,,,"gains Osimo city after its 1240 rebellion but loses territory to Recanati with the establishment of that diocese [shown in 1250 timeslice]; regains Recanati territory in 1263 when Recanati is suppressed [not shown]; 1264 loses Osimo with its restoration [not shown]; 1289 loses territory to restore Recanati [shown in 1350 timeslice]; supressed to Ancona in 1422, losing independent existence save for the name ""Ancona and Umana"" [shown in 1450 timeslice]"
+S0554,D738,Malaga,ESP,1492,1501,,,,,,,,,,,
+S0555,D742,Nazaret,IT,,1455,,,Canne,S0093,1455,1501,,,,,
+S0590,D744,Corneto,IT,1435,1501,,,Montefiascone,S0589,1435,1501,,,,,
+S0567,D746,Nicosia,CY,1196,1571,,,,,,,,,,,
+S0568,D747,Famagusta,CY,1196,1571,,,,,,,,,,,
+S0569,D748,Limassol,CY,1196,1571,,,,,,,,,,,
+S0570,D749,Paphos,CY,1196,1571,,,,,,,,,,,
+S0891,D751,Bar,MON,999,1501,,,,,,,,,,,
+S0892,D752,Bosnia,BOS,999,1501,,,,,,,,,,,
+S0895,D755,Duvno,BOS,999,1501,,,,,,,,,,,
+S0902,D756,Trebinje,BOS,999,1501,,,,,,,,,,,1361-1391 seat located on island of Mrkan
+S0903,D757,Ulcinj,MON,999,1501,,,,,,,,,,,
+S0836,P002,Acerenza,IT,999,1501,,,,,,,,,,,
+S0769,P003,Aix,FR,999,1501,,,,,,,,,,,
+S0837,P004,Amalfi,IT,999,1501,,,,,,,,,,,
+S0799,P005,Aquileia,IT,999,1272,,,,,,,,,,,
+S0840,P005,Aquileia,IT,1272,1452,,,,,,,,,,,after the loss of Cittanova to Grado in 1272
+S0602,P005,Aquileia,IT,1452,1501,,,,,,,,,,,after Mantova becomes exempt in 1452
+S0800,P006,Arles,FR,999,1501,,,,,,,,,,,
+S0770,P007,Armagh,IRE,999,1501,,,,,,,,,,,
+S0771,P008,Auch,FR,999,1501,,,,,,,,,,,
+S0838,P009,Avignon,FR,1475,1501,,,,,,,,,,,
+S0839,P011,Bari,IT,999,1424,,,,,,,,,,,
+S0841,P011,Bari,IT,1456,1488,,,,,,,,,,,Without Salpi and Canosa (exempt in 1455) 
+S0801,P012,Benevento,IT,999,1254,,,,,,,,,,,
+S0803,P012,Benevento,IT,1474,1501,,,,,,,,,,,without Trivento (exempt in 1474)
+S0772,P013,Besancon,FR,999,1501,,,,,,,,,,,
+S0773,P014,Bordeaux,FR,999,1501,,,,,,,,,,,
+S0774,P015,Bourges,FR,999,1501,,,,,,,,,,,
+S0804,P016,Braga,POR,999,1253,,,,,,,,,,,
+S0805,P016,Braga,POR,1253,1274,,,,,,,,,,,Without Silves [does not appear in map]
+S0806,P016,Braga,POR,1274,1393,,,,,,,,,,,Without Silves and Evora
+S0807,P016,Braga,POR,1393,1501,,,,,,,,,,,"Without Silves, Evora, Astorga, Lugo, Mondonedo, Orense, Tui, and Zamora"
+S0808,P017,Bremen,DE,999,1501,,,,,,,,,,,
+S0843,P018,Brindisi,IT,1050,1501,,,,,,,,,,,
+S0540,P019,Cagliari,IT,999,1501,,,,,,,,,,,
+S0934,P096,Candia,,1213,1669,,,,,,,,,,,"[no information, currently unmapped]"
+S0775,P020,Canterbury,GB,999,1334,,,,,,,,,,,
+S0558,P020,Canterbury,GB,1334,1501,,,,,,,,,,,after gaining the diocese of Sodor and Man from Nidaros in 1334
+S0845,P021,Capua,IT,999,1501,,,,,,,,,,,
+S0776,P022,Cashel,IRE,999,1501,,,,,,,,,,,
+S0785,P023,Cologne,DE,999,1501,,,,,,,,,,,
+S0846,P024,Conza,IT,999,1501,,,,,,,,,,,
+S0847,P025,Cosenza,IT,1090,1501,,,,,,,,,,,
+S0768,P026,Dublin,IRE,999,1501,,,,,,,,,,,
+S0777,P027,Embrun,FR,999,1501,,,,,,,,,,,
+S0786,P028,Esztergom,HUN,999,1501,,,,,,,,,,,
+S0849,P030,Firenze,IT,1420,1501,,,,,,,,,,,
+S0811,P031,Genova,IT,999,1239,,,,,,,,,,,[does not appear in map]
+S0812,P031,Genova,IT,1239,1501,,,,,,,,,,,With Noli and Savona (1239-1501)
+S0787,P032,Gniezno,POL,999,1387,,,,,,,,,,,
+S0928,P032,Gniezno,POL,1387,1501,,,,,,,,,,,"with Samogitia, Vilnius"
+S0813,P033,Grado,IT,999,1272,,,,,,,,,,,
+S0814,P033,Grado,IT,1272,1501,,,,,,,,,,,"With Cittanova (suppressed to Parenzo in 1272-1465); in 1451, the see of the archdiocese was moved to Venezia"
+S0908,P034,Granada,ESP,1492,1501,,,,,,,,,,,
+S0911,P036,Kalocsa,HUN,999,1501,,,,,,,,,,,
+S0850,P038,Lisbon,POR,1393,1501,,,,,,,,,,,
+S0818,P039,Lund,SWE,1124,1374,,,,,,,,,,,After loss of Faroe Islands; with Reval (transferred to Riga 1374)
+S0925,P039,Lund,SWE,1374,1501,,,,,,,,,,,After loss of Faroe Islands;  without Reval (transferred to Riga 1374)
+S0835,P041,Lyon,FR,999,1501,,,,,,,,,,,
+S0788,P042,Magdeburg,DE,999,1501,,,,,,,,,,,
+S0789,P043,Mainz,DE,999,1344,,,,,,,,,,,
+S0930,P043,Mainz,DE,1344,1501,,,,,,,,,,,after elevation of Prague to archdiocese
+S0851,P044,Manfredonia,IT,1258,1501,,,,,,,,,,,
+S0852,P046,Messina,IT,999,1501,,,,,,,,,,,
+S0853,P047,Milano,IT,999,1501,,,,,,,,,,,
+S0857,P048,Monreale,IT,1086,1501,,,,,,,,,,,
+S0858,P049,Napoli,IT,999,1501,,,,,,,,,,,
+S0778,P050,Narbonne,FR,999,1317,,,,,,,,,,,
+S0791,P050,Narbonne,FR,1317,1501,,,,,,,,,,,
+S0790,P051,Nicosia,CY,1196,1501,,,,,,,,,,,
+S0848,P052,Nidaros,NOR,1152,1334,,,,,,,,,,,"After Gardar and Faroe Islands are aquired in 1152, before the loss of Sodor and Man in 1334"
+S0817,P052,Nidaros,NOR,1334,1501,,,,,,,,,,,after the loss of Sodor and Man in 1334
+S0860,P053,Oristano,IT,999,1501,,,,,,,,,,,
+S0861,P054,Otranto,IT,999,1501,,,,,,,,,,,
+S0792,P055,Palermo,IT,999,1501,,,,,,,,,,,
+S0862,P056,Pisa,IT,999,1420,,,,,,,,,,,
+S0863,P056,Pisa,IT,1420,1490,,,,,,,,,,,Without Massa Marittima (suppressed in 1420)
+S0864,P056,Pisa,IT ,1490,1501,,,,,,,,,,,Without Massa Marittima and Tempio (exempt in 1490) [not represeted in maps]
+S0793,P057,Prague,CZE,1344,1501,,,,,,,,,,,
+S0907,P058,Ragusa,HR,999,1300,,,,,,,,,,,
+S0561,P058,Ragusa,HR,1300,1501,,,,,,,,,,,
+S0820,P059,Ravenna,IT,999,1501,,,,,,,,,,,
+S0865,P060,Reggio-Calabria,IT,999,1501,,,,,,,,,,,
+S0779,P061,Reims,FR,999,1501,,,,,,,,,,,
+S0866,P062,Riga,LAT,1255,1374,,,,,,,,,,,Without Reval (gained from Riga 1374)
+S0926,P062,Riga,LAT,1374,1561,,,,,,,,,,,With Reval (gained from Riga 1374)
+S0842,P087,Rossano,IT,1460,1501,,,,,,,,,,,
+S0867,P065,Rouen,FR,999,1501,,,,,,,,,,,
+S0868,P066,Salerno,IT,999,1501,,,,,,,,,,,
+S0794,P067,Salzburg,AUS,999,1455,,,,,,,,,,,
+S0797,P067,Salzburg,AUS,1455,1501,,,,,,,,,,,after losing Berchtesgaden
+S0869,P068,Santa Severina,IT,999,1501,,,,,,,,,,,
+S0821,P069,Santiago,POR,999,1274,,,,,,,,,,,"Santiago, Avila, Salamanca, Ciudad Rodrigo, Coria, Plasencia, Badajoz, Lamego, Guarda, Lisbon"
+S0819,P069,Santiago,POR,1274,1393,,,,,,,,,,,with Evora
+S0822,P069,Santiago,POR,1393,1501,,,,,,,,,,,"Astorga, Lugo, Mondonedo, Orense, Tui Zamora, Santiago, Avila, Salamanca, Ciudad Rodrigo, Coria, Plasencia, Badajoz"
+S0781,P070,Sens,FR,999,1501,,,,,,,,,,,
+S0795,P071,Seville,ESP,999,1255,,,,,,,,,,,
+S0615,P071,Seville,ESP,1255,1393,,,,,,,,,,,with Silves
+S0616,P071,Seville,ESP,1393,1501,,,,,,,,,,,"withoug Silves, with Canarias"
+S0588,P072,Siena ,IT,1459,1501,,,,,,,,,,,"Suffragan in 1459 (Chiusi, Grosseto, and Sovanna)"
+S0873,P073,Sorrento,IT,999,1501,,,,,,,,,,,
+S0874,P074,Split,HR,999,1300,,,,,,,,,,,
+S0875,P074,Split,HR,1300,1501,,,,,,,,,,,"after the loss of Korcula territory (created in 1300 from Ston, which had been suffragan to Split)"
+S0877,P075,Taranto,IT,999,1501,,,,,,,,,,,
+S0878,P076,Tarentaise,FR,999,1501,,,,,,,,,,,
+S0809,P077,Tarragona,ESP,1470,1501,,,,,,,,,,,"Without Zaragoza, Pamplona, Huesca, Tarazona, Calahorra, Santo Domingo (Suffragan in 1318) and Without Valencia [not shown on map]"
+S0824,P077,Tarragona,ESP,999,1231,,,,,,,,,,,[not represented on map]
+S0825,P077,Tarragona,ESP,1231,1318,,,,,,,,,,,Without Majorca (exempt in 1231) and with Valencia (1239-1470)
+S0910,P077,Tarragona,ESP,1318,1470,,,,,,,,,,,"Without Zaragoza, Pamplona, Huesca, Tarazona, Calahorra, Santo Domingo (Suffragan in 1318) and With Valencia"
+S0826,P078,Toledo,ESP,999,1236,,,,,,,,,,,[not shown on map]
+S0827,P078,Toledo,ESP,1236,1246,,,,,,,,,,,With Cordoba (1236) [not shown on map]
+S0829,P078,Toledo,ESP,1246,1318,,,,,,,,,,,With Cordoba (1236); Jaen (1246)
+S0830,P078,Toledo,ESP,1318,1437,,,,,,,,,,,With Cordoba (1236); Jaen (1246); Without Albarracin-Segorbe (1258-1318); without Zamora 
+S0831,P078,Toledo,ESP,1437,1492,,,,,,,,,,,With Cordoba (1236); Jaen (1246); With Granada (1437)
+S0832,P078,Toledo,ESP,1492,1501,,,,,,,,,,,"after erection of Granada 1437, loss of Granada, Baeza/Jaen [not shown on map]"
+S0879,P079,Torres,IT,999,1441,,,,,,,,,,,
+S0880,P079,Torres,IT,1441,1501,,,,,,,,,,,With Sassari (1441-1503)
+S0883,P080,Toulouse,FR,1317,1501,,,,,,,,,,,
+S0782,P081,Tours,FR,999,1501,,,,,,,,,,,
+S0885,P082,Trani,IT,999,1424,,,,,,,,,,,
+S0886,P082,Trani,IT,1424,1501,,,,,,,,,,,WIth Salpi (united 1424-1501)
+S0796,P083,Trier,DE,999,1501,,,,,,,,,,,
+S0887,P085,Tuam,IRE,999,1501,,,,,,,,,,,
+S0798,P086,Uppsala,SWE,1276,1501,,,,,,,,,,,With Abo
+S0783,P089,Vienne,FR,999,1501,,,,,,,,,,,
+S0923,P091,York,GB,999,1355,,,,,,,,,,,before loss of Galloway to the Scottish church in 1355
+S0784,P091,York,GB,1355,1501,,,,,,,,,,,after loss of Galloway to the Scottish church in 1355
+S0889,P092,Zadar,HR,999,1501,,,,,,,,,,,
+S0834,P093,Zaragoza,ESP,1318,1385,,,,,,,,,,,
+S0876,P093,Zaragoza,ESP,1385,1501,,,,,,,,,,,after Pamplona becomes exempt
+S0890,P094,Scotland,GB,999,1355,,,,,,,,,,,
+S0894,P094,Scotland,GB,1355,1501,,,,,,,,,,,before gains Galloway from York
+S0906,P095,Bar,MON,999,1501,,,,,,,,,,,after gains Galloway from York
+S0931,P001,Exempt Diocese,,1250,1250,,,,,,,,,,,"Dioceses not included in any provinces (exepmt) on the 1250 map. Start and end dates are estimated to give a general view of the 13th century, may not reflect a specific point in time."
+S0932,P001,Exempt Diocese,,1350,1350,,,,,,,,,,,"Dioceses not included in any provinces (exepmt) on the 1350 map. Start and end dates are estimated to give a general view of the 14th century, may not reflect a specific point in time."
+S0933,P001,Exempt Diocese,,1450,1450,,,,,,,,,,,"Dioceses not included in any provinces (exepmt) on the 1450 map. Start and end dates are estimated to give a general view of the 15th century, may not reflect a specific point in time."
