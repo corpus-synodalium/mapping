@@ -26,36 +26,40 @@ export class DioceseCentroids extends Component {
         }
     };
 
-    circles = this.props.centroids.map((centroid, index) => {
-        const { lat, long, shapeID } = centroid;
-        const radius = getRadius(
-            shapeID,
-            this.props.mappingData,
-            this.props.maxNumEntries
-        );
-        if (radius === 0) {
-            return null;
-        }
-        return (
-            <CircleMarker
-                key={index}
-                center={[lat, long]}
-                radius={radius}
-                fillColor="#3388ff"
-                fillOpacity={0.9}
-                stroke={true}
-                color="#fff"
-                weight={1}
-                onClick={this.handleClick}
-                onMouseOver={this.handleMouseOver}
-                onMouseOut={this.handleMouseOut}
-                shapeID={shapeID}
-                zIndexOffset={2}
-            />
-        );
-    });
-
     render() {
-        return <div>{this.circles}</div>;
+        // TODO: Optimize re-renders
+        // Right now, it's rendering every time you hover over a region.
+        // console.log('DioceseCentroids re-rendered');
+
+        const { centroids, mappingData, maxNumEntries } = this.props;
+
+        const circles = centroids.map((centroid, index) => {
+            const { lat, long, shapeID } = centroid;
+
+            const radius = getRadius(shapeID, mappingData, maxNumEntries);
+
+            if (radius === 0) {
+                return null;
+            }
+
+            return (
+                <CircleMarker
+                    key={index}
+                    center={[lat, long]}
+                    radius={radius}
+                    fillColor="#3388ff"
+                    fillOpacity={0.9}
+                    stroke={true}
+                    color="#fff"
+                    weight={1}
+                    onClick={this.handleClick}
+                    onMouseOver={this.handleMouseOver}
+                    onMouseOut={this.handleMouseOut}
+                    shapeID={shapeID}
+                    zIndexOffset={2}
+                />
+            );
+        });
+        return <>{circles}</>;
     }
 }
