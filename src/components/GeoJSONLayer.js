@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { Component } from 'react';
 import { LayerGroup } from 'react-leaflet';
 import { GeoJSONFillable, Patterns } from 'react-leaflet-geojson-patterns';
@@ -29,24 +30,26 @@ class GeoJSONLayer extends Component {
     }
 
     componentDidMount() {
-        fetch(process.env.REACT_APP_DIOCESE_URL)
-            .then((response) => response.json())
-            .then((data) => {
-                const centroids = calculateDioceseCentroids(data);
+        const fetchDioceseGeoJson = axios.get(
+            process.env.REACT_APP_DIOCESE_URL
+        );
+        const fetchProvinceGeoJson = axios.get(
+            process.env.REACT_APP_PROVINCE_URL
+        );
+
+        axios.all([fetchDioceseGeoJson, fetchProvinceGeoJson]).then(
+            axios.spread((dioceseResponse, provinceResponse) => {
+                const centroids = calculateDioceseCentroids(
+                    dioceseResponse.data
+                );
                 this.setState({
                     dioceseCentroids: centroids,
-                    diocese_geojson: data,
+                    diocese_geojson: dioceseResponse.data,
+                    province_geojson: provinceResponse.data,
                     isLoading: false,
                 });
-            });
-
-        fetch(process.env.REACT_APP_PROVINCE_URL)
-            .then((response) => response.json())
-            .then((data) => {
-                this.setState({
-                    province_geojson: data,
-                });
-            });
+            })
+        );
     }
 
     style = (feature) => {
