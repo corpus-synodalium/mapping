@@ -57,7 +57,7 @@ class GeoJSONLayer extends Component {
                 currentColorScheme,
                 maxNumEntries,
             } = this.props;
-            const colors = colorSchemes[currentColorScheme];
+            const colors = colorSchemes[currentColorScheme].base;
             const shapeID = getShapeFileId(feature);
             return {
                 fillColor: getColor(
@@ -151,7 +151,8 @@ class GeoJSONLayer extends Component {
             return <span />;
         }
 
-        const { layerViewMode } = this.props;
+        const { layerViewMode, currentColorScheme, config } = this.props;
+        const circleFillColor = config.colorSchemes[currentColorScheme].circle;
 
         return (
             <div>
@@ -186,6 +187,7 @@ class GeoJSONLayer extends Component {
                                 mappingData={this.props.mappingData}
                                 maxNumEntries={this.props.maxNumEntries}
                                 showRecordsModal={this.props.showRecordsModal}
+                                fillColor={circleFillColor}
                             />
                         ) : null}
                     </LayerGroup>
