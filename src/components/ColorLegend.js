@@ -8,7 +8,7 @@ class ColorLegend extends Component {
         }
         const { maxNumEntries, currentColorScheme } = this.props;
         const { colorSchemes } = this.props.config;
-        const colors = colorSchemes[currentColorScheme];
+        const colors = colorSchemes[currentColorScheme].base;
         const numPerBucket = Math.ceil(maxNumEntries / colors.length);
 
         const getStyle = (colorHex) => ({

@@ -27,7 +27,7 @@ export const calculateDioceseCentroids = (geojson) => {
 // Return the radius of a diocese circle based on the number of hits
 export const getRadius = (shapeID, mappingData, maxNumEntries) => {
     const MIN_RADIUS_PX = 5;
-    const MAX_RADIUS_PX = 25;
+    const MAX_RADIUS_PX = 15;
     if (mappingData) {
         const jurID = SHAPE_ID_MAP[shapeID];
         if (mappingData.hasOwnProperty(jurID)) {
@@ -65,14 +65,14 @@ export const getHighlightStyle = (feature, showStripedRegions) => {
             weight: 2,
             color: 'black',
             dashArray: '',
-            fillOpacity: 1.0,
+            fillOpacity: 1,
         };
     }
     return {
-        weight: showStripedRegions ? 0.5 : 0,
+        weight: showStripedRegions ? 1 : 0,
         color: 'black',
         dashArray: '3',
-        fillOpacity: showStripedRegions ? 1.0 : 0,
+        fillOpacity: showStripedRegions ? 1 : 0,
     };
 };
 
