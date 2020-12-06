@@ -12,6 +12,7 @@
         "react": "^16.13.0",
         "react-copy-to-clipboard": "^5.0.2",
         "react-dom": "^16.13.0",
+        "react-draggable": "^4.4.3",
         "react-ga": "^2.5.7",
         "react-leaflet": "^2.0.0",
         "react-leaflet-geojson-patterns": "^1.1.0",
