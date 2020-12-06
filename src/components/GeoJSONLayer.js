@@ -123,7 +123,11 @@ class GeoJSONLayer extends Component {
             this.props.showStripedRegions
         );
         layer.setStyle(style);
-        // layer.bringToFront();
+        if (this.props.layerViewMode !== DIOCESE_PROVINCE) {
+            // Not bringing to front in diocese+province mode
+            // because provinces come to front and cover up diocese circles
+            layer.bringToFront();
+        }
     };
 
     resetHighlightDiocese = (e) => {

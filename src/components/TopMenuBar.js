@@ -3,6 +3,8 @@ import { Menu } from 'semantic-ui-react';
 import PasteURLModal from './PasteURLModal';
 import ShareMapButton from './ShareMapButton';
 
+const VERSION = 'v0.6.0';
+
 class TopMenuBar extends Component {
     render() {
         return (
@@ -27,7 +29,7 @@ class TopMenuBar extends Component {
 
                 <Menu.Item name="version" position="right">
                     <a href="https://github.com/thawsitt/react-map/releases">
-                        v0.6.1
+                        {VERSION}
                     </a>
                 </Menu.Item>
             </Menu>
