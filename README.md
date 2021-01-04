@@ -1,4 +1,5 @@
 # cosyn.app
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28ab2635-1d00-4d9b-af19-c26814b376be/deploy-status)](https://app.netlify.com/sites/awesome-react-map/deploys)
 
 ## About
 
