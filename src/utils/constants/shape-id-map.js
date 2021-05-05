@@ -1,6 +1,6 @@
 /**
  * An object mapping from shape ID to diocese or province ID
- * (Generated from mapping csv file using a script)
+ * (Generated from mapping csv file using a script. See /scripts folder README.)
  */
 export const SHAPE_ID_MAP = {
     S0001: 'D054',

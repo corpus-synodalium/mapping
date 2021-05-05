@@ -1,6 +1,6 @@
 /**
  * An object mapping from diocese id to its metadata information
- * (Generated from mapping csv file using a script)
+ * (Generated from mapping csv file using a script. See /scripts folder README.)
  */
 export const DIOCESES = {
     D001: {

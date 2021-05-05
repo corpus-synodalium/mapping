@@ -9,7 +9,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "mapped roughly, based on all dioceses not incorporated into a province during any given timeslice"
+    "notes": "mapped approximately, based on all dioceses not incorporated into a province during any given timeslice"
   },
   "P002": {
     "provinceId": "P002",
@@ -133,7 +133,7 @@
   },
   "P013": {
     "provinceId": "P013",
-    "provinceName": "Besancon",
+    "provinceName": "Besançon",
     "provinceNameAlt": "",
     "shapeFileId": "S0772",
     "shapeFileId2": "",
@@ -253,8 +253,8 @@
   },
   "P023": {
     "provinceId": "P023",
-    "provinceName": "Cologne",
-    "provinceNameAlt": "Köln",
+    "provinceName": "Köln",
+    "provinceNameAlt": "Cologne",
     "shapeFileId": "S0785",
     "shapeFileId2": "",
     "shapeFileId3": "",
@@ -357,7 +357,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "Vilnius (1387-1501), Lebus (1124-1501), Wroclaw (Breslau) and Gniezno (1000-1501), Poznan and Plock (1075-1501), Samogitia(1417-1501)"
+    "notes": "Vilnius (1409-1501), Lebus (1124-1501), Wroclaw (Breslau) and Gniezno (1000-1501), Poznan and Plock (1075-1501), Samogitia(1440-1501), Chełm (1375-1501)"
   },
   "P033": {
     "provinceId": "P033",
@@ -369,7 +369,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "In 1451, Grado is supressed and the seat of the archbishopric is transferred to Venezia"
+    "notes": "In 1451, Grado is suppressed and the seat of the archbishopric is transferred to Venezia"
   },
   "P034": {
     "provinceId": "P034",
@@ -387,13 +387,13 @@
     "provinceId": "P035",
     "provinceName": "Halyč ",
     "provinceNameAlt": "",
-    "shapeFileId": "",
+    "shapeFileId": "S0938",
     "shapeFileId2": "",
     "shapeFileId3": "",
     "shapeFileId4": "",
-    "yearFounded": "",
-    "yearSuppressed": "",
-    "notes": "not enough information, unmapped"
+    "yearFounded": "1375",
+    "yearSuppressed": "1414",
+    "notes": "missing Kiev, Wlodzimierz, Zytomierz (unmapped) "
   },
   "P036": {
     "provinceId": "P036",
@@ -407,22 +407,10 @@
     "yearSuppressed": "",
     "notes": ""
   },
-  "P037": {
-    "provinceId": "P037",
-    "provinceName": "Kammin",
-    "provinceNameAlt": "",
-    "shapeFileId": "",
-    "shapeFileId2": "",
-    "shapeFileId3": "",
-    "shapeFileId4": "",
-    "yearFounded": "",
-    "yearSuppressed": "",
-    "notes": "not enough information, unmapped"
-  },
   "P038": {
     "provinceId": "P038",
-    "provinceName": "Lisbon",
-    "provinceNameAlt": "Lisboa",
+    "provinceName": "Lisboa",
+    "provinceNameAlt": "Lisbon",
     "shapeFileId": "S0850",
     "shapeFileId2": "",
     "shapeFileId3": "",
@@ -447,13 +435,13 @@
     "provinceId": "P040",
     "provinceName": "Lviv",
     "provinceNameAlt": "",
-    "shapeFileId": "",
+    "shapeFileId": "S0939",
     "shapeFileId2": "",
     "shapeFileId3": "",
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "not enough information, unmapped"
+    "notes": "missing territory from unmapped dioceses of Kiev, Wlodzimierz, Zytomierz"
   },
   "P041": {
     "provinceId": "P041",
@@ -793,8 +781,8 @@
   },
   "P071": {
     "provinceId": "P071",
-    "provinceName": "Seville",
-    "provinceNameAlt": "Sevilla",
+    "provinceName": "Sevilla",
+    "provinceNameAlt": "Seville",
     "shapeFileId": "S0795",
     "shapeFileId2": "S0615",
     "shapeFileId3": "S0616",

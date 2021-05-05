@@ -1,6 +1,3 @@
-/**
- * TODO: Add comment
- */
 export const METADATA_FIELDS = [
     {
         id: 'record_id',
