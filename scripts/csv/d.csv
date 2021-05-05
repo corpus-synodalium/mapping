@@ -1,245 +1,91 @@
-Diocese ID,Diocese (local name),Alternate Name,Province,Province 2,Province 3,Country (Modern),ShpF ID,ShpF ID 2,ShpF ID 3,ShpF ID 4,Year Founded,Year Suppressed,Notes
-D604,Aarhus,,Lund,,,Denmark,S0456,,,,1060,1528,
-D075,Abbazia delle Tre Fontane,,[Holy See],,,Italy,S0248,,,,,,
-D736,Abbazia di Farfa,Santa Maria in Montesanto,[Holy See],,,Italy,S0204,,,,1586,,territory consisted partly of the exempt (nullius dioecesis) Abbey of Santa Maria in Montesanto - is this what is marked on map? [?? RWD]
-D317,Aberdeen,,Scotland,,,Scotland,S0323,,,,1125,,
-D494,Accia,,Genova,,,France,S0334,,,,,,
+Diocese ID,Diocese (local name),Alternate Name,Province,Province 2,Province 3,Country (Modern),SHPFID,SHPFID2,SHPFID3,SHPFID4,Year Founded,Year Suppressed,Notes
 D001,Acerenza,,Acerenza,,,Italy,S0575,,,,1082,,"United with Matera in 1203, split 1440-1444, reunited 1444"
 D002,Acerno,,Salerno,,,Italy,S0314,,,,1090,,
 D003,Acerra,,Napoli,,,Italy,S0286,,,,1056,,
-D511,Achonry,,Tuam,,,Ireland,S0372,,,,,,
-D018,Acqui,,Milano,,,Italy,S0187,,,,1175,,"lost territory with erection of Alessandria in 1175, but that diocese was then joined to Acqui in union from 1205-1405"
 D004,Adria,,Ravenna,,,Italy,S0011,,,,,,Episcopal seat at Rovigo
-D406,Agde,,Narbonne,,,France,S0688,,,,,,
-D366,Agen,,Bordeaux,,,France,S0649,S0755,,,,,
-D647,Ager,,[Holy See],,,Spain,S0534,,,,1048,1873,Abbey; exempt from its foundation in 1048; pope orders that it be joined to Lleida in 1187 but abbots retain effective independence
-D267,Agrigento,,Palermo,,,Italy,S0175,,,,1088,,
-D351,Aire,,Auch,,,France,S0635,,,,,,
-D330,Aix,,Aix,,,France,S0618,,,,,,
-D496,Ajaccio,,Pisa,,,France,S0336,,,,,,
 D005,Alatri,,[Holy See],,,Italy,S0155,,,,,,
 D006,Alba,,Milano,,,Italy,S0186,,,,,,
-D730,Albano,,[Holy See],,,Italy,S0149,,,,,,
-D613,Albarracin-Segorbe,,Toledo,Zaragoza,,Spain,S0500,,,,1172,1577,suffragan of Zaragoza from 1318; united with Segorbe from 1258-1577
 D007,Albenga,,Milano,Genova,,Italy,S0264,,,,,,"formally made a suffragan of Genova in 1159, though it continued to resist this change until at least 1213"
-D381,Albi,,Bourges,,,France,S0664,S0758,,,,,
-D493,Aleria,,Pisa,,,France,S0333,,,,,,
-D276,Ales,,Oristano,,,Italy,S0132,,,,,1503,
 D008,Alessandria,,Milano,,,Italy,S0184,,,,1175,,United with Acqui from 1205-1405
-D401,Alet,,Narbonne,,,France,S0684,,,,1317,,established from Narbonne
 D010,Alife,,Benevento,,,Italy,S0278,,,,,,
-D728,Almeria,,Granada,,,Spain,S0764,,,,1492,,suffragan of Granada from 1492
 D011,Amalfi,,Amalfi,,,Italy,S0297,,,,,,
 D012,Amelia,,[Holy See],,,Italy,S0215,,,,,,
-D423,Amiens,,Reims,,,France,S0705,,,,,,
-D724,Ampurias,,Torres,,,Italy,S0119,,,,1070,,"see perhaps moved to Castelsardo in the 15th century, a transfer confirmed in 1503"
 D013,Anagni,,[Holy See],,,Italy,S0152,,,,,,
-D014,Ancona,Ancona and Umana,[Holy See],,,Italy,S0197,S0909,,,,,"gains territory from the supressed Umana in 1422, renamed Ancona and Umana"
+D014,Ancona,Ancona and Umana,[Holy See],,,Italy,S0197,S0909,,,,,"gains territory from suppressed Umana in 1422, renamed Ancona and Umana"
 D015,Andria,,Trani,,,Italy,S0091,,,,1100,,
-D441,Angers,,Tours,,,France,S0723,,,,,,
 D016,Anglona,,Acerenza,,,Italy,S0117,,,,1100,,
-D368,Angouleme,,Bordeaux,,,France,S0651,,,,,,
-D515,Annaghdown,,Tuam,,,Ireland,S0376,,,,1179,,
-D461,Aosta,Aoste,Tarentaise,,,Italy,S0743,,,,,,
-D331,Apt,,Aix,,,France,S0619,,,,,,
+D018,Acqui,,Milano,,,Italy,S0187,,,,1175,,"lost territory with erection of Alessandria in 1175, but that diocese was then joined to Acqui in union from 1205-1405"
 D019,Aquileia,,Aquileia,,,Italy,S0009,S0917,,,,,Episcopal seat at Cividale
 D020,Aquino,,[Holy See],,,Italy,S0272,,,,,,suffragan of Capua until 11th century
-D507,Ardagh,,Armagh,,,Ireland,S0368,,,,,,
-D522,Ardfert,Kerry,Cashel,,,Ireland,S0383,,,,,,
 D021,Arezzo,,[Holy See],,,Italy,S0242,S0921,S0844,,,,
-D318,Argyll,,Scotland,,,Scotland,S0324,,,,1183,,
 D022,Ariano,,Benevento,,,Italy,S0309,,,,,,
-D337,Arles,,Arles,,,France,S0625,,,,,,
-D504,Armagh,,Armagh,,,Ireland,S0365,,,,,,
-D431,Arras,,Reims,,,France,S0713,,,,1093,,re-established 1093 from Cambrai
 D023,Ascoli Piceno,,[Holy See],,,Italy,S0203,,,,,,
 D024,Ascoli Satriano,,Benevento,,,Italy,S0071,,,,,,
 D026,Assisi,,[Holy See],,,Italy,S0210,,,,,,
 D027,Asti,,Milano,,,Italy,S0183,S0927,,,,,loses territory for the creation of Mondovì in 1388
-D618,Astorga,,Braga,Santiago,,Spain,S0505,,,,852,,suffragan of Santiago from 1393
-D745,Atri,,[Holy See],,,Italy,,,,,1251,1986,"Territory taken from Diocese of Penne, in union (represented together)"
-D350,Auch,,Auch,,,France,S0634,,,,,,
-D550,Augsburg,,Mainz,,,Germany,S0410,,,,,,
-D396,Autun,,Lyon,,,France,S0679,,,,,,
-D453,Auxerre,,Sens,,,France,S0735,,,,,,
 D029,Avellino,,Benevento,,,Italy,S0597,S0292,,,,,United with Frigento in 1466
 D030,Aversa,,[Holy See],,,Italy,S0287,,,,1053,,
-D342,Avignon,,Arles,Avignon,,France,S0630,,,,,,Raised to Metropolitan in 1475
-D629,Avila,,Santiago,,,Spain,S0516,,,,1087,,
-D434,Avranches,,Rouen,,,France,S0716,,,,,,
-D635,Badajoz,,Santiago,,,Spain,S0522,,,,1255,,
-D614,Baza,,Toledo,,,Spain,S0029,,,,1492,,"officially restored as a titular see in 1306, but not reconquered until 1492"
 D031,Bagnoregio,,[Holy See],,,Italy,S0137,S0918,,,,1501,United with Viterbo from 10 February - 17 October 1449
-D577,Bamberg,,[Holy See],,,Germany,S0432,,,,1007,,
-D314,Bangor,,Canterbury,,,Wales,S0342,,,,,,
-D751,Bar,,Bar,,,Montenegro,S0891,,,,,,
-D643,Barcelona,,Tarragona,,,Spain,S0530,S0563,,,850,,
-D715,Bari,,Bari,,,Italy,S0082,,,,,,
-D362,Basel,,Besancon,,,Switzerland,S0646,,,,,,
-D309,Bath,Bath & Wells,Canterbury,,,England,S0347,,,,909,,
-D435,Bayeux,,Rouen,,,France,S0717,,,,,,
-D354,Bayonne,,Auch,,,France,S0638,,,,,,
-D352,Bazas,,Auch,,,France,S0636,,,,,,
-D424,Beauvais,,Reims,,,France,S0706,,,,,,
 D032,Belcastro,,Santa Severina,,,Italy,S0107,,,,1122,,
-D363,Belley,,Besancon,,,France,S0647,,,,,,
 D033,Belluno,,Aquileia,,,Italy,,,,,,1197,"United with Feltre in 1197, Loses Feltre in 1462; only represented in union with Feltre in maps"
 D034,Benevento,,Benevento,,,Italy,S0262,,,,,,
-D582,Berchtesgaden,,Salzburg,[Holy See],,Germany,S0613,,,,1455,,"made exempt provostship 1455, previously part of Salzburg"
 D035,Bergamo,,Milano,,,Italy,S0162,,,,,,
-D693,Bergen,,Nidaros,,,Norway,S0464,,,,1068,1537,
-D361,Besancon,,Besancon,,,France,S0645,,,,,,
-D407,Beziers,,Narbonne,,,France,S0689,,,,,,
 D037,Bisaccia,,Conza,,,Italy,S0310,,,,1090,,
-D277,Bisarcio,,Torres,,,Italy,S0580,,,,,,
 D038,Bisceglie,,Trani,,,Italy,S0089,,,,,,
 D039,Bisignano,,[Holy See],,,Italy,S0105,,,,,,
-D716,Bitetto,,Bari,,,Italy,S0083,,,,,,erected sometime between 1025-1089
-D717,Bitonto,,Bari,,,Italy,S0084,,,,,,
 D040,Bobbio,,Genova,,,Italy,S0219,,,,1014,,
 D041,Bojano,Boiano,Benevento,,,Italy,S0260,,,,,,founded sometime before 1071
 D042,Bologna,,Ravenna,,,Italy,S0224,,,,,,
-D365,Bordeaux,,Bordeaux,,,France,S0648,,,,,,
-D606,Borglum,,Lund,,,Denmark,S0458,,,,1060,1528,
-D278,Bosa,,Torres,,,Italy,S0121,,,,,,
-D752,Bosnia,,Ragusa,Kalocsa,,Bosnia,S0892,,,,,,suffragan to Kalocsa after 1300
-D375,Bourges,,Bourges,,,France,S0658,,,,,,
 D043,Bova,,Reggio-Calabria,,,Italy,S0094,,,,,,
 D044,Bovino,,Benevento,,,Italy,S0068,,,,,,
-D617,Braga,,Braga,,,Portugal,S0504,,,,,,
-D545,Brandenburg,,Magdeburg,,,Germany,S0405,,,,,,
-D319,Brechin,,Scotland,,,Scotland,S0326,,,,1150,,
-D532,Bremen-Hamburg,,Bremen,,,Germany,S0393,,,,,,
 D045,Brescia,,Milano,,,Italy,S0163,,,,,,
 D046,Brindisi,Oria,Brindisi,,,Italy,S0047,,,,1050,,"Oria served temporarily as seat of diocese of Brindisi during 11th century; when see was returned to Brindisi at end of the 11th century, Oria was dissolved and made part of diocese of Brindisi; Brindisi claimed to be an archbishopric, but this was not recognized until 1591"
-D565,Brixen,Bressanone,Salzburg,,,Italy,S0603,,,,,,
 D047,Brugnato,,Genova,,,Italy,S0269,,,,1133,,
-D489,Budva,Budua,Ragusa,,,Montenegro,S0893,,,,,,
-D660,Burgos,,[Holy See],,,Spain,S0547,,,,1075,,exempt as of 1095; raised to archdiocese in 1574
-D658,Cadiz,,Seville,,,Spain,S0545,,,,1268,,"united with Algeciras for the entirety of that diocese's existence, from 1344 to 1364"
 D048,Cagli,,[Holy See],,,Italy,S0192,,,,,,
-D279,Cagliari,,Cagliari,,,Italy,S0135,S0582,,,,1420,
-D383,Cahors,,Bourges,,,France,S0666,,,,,,
-D320,Caithness,,Scotland,,,Scotland,S0319,,,,1146,,
 D049,Cajazzo,,Capua,,,Italy,S0283,,,,,,
-D652,Calahorra,,Tarragona,,,Spain,S0539,,,,1045,1231,see moved to Santo Domingo de la Calzada after suppression
-D653,Calahorra-(Santo Domingo de) la Calzada,,Tarragona,Zaragoza,,Spain,S0540,,,,1231,,suffragan of Zaragoza from 1318
 D050,Calvi,,Capua,,,Italy,S0282,,,,,,
-D430,Cambrai,,Reims,,,France,S0712,,,,,,
 D051,Camerino,,[Holy See],,,Italy,S0198,S0487,,,1320,,
-D659,Canarias,Rubicon,Seville,,,Spain,S0546,,,,1351,,"repeatedly suppressed and restored; suffragan of Seville from 1404; seat moved to Las Palmas, Grand Canarias in 1483"
-D722,Canne,,Trani,,,Italy,S0093,S0578,,,1030,,united with diocese of Nazareth (Barletta) in 1455
-D712,Canosa,Cerignoli,Bari,[Holy See],,Italy,S0069,,,,,,"archpresbytery, not elevated to diocese until 1819; From 1099 onward, Canosa was an exempt archpresbytery, though the archbishops of Bari simultaneously held the title of bishop of Canosa"
-D295,Canterbury,,Canterbury,,,England,S0352,,,,597,,
 D052,Caorle,,Grado,Venezia,,Italy,S0023,,,,,,
 D053,Capaccio,Paestum,Salerno,,,Italy,S0315,,,,1160,,
+D054,Koper,Capodistria,Aquileia,,,Italy,S0001,,,,,,also known as Capo d'Istria
 D055,Capri,,Amalfi,,,Italy,S0304,,,,,,
 D056,Capua,,Capua,,,Italy,S0281,,,,,,
-D402,Carcassonne,,Narbonne,,,France,S0685,,,,,,
 D057,Carinola,,Capua,,,Italy,S0280,,,,,,
-D311,Carlisle,,York,,,England,S0337,,,,1133,,
-D343,Carpentras,,Arles,Avignon,,France,S0631,,,,,,Suffragan of Avignon from 1475
-D665,Cartagena,,[Holy See],Granada,,Spain,S0552,,,,1250,,suffragan of Granada from 1492
-D250,Casale Monferrato,,Milano,,,Italy,S0159,,,,1474,,
+D058,Vercelli,,Milano,,,Italy,S0180,S0566,,,,,
 D059,Caserta,Galazia in Campania,Capua,,,Italy,S0284,,,,,,
-D519,Cashel,,Cashel,,,Ireland,S0380,,,,,,
 D060,Cassano,,Reggio-Calabria,,,Italy,S0116,,,,,,
 D061,Castellamare,,Sorrento,,,Italy,S0295,,,,,,
 D062,Castellaneta,,Taranto,,,Italy,S0051,,,,1023,,
 D063,Castello,,Grado,Venezia,,Italy,S0019,,,,,1451,Suppressed to Venice in 1451
-D382,Castres,,Bourges,,,France,S0665,,,,1317,,
 D064,Castro,,Torres,,,Italy,S0125,,,,,1503,
 D065,Castro,,Otranto,,,Italy,S0042,,,,,,
-D280,Castro,,[Holy See],,,Italy,S0136,,,,,1503,
-D268,Catania,,[Holy See],,,Italy,S0176,,,,1092,,
 D066,Catanzaro,,Reggio-Calabria,,,Italy,S0102,,,,1121,,
-D067,Cava,Badia di Cava,[Holy See],,,Italy,S0316,,,,1394,1465,Reduced to status as Benedictine monastery in 1465
-D344,Cavaillon,,Arles,Avignon,,France,S0632,,,,,,Suffragan of Avignon from 1475
-D269,Cefalù,,Messina,,,Italy,S0171,,,,1131,,
+D067,Cava,Badia di Cava,[Holy See],,,Italy,S0316,,,,1394,1465,abbey (nullius); loses diocesan privileges in 1465
 D068,Ceneda,,Aquileia,,,Italy,S0016,,,,,,
 D069,Cerenza,,Santa Severina,,,Italy,S0112,,,,,,
 D070,Cervia,,Ravenna,,,Italy,S0226,,,,,,
 D071,Cesena,,[Holy See],,,Italy,S0233,,,,,,
-D425,Chalons-sur-Marne,Chalons-en-Champagne,Reims,,,France,S0707,,,,,,
-D398,Chalon-sur-Saone,,Lyon,,,France,S0681,,,,,,
-D457,Chartres,,Sens,,,France,S0739,,,,,,
-D588,Chełmno ,Culm,Riga,,,Poland,S0440,,,,1243,1992,made suffragan of Riga in 1245
-D306,Chichester,,Canterbury,,,England,S0351,,,,1075,,
-D566,Chiemsee,,Salzburg,,,Germany,S0604,,,,1215,,
 D072,Chieti,,[Holy See],,,Italy,S0254,,,,,,
 D073,Chioggia,,Grado,Venezia,,Italy,S0010,,,,,,
 D074,Chiusi,,[Holy See],Siena,,Italy,S0245,S0924,S0585,,,,Suffragan of Siena from 1459
-D551,Chur,,Mainz,,,Switzerland,S0411,,,,,,
+D075,Abbazia delle Tre Fontane,,[Holy See],,,Italy,S0248,,,,,,
 D076,Città di Castello,,[Holy See],,,Italy,S0206,S0501,,,,,
-D705,Cittanova,Aemona,Aquileia,Grado,Venice,Italy,S0022,,,,,,subject to Grado from 1272; united with Parenzo from 1434-1448; given in commendam to Patriarch of Grado (then Venezia) from 1448-1465; union dissolved in 1465.
-D632,Ciudad Rodrigo,,Santiago,,,Spain,S0519,,,,1168,,
+D077,Novigrad,Cittanova,Aquileia,,,Italy,S0002,,,,,,"Aemona, Cittanova d'Istria"
 D078,Civita Castellana,,[Holy See],,,Italy,S0141,,,,,,United with Orte in 1437 (or perhaps 1439)
-D711,Civitate,Città,Benevento,,,Italy,S0058,,,,,,united with Lucera from 1439-1471; see translated and name changed to San Severo in 1580
-D376,Clermont,Clermont-Ferrand,Bourges,,,France,S0659,S0760,,,,,"Originally  Auvergne, renamed 1160"
-D505,Clogher,,Armagh,,,Ireland,S0366,,,,,,
-D514,Clonfert,,Tuam,,,Ireland,S0375,,,,,,
-D509,Clonmacnois,,Armagh,,,Ireland,S0370,,,,,,
-D523,Cloyne,,Cashel,,,Ireland,S0384,,,,,,
-D624,Coimbra,,Braga,,,Portugal,S0511,,,,,,
-D538,Cologne,,Cologne,,,Germany,S0399,,,,,,
 D079,Comacchio,,Ravenna,,,Italy,S0227,,,,,,
 D080,Como,,Aquileia,,,Italy,S0160,,,,608,1751,
 D081,Concordia,,Aquileia,,,Italy,S0024,,,,,,
-D367,Condom,,Bordeaux,,,France,S0650,,,,1317,,
-D501,Connor,,Armagh,,,Ireland,S0362,,,,,,
-D707,Conversano,,Bari,,,Italy,S0053,,,,,,probably established in 11th century
 D082,Conza,,Conza,,,Italy,S0313,,,,,,
-D616,Cordoba,,Toledo,,,Spain,S0503,,,,1236,,
-D633,Coria,,Santiago,,,Spain,S0520,,,,1142,,
-D525,Cork,,Cashel,,,Ireland,S0386,,,,,,
-D744,Corneto,Tarquinia,[Holy See],,,Italy,S0590,,,,1435,,"Territory restored from Diocese of Tuscania/Tuscanella, to which it had been suppressed in 510"
-D237,Cortona,,[Holy See],,,Italy,S0270,,,,1325,,
 D084,Cosenza,,Cosenza,,,Italy,S0104,,,,1150,,
 D085,Cotrone,,Reggio-Calabria,,,Italy,S0111,,,,,,
-D589,Courland,Kurland,Riga,,,Latvia,S0441,,,,1234,,
-D359,Couserans,Saint-Lizier,Auch,,,France,S0643,,,,,,
-D436,Coutances,,Rouen,,,France,S0718,,,,,,
-D300,Coventry & Lichfield,,Canterbury,,,England,S0340,,,,669,,
 D086,Cremona,,Milano,,,Italy,S0166,,,,,,
-D612,Cuenca,,Toledo,,,Spain,S0499,,,,1179,,
-D680,Cumania,,[Holy See],,,Romania,,,,,1228,1241,"exists relatively briefly, boundaries very unclear [not represented in maps]"
-D353,Dax,,Auch,,,France,S0637,,,,,,
-D500,Derry,,Armagh,,,Ireland,S0361,,,,,,Seat at Maghera until 1254
-D464,Die,,Vienne,,,France,S0745,,,,,,
-D388,Digne,,Embrun,,,France,S0671,,,,,,
-D444,Dol,,Tours,,,France,S0726,,,,,,
-D282,Dolia,Doglia,Cagliari,,,Italy,S0133,,,,,1503,suppressed 1503; united to Cagliari
-D587,Dorpat,Tartu,Riga,,,Estonia,S0439,,,,1224,1558,preceded by diocese of Leal
-D502,Down,,Armagh,,,Ireland,S0363,,,,,,
 D087,Dragonara,,Benevento,,,Italy,S0059,,,,1039,,
-D503,Dromore,,Armagh,,,Ireland,S0364,,,,,,
-D528,Dublin,,Dublin,,,Ireland,S0389,,,,,,
-D321,Dunblane,,Scotland,,,Scotland,S0327,,,,1155,,
-D322,Dunkeld,,Scotland,,,Scotland,S0325,,,,1114,,
-D301,Durham,,York,,,England,S0338,,,,995,,
-D755,Duvno,,Split ,,,Bosnia,S0895,,,,,,
-D671,Eger,Erlau,Esztergom,,,Romania,S0478,,,,1009,,
-D552,Eichstatt,,Mainz,,,Germany,S0412,,,,,,
-D404,Elne,,Narbonne,,,France,S0553,,,,,,
-D513,Elphin,,Tuam,,,Ireland,S0374,,,,,,
-D310,Ely,,Canterbury,,,England,S0355,,,,1108,,
-D387,Embrun,,Embrun,,,France,S0670,,,,,,
-D520,Emly,,Cashel,,,Ireland,S0381,,,,,,
-D118,Equilio,Jesolo,Grado,Venezia,,Italy,S0021,,,,,1466,suppressed to Venezia in 1466; also know as Iesolo
-D672,Erdely,Alba Iulia,Kalocsa,,,Romania,S0479,,,,1009,,"alternate names Karlsburg, Siebenbürgen; renamed Alba Iulia in 1932"
-D667,Esztergom,,Esztergom,,,Hungary,S0474,,,,1001,,
-D639,Evora,,Braga,Santiago,Lisbon,Portugal,S0526,,,,1165,,suffragan of Braga from 1166-1274; to Santiago from 1274-1394; to Lisbon from 1394-1544
-D437,Evreux,,Rouen,,,France,S0719,,,,,,
-D308,Exeter,,Canterbury,,,England,S0349,,,,1050,,
 D088,Faenza,,Ravenna,[Holy See],,Italy,S0230,,,,,,briefly exempted from Ravennan authority from 1099-1119
-D747,Famagusta,,Nicosia,,,Cyprus,S0568,,,,1196,1571,
 D089,Fano,,[Holy See],,,Italy,S0194,,,,,,
-D704,Faroe Islands,,Bremen,Lund,Nidaros,Denmark,S0601,,,,1076,1536,suffragan of Lund from 1104; suffragan of Nidaros from 1152
 D090,Feltre,,Aquileia,,,Italy,S0562,,,,,,United with Belluno from 1197 to 1462
 D091,Ferentino,,[Holy See],,,Italy,S0157,,,,,,
 D092,Fermo,,[Holy See],,,Italy,S0202,S0488,,,1320,,
-D531,Ferns,,Dublin,,,Ireland,S0392,,,,,,
-D093,Ferrara,,[Holy See],,,Italy,S0225,,,,,,Ughelli suggests that Ferrara was suffragan of Ravenna
+D093,Ferrara,,[Holy See],,,Italy,S0225,,,,,,"Ferrara held exempt status from 774, despite Ravenna's persistent claims"
 D094,Fiesole,,[Holy See],Firenze,,Italy,S0240,,,,,,Made suffragan to Firenze in 1420
 D095,Fiorentino,,Benevento,,,Italy,S0060,,,,1059,1410,Territory annexed to Lucera
 D096,Firenze,Florence,[Holy See],Firenze,,Italy,S0239,,,,,,Elevated to metropolitanate in 1420
@@ -248,482 +94,636 @@ D098,Fondi,,[Holy See],,,Italy,S0273,,,,,,
 D099,Forlì,,Ravenna,,,Italy,S0231,,,,,,
 D100,Forlimpopoli,Bertinoro,Ravenna,,,Italy,S0232,,,,,,See transferred and name changed to Bertinoro in 1360
 D101,Fossombrone,,[Holy See],,,Italy,S0193,,,,,,
-D731,Frascati,,[Holy See],,,Italy,S0150,,,,,,
-D567,Freising,,Salzburg,,,Germany,S0605,,,,,,
-D332,Frejus,,Aix,,,France,S0620,,,,,,
 D102,Frigento,,Benevento,,,Italy,S0598,,,,,1466,United with Avellino in 1466
 D103,Gaeta,,[Holy See],,,Italy,S0274,,,,,,
 D104,Gallipoli,,Otranto,,,Italy,S0044,,,,,,
-D324,Galloway,,York,Scotland,,Scotland,S0330,,,,1128,,"part of the province of York until 1355, thereafter functions as part of Scottish church"
-D283,Galtelli,,[Holy See],,,Italy,S0126,,,,1120,1495,supressed to Cagliari in 1495
-D333,Gap,,Aix,,,France,S0621,,,,,,
-D703,Garðar,Gardar,Bremen,Nidaros,,Greenland,S0600,,,,1124,1537,suffragan of Nidaros from 1152
-D465,Geneva,Geneve,Vienne,,,Switzerland,S0746,,,,,,
 D105,Genova,,Genova,,,Italy,S0267,,,,,,Raised to archdiocese in 1133
 D106,Gerace,,Reggio-Calabria,,,Italy,S0096,,,,,,United with Oppido in 1462
-D642,Gerona,Girona,Tarragona,,,Spain,S0529,,,,785,,
-D718,Giovinazzo,,Bari,,,Italy,S0086,,,,1020,,
-D389,Glandèves,Entrevaux,Embrun,,,France,S0672,,,,,,
-D325,Glasgow,,Scotland,,,Scotland,S0329,,,,1114,,
-D690,Gniezno,Gnesen,Gniezno,,,Poland,S0461,,,,1000,,
 D107,Grado,Venezia,Grado,Venezia,,Italy,S0008,,,,,1451,United with Asolo in 1440; suppressed to Venice in 1451
-D644,Granada,,Toledo,Granada,,Spain,S0762,,,,1437,,raised to archdiocese 1492; presumably suffragan of Toledo beforehand?
-D391,Grasse,Antibes,Embrun,,,France,S0674,,,,,,renamed Antibes in 1244
 D108,Gravina,,Acerenza,,,Italy,S0085,,,,,,
-D466,Grenoble,,Vienne,,,France,S0747,,,,,,
 D109,Grosseto,Roselle,[Holy See],Siena,,Italy,S0246,S0871,,,,,Made suffragan to Siena in 1459
-D723,Guadix,,Granada,,,Spain,S0763,,,,1492,,suffragan of Granada from 1492; associated with ancient see of Baza
-D637,Guarda,,Santiago,Lisbon,,Portugal,S0524,,,,1203,,translated from earlier diocese of Idanha; made suffragan of Lisbon in 1393
 D110,Guardialfiera,,Benevento,,,Italy,S0258,,,,1059,,
 D111,Gubbio,,[Holy See],,,Italy,S0207,,,,,,
-D568,Gurk,,Salzburg,,,Austria,S0606,,,,1072,,
-D673,Györ ,Raab,Esztergom,,,Hungary,S0480,,,,1009,,
-D553,Halberstadt,,Mainz,,,Germany,S0413,,,,,,
-D686,Halyč ,Galyc,Halyč ,,,Ukraine,S0905,,,,1361,1414,raised to archdiocese in 1375
-D694,Hamar,,Nidaros,,,Norway,S0465,,,,1152,1537,
-D546,Havelberg,,Magdeburg,,,Germany,S0406,,,,,,
-D303,Hereford,,Canterbury,,,England,S0344,,,,676,,
-D554,Hildesheim,,Mainz,,,Germany,S0414,,,,,,
-D497,Holar,,Nidaros,,,Iceland,S0358,,,,1106,,
-D650,Huesca,,Tarragona,Zaragoza,,Spain,S0537,,,,1096,,suffragan of Zaragoza from 1318
 D112,Imola,,Ravenna,,,Italy,S0229,,,,,,
 D113,Ischia,,Napoli,,,Italy,S0290,,,,1036,,
-D115,Isernia,,Capua,,,Italy,S0256,,,,,,aka Isola di Capo Rizzuto
 D114,Isola,Capo Rizzuto,Santa Severina,,,Italy,S0108,,,,1114,,
+D115,Isernia,,Capua,,,Italy,S0256,,,,,,aka Isola di Capo Rizzuto
 D116,Ivrea,,Milano,,,Italy,S0181,,,,,,
-D615,Jaen,Baeza,Toledo,Granada,,Spain,S0502,,,,1246,,"suffragan of Granada from 1492; see at Baeza, renamed, 1226-1246"
 D117,Jesi,Iesi,[Holy See],,,Italy,S0196,,,,,,
-D677,Kalocsa-Bacs,Kalocsa,Kalocsa,,,Hungary,S0484,,,,1010,,only Kalocsa until 1135
-D688,Kamieniec ,Kamyanets-Podilskyi ,Halyč ,Lviv,,Ukraine,,,,,1373,,"founded ca. 1373; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
-D663,Kammin,,[Holy See],,,Poland,S0433,,,,1140,,
-D578,Lviv,,[Holy See],,,Poland,,,,,1125,,"no information, unmapped"
-D683,Kiev,Kyiv,Halyč ,Lviv,,Ukraine,,,,,1321,,"also know as Kijów; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
-D527,Kildare,,Dublin,,,Ireland,S0388,,,,,,
-D517,Kilfenora,,Cashel,,,Ireland,S0378,,,,,,
-D510,Killala,,Tuam,,,Ireland,S0371,,,,,,
-D518,Killaloe,,Cashel,,,Ireland,S0379,,,,,,
-D516,Kilmacduagh,,Tuam,,,Ireland,S0377,,,,,,
-D506,Kilmore,,Armagh,,,Ireland,S0367,,,,,,
-D478,Knin,Tininum,Zadar,,,Croatia,S0896,,,,,,
-D555,Konstanz,Constance,Mainz,,,Switzerland,S0415,,,,,,
-D054,Koper,Capodistria,Aquileia,,,Italy,S0001,,,,,,also known as Capo d'Istria
-D485,Korčula,Curzola,Ragusa,,,Croatia,S0036,,,,1300,,suffragan to Dubrovnik; two islands previously belonged to Diocese of Hvar pre 1300
-D488,Kotor,Cattaro,Bari,,,Montenegro,S0040,,,,,,
-D593,Krakow,,Gniezno,,,Poland,S0449,,,,1000,,
-D472,Krk,Veglia,Split,Zadar,,Croatia,S0026,,,,,,made suffragan to Zadar in 1146
-D594,Kujawy,Włocławek,Gniezno,,,Poland,S0450,,,,1015,,also known as Kuyavia; established ca. 1015
+D118,Equilio,Jesolo,Grado,Venezia,,Italy,S0021,,,,,1466,suppressed to Venezia in 1466; also know as Iesolo
 D119,Lacedonia,Lacedogna,Conza,,,Italy,S0311,,,,1080,,
-D636,Lamego,,Santiago,Lisbon,,Portugal,S0523,,,,1147,,made suffragan of Lisbon in 1393
-D397,Langres,,Lyon,,,France,S0680,,,,,,
-D422,Laon,,Reims,,,France,S0704,,,,,,
 D120,L'Aquila,,[Holy See],,,Italy,S0251,,,,1257,,
 D121,Larino,,Benevento,,,Italy,S0261,,,,,,
-D364,Lausanne,,Besancon,,,Switzerland,S0447,,,,,,
-D569,Lavant,,Salzburg,,,Austria,S0607,,,,1225,,
-D414,Lavaur,,Toulouse,,,France,S0696,,,,1317,,established from Toulouse
-D714,Lavello,,Bari,,,Italy,S0073,,,,,,
-D442,Le Mans,,Tours,,,France,S0724,,,,,,
-D380,Le Puy,,Bourges,,,France,S0663,,,,,,
-D536,Lebus,,Gniezno,,,Poland,S0397,,,,1124,,
 D122,Lecce,,Otranto,,,Italy,S0046,,,,1057,,
-D355,Lectoure,,Auch,,,France,S0639,,,,,,
-D529,Leighlin,,Dublin,,,Ireland,S0390,,,,,,
-D661,Leon,,[Holy See],,,Spain,S0548,,,,,,exempt as of 1105
-D646,Lerida,Lleida,Tarragona,,,Spain,S0533,,,,1149,,
-D356,Lescar,,Auch,,,France,S0640,,,,,,
 D123,Lesina,,Benevento,,,Italy,S0057,,,,1254,,United with Benevento from 1459-73
-D484,Lesina,Hvar,Zadar,Split,,Croatia,S0035,S0015,,,1145,,made suffragan to Split in 1180
 D124,Lettere,Lettere–Gragnano,Amalfi,,,Italy,S0296,,,,,,
-D709,Leuca,Alexanum,Otranto,,,Italy,S0055,,,,,1521,"also know as Alessano; regular succession of bishops begins in 1283, but diocese established much earlier; suppressed 1518-1521"
-D539,Liege,,Cologne,,,Belgium,S0444,,,,,,
-D748,Limassol,,Nicosia,,,Cyprus,S0569,,,,1196,1571,
-D521,Limerick,,Cashel,,,Ireland,S0382,,,,,,
-D378,Limoges,,Bourges,,,France,S0661,S0753,,,,,
-D304,Lincoln,,Canterbury,,,England,S0357,,,,1072,,
-D699,Linkoping,,Uppsala,,,Sweden,S0470,,,,1100,1527,
-D732,Lipari,,Messina,,,Italy,S0168,,,,1157,,erected as diocese of Patti and Lipari in 1157; dioceses split in 1399
-D638,Lisbon,,Santiago,Lisbon,,Portugal,S0525,,,,1147,,raised to archdiocese in 1393
-D438,Lisieux,,Rouen,,,France,S0720,,,,,,
-D524,Lismore,,Cashel,,,Ireland,S0426,S0385,,,1111,,United with Waterford in 1363
-D750,Litomyšl,,Prague,,,Czech Republic,S0550,,,,1344,1474,"Erected from Prague then suppressed to it [not enough information, unmapped]"
-D126,Ljubljana,,Aquileia,,,Slovenia,S0897,,,,1461,,
-D313,Llandaff,,Canterbury,,,Wales,S0346,,,,,,
-D408,Lodeve,,Narbonne,,,France,S0690,,,,,,
 D125,Lodi,,Milano,,,Italy,S0165,,,,,,
-D415,Lombez,,Toulouse,,,France,S0697,,,,1317,,established from Toulouse
-D297,London,,Canterbury,,,England,S0354,,,,604,,
-D533,Lubeck,,Bremen,,,Germany,S0394,,,,,,
+D126,Ljubljana,,Aquileia,,,Slovenia,S0897,,,,1461,,
 D127,Lucca,,[Holy See],,,Italy,S0236,,,,,,
 D128,Lucera,,Benevento,,,Italy,S0064,S0556,,,,,"Gains territory of Fiorentino in 1410; United with Citta' (Civitate, late San Severo) from 1439-50; briefly united with Tortiboli in 1425"
-D689,Luck,Lutsk,Halyč ,Lviv,,Ukraine,S0576,,,,1404,,"founded ca. 1404; incorporates Wlodzimierz in 1425; suffragan of Halyč until 1414, when it becomes suffragan of Lviv"
-D372,Lucon,,Bordeaux,,,France,S0655,,,,1317,,established from Poitiers
-D619,Lugo,,Braga,Santiago,,Spain,S0506,,,,850,,suffragan of Santiago from 1393
-D599,Lund,,Lund,,,Sweden,S0451,,,,1060,1528,
 D129,Luni and Sarzana,,[Holy See],,,Italy,S0268,,,,1133,,
-D687,Lviv,Lwow,Lviv,,,Ukraine,,,,,1358,,"raised to archdiocese in 1412 [not enough information, unmapped]"
-D395,Lyon,,Lyon,,,France,S0678,,,,,,
 D130,Macerata,,[Holy See],,,Italy,S0201,S0912,,,1320,,"may have taken territory from Recanati as well, with which it was then joined in union from 1356-1586"
-D399,Macon,,Lyon,,,France,S0682,,,,,,
-D544,Magdeburg,,Magdeburg,,,Germany,S0404,,,,,,
-D403,Maguelonne,Maguelone,Narbonne,,,France,S0686,,,,,,
-D373,Maillezais,,Bordeaux,,,France,S0656,,,,1317,,
-D549,Mainz,,Mainz,,,Germany,S0409,,,,,,
-D734,Majorca,Mallorca,Tarragona,[Holy See],,Spain,S0543,S0513,,,,,"established 1232; suffragan to Tarragona 1229-1232, exempt thereafter "
-D483,Makarska,Macarsca,Split,,,Croatia,S0034,,,,1344,1400,combined with Split
-D738,Malaga,,Granada,,,Spain,S0554,,,,1492,,suffragan of Granada from 1492
 D131,Manfredonia,Siponto,Manfredonia,,,Italy,S0065,,,,1258,,
 D132,Mantova,Mantua,Aquileia,[Holy See],,Italy,S0167,,,,,,made exempt in 1452
-D491,Mariana,,Genova,,,France,S0331,,,,,,
-D678,Marosvar,Csanád,Kalocsa,,,Hungary,S0485,,,,1035,,
-D666,Marruecos,,Seville,,,Morocco,,,,,1246,,"made suffragan to Seville in 1353 (probably, though jurisdiction is unclear as see became titular) [not represented on maps, mostly nominal]"
-D338,Marseille,,Arles,,,France,S0626,,,,,,
 D133,Marsi,Avezzano,[Holy See],,,Italy,S0252,,,,,,also known as Pescina (second seat)
 D134,Marsico Nuovo,,Salerno,,,Italy,S0080,,,,,,
 D135,Martirano,,Cosenza,,,Italy,S0103,,,,1099,,
-D294,Massa Carrara,,,,,Italy,S0423,,,,,,territorial abbey
 D136,Massa Lubrense,,Sorrento,,,Italy,S0303,,,,1024,,
 D137,Massa Marittima,,Pisa,Firenze,,Italy,S0244,,,,,,"Suffragan to Pisa until 1420, then to Firenze"
 D138,Matera,,Acerenza,,,Italy,S0574,,,,,,united with Acerenza in 1203; briefly split from 1440-1444
-D270,Mazara,,Palermo,,,Italy,S0174,,,,1093,,
-D733,Mdina,Malta,Palermo,,,Malta,S0178,,,,,,Made suffragan to Palermo 1156; also known as Medina
-D508,Meath,,Armagh,,,Ireland,S0369,,,,,,
-D458,Meaux,,Sens,,,France,S0740,,,,,,
-D579,Meissen,,Magdeburg,,,Germany,S0434,,,,,,
 D139,Melfi,,[Holy See],,,Italy,S0072,,,,1050,,
-D384,Mende,,Bourges,,,France,S0667,,,,,,
-D547,Merseburg,,Magdeburg,,,Germany,S0407,,,,,,
-D271,Messina,,Messina,,,Italy,S0169,,,,,,
-D574,Metz,,Trier,,,France,S0429,,,,,,
 D140,Milano,Milan,Milano,,,Italy,S0161,,,,,,
 D141,Mileto,,[Holy See],,,Italy,S0098,,,,1081,,
-D540,Minden,,Cologne,,,Germany,S0400,,,,,,
-D721,Minervino,,Bari,,,Italy,S0092,,,,,,apparently contested between Bari and Trani at beginning; firmly made suffragan of Bari in 1152
 D142,Minori,,Amalfi,,,Italy,S0300,,,,,,
-D418,Mirepoix,,Toulouse,,,France,S0700,,,,1317,,established from Pamiers
 D143,Modena,,Ravenna,,,Italy,S0223,,,,,,
-D470,Modruš,"Modrus, Corbavia, Krbava",Split,,,Croatia,S0025,,,,1185,1501,"see transferred from Krbava to Modruš in 1460; joined with Senj in 1630; alternate names Krbava, Corbavia"
-D682,Moldovita ,Moldawitza ,Lviv,,,Romania,,,,,1418,1550,"[not enough information, unmapped]"
-D720,Molfetta,,Bari,[Holy See],,Italy,S0088,,,,1070,,made exempt in 1488
-D620,Mondonedo,,Braga,Santiago,,Spain,S0507,,,,881,,suffragan of Santiago from 1393
 D144,Mondovì,,Milano,,,Italy,S0188,,,,1388,,
 D145,Monopoli,,[Holy See],,,Italy,S0049,,,,1030,,
-D272,Monreale,,Monreale,,,Italy,S0173,,,,1176,,
 D146,Montalcino,,[Holy See],,,Italy,S0898,,,,1462,,usually united with Pienza until 1594 (with minor divisions)
-D416,Montauban,,Toulouse,,,France,S0698,,,,1317,,established from Toulouse and Cahors
 D147,Monte Cassino,,[Holy See],,,Italy,S0275,,,,1326,,
-D149,Monte Marano,,Benevento,,,Italy,S0305,,,,1059,,
 D148,Montecorvino,Monte Corvino,Benevento,,,Italy,S0062,,,,1059,1501,united aeque principaliter with Volturara in 1434
+D149,Monte Marano,,Benevento,,,Italy,S0305,,,,1059,,
 D150,Montefeltro,,[Holy See],,,Italy,S0189,,,,,,
 D151,Montefiascone,,[Holy See],,,Italy,S0589,,,,1369,,United with Corneto in 1435
 D152,Montepeloso,,Trani,,,Italy,S0904,,,,1460,,Created from part of diocese of Andria
 D153,Monteverde,,Conza,,,Italy,S0312,,,,1049,,
-D326,Moray,,Scotland,,,Scotland,S0322,,,,1100,,
-D710,Mottola,,Taranto,,,Italy,S0056,,,,1023,,
-D541,Munster,,Cologne,,,Germany,S0401,,,,,,
 D155,Muro,,Conza,,,Italy,S0076,,,,1040,,
-D443,Nantes,,Tours,,,France,S0725,,,,,,
 D156,Napoli,Naples,Napoli,,,Italy,S0289,,,,,,
-D400,Narbonne,,Narbonne,,,France,S0683,S0757,,,,,
 D157,Nardò,,[Holy See],,,Italy,S0043,,,,1090,,Erected as diocese from Benedictine abbey in 1413
 D158,Narni,,[Holy See],,,Italy,S0216,,,,,,
-D548,Naumburg,,Magdeburg,,,Germany,S0408,,,,,,
-D742,Nazareth,Barletta,Trani,,,Italy,S0555,,,,,,also known as Nazaret; seat moved to Barletta ca. 1350; joined with Canne in 1455
-D492,Nebbio,,Genova,,,France,S0332,,,,,,
 D159,Nepi,,[Holy See],,,Italy,S0142,,,,,,United with Sutri in 1435
-D454,Nevers,,Sens,,,France,S0736,,,,,,
 D160,Nicastro,,Reggio-Calabria,,,Italy,S0101,,,,,,
-D392,Nice,,Embrun,,,France,S0675,,,,,,
-D746,Nicosia,,Nicosia,,,Cyprus,S0567,,,,1196,1571,
-D161,Nicotera,,Reggio-Calabria,,,Italy,S0581,,,,,,supressed 1304-1392 to Mileto and then to Reggio; territory before supression uncertain
-D695,Nidaros,Trondheim,Nidaros,,,Norway,S0466,,,,1031,1537,founded ca. 1031; raised to archbishopric in 1151
-D409,Nimes,,Narbonne,,,France,S0691,,,,,,
-D477,Nin,Nona,Split,,,Croatia,S0030,,,,1050,,
-D668,Nitra,Nyitra,Esztergom,,,Slovakia,S0475,,,,1105,,also known as Neutra; reestablished in 1105 after falling into abeyance following ca. 880 founding
+D161,Nicotera,,Reggio-Calabria,,,Italy,S0581,,,,,,suppressed 1304-1392 to Mileto and then to Reggio; territory before suppression uncertain
 D162,Nocera,,[Holy See],,,Italy,S0208,,,,,,
 D163,Nocera Inferiore,,Salerno,,,Italy,S0899,,,,,,
 D164,Nola,,Napoli,,,Italy,S0291,,,,,,
 D165,Noli,,Genova,,,Italy,S0266,,,,1239,,Perhaps erected in 1245 rather than 1239
-D302,Norwich,,Canterbury,,,England,S0356,,,,1091,,
 D166,Novara,,Milano,,,Italy,S0179,,,,,,
-D077,Novigrad,Cittanova,Aquileia,,,Italy,S0002,,,,,,"Aemona, Cittanova d'Istria"
-D428,Noyon,,Reims,,,France,S0710,,,,,,united with Tournai until 1146
 D167,Nusco,,Salerno,,,Italy,S0306,,,,1076,,
-D601,Odense,,Lund,,,Denmark,S0453,,,,1060,1528,
-D563,Olomouc,Olmutz,Mainz,Prague,,Czech Republic,S0422,S0810,,,1063,,
-D357,Oloron,,Auch,,,France,S0641,,,,,,
-D623,Oporto,,Braga,,,Portugal,S0510,,,,1112,,established 881; re-established 1112
 D168,Oppido,,Reggio-Calabria,,,Italy,S0097,,,,1025,,United with Gerace in 1462
-D670,Oradea,Nagy Varad,Kalocsa,,,Romania,S0477,,,,1009,,"founded at Byhor in 1009, then transferred to Oradea in 1077; no records of boundaries found, not currently represented in map"
-D339,Orange,,Arles,,,France,S0627,,,,,,
-D621,Orense,,Braga,Santiago,,Spain,S0508,,,,1071,,established 881; re-established 1071; made suffragan of Santiago in 1393
-D284,Oristano,,Oristano,,,Italy,S0128,,,,1093,1503,
-D327,Orkney,,Nidaros,Scotland,,Scotland,S0318,,,,1055,,"suffragan of York until 1152; then (nominal) suffragan of Nidaros until 1469, when transferred to Scotland"
-D459,Orleans,,Sens,,,France,S0741,,,,,,
 D169,Orte,,[Holy See],,,Italy,S0140,,,,,,United with Civita' Castellana in 1439 (or perhaps 1437)
 D170,Orvieto,,[Holy See],,,Italy,S0212,S0544,,,,,
-D590,Osel-Wiek,,Riga,,,Estonia,S0442,,,,1228,1560,made suffragan of Riga in 1253
-D171,Osimo,Cingoli,[Holy See],,,Italy,S0199,,,,1240,,"suppressed after a rebellion 1240; restored in 1246, having lost some territory to the newly-created Recanati; seat moved to Cingoli (Santa Maria di Cingoli) after 1320 rebellion and renamed to Osimo and Cingola, seat & name restored to Osimo in 1367"
-D691,Oslo,,Nidaros,,,Norway,S0462,,,,1068,1537,
-D609,Osma,,Toledo,,,Spain,S0496,,,,1088,,
-D542,Osnabruck,,Cologne,,,Germany,S0402,,,,,,
-D490,Osor,Ossero,Zadar,,,Croatia,S0006,,,,,,
-D530,Ossory,,Dublin,,,Ireland,S0391,,,,,,
+D171,Osimo,Cingoli,[Holy See],,,Italy,S0199,,,,1240,,"suppressed after a rebellion in 1240; restored in 1246, having lost some territory to the newly-created Recanati; seat moved to Cingoli (Santa Maria di Cingoli) after 1320 rebellion and renamed to Osimo and Cingola, seat & name restored to Osimo in 1367"
 D172,Ostia,,[Holy See],,,Italy,S0148,,,,,,United w/ Velletri 1150-1914
 D173,Ostuni,,Brindisi,,,Italy,S0048,,,,1050,,
 D174,Otranto,,Otranto,,,Italy,S0045,,,,,,
-D285,Ottana,,Torres,,,Italy,S0127,,,,1065,,
-D662,Oviedo,,[Holy See],,,Spain,S0549,,,,,,exempt as of 1105
-D556,Paderborn,,Mainz,,,Germany,S0416,,,,,,
 D175,Padova,Padua,Aquileia,,,Italy,S0017,,,,,,
-D608,Palencia,,Toledo,,,Spain,S0495,,,,1035,,
-D273,Palermo,,Palermo,,,Italy,S0172,,,,,,
 D176,Palestrina,,[Holy See],,,Italy,S0151,,,,,,
-D411,Pamiers,,Narbonne,Toulouse,,France,S0693,,,,1295,1801,established from Toulouse in 1295
-D649,Pamplona,,Tarragona,Zaragoza,[Holy See],Spain,S0536,,,,829,,suffragan of Zaragoza from 1318; exempt from 1385
-D749,Paphos,,Nicosia,,,Cyprus,S0570,,,,1196,1571,
-D456,Paris,,Sens,,,France,S0738,,,,,,
+D177,Poreč,Parenzo ,Aquileia,,,Italy,S0003,,,,,,
 D178,Parma,,Ravenna,,,Italy,S0221,,,,,,
-D570,Passau,,Salzburg,,,Germany,S0614,S0608,,,,,
-D274,Patti,,Messina,,,Italy,S0170,,,,1501,,"erected as diocese of Patti and Lipari in 1157, from Messina; separated from Lipari in 1399"
 D179,Pavia,,[Holy See],,,Italy,S0164,,,,,,
-D674,Pécs ,Fünfkirchen,Esztergom,,,Hungary,S0481,,,,1009,,
+D180,Pićan,Pedena,Aquileia,,,Italy,S0005,,,,,,
 D181,Penne,Penne-Atri,[Holy See],,,Italy,S0250,,,,,,United with Atri from that diocese's creation in 1251 (represented together)
-D369,Perigueux,,Bordeaux,,,France,S0652,S0754,,,,,
 D182,Perugia,,[Holy See],,,Italy,S0209,,,,,,
 D183,Pesaro,,[Holy See],,,Italy,S0191,,,,,,
 D184,Piacenza,,[Holy See],,,Italy,S0220,,,,,,
-D180,Pićan,Pedena,Aquileia,,,Italy,S0005,,,,,,
 D185,Pienza,,[Holy See],,,Italy,S0900,,,,1462,,usually united with Montalcino until 1594 (with minor divisions)
 D186,Pisa,,Pisa,,,Italy,S0238,,,,,,
 D187,Pistoia,,[Holy See],Firenze,,Italy,S0237,,,,,,Suffragan of Firenze from 1420
-D634,Plasencia,,Santiago,,,Spain,S0521,,,,1189,,
-D286,Ploaghe,,Torres,,,Italy,S0123,,,,1090,1503,Incorporated into Sassari in 1503
-D596,Płock,,Gniezno,,,Poland,S0460,,,,1075,,
-D371,Poitiers,,Bordeaux,,,France,S0654,S0752,,,,,
+D188,Pula,Pola,Aquileia,,,Italy,S0004,,,,,,
 D189,Policastro,,Salerno,,,Italy,S0317,,,,1058,,
-D706,Polignano,,Bari,,,Italy,S0052,,,,,,contested between Bari and Trani from 1089; firmly made suffragan of Bari in 1152
-D591,Pomesania,,Riga,,,Poland,S0443,,,,1243,1524,made suffragan of Riga in 1245; vacant from 1524; suppressed in 1763
-D177,Poreč,Parenzo ,Aquileia,,,Italy,S0003,,,,,,
 D190,Porto,,[Holy See],,,Italy,S0145,,,,,,
 D191,Potenza,,Acerenza,,,Italy,S0077,,,,,,
-D595,Poznań,,Gniezno,,,Poland,S0459,,,,1075,,
 D192,Pozzuoli,,Napoli,,,Italy,S0288,,,,,,
-D562,Prague,,Mainz,Prague,,Czech Republic,S0421,S0780,,,,,"suffragan of Mainz until 1344, then elevated to province"
-D708,Przemyśl,,Halyč,,,,,,,,,,"[not enough information, unmapped]"
-D188,Pula,Pola,Aquileia,,,Italy,S0004,,,,,,
-D445,Quimper,Cornouailles,Tours,,,France,S0727,,,,,,
-D475,Rab,Arbe,Zadar,,,Croatia,S0028,,,,,,
-D487,Ragusa,Dubrovnik,Ragusa,,,Croatia,S0037,,,,,,
-D499,Raphoe,,Armagh,,,Ireland,S0360,,,,,,
 D193,Rapolla,,[Holy See],,,Italy,S0075,,,,1060,,
-D534,Ratzeburg,,Bremen,,,Germany,S0395,,,,1061,,
 D194,Ravello,,[Holy See],,,Italy,S0298,,,,1086,,
 D195,Ravenna,,Ravenna,,,Italy,S0228,,,,,,
 D196,Recanati,,[Holy See],,,Italy,S0200,S0454,,,1239,1320,Transferred to Macerata in 1320; in union with Macerata from its 1356 restablishment
-D571,Regensburg,,Salzburg,,,Germany,S0609,,,,,,
 D197,Reggio-Calabria,,Reggio-Calabria,,,Italy,S0095,S0617,,,,,
 D198,Reggio-Emilia,,Ravenna,,,Italy,S0222,,,,,,
-D421,Reims,,Reims,,,France,S0703,,,,,,
-D446,Rennes,,Tours,,,France,S0728,,,,,,
-D583,Reval,,Lund,Riga,,Estonia,S0435,,,,1219,1561,made suffragan of Riga in 1374
-D603,Ribe,,Lund,,,Denmark,S0455,,,,1060,1528,
 D199,Rieti,,[Holy See],,,Italy,S0218,,,,,,
-D419,Rieux,,Toulouse,,,France,S0701,,,,1317,,established from Pamiers
-D334,Riez,,Aix,,,France,S0622,,,,,,
-D585,Riga,,Riga,,,Latvia,S0437,,,,1186,,erected at Uxkull in 1186; moved to Riga in 1202; elevated to archbishopric in 1245
 D200,Rimini,,[Holy See],,,Italy,S0235,,,,,,
-D296,Rochester,,Canterbury,,,England,S0353,,,,604,,
-D385,Rodez,,Bourges,,,France,S0668,S0759,,,,,
-D729,Roma,,Roma,,,Italy,S0146 ,,,,,,
-D600,Roskilde,,Lund,,,Denmark,S0452,,,,1060,1528,
-D328,Ross,,Scotland,,,Scotland,S0321,,,,1152,,
-D526,Ross,,Cashel,,,Ireland,S0387,,,,,,
 D201,Rossano,,[Holy See],Rossano,,Italy,S0115,,,,,,Elevated to Archbishopric (without suffragans) in 1460
-D433,Rouen,,Rouen,,,France,S0715,,,,,,
-D719,Ruvo,,Bari,,,Italy,S0087,,,,,,
 D202,Sabina,,[Holy See],,,Italy,S0144,,,,,,
-D495,Sagone,Sagona,Pisa,,,France,S0335,,,,,,
-D358,Saint-Bertrand-de-Comminges,,Auch,,,France,S0642,,,,,,
-D447,Saint-Brieuc,,Tours,,,France,S0729,,,,,,
-D374,Saintes,,Bordeaux,,,France,S0657,,,,,,
-D377,Saint-Flour,,Bourges,,,France,S0660,,,,1317,,
-D467,Saint-Jean-de-Maurienne,Maurienne,Vienne,,,France,S0748,,,,,,
-D448,Saint-Malo,,Tours,,,France,S0730,,,,,,
-D420,Saint-Papoul,,Toulouse,,,France,S0702,,,,1317,,established from Toulouse
-D340,Saint-Paul-Trois-Châteaux,,Arles,,,France,S0628,,,,,,
-D449,Saint-Pol-de-Leon,,Tours,,,France,S0731,,,,,,
-D405,Saint-Pons,Saint-Pons-de-Thomières,Narbonne,,,France,S0687,,,,1317,,
-D630,Salamanca,,Santiago,[Holy See],,Spain,S0517,,,,1102,,made exempt in 1513 but that lasted only one year
 D203,Salerno,,Salerno,,,Italy,S0294,,,,,,
-D307,Salisbury,,Canterbury,,,England,S0348,,,,1078,,
-D713,Salpi,Salpe,Bari,Trani,,Italy,S0070,,,,,1547,"also known as Salapia; suppressed to Trani from 1424-1523, then suppressed definitively in 1547"
-D564,Salzburg,,Salzburg,,,Austria,S0766,S0767,,,,,
-D592,Samland,,Riga,,,Russia,S0445,,,,1243,1525,made suffragan of Riga in 1245
-D597,Samogitia,Žemaitija,Gniezno,,,Poland,S0577,,,,1417,,also known as Zemaitija
 D204,San Leone,,Santa Severina,,,Italy,S0110,,,,999,1501,first Latin bishop in 1322 (previously Byzantine)
 D205,San Marco,,[Holy See],,,Italy,S0106,,,,1159,,
-D287,Santa Giusta,,Oristano,,,Italy,S0129,,,,1093,1503,Incorporated into Oristano in 1503
-D208,Santa Severina,,Santa Severina,,,Italy,S0109,,,,,,
 D206,Sant'Agata de' Goti,,Benevento,,,Italy,S0285,,,,,,
 D207,Sant'Angelo de' Lombardi,,Conza,,,Italy,S0307,,,,1080,,
-D725,Sant'Antioco,Sulci,Cagliari,,,Italy,S0124,,,,,,also known as Tratalias; Transferred to Iglesias in 1503
-D628,Santiago,,Santiago,,,Spain,S0515,,,,1095,,
-D370,Sarlat,,Bordeaux,,,France,S0653,,,,1317,,
+D208,Santa Severina,,Santa Severina,,,Italy,S0109,,,,,,
 D209,Sarno,,Salerno,,,Italy,S0293,,,,1000,,
 D210,Sarsina,,Ravenna,,,Italy,S0234,,,,,,
-D288,Sassari,Torres,Torres,,,Italy,S0118,,,,,1503,seat moved from Torres to Sassari 1250 but name not changged until 1441
 D211,Satriano,,Conza,,,Italy,S0079,,,,1098,,
 D212,Savona,,Milano,,,Italy,S0265,,,,,1239,
 D213,Scala,,Amalfi,,,Italy,S0299,,,,,,
-D584,Schleswig,,Lund,,,Germany,S0436,,,,,,
-D535,Schwerin,,Bremen,,,Germany,S0396,,,,,,
-D572,Seckau,,Salzburg,,,Austria,S0610,,,,1218,,
-D439,Sees,,Rouen,,,France,S0721,,,,,,
 D214,Segni,,[Holy See],,,Italy,S0154,,,,,,
-D610,Segovia,,Toledo,,,Spain,S0497,,,,1119,,
-D393,Senez,,Embrun,,,France,S0676,,,,,,
-D471,Senj,Segna,Split,,,Croatia,S0564,,,,1185,,joined with Modrus in 1630
-D426,Senlis,,Reims,,,France,S0708,,,,,,
-D452,Sens,,Sens,,,France,S0734,,,,,,
 D215,Sessa,,Capua,,,Italy,S0276,,,,,,
-D655,Seville,,Seville,,,Spain,S0542,,,,,,
-D480,Šibenik,Sebenico,Split,,,Croatia,S0038,,,,1298,,boundary with Scardona estimated
 D216,Siena,,[Holy See],Siena,,Italy,S0243,S0870,S0881,,,,Elevated to metropolitanate in 1459
-D611,Siguenza,,Toledo,,,Spain,S0498,,,,1124,,
-D627,Silves,,Braga,Lisbon,,Portugal,S0514,,,,1253,,"suffragan to Braga until 1253, then Seville until 1394 (contested periodically by Braga); suffragan to Lisbon thereafter"
 D217,Sinigaglia,Senigallia,[Holy See],,,Italy,S0195,,,,,,seat moved to Corinaldo in the 14th century
-D462,Sion,Sitten,Tarentaise,,,Switzerland,S0448,,,,,,
-D275,Siracusa,Syracuse,Monreale,,,Italy,S0177, ,,,1086,,
-D681,Siret,Sereth,[Holy See],Lviv,,Romania,,,,,1371,1434,"suffragan of Lviv from 1412; in decline from 1388 [not enough information, unmapped]"
-D335,Sisteron,,Aix,,,France,S0623,,,,,,
-D498,Skalholt,,Nidaros,,,Iceland,S0359,,,,1056,,
-D700,Skara,,Uppsala,,,Sweden,S0471,,,,1014,1527,
-D479,Skradin,Scardona,Split,,,Croatia,S0031,S0039,,,1126,1501,
-D312,Sodor and Man,Isles,Trondheim,Canterbury,,[Scotland],S0320,,,,1154,,"part of the province of Trondheim/Nidaros until 1334, when it becomes suffragan of Canterbury"
-D427,Soissons,,Reims,,,France,S0709,,,,,,
 D218,Sora,,[Holy See],,,Italy,S0271,,,,,,
 D219,Sorrento,,Sorrento,,,Italy,S0302,,,,,,
-D289,Sorres,Sorra,Torres,,,Italy,S0122,,,,1100,1503,
 D220,Sovanna,Sovana,[Holy See],Siena,,Italy,S0247,,,,,,Suffragan of Siena from 1459
-D557,Speyer,,Mainz,,,Germany,S0446,,,,,,
-D482,Split,Spalato,Split,,,Croatia,S0033,S0565,,,,1344,combined with Makarska
 D221,Spoleto,,[Holy See],,,Italy,S0214,,,,,,
 D222,Squillace,,Reggio-Calabria,,,Italy,S0100,,,,,,
-D329,St. Andrews,,Scotland,,,Scotland,S0328,,,,850,,
-D316,St. Asaph,,Canterbury,,,Wales,S0341,,,,,,
-D315,St. David's,,Canterbury,,,Wales,S0345,,,,,,
-D679,St. Martin,"Szepes, Szent Márton",Esztergom,[Holy See],,Slovakia,S0486,,,,,,founded early 13th century; headed by an exempt provost (of Abbey of St. Martin) rather than a bishop (aside from brief mention of a bishop in 1291); raised to actual diocese (of Szepes/Spis) in 1776
-D692,Stavanger,,Nidaros,,,Norway,S0463,,,,1125,1537,
-D486,Ston,Stagno,Split,,,Croatia,S0901,,,,,1300,seat moved to Korcula in 1300 (which is when Korcula covers the two islands territory); became autonomous again in 1541
-D698,Strangnas,,Uppsala,,,Sweden,S0469,,,,1129,1527,
-D558,Strasbourg,,Mainz,,,France,S0417,,,,,,
 D223,Strongoli,,Santa Severina,,,Italy,S0113,,,,,,
-D290,Suelli,,Cagliari,,,Italy,S0130,,,,,1420,United with Cagliari in 1420
-D253,Sulmona-Valva,,[Holy See],,,Italy,S0253,,,,,,united 1053-1986
 D224,Sutri,,[Holy See],,,Italy,S0143,,,,,1435,
 D225,Taranto,,Taranto,,,Italy,S0050,,,,,,
-D651,Tarazona,,Tarragona,Zaragoza,,Spain,S0538,,,,1120,,suffragan of Zaragoza from 1318
-D360,Tarbes,,Auch,,,France,S0644,,,,,,
-D460,Tarentaise,Moutiers-en-Tarentaise,Tarentaise,,,France,S0742,,,,,,"Seat at Moutiers, another name for the city of Tarentaise"
-D640,Tarragona,,Tarragona,,,Spain,S0563,S0527,,,,,
 D226,Teano,,Capua,,,Italy,S0277,,,,,,
 D227,Telese,,Benevento,,,Italy,S0279,,,,,,
-D292,Tempio,,Pisa,[Holy See],,Italy,S0120,,,,,1490,originally exempt; made suffragan of Pisa in 1138; United with Ampurias from 1503; also known as Gallura
 D228,Teramo,,[Holy See],,,Italy,S0249,,,,,,
 D229,Termoli,,Benevento,,,Italy,S0259,,,,,,
 D230,Terni,,[Holy See],,,Italy,S0217,,,,1218,,
 D231,Terracina,,[Holy See],,,Italy,S0156,,,,,,
-D293,Terralba,,Oristano,,,Italy,S0131,,,,,1503,Incorporated into Ales in 1503
 D232,Tertiveri,Tortiboli,Benevento,,,Italy,S0063,,,,1059,1425,Incorporated into Lucera in 1425
-D429,Therouanne,,Reims,,,France,S0711,,,,,,
 D233,Tivoli,,[Holy See],,,Italy,S0147,,,,,,
 D234,Todi,,[Holy See],,,Italy,S0213,,,,,,
-D607,Toledo,,Toledo,[Holy See],,Spain,S0494,,,,,,
 D235,Torcello,,Aquileia,Grado,Venezia,Italy,S0020,,,,,,transferred to Grado by the 13th century
 D236,Torino,Turin,Milano,,,Italy,S0182,,,,,,
+D237,Cortona,,[Holy See],,,Italy,S0270,,,,1325,,
 D238,Tortona,,Milano,,,Italy,S0185,,,,,,
-D645,Tortosa,,Tarragona,,,Spain,S0532,,,,1118,,established 1118; re-established 1148
-D575,Toul,,Trier,,,France,S0430,,,,,,
-D341,Toulon,,Arles,,,France,S0629,,,,,,
-D412,Toulouse,,Narbonne,Toulouse,,France,S0694,S0756,S0761,,,,
-D432,Tournai,,Reims,,,Belgium,S0714,,,,,,united with Noyon until 1146
-D440,Tours,,Tours,,,France,S0722,,,,,,
 D239,Trani,,Trani,,,Italy,S0090,S0573,,,,,Salpi (prov. Bari) united to it in 1425
-D727,Tratalias,,Cagliari,,,Italy,S0886,,,,,1503,established in early 13th-c
-D756,Trebinje,,Dubrovnik,,,Croatia,S0902,,,,,,1361-1391 seat located on island of Mrkan
-D450,Treguier,,Tours,,,France,S0732,,,,,,
 D240,Trento,,Aquileia,,,Italy,S0014,,,,,,
 D241,Trevico,,Benevento,,,Italy,S0308,,,,,,
 D242,Treviso,,Aquileia,,,Italy,S0018,,,,,,
 D243,Tricarico,,Acerenza,,,Italy,S0081,,,,,,
-D573,Trier,,Trier,,,Germany,S0428,,,,,,
 D244,Trieste,,Aquileia,,,Italy,S0007,,,,,,
 D245,Trivento,,Benevento,[Holy See],,Italy,S0257,,,,,,Exempt from 1474
-D481,Trogir,Traù,Split,,,Croatia,S0032,,,,1050,,
 D246,Troia,Troja,[Holy See],,,Italy,S0067,,,,,,
 D247,Tropea,,Reggio-Calabria,,,Italy,S0099,,,,,,
-D455,Troyes,,Sens,,,France,S0737,,,,,,
-D512,Tuam,,Tuam,,,Ireland,S0373,,,,,,
-D622,Tui,Tuy,Santiago,,,Spain,S0509,S0920,,,1069,,
-D379,Tulle,,Bourges,,,France,S0662,,,,1317,,
-D702,Turku,Abo,Uppsala,,,Finland,S0473,,,,1276,1527,
 D248,Tuscania,Tusculum,[Holy See],,,Italy,S0138,S0586,,,1192,,"in union with Viterbo from 1192; lost territory in 1369 with erection of Montefiascone, and in 1435 with reestablishment of Tarquinia"
 D249,Ugento,,Otranto,,,Italy,S0041,,,,,,
-D757,Ulcinj,,Bar,Dubrovnik,,Croatia,S0903,,,,,,"Suffragan to Bar/Antivari; briefly becomes suffragan of Ragusa/Dubrovnik in 1240s, but returns to Bar ca. 1249-1250"
-D737,Umana,Numana,[Holy See],,,Italy,S0205,S0431,,,,,lost territory in 1240 with erection of diocese of Recanati (but gained city of Osimo from 1247-1264); Recanati was  then united to Numana from 1264-1289; united with Ancona in 1422 (and loses its independent existence)
+D250,Casale Monferrato,,Milano,,,Italy,S0159,,,,1474,,
 D251,Umbriatico,,Santa Severina,,,Italy,S0114,,,,1030,,
-D696,Uppsala,,Uppsala,,,Sweden,S0467,,,,1130,1588,"founded 1123, then re-established 1130; raised to archbishopric in 1164"
 D252,Urbino,,[Holy See],,,Italy,S0190,,,,,,
-D641,Urgel,Seu d'Urgell,Tarragona,,,Spain,S0528,,,,,,
-D543,Utrecht,,Cologne,,,Netherlands,S0403,,,,,,
-D410,Uzes,,Narbonne,,,France,S0692,,,,,,
-D386,Vabres,,Bourges,,,France,S0669,,,,1317,,
-D675,Vác ,Waitzen,Esztergom,,,Hungary,S0482,,,,1009,,
-D345,Vaison,,Arles,Avignon,,France,S0633,,,,,,Suffragan of Avignon from 1475
-D656,Valença do Minho,,Braga,,,Portugal,S0765,,,,1385,,"1385, portuguese part separated from Tui as Apostolic Administration"
-D468,Valence,,Vienne,,,France,S0749,,,,,,
-D654,Valencia,,Tarragona,[Holy See],,Spain,S0541,,,,1239,,exempt from 1470; raised to archdiocese in 1492
-D451,Vannes,,Tours,,,France,S0733,,,,,,
-D697,Vasteras,,Uppsala,,,Sweden,S0468,,,,1100,1527,
-D701,Vaxjo,,Uppsala,,,Sweden,S0472,,,,1170,1527,
-D258,Velletri,,[Holy See],,,Italy,S0153,,,,,,
+D253,Sulmona-Valva,,[Holy See],,,Italy,S0253,,,,,,united 1053-1986
 D254,Venafro,,Capua,,,Italy,S0255,,,,1100,,
-D394,Vence,,Embrun,,,France,S0677,,,,,,
 D255,Venezia,Venice,Grado,Venezia,,Italy,S0559,S0560,,,1451,,Elevated to patriarchate in 1451 (Grado being thereby suppressed); United with Castello and Iesolo in 1466
 D256,Venosa,,Acerenza,,,Italy,S0074,,,,,,
 D257,Ventimiglia,,Milano,,,Italy,S0263,,,,,,
-D058,Vercelli,,Milano,,,Italy,S0180,S0566,,,,,
-D559,Verden,,Mainz,,,Germany,S0418,,,,,,
-D576,Verdun,,Trier,,,France,S0751,,,,,,
+D258,Velletri,,[Holy See],,,Italy,S0153,,,,,,
 D259,Veroli,,[Holy See],,,Italy,S0158,,,,,,
 D260,Verona,,Aquileia,,,Italy,S0013,,,,,,
-D676,Veszprém ,,Esztergom,,,Hungary,S0483,,,,1009,,
-D605,Viborg,,Lund,,,Denmark,S0457,,,,1060,1528,
-D602,Vic,,Tarragona,,,Spain,S0531,,,,886,,
 D261,Vicenza,,Aquileia,,,Italy,S0012,,,,,,
 D262,Vico Equense,,Sorrento,,,Italy,S0301,,,,,,
-D580,Vienna,,Vienna,,,Austria,S0611,,,,1469,,previously part of Passau
-D463,Vienne,,Vienne,,,France,S0744,,,,,,
 D263,Vieste,,Manfredonia,,,Italy,S0066,,,,,,
-D598,Vilnius,Vilna,Gniezno,,,Lithuania,S0578,,,,1387,,
-D625,Viseu,,Braga,,,Portugal,S0512,,,,,,
 D264,Viterbo,,[Holy See],,,Italy,S0139,,,,1192,1503,"From 10 February - 17 October 1449, united with Bagnoregio"
-D469,Viviers,,Vienne,,,France,S0750,,,,,,
 D265,Volterra,,[Holy See],,,Italy,S0241,,,,,,
 D266,Volturara,Vulturara,Benevento,,,Italy,S0061,,,,1059,,united aeque principaliter with Montecorvino in 1434
-D586,Warmia,Ermland,Riga,,,Poland,S0438,,,,1243,,made suffragan of Riga in 1245
-D476,Waterford,,Cashel,,,Ireland,S0424,,,,1096,1363,
-D664,Waterford and Lismore,,Cashel,,,Ireland,S0425,,,,1363,,
-D581,Wiener Neustadt,,Wiener Neustadt,,,Austria,S0612,,,,1469,,previously part of Passau
-D299,Winchester,,Canterbury,,,England,S0350,,,,,,
-D685,Wlodzimierz ,Vladimir,Halyč ,Lviv,,Ukraine,,,,,1358,1425,see transferred to Lutsk
-D305,Worcester,,Canterbury,,,England,S0343,,,,680,,
-D560,Worms,,Mainz,,,Germany,S0419,,,,,,
-D537,Wroclaw,Breslau,Gniezno,,,Poland,S0398,,,,1000,,
-D561,Wurzburg,,Mainz,,,Germany,S0420,,,,,,
+D267,Agrigento,,Palermo,,,Italy,S0175,,,,1088,,
+D268,Catania,,[Holy See],,,Italy,S0176,,,,1092,,
+D269,Cefalù,,Messina,,,Italy,S0171,,,,1131,,
+D270,Mazara,,Palermo,,,Italy,S0174,,,,1093,,
+D271,Messina,,Messina,,,Italy,S0169,,,,,,
+D272,Monreale,,Monreale,,,Italy,S0173,,,,1176,,
+D273,Palermo,,Palermo,,,Italy,S0172,,,,,,
+D274,Patti,,Messina,,,Italy,S0170,,,,#REF!,,"erected as diocese of Patti and Lipari in 1157, from Messina; separated from Lipari in 1399"
+D275,Siracusa,Syracuse,Monreale,,,Italy,S0177, ,,,1086,,
+D276,Ales,,Oristano,,,Italy,S0132,,,,,1503,
+D277,Bisarcio,,Torres,,,Italy,S0580,,,,,,
+D278,Bosa,,Torres,,,Italy,S0121,,,,,,
+D279,Cagliari,,Cagliari,,,Italy,S0135,S0582,,,,1420,
+D280,Castro,,[Holy See],,,Italy,S0136,,,,,1503,
+D282,Dolia,Doglia,Cagliari,,,Italy,S0133,,,,,1503,suppressed 1503; united to Cagliari
+D283,Galtelli,,[Holy See],,,Italy,S0126,,,,1120,1495,suppressed to Cagliari in 1495
+D284,Oristano,,Oristano,,,Italy,S0128,,,,1093,1503,
+D285,Ottana,,Torres,,,Italy,S0127,,,,1065,,
+D286,Ploaghe,,Torres,,,Italy,S0123,,,,1090,1503,Incorporated into Sassari in 1503
+D287,Santa Giusta,,Oristano,,,Italy,S0129,,,,1093,1503,Incorporated into Oristano in 1503
+D288,Sassari,Torres,Torres,,,Italy,S0118,,,,,1503,seat moved from Torres to Sassari 1250 but name not changged until 1441
+D289,Sorres,Sorra,Torres,,,Italy,S0122,,,,1100,1503,
+D290,Suelli,,Cagliari,,,Italy,S0130,,,,,1420,United with Cagliari in 1420
+D292,Tempio,,Pisa,[Holy See],,Italy,S0120,,,,,1490,originally exempt; made suffragan of Pisa in 1138; United with Ampurias from 1503; also known as Gallura
+D293,Terralba,,Oristano,,,Italy,S0131,,,,,1503,Incorporated into Ales in 1503
+D294,Massa Carrara,,,,,Italy,S0423,,,,,,territorial abbey
+D295,Canterbury,,Canterbury,,,England,S0352,,,,597,,
+D296,Rochester,,Canterbury,,,England,S0353,,,,604,,
+D297,London,,Canterbury,,,England,S0354,,,,604,,
 D298,York,,York,,,England,S0339,,,,626,,
+D299,Winchester,,Canterbury,,,England,S0350,,,,,,
+D300,Coventry & Lichfield,,Canterbury,,,England,S0340,,,,669,,
+D301,Durham,,York,,,England,S0338,,,,995,,
+D302,Norwich,,Canterbury,,,England,S0356,,,,1091,,
+D303,Hereford,,Canterbury,,,England,S0344,,,,676,,
+D304,Lincoln,,Canterbury,,,England,S0357,,,,1072,,
+D305,Worcester,,Canterbury,,,England,S0343,,,,680,,
+D306,Chichester,,Canterbury,,,England,S0351,,,,1075,,
+D307,Salisbury,,Canterbury,,,England,S0348,,,,1078,,
+D308,Exeter,,Canterbury,,,England,S0349,,,,1050,,
+D309,Bath,Bath & Wells,Canterbury,,,England,S0347,,,,909,,
+D310,Ely,,Canterbury,,,England,S0355,,,,1108,,
+D311,Carlisle,,York,,,England,S0337,,,,1133,,
+D312,Sodor and Man,Isles,Trondheim,Canterbury,,[Scotland],S0320,,,,1154,,"part of the province of Trondheim/Nidaros until 1334, when it becomes suffragan of Canterbury"
+D313,Llandaff,,Canterbury,,,Wales,S0346,,,,,,
+D314,Bangor,,Canterbury,,,Wales,S0342,,,,,,
+D315,St. David's,,Canterbury,,,Wales,S0345,,,,,,
+D316,St. Asaph,,Canterbury,,,Wales,S0341,,,,,,
+D317,Aberdeen,,Scotland,,,Scotland,S0323,,,,1125,,
+D318,Argyll,,Scotland,,,Scotland,S0324,,,,1183,,
+D319,Brechin,,Scotland,,,Scotland,S0326,,,,1150,,
+D320,Caithness,,Scotland,,,Scotland,S0319,,,,1146,,
+D321,Dunblane,,Scotland,,,Scotland,S0327,,,,1155,,
+D322,Dunkeld,,Scotland,,,Scotland,S0325,,,,1114,,
+D324,Galloway,,York,Scotland,,Scotland,S0330,,,,1128,,"part of the province of York until 1355, thereafter functions as part of Scottish church"
+D325,Glasgow,,Scotland,,,Scotland,S0329,,,,1114,,
+D326,Moray,,Scotland,,,Scotland,S0322,,,,1100,,
+D327,Orkney,,Nidaros,Scotland,,Scotland,S0318,,,,1055,,"suffragan of York until 1152; then (nominal) suffragan of Nidaros until 1469, when transferred to Scotland"
+D328,Ross,,Scotland,,,Scotland,S0321,,,,1152,,
+D329,St. Andrews,,Scotland,,,Scotland,S0328,,,,850,,
+D330,Aix,,Aix,,,France,S0618,,,,,,
+D331,Apt,,Aix,,,France,S0619,,,,,,
+D332,Frejus,,Aix,,,France,S0620,,,,,,
+D333,Gap,,Aix,,,France,S0621,,,,,,
+D334,Riez,,Aix,,,France,S0622,,,,,,
+D335,Sisteron,,Aix,,,France,S0623,,,,,,
+D337,Arles,,Arles,,,France,S0625,,,,,,
+D338,Marseille,,Arles,,,France,S0626,,,,,,
+D339,Orange,,Arles,,,France,S0627,,,,,,
+D340,Saint-Paul-Trois-Châteaux,,Arles,,,France,S0628,,,,,,
+D341,Toulon,,Arles,,,France,S0629,,,,,,
+D342,Avignon,,Arles,Avignon,,France,S0630,,,,,,Raised to Metropolitan in 1475
+D343,Carpentras,,Arles,Avignon,,France,S0631,,,,,,Suffragan of Avignon from 1475
+D344,Cavaillon,,Arles,Avignon,,France,S0632,,,,,,Suffragan of Avignon from 1475
+D345,Vaison,,Arles,Avignon,,France,S0633,,,,,,Suffragan of Avignon from 1475
+D350,Auch,,Auch,,,France,S0634,,,,,,
+D351,Aire,,Auch,,,France,S0635,,,,,,
+D352,Bazas,,Auch,,,France,S0636,,,,,,
+D353,Dax,,Auch,,,France,S0637,,,,,,
+D354,Bayonne,,Auch,,,France,S0638,,,,,,
+D355,Lectoure,,Auch,,,France,S0639,,,,,,
+D356,Lescar,,Auch,,,France,S0640,,,,,,
+D357,Oloron,,Auch,,,France,S0641,,,,,,
+D358,Saint-Bertrand-de-Comminges,,Auch,,,France,S0642,,,,,,
+D359,Couserans,Saint-Lizier,Auch,,,France,S0643,,,,,,
+D360,Tarbes,,Auch,,,France,S0644,,,,,,
+D361,Besançon,,Besancon,,,France,S0645,,,,,,
+D362,Basel,,Besancon,,,Switzerland,S0646,,,,,,
+D363,Belley,,Besancon,,,France,S0647,,,,,,
+D364,Lausanne,,Besancon,,,Switzerland,S0447,,,,,,
+D365,Bordeaux,,Bordeaux,,,France,S0648,,,,,,
+D366,Agen,,Bordeaux,,,France,S0649,S0755,,,,,
+D367,Condom,,Bordeaux,,,France,S0650,,,,1317,,
+D368,Angoulême,,Bordeaux,,,France,S0651,,,,,,
+D369,Périgueux,,Bordeaux,,,France,S0652,S0754,,,,,
+D370,Sarlat,,Bordeaux,,,France,S0653,,,,1317,,
+D371,Poitiers,,Bordeaux,,,France,S0654,S0752,,,,,
+D372,Luçon,,Bordeaux,,,France,S0655,,,,1317,,established from Poitiers
+D373,Maillezais,,Bordeaux,,,France,S0656,,,,1317,,
+D374,Saintes,,Bordeaux,,,France,S0657,,,,,,
+D375,Bourges,,Bourges,,,France,S0658,,,,,,
+D376,Clermont,Clermont-Ferrand,Bourges,,,France,S0659,S0760,,,,,"Originally Auvergne, renamed 1160"
+D377,Saint-Flour,,Bourges,,,France,S0660,,,,1317,,
+D378,Limoges,,Bourges,,,France,S0661,S0753,,,,,
+D379,Tulle,,Bourges,,,France,S0662,,,,1317,,
+D380,Le Puy,,Bourges,,,France,S0663,,,,,,
+D381,Albi,,Bourges,,,France,S0664,S0758,,,,,
+D382,Castres,,Bourges,,,France,S0665,,,,1317,,
+D383,Cahors,,Bourges,,,France,S0666,,,,,,
+D384,Mende,,Bourges,,,France,S0667,,,,,,
+D385,Rodez,,Bourges,,,France,S0668,S0759,,,,,
+D386,Vabres,,Bourges,,,France,S0669,,,,1317,,
+D387,Embrun,,Embrun,,,France,S0670,,,,,,
+D388,Digne,,Embrun,,,France,S0671,,,,,,
+D389,Glandèves,Entrevaux,Embrun,,,France,S0672,,,,,,
+D391,Grasse,Antibes,Embrun,,,France,S0674,,,,,,renamed Antibes in 1244
+D392,Nice,,Embrun,,,France,S0675,,,,,,
+D393,Senez,,Embrun,,,France,S0676,,,,,,
+D394,Vence,,Embrun,,,France,S0677,,,,,,
+D395,Lyon,,Lyon,,,France,S0678,,,,,,
+D396,Autun,,Lyon,,,France,S0679,,,,,,
+D397,Langres,,Lyon,,,France,S0680,,,,,,
+D398,Chalon-sur-Saône,,Lyon,,,France,S0681,,,,,,
+D399,Mâcon,,Lyon,,,France,S0682,,,,,,
+D400,Narbonne,,Narbonne,,,France,S0683,S0757,,,,,
+D401,Alet,,Narbonne,,,France,S0684,,,,1317,,established from Narbonne
+D402,Carcassonne,,Narbonne,,,France,S0685,,,,,,
+D403,Maguelonne,Maguelone,Narbonne,,,France,S0686,,,,,,
+D404,Elne,,Narbonne,,,France,S0553,,,,,,
+D405,Saint-Pons,Saint-Pons-de-Thomières,Narbonne,,,France,S0687,,,,1317,,
+D406,Agde,,Narbonne,,,France,S0688,,,,,,
+D407,Béziers,,Narbonne,,,France,S0689,,,,,,
+D408,Lodève ,,Narbonne,,,France,S0690,,,,,,
+D409,Nîmes,,Narbonne,,,France,S0691,,,,,,
+D410,Uzès,,Narbonne,,,France,S0692,,,,,,
+D411,Pamiers,,Narbonne,Toulouse,,France,S0693,,,,1295,1801,established from Toulouse in 1295
+D412,Toulouse,,Narbonne,Toulouse,,France,S0694,S0756,S0761,,,,
+D414,Lavaur,,Toulouse,,,France,S0696,,,,1317,,established from Toulouse
+D415,Lombez,,Toulouse,,,France,S0697,,,,1317,,established from Toulouse
+D416,Montauban,,Toulouse,,,France,S0698,,,,1317,,established from Toulouse and Cahors
+D418,Mirepoix,,Toulouse,,,France,S0700,,,,1317,,established from Pamiers
+D419,Rieux,,Toulouse,,,France,S0701,,,,1317,,established from Pamiers
+D420,Saint-Papoul,,Toulouse,,,France,S0702,,,,1317,,established from Toulouse
+D421,Reims,,Reims,,,France,S0703,,,,,,
+D422,Laon,,Reims,,,France,S0704,,,,,,
+D423,Amiens,,Reims,,,France,S0705,,,,,,
+D424,Beauvais,,Reims,,,France,S0706,,,,,,
+D425,Châlons-sur-Marne,Châlons-en-Champagne,Reims,,,France,S0707,,,,,,
+D426,Senlis,,Reims,,,France,S0708,,,,,,
+D427,Soissons,,Reims,,,France,S0709,,,,,,
+D428,Noyon,,Reims,,,France,S0710,,,,,,united with Tournai until 1146
+D429,Thérouanne,,Reims,,,France,S0711,,,,,,
+D430,Cambrai,,Reims,,,France,S0712,,,,,,
+D431,Arras,,Reims,,,France,S0713,,,,1093,,re-established 1093 from Cambrai
+D432,Tournai,,Reims,,,Belgium,S0714,,,,,,united with Noyon until 1146
+D433,Rouen,,Rouen,,,France,S0715,,,,,,
+D434,Avranches,,Rouen,,,France,S0716,,,,,,
+D435,Bayeux,,Rouen,,,France,S0717,,,,,,
+D436,Coutances,,Rouen,,,France,S0718,,,,,,
+D437,Évreux,,Rouen,,,France,S0719,,,,,,
+D438,Lisieux,,Rouen,,,France,S0720,,,,,,
+D439,Sees,,Rouen,,,France,S0721,,,,,,
+D440,Tours,,Tours,,,France,S0722,,,,,,
+D441,Angers,,Tours,,,France,S0723,,,,,,
+D442,Le Mans,,Tours,,,France,S0724,,,,,,
+D443,Nantes,,Tours,,,France,S0725,,,,,,
+D444,Dol,,Tours,,,France,S0726,,,,,,
+D445,Quimper,Cornouailles,Tours,,,France,S0727,,,,,,
+D446,Rennes,,Tours,,,France,S0728,,,,,,
+D447,Saint-Brieuc,,Tours,,,France,S0729,,,,,,
+D448,Saint-Malo,,Tours,,,France,S0730,,,,,,
+D449,Saint-Pol-de-Léon,,Tours,,,France,S0731,,,,,,
+D450,Tréguier,,Tours,,,France,S0732,,,,,,
+D451,Vannes,,Tours,,,France,S0733,,,,,,
+D452,Sens,,Sens,,,France,S0734,,,,,,
+D453,Auxerre,,Sens,,,France,S0735,,,,,,
+D454,Nevers,,Sens,,,France,S0736,,,,,,
+D455,Troyes,,Sens,,,France,S0737,,,,,,
+D456,Paris,,Sens,,,France,S0738,,,,,,
+D457,Chartres,,Sens,,,France,S0739,,,,,,
+D458,Meaux,,Sens,,,France,S0740,,,,,,
+D459,Orléans,,Sens,,,France,S0741,,,,,,
+D460,Tarentaise,Moutiers-en-Tarentaise,Tarentaise,,,France,S0742,,,,,,"Seat at Moutiers, another name for the city of Tarentaise"
+D461,Aosta,Aoste,Tarentaise,,,Italy,S0743,,,,,,
+D462,Sion,Sitten,Tarentaise,,,Switzerland,S0448,,,,,,
+D463,Vienne,,Vienne,,,France,S0744,,,,,,
+D464,Die,,Vienne,,,France,S0745,,,,,,
+D465,Geneva,Geneve,Vienne,,,Switzerland,S0746,,,,,,
+D466,Grenoble,,Vienne,,,France,S0747,,,,,,
+D467,Saint-Jean-de-Maurienne,Maurienne,Vienne,,,France,S0748,,,,,,
+D468,Valence,,Vienne,,,France,S0749,,,,,,
+D469,Viviers,,Vienne,,,France,S0750,,,,,,
+D470,Modruš,"Modrus, Corbavia, Krbava",Split,,,Croatia,S0025,,,,1185,1501,"see transferred from Krbava to Modruš in 1460; joined with Senj in 1630; alternate names Krbava, Corbavia"
+D471,Senj,Segna,Split,,,Croatia,S0564,,,,1185,,joined with Modrus in 1630
+D472,Krk,Veglia,Split,Zadar,,Croatia,S0026,,,,,,made suffragan to Zadar in 1146
 D473,Zadar,Zara,Zadar,,,Croatia,S0027,,,,,,
-D669,Zagreb,,Kalocsa,,,Croatia,S0476,,,,1093,,suffragan of Kalocsa from 1180
+D475,Rab,Arbe,Zadar,,,Croatia,S0028,,,,,,
+D476,Waterford,,Cashel,,,Ireland,S0424,,,,1096,1363,
+D477,Nin,Nona,Split,,,Croatia,S0030,,,,1050,,
+D478,Knin,Tininum,Zadar,,,Croatia,S0896,,,,,,
+D479,Skradin,Scardona,Split,,,Croatia,S0031,S0039,,,1126,1501,
+D480,Šibenik,Sebenico,Split,,,Croatia,S0038,,,,1298,,boundary with Scardona estimated
+D481,Trogir,Traù,Split,,,Croatia,S0032,,,,1050,,
+D482,Split,Spalato,Split,,,Croatia,S0033,S0565,,,,1344,combined with Makarska
+D483,Makarska,Macarsca,Split,,,Croatia,S0034,,,,1344,1400,combined with Split
+D484,Lesina,Hvar,Zadar,Split,,Croatia,S0035,S0015,,,1145,,made suffragan to Split in 1180
+D485,Korčula,Curzola,Ragusa,,,Croatia,S0036,,,,1300,,suffragan to Dubrovnik; two islands previously belonged to Diocese of Hvar pre 1300
+D486,Ston,Stagno,Split,,,Croatia,S0901,,,,,1300,seat moved to Korcula in 1300 (which is when Korcula covers the two islands territory); became autonomous again in 1541
+D487,Dubrovnik,Ragusa,Ragusa,,,Croatia,S0037,,,,,,
+D488,Kotor,Cattaro,Bari,,,Montenegro,S0040,,,,,,
+D489,Budva,Budua,Ragusa,,,Montenegro,S0893,,,,,,
+D490,Osor,Ossero,Zadar,,,Croatia,S0006,,,,,,
+D491,Mariana,,Genova,,,France,S0331,,,,,,
+D492,Nebbio,,Genova,,,France,S0332,,,,,,
+D493,Aleria,,Pisa,,,France,S0333,,,,,,
+D494,Accia,,Genova,,,France,S0334,,,,,,
+D495,Sagone,Sagona,Pisa,,,France,S0335,,,,,,
+D496,Ajaccio,,Pisa,,,France,S0336,,,,,,
+D497,Holar,,Nidaros,,,Iceland,S0358,,,,1106,,
+D498,Skálholt,,Nidaros,,,Iceland,S0359,,,,1056,,
+D499,Raphoe,,Armagh,,,Ireland,S0360,,,,,,
+D500,Derry,,Armagh,,,Ireland,S0361,,,,,,Seat at Maghera until 1254
+D501,Connor,,Armagh,,,Ireland,S0362,,,,,,
+D502,Down,,Armagh,,,Ireland,S0363,,,,,,
+D503,Dromore,,Armagh,,,Ireland,S0364,,,,,,
+D504,Armagh,,Armagh,,,Ireland,S0365,,,,,,
+D505,Clogher,,Armagh,,,Ireland,S0366,,,,,,
+D506,Kilmore,,Armagh,,,Ireland,S0367,,,,,,
+D507,Ardagh,,Armagh,,,Ireland,S0368,,,,,,
+D508,Meath,,Armagh,,,Ireland,S0369,,,,,,
+D509,Clonmacnois,,Armagh,,,Ireland,S0370,,,,,,
+D510,Killala,,Tuam,,,Ireland,S0371,,,,,,
+D511,Achonry,,Tuam,,,Ireland,S0372,,,,,,
+D512,Tuam,,Tuam,,,Ireland,S0373,,,,,,
+D513,Elphin,,Tuam,,,Ireland,S0374,,,,,,
+D514,Clonfert,,Tuam,,,Ireland,S0375,,,,,,
+D515,Annaghdown,,Tuam,,,Ireland,S0376,,,,1179,,
+D516,Kilmacduagh,,Tuam,,,Ireland,S0377,,,,,,
+D517,Kilfenora,,Cashel,,,Ireland,S0378,,,,,,
+D518,Killaloe,,Cashel,,,Ireland,S0379,,,,,,
+D519,Cashel,,Cashel,,,Ireland,S0380,,,,,,
+D520,Emly,,Cashel,,,Ireland,S0381,,,,,,
+D521,Limerick,,Cashel,,,Ireland,S0382,,,,,,
+D522,Ardfert,Kerry,Cashel,,,Ireland,S0383,,,,,,
+D523,Cloyne,,Cashel,,,Ireland,S0384,,,,,,
+D524,Lismore,,Cashel,,,Ireland,S0426,S0385,,,1111,,United with Waterford in 1363
+D525,Cork,,Cashel,,,Ireland,S0386,,,,,,
+D526,Ross,,Cashel,,,Ireland,S0387,,,,,,
+D527,Kildare,,Dublin,,,Ireland,S0388,,,,,,
+D528,Dublin,,Dublin,,,Ireland,S0389,,,,,,
+D529,Leighlin,,Dublin,,,Ireland,S0390,,,,,,
+D530,Ossory,,Dublin,,,Ireland,S0391,,,,,,
+D531,Ferns,,Dublin,,,Ireland,S0392,,,,,,
+D532,Bremen-Hamburg,,Bremen,,,Germany,S0393,,,,,,
+D533,Lübeck,,Bremen,,,Germany,S0394,,,,,,
+D534,Ratzeburg,,Bremen,,,Germany,S0395,,,,1061,,
+D535,Schwerin,,Bremen,,,Germany,S0396,,,,,,
+D536,Lebus,,Gniezno,,,Poland,S0397,,,,1124,,
+D537,Wrocław ,Breslau,Gniezno,,,Poland,S0398,,,,1000,,
+D538,Cologne,,Cologne,,,Germany,S0399,,,,,,
+D539,Liège,,Cologne,,,Belgium,S0444,,,,,,
+D540,Minden,,Cologne,,,Germany,S0400,,,,,,
+D541,Münster,,Cologne,,,Germany,S0401,,,,,,
+D542,Osnabruck,,Cologne,,,Germany,S0402,,,,,,
+D543,Utrecht,,Cologne,,,Netherlands,S0403,,,,,,
+D544,Magdeburg,,Magdeburg,,,Germany,S0404,,,,,,
+D545,Brandenburg,,Magdeburg,,,Germany,S0405,,,,,,
+D546,Havelberg,,Magdeburg,,,Germany,S0406,,,,,,
+D547,Merseburg,,Magdeburg,,,Germany,S0407,,,,,,
+D548,Naumburg,,Magdeburg,,,Germany,S0408,,,,,,
+D549,Mainz,,Mainz,,,Germany,S0409,,,,,,
+D550,Augsburg,,Mainz,,,Germany,S0410,,,,,,
+D551,Chur,,Mainz,,,Switzerland,S0411,,,,,,
+D552,Eichstätt,,Mainz,,,Germany,S0412,,,,,,
+D553,Halberstadt,,Mainz,,,Germany,S0413,,,,,,
+D554,Hildesheim,,Mainz,,,Germany,S0414,,,,,,
+D555,Konstanz,Constance,Mainz,,,Switzerland,S0415,,,,,,
+D556,Paderborn,,Mainz,,,Germany,S0416,,,,,,
+D557,Speyer,,Mainz,,,Germany,S0446,,,,,,
+D558,Strasbourg,,Mainz,,,France,S0417,,,,,,
+D559,Verden,,Mainz,,,Germany,S0418,,,,,,
+D560,Worms,,Mainz,,,Germany,S0419,,,,,,
+D561,Würzburg,,Mainz,,,Germany,S0420,,,,,,
+D562,Prague,,Mainz,Prague,,Czech Republic,S0421,S0780,,,,,"suffragan of Mainz until 1344, then elevated to province"
+D563,Olomouc,Olmutz,Mainz,Prague,,Czech Republic,S0422,S0810,,,1063,,
+D564,Salzburg,,Salzburg,,,Austria,S0766,S0767,,,,,
+D565,Brixen,Bressanone,Salzburg,,,Italy,S0603,,,,,,
+D566,Chiemsee,,Salzburg,,,Germany,S0604,,,,1215,,
+D567,Freising,,Salzburg,,,Germany,S0605,,,,,,
+D568,Gurk,,Salzburg,,,Austria,S0606,,,,1072,,
+D569,Lavant,,Salzburg,,,Austria,S0607,,,,1225,,
+D570,Passau,,Salzburg,,,Germany,S0614,S0608,,,,,
+D571,Regensburg,,Salzburg,,,Germany,S0609,,,,,,
+D572,Seckau,,Salzburg,,,Austria,S0610,,,,1218,,
+D573,Trier,,Trier,,,Germany,S0428,,,,,,
+D574,Metz,,Trier,,,France,S0429,,,,,,
+D575,Toul,,Trier,,,France,S0430,,,,,,
+D576,Verdun,,Trier,,,France,S0751,,,,,,
+D577,Bamberg,,[Holy See],,,Germany,S0432,,,,1007,,
+D579,Meissen,,Magdeburg,,,Germany,S0434,,,,,,
+D580,Vienna,,Vienna,,,Austria,S0611,,,,1469,,previously part of Passau
+D581,Wiener Neustadt,,Wiener Neustadt,,,Austria,S0612,,,,1469,,previously part of Passau
+D582,Berchtesgaden,,Salzburg,[Holy See],,Germany,S0613,,,,1455,,"made exempt provostship 1455, previously part of Salzburg"
+D583,Reval,,Lund,Riga,,Estonia,S0435,,,,1219,1561,made suffragan of Riga in 1374
+D584,Schleswig,,Lund,,,Germany,S0436,,,,,,
+D585,Riga,,Riga,,,Latvia,S0437,,,,1186,,erected at Uxkull in 1186; moved to Riga in 1202; elevated to archbishopric in 1245
+D586,Warmia,Ermland,Riga,,,Poland,S0438,,,,1243,,made suffragan of Riga in 1245
+D587,Dorpat,Tartu,Riga,,,Estonia,S0439,,,,1224,1558,preceded by diocese of Leal
+D588,Chełmno ,Culm,Riga,,,Poland,S0440,,,,1243,1992,made suffragan of Riga in 1245
+D589,Courland,Kurland,Riga,,,Latvia,S0441,,,,1234,,
+D590,Osel-Wiek,,Riga,,,Estonia,S0442,,,,1228,1560,made suffragan of Riga in 1253
+D591,Pomesania,,Riga,,,Poland,S0443,,,,1243,1524,made suffragan of Riga in 1245; vacant from 1524; suppressed in 1763
+D592,Samland,,Riga,,,Russia,S0445,,,,1243,1525,made suffragan of Riga in 1245
+D593,Krakow,,Gniezno,,,Poland,S0449,,,,1000,,
+D594,Kujawy,Włocławek,Gniezno,,,Poland,S0450,,,,1015,,also known as Kuyavia; established ca. 1015
+D595,Poznań,,Gniezno,,,Poland,S0459,,,,1075,,
+D596,Płock,,Gniezno,,,Poland,S0460,,,,1075,,
+D597,Samogitia,Žemaitija,Gniezno,,,Poland,S0577,,,,1417,,also known as Zemaitija
+D598,Vilnius,Vilna,Gniezno,,,Lithuania,S0578,,,,1387,,
+D599,Lund,,Lund,,,Sweden,S0451,,,,1060,1528,
+D600,Roskilde,,Lund,,,Denmark,S0452,,,,1060,1528,
+D601,Odense,,Lund,,,Denmark,S0453,,,,1060,1528,
+D602,Vic,,Tarragona,,,Spain,S0531,,,,886,,
+D603,Ribe,,Lund,,,Denmark,S0455,,,,1060,1528,
+D604,Aarhus,,Lund,,,Denmark,S0456,,,,1060,1528,
+D605,Viborg,,Lund,,,Denmark,S0457,,,,1060,1528,
+D606,Borglum,,Lund,,,Denmark,S0458,,,,1060,1528,
+D607,Toledo,,Toledo,[Holy See],,Spain,S0494,,,,,,
+D608,Palencia,,Toledo,,,Spain,S0495,,,,1035,,
+D609,Osma,,Toledo,,,Spain,S0496,,,,1088,,
+D610,Segovia,,Toledo,,,Spain,S0497,,,,1119,,
+D611,Sigüenza,,Toledo,,,Spain,S0498,,,,1124,,
+D612,Cuenca,,Toledo,,,Spain,S0499,,,,1179,,
+D613,Albarracín-Segorbe,,Toledo,Zaragoza,,Spain,S0500,,,,1172,1577,suffragan of Zaragoza from 1318; united with Segorbe from 1258-1577
+D614,Baza,,Toledo,,,Spain,S0029,,,,1492,,"officially restored as a titular see in 1306, but not reconquered until 1492"
+D615,Jaén,Baeza,Toledo,Granada,,Spain,S0502,,,,1246,,"suffragan of Granada from 1492; see at Baeza, renamed, 1226-1246"
+D616,Cordoba,,Toledo,,,Spain,S0503,,,,1236,,
+D617,Braga,,Braga,,,Portugal,S0504,,,,,,
+D618,Astorga,,Braga,Santiago,,Spain,S0505,,,,852,,suffragan of Santiago from 1393
+D619,Lugo,,Braga,Santiago,,Spain,S0506,,,,850,,suffragan of Santiago from 1393
+D620,Mondonedo,,Braga,Santiago,,Spain,S0507,,,,881,,suffragan of Santiago from 1393
+D621,Orense,,Braga,Santiago,,Spain,S0508,,,,1071,,established 881; re-established 1071; made suffragan of Santiago in 1393
+D622,Tui,Tuy,Santiago,,,Spain,S0509,S0920,,,1069,,
+D623,Oporto,,Braga,,,Portugal,S0510,,,,1112,,established 881; re-established 1112
+D624,Coimbra,,Braga,,,Portugal,S0511,,,,,,
+D625,Viseu,,Braga,,,Portugal,S0512,,,,,,
 D626,Zamora,,Braga,Toledo,,Spain,S0518,,,,,,suffragan of Toledo (and episodically Santiago) from 1102-1153; of Braga from 1153-1199; much dispute for next two centuries; firmly made suffragan of Santiago in 1394
+D627,Silves,,Braga,Lisbon,,Portugal,S0514,,,,1253,,"suffragan to Braga until 1253, then Seville until 1394 (contested periodically by Braga); suffragan to Lisbon thereafter"
+D628,Santiago,,Santiago,,,Spain,S0515,,,,1095,,
+D629,Avila,,Santiago,,,Spain,S0516,,,,1087,,
+D630,Salamanca,,Santiago,[Holy See],,Spain,S0517,,,,1102,,made exempt in 1513 but that lasted only one year
+D632,Ciudad Rodrigo,,Santiago,,,Spain,S0519,,,,1168,,
+D633,Coria,,Santiago,,,Spain,S0520,,,,1142,,
+D634,Plasencia,,Santiago,,,Spain,S0521,,,,1189,,
+D635,Badajoz,,Santiago,,,Spain,S0522,,,,1255,,
+D636,Lamego,,Santiago,Lisbon,,Portugal,S0523,,,,1147,,made suffragan of Lisbon in 1393
+D637,Guarda,,Santiago,Lisbon,,Portugal,S0524,,,,1203,,translated from earlier diocese of Idanha; made suffragan of Lisbon in 1393
+D638,Lisboa,Lisbon,Santiago,Lisbon,,Portugal,S0525,,,,1147,,raised to archdiocese in 1393
+D639,Evora,,Braga,Santiago,Lisbon,Portugal,S0526,,,,1165,,suffragan of Braga from 1166-1274; to Santiago from 1274-1394; to Lisbon from 1394-1544
+D640,Tarragona,,Tarragona,,,Spain,S0563,S0527,,,,,
+D641,Urgel,Seu d'Urgell,Tarragona,,,Spain,S0528,,,,,,
+D642,Gerona,Girona,Tarragona,,,Spain,S0529,,,,785,,
+D643,Barcelona,,Tarragona,,,Spain,S0530,S0563,,,850,,
+D644,Granada,,Toledo,Granada,,Spain,S0762,,,,1437,,raised to archdiocese 1492; presumably suffragan of Toledo beforehand?
+D645,Tortosa,,Tarragona,,,Spain,S0532,,,,1118,,established 1118; re-established 1148
+D646,Lerida,Lleida,Tarragona,,,Spain,S0533,,,,1149,,
+D647,Ager,,[Holy See],,,Spain,S0534,,,,1048,1873,Abbey; exempt from its foundation in 1048; pope orders that it be joined to Lleida in 1187 but abbots retain effective independence
 D648,Zaragoza,,Tarragona,Zaragoza,,Spain,S0535,,,,1118,,raised to archdiocese in 1318
+D649,Pamplona,,Tarragona,Zaragoza,[Holy See],Spain,S0536,,,,829,,suffragan of Zaragoza from 1318; exempt from 1385
+D650,Huesca,,Tarragona,Zaragoza,,Spain,S0537,,,,1096,,suffragan of Zaragoza from 1318
+D651,Tarazona,,Tarragona,Zaragoza,,Spain,S0538,,,,1120,,suffragan of Zaragoza from 1318
+D652,Calahorra,,Tarragona,,,Spain,S0539,,,,1045,1231,see moved to Santo Domingo de la Calzada after suppression
+D653,Calahorra-(Santo Domingo de) la Calzada,,Tarragona,Zaragoza,,Spain,S0540,,,,1231,,suffragan of Zaragoza from 1318
+D654,Valencia,,Tarragona,[Holy See],,Spain,S0541,,,,1239,,exempt from 1470; raised to archdiocese in 1492
+D655,Seville,,Seville,,,Spain,S0542,,,,,,
+D656,Valença do Minho,,Braga,,,Portugal,S0765,,,,1385,,Portuguese part separated from Tui in 1385 as Apostolic Administration
+D658,Cádiz,,Seville,,,Spain,S0545,,,,1268,,"united with Algeciras for the entirety of that diocese's existence, from 1344 to 1364"
+D659,Canarias,Rubicon,Seville,,,Spain,S0546,,,,1351,,"repeatedly suppressed and restored; suffragan of Seville from 1404; seat moved to Las Palmas, Grand Canarias in 1483"
+D660,Burgos,,[Holy See],,,Spain,S0547,,,,1075,,exempt as of 1095; raised to archdiocese in 1574
+D661,León,,[Holy See],,,Spain,S0548,,,,,,exempt as of 1105
+D662,Oviedo,,[Holy See],,,Spain,S0549,,,,,,exempt as of 1105
+D663,Kammin,,[Holy See],,,Poland,S0433,,,,1140,,
+D664,Waterford and Lismore,,Cashel,,,Ireland,S0425,,,,1363,,
+D665,Cartagena,,[Holy See],Granada,,Spain,S0552,,,,1250,,suffragan of Granada from 1492
+D666,Marruecos,,Seville,,,Morocco,,,,,1246,,"made suffragan to Seville in 1353 (probably, though jurisdiction is unclear as see became titular) [not represented on maps, mostly nominal]"
+D667,Esztergom,,Esztergom,,,Hungary,S0474,,,,1001,,
+D668,Nitra,Nyitra,Esztergom,,,Slovakia,S0475,,,,1105,,also known as Neutra; reestablished in 1105 after falling into abeyance following ca. 880 founding
+D669,Zagreb,,Kalocsa,,,Croatia,S0476,,,,1093,,suffragan of Kalocsa from 1180
+D670,Oradea,Nagy Varad,Kalocsa,,,Romania,S0477,,,,1009,,"founded at Byhor in 1009, then transferred to Oradea in 1077; no records of boundaries found, not currently represented in map"
+D671,Eger,Erlau,Esztergom,,,Romania,S0478,,,,1009,,
+D672,Erdély,Alba Iulia,Kalocsa,,,Romania,S0479,,,,1009,,"alternate names Karlsburg, Siebenbürgen; renamed Alba Iulia in 1932"
+D673,Györ ,Raab,Esztergom,,,Hungary,S0480,,,,1009,,
+D674,Pécs ,Fünfkirchen,Esztergom,,,Hungary,S0481,,,,1009,,
+D675,Vác ,Waitzen,Esztergom,,,Hungary,S0482,,,,1009,,
+D676,Veszprém ,,Esztergom,,,Hungary,S0483,,,,1009,,
+D677,Kalocsa-Bacs,Kalocsa,Kalocsa,,,Hungary,S0484,,,,1010,,only Kalocsa until 1135
+D678,Marosvar,Csanád,Kalocsa,,,Hungary,S0485,,,,1035,,
+D679,St. Martin,"Szepes, Szent Márton",Esztergom,[Holy See],,Slovakia,S0486,,,,,,founded early 13th century; headed by an exempt provost (of Abbey of St. Martin) rather than a bishop (aside from brief mention of a bishop in 1291); raised to actual diocese (of Szepes/Spis) in 1776
+D680,Cumania,,[Holy See],,,Romania,,,,,1228,1241,"exists relatively briefly, boundaries very unclear [not represented in maps]"
+D681,Siret,Sereth,[Holy See],Lviv,,Romania,,,,,1371,1434,"suffragan of Lviv from 1412; in decline from 1388 [not enough information, unmapped]"
+D682,Moldovita ,Moldawitza ,Lviv,,,Romania,,,,,1418,1550,"[not enough information, unmapped]"
+D683,Kiev,Kyiv,Halyč ,Lviv,,Ukraine,,,,,1321,,"also known as Kijów; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
 D684,Zytomierz ,Zhytomyr ,Halyč ,Lviv,,Ukraine,,,,,1321,,"suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
+D685,Wlodzimierz ,Vladimir,Halyč ,Lviv,,Ukraine,,,,,1358,1425,"see transferred to Lutsk [not enough information, unmapped]"
+D686,Halyč ,Galyc,Halyč ,,,Ukraine,S0905,,,,1361,1414,raised to archdiocese in 1375
+D687,Lviv,Lwow,[Holy See],Lviv,,Ukraine,S0936,,,,1358,,raised to archdiocese in 1412
+D688,Kamieniec ,Kamyanets-Podilskyi ,Halyč ,Lviv,,Ukraine,S0937,,,,1373,,"founded ca. 1373; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [eastern border uncertain]"
+D689,Luck,Lutsk,Halyč ,Lviv,,Ukraine,S0576,,,,1404,,"founded ca. 1404; incorporates Wlodzimierz in 1425; suffragan of Halyč until 1414, when it becomes suffragan of Lviv"
+D690,Gniezno,Gnesen,Gniezno,,,Poland,S0461,,,,1000,,
+D691,Oslo,,Nidaros,,,Norway,S0462,,,,1068,1537,
+D692,Stavanger,,Nidaros,,,Norway,S0463,,,,1125,1537,
+D693,Bergen,,Nidaros,,,Norway,S0464,,,,1068,1537,
+D694,Hamar,,Nidaros,,,Norway,S0465,,,,1152,1537,
+D695,Nidaros,Trondheim,Nidaros,,,Norway,S0466,,,,1031,1537,founded ca. 1031; raised to archbishopric in 1151
+D696,Uppsala,,Uppsala,,,Sweden,S0467,,,,1130,1588,"founded 1123, then re-established 1130; raised to archbishopric in 1164"
+D697,Vasteras,,Uppsala,,,Sweden,S0468,,,,1100,1527,
+D698,Strängnäs,,Uppsala,,,Sweden,S0469,,,,1129,1527,
+D699,Linköping,,Uppsala,,,Sweden,S0470,,,,1100,1527,
+D700,Skara,,Uppsala,,,Sweden,S0471,,,,1014,1527,
+D701,Vaxjo,,Uppsala,,,Sweden,S0472,,,,1170,1527,
+D702,Turku,Abo,Uppsala,,,Finland,S0473,,,,1276,1527,
+D703,Garðar,Gardar,Bremen,Nidaros,,Greenland,S0600,,,,1124,1537,suffragan of Nidaros from 1152
+D704,Faroe Islands,,Bremen,Lund,Nidaros,Denmark,S0601,,,,1076,1536,suffragan of Lund from 1104; suffragan of Nidaros from 1152
+D705,Cittanova,Aemona,Aquileia,Grado,Venice,Italy,S0022,,,,,,subject to Grado from 1272; united with Parenzo from 1434-1448; given in commendam to Patriarch of Grado (then Venezia) from 1448-1465; union dissolved in 1465.
+D706,Polignano,,Bari,,,Italy,S0052,,,,,,contested between Bari and Trani from 1089; firmly made suffragan of Bari in 1152
+D707,Conversano,,Bari,,,Italy,S0053,,,,,,probably established in 11th century
+D708,Przemyśl,,Halyč,Lviv,,Ukraine,S0935,,,,1218,,Greek bishops in communion with Rome from 1218 until mid-14th century; Latin bishops appointed to see from 1353 at the latest; transferred to Lviv with the suppression of Halyč in 1414
+D709,Leuca,Alexanum,Otranto,,,Italy,S0055,,,,,1521,"also know as Alessano; regular succession of bishops begins in 1283, but diocese established much earlier; suppressed 1518-1521"
+D710,Mottola,,Taranto,,,Italy,S0056,,,,1023,,
+D711,Civitate,Città,Benevento,,,Italy,S0058,,,,,,united with Lucera from 1439-1471; see translated and name changed to San Severo in 1580
+D712,Canosa,Cerignoli,Bari,[Holy See],,Italy,S0069,,,,,,"archpresbytery, not elevated to diocese until 1819; From 1099 onward, Canosa was an exempt archpresbytery, though the archbishops of Bari simultaneously held the title of bishop of Canosa"
+D713,Salpi,Salpe,Bari,Trani,,Italy,S0070,,,,,1547,"also known as Salapia; suppressed to Trani from 1424-1523, then suppressed definitively in 1547"
+D714,Lavello,,Bari,,,Italy,S0073,,,,,,
+D715,Bari,,Bari,,,Italy,S0082,,,,,,
+D716,Bitetto,,Bari,,,Italy,S0083,,,,,,erected sometime between 1025-1089
+D717,Bitonto,,Bari,,,Italy,S0084,,,,,,
+D718,Giovinazzo,,Bari,,,Italy,S0086,,,,1020,,
+D719,Ruvo,,Bari,,,Italy,S0087,,,,,,
+D720,Molfetta,,Bari,[Holy See],,Italy,S0088,,,,1070,,made exempt in 1488
+D721,Minervino,,Bari,,,Italy,S0092,,,,,,apparently contested between Bari and Trani at beginning; firmly made suffragan of Bari in 1152
+D722,Canne,,Trani,,,Italy,S0093,S0578,,,1030,,united with diocese of Nazareth (Barletta) in 1455
+D723,Guadix,,Granada,,,Spain,S0763,,,,1492,,suffragan of Granada from 1492; associated with ancient see of Baza
+D724,Ampurias,,Torres,,,Italy,S0119,,,,1070,,"see perhaps moved to Castelsardo in the 15th century, a transfer confirmed in 1503"
+D725,Sant'Antioco,Sulci,Cagliari,,,Italy,S0124,,,,,,also known as Tratalias; Transferred to Iglesias in 1503
+D727,Tratalias,,Cagliari,,,Italy,S0886,,,,,1503,established in early 13th-c
+D728,Almeria,,Granada,,,Spain,S0764,,,,1492,,suffragan of Granada from 1492
+D729,Roma,,Roma,,,Italy,S0146 ,,,,,,
+D730,Albano,,[Holy See],,,Italy,S0149,,,,,,
+D731,Frascati,,[Holy See],,,Italy,S0150,,,,,,
+D732,Lipari,,Messina,,,Italy,S0168,,,,1157,,erected as diocese of Patti and Lipari in 1157; dioceses split in 1399
+D733,Mdina,Malta,Palermo,,,Malta,S0178,,,,,,Made suffragan to Palermo 1156; also known as Medina
+D734,Majorca,Mallorca,Tarragona,[Holy See],,Spain,S0543,S0513,,,,,"established 1232; suffragan to Tarragona 1229-1232, exempt thereafter "
+D736,Farfa,,[Holy See],,,Italy,S0204,,,,1586,,"Officially granted exempt status in 1586, but this was held effectively well beforehand"
+D737,Umana,Numana,[Holy See],,,Italy,S0205,S0431,,,,,lost territory in 1240 with erection of diocese of Recanati (but gained city of Osimo from 1247-1264); Recanati was then united to Numana from 1264-1289; united with Ancona in 1422 (and loses its independent existence)
+D738,Malaga,,Granada,,,Spain,S0554,,,,1492,,suffragan of Granada from 1492
+D742,Nazareth,Barletta,Trani,,,Italy,S0555,,,,,,also known as Nazaret; seat moved to Barletta ca. 1350; joined with Canne in 1455
+D744,Corneto,Tarquinia,[Holy See],,,Italy,S0590,,,,1435,,"Territory restored from Diocese of Tuscania/Tuscanella, to which it had been suppressed in 510"
+D745,Atri,,[Holy See],,,Italy,,,,,1251,1986,"Territory taken from Diocese of Penne, in union (represented together)"
+D746,Nicosia,,Nicosia,,,Cyprus,S0567,,,,1196,1571,
+D747,Famagusta,,Nicosia,,,Cyprus,S0568,,,,1196,1571,
+D748,Limassol,,Nicosia,,,Cyprus,S0569,,,,1196,1571,
+D749,Paphos,,Nicosia,,,Cyprus,S0570,,,,1196,1571,
+D750,Litomyšl,,Prague,,,Czech Republic,S0550,,,,1344,1474,"Erected from Prague then suppressed to it [not enough information, unmapped]"
+D751,Bar,,Bar,,,Montenegro,S0891,,,,,,
+D752,Bosnia,,Ragusa,Kalocsa,,Bosnia,S0892,,,,,,suffragan to Kalocsa after 1300
+D755,Duvno,,Split ,,,Bosnia,S0895,,,,,,
+D756,Trebinje,,Dubrovnik,,,Croatia,S0902,,,,,,1361-1391 seat located on island of Mrkan
+D757,Ulcinj,,Bar,Dubrovnik,,Croatia,S0903,,,,,,"Suffragan to Bar/Antivari; briefly becomes suffragan of Ragusa/Dubrovnik in 1240s, but returns to Bar ca. 1249-1250"
+D758,Chełm,,Halyč,Lviv,,Poland,S0940,,,,1375,,briefly preceded by Diocese of Łuków (1254-57)

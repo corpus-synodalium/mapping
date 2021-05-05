@@ -205,7 +205,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "gains territory from the supressed Umana in 1422, renamed Ancona and Umana"
+    "notes": "gains territory from suppressed Umana in 1422, renamed Ancona and Umana"
   },
   "D015": {
     "dioceseId": "D015",
@@ -989,7 +989,7 @@
     "shapeFileId4": "",
     "yearFounded": "1394",
     "yearSuppressed": "1465",
-    "notes": "Reduced to status as Benedictine monastery in 1465"
+    "notes": "abbey (nullius); loses diocesan privileges in 1465"
   },
   "D068": {
     "dioceseId": "D068",
@@ -1389,7 +1389,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "Ughelli suggests that Ferrara was suffragan of Ravenna"
+    "notes": "Ferrara held exempt status from 774, despite Ravenna's persistent claims"
   },
   "D094": {
     "dioceseId": "D094",
@@ -2461,7 +2461,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "supressed 1304-1392 to Mileto and then to Reggio; territory before supression uncertain"
+    "notes": "suppressed 1304-1392 to Mileto and then to Reggio; territory before suppression uncertain"
   },
   "D162": {
     "dioceseId": "D162",
@@ -2621,7 +2621,7 @@
     "shapeFileId4": "",
     "yearFounded": "1240",
     "yearSuppressed": "",
-    "notes": "suppressed after a rebellion 1240; restored in 1246, having lost some territory to the newly-created Recanati; seat moved to Cingoli (Santa Maria di Cingoli) after 1320 rebellion and renamed to Osimo and Cingola, seat & name restored to Osimo in 1367"
+    "notes": "suppressed after a rebellion in 1240; restored in 1246, having lost some territory to the newly-created Recanati; seat moved to Cingoli (Santa Maria di Cingoli) after 1320 rebellion and renamed to Osimo and Cingola, seat & name restored to Osimo in 1367"
   },
   "D172": {
     "dioceseId": "D172",
@@ -4267,7 +4267,7 @@
     "shapeFileId2": "",
     "shapeFileId3": "",
     "shapeFileId4": "",
-    "yearFounded": "1501",
+    "yearFounded": "#REF!",
     "yearSuppressed": "",
     "notes": "erected as diocese of Patti and Lipari in 1157, from Messina; separated from Lipari in 1399"
   },
@@ -4397,7 +4397,7 @@
     "shapeFileId4": "",
     "yearFounded": "1120",
     "yearSuppressed": "1495",
-    "notes": "supressed to Cagliari in 1495"
+    "notes": "suppressed to Cagliari in 1495"
   },
   "D284": {
     "dioceseId": "D284",
@@ -5521,7 +5521,7 @@
   },
   "D361": {
     "dioceseId": "D361",
-    "diocsesName": "Besancon",
+    "diocsesName": "Besançon",
     "diocsesNameAlt": "",
     "province": "Besancon",
     "province2": "",
@@ -5633,7 +5633,7 @@
   },
   "D368": {
     "dioceseId": "D368",
-    "diocsesName": "Angouleme",
+    "diocsesName": "Angoulême",
     "diocsesNameAlt": "",
     "province": "Bordeaux",
     "province2": "",
@@ -5649,7 +5649,7 @@
   },
   "D369": {
     "dioceseId": "D369",
-    "diocsesName": "Perigueux",
+    "diocsesName": "Périgueux",
     "diocsesNameAlt": "",
     "province": "Bordeaux",
     "province2": "",
@@ -5697,7 +5697,7 @@
   },
   "D372": {
     "dioceseId": "D372",
-    "diocsesName": "Lucon",
+    "diocsesName": "Luçon",
     "diocsesNameAlt": "",
     "province": "Bordeaux",
     "province2": "",
@@ -5773,7 +5773,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "Originally  Auvergne, renamed 1160"
+    "notes": "Originally Auvergne, renamed 1160"
   },
   "D377": {
     "dioceseId": "D377",
@@ -6097,7 +6097,7 @@
   },
   "D398": {
     "dioceseId": "D398",
-    "diocsesName": "Chalon-sur-Saone",
+    "diocsesName": "Chalon-sur-Saône",
     "diocsesNameAlt": "",
     "province": "Lyon",
     "province2": "",
@@ -6113,7 +6113,7 @@
   },
   "D399": {
     "dioceseId": "D399",
-    "diocsesName": "Macon",
+    "diocsesName": "Mâcon",
     "diocsesNameAlt": "",
     "province": "Lyon",
     "province2": "",
@@ -6241,7 +6241,7 @@
   },
   "D407": {
     "dioceseId": "D407",
-    "diocsesName": "Beziers",
+    "diocsesName": "Béziers",
     "diocsesNameAlt": "",
     "province": "Narbonne",
     "province2": "",
@@ -6257,7 +6257,7 @@
   },
   "D408": {
     "dioceseId": "D408",
-    "diocsesName": "Lodeve",
+    "diocsesName": "Lodève ",
     "diocsesNameAlt": "",
     "province": "Narbonne",
     "province2": "",
@@ -6273,7 +6273,7 @@
   },
   "D409": {
     "dioceseId": "D409",
-    "diocsesName": "Nimes",
+    "diocsesName": "Nîmes",
     "diocsesNameAlt": "",
     "province": "Narbonne",
     "province2": "",
@@ -6289,7 +6289,7 @@
   },
   "D410": {
     "dioceseId": "D410",
-    "diocsesName": "Uzes",
+    "diocsesName": "Uzès",
     "diocsesNameAlt": "",
     "province": "Narbonne",
     "province2": "",
@@ -6497,8 +6497,8 @@
   },
   "D425": {
     "dioceseId": "D425",
-    "diocsesName": "Chalons-sur-Marne",
-    "diocsesNameAlt": "Chalons-en-Champagne",
+    "diocsesName": "Châlons-sur-Marne",
+    "diocsesNameAlt": "Châlons-en-Champagne",
     "province": "Reims",
     "province2": "",
     "province3": "",
@@ -6561,7 +6561,7 @@
   },
   "D429": {
     "dioceseId": "D429",
-    "diocsesName": "Therouanne",
+    "diocsesName": "Thérouanne",
     "diocsesNameAlt": "",
     "province": "Reims",
     "province2": "",
@@ -6689,7 +6689,7 @@
   },
   "D437": {
     "dioceseId": "D437",
-    "diocsesName": "Evreux",
+    "diocsesName": "Évreux",
     "diocsesNameAlt": "",
     "province": "Rouen",
     "province2": "",
@@ -6881,7 +6881,7 @@
   },
   "D449": {
     "dioceseId": "D449",
-    "diocsesName": "Saint-Pol-de-Leon",
+    "diocsesName": "Saint-Pol-de-Léon",
     "diocsesNameAlt": "",
     "province": "Tours",
     "province2": "",
@@ -6897,7 +6897,7 @@
   },
   "D450": {
     "dioceseId": "D450",
-    "diocsesName": "Treguier",
+    "diocsesName": "Tréguier",
     "diocsesNameAlt": "",
     "province": "Tours",
     "province2": "",
@@ -7041,7 +7041,7 @@
   },
   "D459": {
     "dioceseId": "D459",
-    "diocsesName": "Orleans",
+    "diocsesName": "Orléans",
     "diocsesNameAlt": "",
     "province": "Sens",
     "province2": "",
@@ -7473,8 +7473,8 @@
   },
   "D487": {
     "dioceseId": "D487",
-    "diocsesName": "Ragusa",
-    "diocsesNameAlt": "Dubrovnik",
+    "diocsesName": "Dubrovnik",
+    "diocsesNameAlt": "Ragusa",
     "province": "Ragusa",
     "province2": "",
     "province3": "",
@@ -7649,7 +7649,7 @@
   },
   "D498": {
     "dioceseId": "D498",
-    "diocsesName": "Skalholt",
+    "diocsesName": "Skálholt",
     "diocsesNameAlt": "",
     "province": "Nidaros",
     "province2": "",
@@ -8209,7 +8209,7 @@
   },
   "D533": {
     "dioceseId": "D533",
-    "diocsesName": "Lubeck",
+    "diocsesName": "Lübeck",
     "diocsesNameAlt": "",
     "province": "Bremen",
     "province2": "",
@@ -8273,7 +8273,7 @@
   },
   "D537": {
     "dioceseId": "D537",
-    "diocsesName": "Wroclaw",
+    "diocsesName": "Wrocław ",
     "diocsesNameAlt": "Breslau",
     "province": "Gniezno",
     "province2": "",
@@ -8305,7 +8305,7 @@
   },
   "D539": {
     "dioceseId": "D539",
-    "diocsesName": "Liege",
+    "diocsesName": "Liège",
     "diocsesNameAlt": "",
     "province": "Cologne",
     "province2": "",
@@ -8337,7 +8337,7 @@
   },
   "D541": {
     "dioceseId": "D541",
-    "diocsesName": "Munster",
+    "diocsesName": "Münster",
     "diocsesNameAlt": "",
     "province": "Cologne",
     "province2": "",
@@ -8513,7 +8513,7 @@
   },
   "D552": {
     "dioceseId": "D552",
-    "diocsesName": "Eichstatt",
+    "diocsesName": "Eichstätt",
     "diocsesNameAlt": "",
     "province": "Mainz",
     "province2": "",
@@ -8657,7 +8657,7 @@
   },
   "D561": {
     "dioceseId": "D561",
-    "diocsesName": "Wurzburg",
+    "diocsesName": "Würzburg",
     "diocsesNameAlt": "",
     "province": "Mainz",
     "province2": "",
@@ -8926,22 +8926,6 @@
     "yearFounded": "1007",
     "yearSuppressed": "",
     "notes": ""
-  },
-  "D578": {
-    "dioceseId": "D578",
-    "diocsesName": "Lviv",
-    "diocsesNameAlt": "",
-    "province": "[Holy See]",
-    "province2": "",
-    "province3": "",
-    "countryModern": "Poland",
-    "shapeFileId": "",
-    "shapeFileId2": "",
-    "shapeFileId3": "",
-    "shapeFileId4": "",
-    "yearFounded": "1125",
-    "yearSuppressed": "",
-    "notes": "no information, unmapped"
   },
   "D579": {
     "dioceseId": "D579",
@@ -9457,7 +9441,7 @@
   },
   "D611": {
     "dioceseId": "D611",
-    "diocsesName": "Siguenza",
+    "diocsesName": "Sigüenza",
     "diocsesNameAlt": "",
     "province": "Toledo",
     "province2": "",
@@ -9489,7 +9473,7 @@
   },
   "D613": {
     "dioceseId": "D613",
-    "diocsesName": "Albarracin-Segorbe",
+    "diocsesName": "Albarracín-Segorbe",
     "diocsesNameAlt": "",
     "province": "Toledo",
     "province2": "Zaragoza",
@@ -9521,7 +9505,7 @@
   },
   "D615": {
     "dioceseId": "D615",
-    "diocsesName": "Jaen",
+    "diocsesName": "Jaén",
     "diocsesNameAlt": "Baeza",
     "province": "Toledo",
     "province2": "Granada",
@@ -9873,8 +9857,8 @@
   },
   "D638": {
     "dioceseId": "D638",
-    "diocsesName": "Lisbon",
-    "diocsesNameAlt": "",
+    "diocsesName": "Lisboa",
+    "diocsesNameAlt": "Lisbon",
     "province": "Santiago",
     "province2": "Lisbon",
     "province3": "",
@@ -10173,11 +10157,11 @@
     "shapeFileId4": "",
     "yearFounded": "1385",
     "yearSuppressed": "",
-    "notes": "1385, portuguese part separated from Tui as Apostolic Administration"
+    "notes": "Portuguese part separated from Tui in 1385 as Apostolic Administration"
   },
   "D658": {
     "dioceseId": "D658",
-    "diocsesName": "Cadiz",
+    "diocsesName": "Cádiz",
     "diocsesNameAlt": "",
     "province": "Seville",
     "province2": "",
@@ -10225,7 +10209,7 @@
   },
   "D661": {
     "dioceseId": "D661",
-    "diocsesName": "Leon",
+    "diocsesName": "León",
     "diocsesNameAlt": "",
     "province": "[Holy See]",
     "province2": "",
@@ -10401,7 +10385,7 @@
   },
   "D672": {
     "dioceseId": "D672",
-    "diocsesName": "Erdely",
+    "diocsesName": "Erdély",
     "diocsesNameAlt": "Alba Iulia",
     "province": "Kalocsa",
     "province2": "",
@@ -10589,7 +10573,7 @@
     "shapeFileId4": "",
     "yearFounded": "1321",
     "yearSuppressed": "",
-    "notes": "also know as Kijów; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
+    "notes": "also known as Kijów; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
   },
   "D684": {
     "dioceseId": "D684",
@@ -10621,7 +10605,7 @@
     "shapeFileId4": "",
     "yearFounded": "1358",
     "yearSuppressed": "1425",
-    "notes": "see transferred to Lutsk"
+    "notes": "see transferred to Lutsk [not enough information, unmapped]"
   },
   "D686": {
     "dioceseId": "D686",
@@ -10643,17 +10627,17 @@
     "dioceseId": "D687",
     "diocsesName": "Lviv",
     "diocsesNameAlt": "Lwow",
-    "province": "Lviv",
-    "province2": "",
+    "province": "[Holy See]",
+    "province2": "Lviv",
     "province3": "",
     "countryModern": "Ukraine",
-    "shapeFileId": "",
+    "shapeFileId": "S0936",
     "shapeFileId2": "",
     "shapeFileId3": "",
     "shapeFileId4": "",
     "yearFounded": "1358",
     "yearSuppressed": "",
-    "notes": "raised to archdiocese in 1412 [not enough information, unmapped]"
+    "notes": "raised to archdiocese in 1412"
   },
   "D688": {
     "dioceseId": "D688",
@@ -10663,13 +10647,13 @@
     "province2": "Lviv",
     "province3": "",
     "countryModern": "Ukraine",
-    "shapeFileId": "",
+    "shapeFileId": "S0937",
     "shapeFileId2": "",
     "shapeFileId3": "",
     "shapeFileId4": "",
     "yearFounded": "1373",
     "yearSuppressed": "",
-    "notes": "founded ca. 1373; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [not enough information, unmapped]"
+    "notes": "founded ca. 1373; suffragan of Halyč from 1367 until 1414, when it becomes suffragan of Lviv [eastern border uncertain]"
   },
   "D689": {
     "dioceseId": "D689",
@@ -10817,7 +10801,7 @@
   },
   "D698": {
     "dioceseId": "D698",
-    "diocsesName": "Strangnas",
+    "diocsesName": "Strängnäs",
     "diocsesNameAlt": "",
     "province": "Uppsala",
     "province2": "",
@@ -10833,7 +10817,7 @@
   },
   "D699": {
     "dioceseId": "D699",
-    "diocsesName": "Linkoping",
+    "diocsesName": "Linköping",
     "diocsesNameAlt": "",
     "province": "Uppsala",
     "province2": "",
@@ -10980,16 +10964,16 @@
     "diocsesName": "Przemyśl",
     "diocsesNameAlt": "",
     "province": "Halyč",
-    "province2": "",
+    "province2": "Lviv",
     "province3": "",
-    "countryModern": "",
-    "shapeFileId": "",
+    "countryModern": "Ukraine",
+    "shapeFileId": "S0935",
     "shapeFileId2": "",
     "shapeFileId3": "",
     "shapeFileId4": "",
-    "yearFounded": "",
+    "yearFounded": "1218",
     "yearSuppressed": "",
-    "notes": "[not enough information, unmapped]"
+    "notes": "Greek bishops in communion with Rome from 1218 until mid-14th century; Latin bishops appointed to see from 1353 at the latest; transferred to Lviv with the suppression of Halyč in 1414"
   },
   "D709": {
     "dioceseId": "D709",
@@ -11393,8 +11377,8 @@
   },
   "D736": {
     "dioceseId": "D736",
-    "diocsesName": "Abbazia di Farfa",
-    "diocsesNameAlt": "Santa Maria in Montesanto",
+    "diocsesName": "Farfa",
+    "diocsesNameAlt": "",
     "province": "[Holy See]",
     "province2": "",
     "province3": "",
@@ -11405,7 +11389,7 @@
     "shapeFileId4": "",
     "yearFounded": "1586",
     "yearSuppressed": "",
-    "notes": "territory consisted partly of the exempt (nullius dioecesis) Abbey of Santa Maria in Montesanto - is this what is marked on map? [?? RWD]"
+    "notes": "Officially granted exempt status in 1586, but this was held effectively well beforehand"
   },
   "D737": {
     "dioceseId": "D737",
@@ -11421,7 +11405,7 @@
     "shapeFileId4": "",
     "yearFounded": "",
     "yearSuppressed": "",
-    "notes": "lost territory in 1240 with erection of diocese of Recanati (but gained city of Osimo from 1247-1264); Recanati was  then united to Numana from 1264-1289; united with Ancona in 1422 (and loses its independent existence)"
+    "notes": "lost territory in 1240 with erection of diocese of Recanati (but gained city of Osimo from 1247-1264); Recanati was then united to Numana from 1264-1289; united with Ancona in 1422 (and loses its independent existence)"
   },
   "D738": {
     "dioceseId": "D738",
@@ -11646,5 +11630,21 @@
     "yearFounded": "",
     "yearSuppressed": "",
     "notes": "Suffragan to Bar/Antivari; briefly becomes suffragan of Ragusa/Dubrovnik in 1240s, but returns to Bar ca. 1249-1250"
+  },
+  "D758": {
+    "dioceseId": "D758",
+    "diocsesName": "Chełm",
+    "diocsesNameAlt": "",
+    "province": "Halyč",
+    "province2": "Lviv",
+    "province3": "",
+    "countryModern": "Poland",
+    "shapeFileId": "S0940",
+    "shapeFileId2": "",
+    "shapeFileId3": "",
+    "shapeFileId4": "",
+    "yearFounded": "1375",
+    "yearSuppressed": "",
+    "notes": "briefly preceded by Diocese of Łuków (1254-57)"
   }
 }
