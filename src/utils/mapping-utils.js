@@ -4,10 +4,11 @@ import { isInDatabase } from './cosyn-utils';
 
 export const calculateDioceseCentroids = (geojson) => {
     return geojson.features.reduce((centroids, feature) => {
-        if (
-            feature.geometry.type === 'Polygon' &&
-            isInDatabase(feature.properties.SHPFID)
-        ) {
+        const isValidPolygonType =
+            feature.geometry.type === 'Polygon' ||
+            feature.geometry.type === 'MultiPolygon';
+
+        if (isInDatabase(feature.properties.SHPFID) && isValidPolygonType) {
             const c = centroid(feature);
             const long = c.geometry.coordinates[0];
             const lat = c.geometry.coordinates[1];
