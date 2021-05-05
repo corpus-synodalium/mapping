@@ -59,7 +59,7 @@ That's it! Here are the results from my testing with a sample GeoJSON file.
 -   After step 2 (simplifying): `2 MB`
 -   After step 3 (gzip): `0.56 MB` (98% size decrease from original file)
 
-The smaller size helps make the network requests faster. 🚀
+The smaller size helps make the network requests faster. 🚀 Here is a [video explanation](https://www.loom.com/share/8ec46abbb1224cd890e08c748cd77c96) of the compression process.
 
 The compressed GeoJSON file is hosted on AWS Cloudfront CDN. This step is optional, but should improve the speed. You need to set the content metadata in S3. Here is the metadata information for future reference.
 
