@@ -130,19 +130,19 @@ const SingleCard = (props) => (
                 <Button
                     icon
                     labelPosition="left"
-                    href={props.url}
-                    target="_blank"
-                >
-                    <Icon name="search" />
-                    Show Record in PhiloLogic
-                </Button>
-                <Button
-                    icon
-                    labelPosition="left"
                     onClick={() => props.toggleMetadataTable(props.index)}
                 >
                     <Icon name="file alternate outline" />
                     Show Metadata
+                </Button>
+                <Button
+                    icon
+                    labelPosition="left"
+                    href={props.url}
+                    target="_blank"
+                >
+                    <Icon name="search" />
+                    Show Record in Database
                 </Button>
                 {props.showTable[props.index] && (
                     <Table basic celled striped>
