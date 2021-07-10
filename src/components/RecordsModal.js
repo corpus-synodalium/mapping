@@ -79,7 +79,7 @@ const MetadataTable = ({ metadata }) => {
     return METADATA_FIELDS.map(({ id, label }, i) => {
         // skip empty fields
         if (!metadata[id]) {
-            return <Table.Row key={id} />;
+            return null;
         }
         return (
             <Table.Row key={id}>
@@ -95,6 +95,7 @@ const CardList = ({ searchResults, toggleMetadataTable, showTable }) => {
   if (!searchResults || !searchResults.searchData) {
     return <div />;
   }
+  // TODO: Fix hard-coded base URL (corpus vs corpusnorm)
   const baseURL = 'https://corpus-synodalium.com/philologic/corpus/query?report=concordance&method=proxy&start=0&end=0';
   return searchResults.searchData.map(({ context, metadata }, index) => {
     const url = `${baseURL}&q=${searchResults.query}&record_id=%22${metadata.record_id}%22`;
