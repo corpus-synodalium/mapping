@@ -8594,7 +8594,7 @@ export const DIOCESES = {
         province: 'Mainz',
         province2: '',
         province3: '',
-        countryModern: 'Switzerland',
+        countryModern: 'Germany',
         shapeFileId: 'S0415',
         shapeFileId2: '',
         shapeFileId3: '',
