@@ -63,11 +63,16 @@ const MapGuideModal = () => {
                     <a
                         href="https://doi.org/10.25740/rh195hm5975"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         https://doi.org/10.25740/rh195hm5975
                     </a>
                     . For more details on the project as a whole, see{' '}
-                    <a href="https://www.corpus-synodalium.com" target="_blank">
+                    <a
+                        href="https://www.corpus-synodalium.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         https://www.corpus-synodalium.com
                     </a>
                     .
